@@ -7,6 +7,10 @@
     "name": "Geoffrey Challen",
     "email": "challen@buffalo.edu"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@phonelab-vm8.cse.buffalo.edu:blue/www.git"
+  },
   "license": "MIT",
   "dependencies": {
     "http-server": "^0.8.5",
