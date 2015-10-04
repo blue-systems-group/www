@@ -1,6 +1,6 @@
 all: build | silent
 
-build: package.json $(shell find src layouts ! -name "\.*" ! -name "links_failed.json")
+build:
 	@npm install
 	@./node_modules/metalsmith-blue/bin/blue .
 
