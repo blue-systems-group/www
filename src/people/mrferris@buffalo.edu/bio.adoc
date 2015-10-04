@@ -1,0 +1,31 @@
+---
+name: Michael Ferris
+role: Undergraduate
+slug: mrferris
+joined: 2014-11-15
+---
+
+[.lead]
+I am a third year computer engineering student from Hamburg, NY. As a member
+of link:/[blue], I am exploring the practical implications of replacing
+persistent storage with cloud storage in smartphones, from file-system
+integration with the network to application-level programming practices. 
+
+My passion for distributed systems engineering extends beyond smartphones. I
+have led the design and implementation of the software system for the UB
+[.spelling_exception]#Nanosatellite# Program's flagship spacecraft that is
+due to be launched to low earth orbit by both NASA and the US Air Force in
+2017. This 2-node distributed spacecraft network will demonstrate the ability
+for such a network to augment the United State's ability to monitor space
+objects. 
+
+The parallels between distributed systems made up of smartphones and those
+made up of spacecraft are very interesting to me. In the future I would like
+to apply the distributed systems knowledge and practices of the smartphone
+industry to the spacecraft industry.
+
+I worked as a software engineering intern at NASA throughout the summers of
+2013 and 2014, and I plan to graduate with a BS in Computer Engineering in
+the spring of 2016. After graduation I have two hopes: to work somewhere
+where I can build cool things and to live somewhere where the weather doesn't
+hurt.

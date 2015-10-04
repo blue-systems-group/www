@@ -1,0 +1,29 @@
+---
+name: "Robust, Cost-Effective and Scalable Localization in Large Indoor Areas"
+published: globecom
+people:
+- tongguan
+- wendong
+- dimitrio
+- challen
+- qiao
+---
+== Abstract
+
+Indoor location information plays a fundamental role in supporting various
+interesting location-aware indoor applications. Widely deployed WiFi networks
+make it feasible to perform indoor localization by first establishing a
+received signal strength (RSS) map covering the whole area based on a signal
+propagation model, then determining a location from an online RSS measurement
+given the RSS map. However challenges remain in practical deployments, due to
+inaccurately estimated RSS values in the RSS map and insufficient number of
+access points (AP) in large indoor areas. To address these challenges, we
+develop a robust, cost-effective and scalable localization system (REAL). Our
+approach takes the error from the indoor radio signal propagation model into
+consideration. It also exploits information about APs which are not visible
+at a given location and an optimal clustering method in the location
+searching phase. Our real-world experimental results demonstrate that REAL
+achieves considerable localization accuracy at a very low training cost even
+for a large indoor area. In addition, the results show that our scheme can
+also be effectively applied to Bluetooth networks with sparse signal
+coverage.

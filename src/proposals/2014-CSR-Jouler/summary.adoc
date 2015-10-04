@@ -1,0 +1,89 @@
+---
+name: "CSR: Small: Jouler: A Cross-Device Application Energy Management Framework for Smartphones"
+link: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1423215"
+abstract: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1423215"
+started: 2014-09-01
+ends: 2017-09-01
+amount: 499185
+source: NSF
+program: CSR
+rate: 20
+faculty:
+- challen
+students:
+- anudipam
+- ychen78
+projects:
+- jouler
+papers:
+---
+== Summary
+
+With the usage of energy-constrained smartphones exploding, smartphone energy
+management has received an increasing amount of attention. Researchers have
+succeeded in developing new energy models, measurement tools, and more
+efficient implementation of common primitives such as localization. But
+together, these advances have failed to fully address the problem, with users
+reporting battery lifetime as not only their top concern with today's
+smartphones, but a worsening concern. Already unsatisfied with device
+lifetimes, smartphone users are less likely to explore the growing number of
+innovative apps, so if the full potential of smartphone devices is to be
+realized, more innovation in energy management is needed.
+
+This project proposes a new cross-device application energy management
+framework for Android smartphones called Jouler. Jouler has three goals that
+distinguish it from current approaches. First, Jouler is _automated_,
+controlling app energy consumption without requiring user input. Removing the
+human from the loop requires Jouler to be able to distinguish between high
+app energy consumption caused by legitimate app requirements from that caused
+by software bugs. Second, Jouler is _flexible_, encapsulating energy
+management strategies in policy modules that users can assign to each app.
+Data collected on the PhoneLab testbed shows significant differences in app
+usage, charging patterns, and battery lifetime expectations between
+participants, and policy modules give Jouler the flexibility required to
+support this variation. Third, Jouler is _cross-device_, allowing full
+integration into the Android platform and deployment on all Android
+smartphones. Because hardware energy management capabilities different
+significantly across components, Jouler must provide a new abstraction layer
+to ensure that policy modules are portable across multiple devices
+integrating different hardware components. To evaluate the ability of Jouler
+to improve smartphone energy management, it will be integrated into the
+Android platform and tested on the PhoneLab smartphone testbed, the only
+public testbed able to distribute platform updates.
+
+Keywords: *energy management*; *mobile systems*; *smartphones*.
+
+=== Intellectual Merit
+
+Realizing Jouler requires addressing two significant open research
+challenges. First, while measuring app energy consumption has received a
+great deal of attention, putting consumption into context has not.
+Consumption alone may provide helpful feedback to users, but is not
+sufficient to enable effective policies, since the behavior and efficiency of
+different apps varies, as does their importance to each user. These
+uncertainties make energy consumption alone usable for human interpretation,
+since users can use their own experience to put the numbers in context, but
+_unusable_ for automated response or app energy prioritization, one of the
+goals of Jouler. Second, tuning energy consumption currently requires deep
+integration with the specifics of each particular hardware component, making
+writing cross-device policies impossible. A policy that relies on a certain
+feature of a Wifi chipset available on a particular device will fail on a
+second device if its Wifi driver fails to support the feature. Without a
+narrow waist enabling cross-device policies, energy management improvements
+achieved on a given device will quickly become obsolete given the rapid
+improvements in smartphone technologies. Jouler also provides novel software
+control mechanism enabling coordinated energy management with modified apps.
+
+=== Broader Impacts
+
+The proposed broader impact activities will both train and excite the next
+generation of computer scientists in energy management strategies for
+smartphones. First, a new graduate course on platform energy management will
+be developed and taught by the PI, broadening the participation of students
+in studying energy consumption and providing students with a unique
+opportunity to modify the Android platform. Second, once the Jouler policy
+module framework is developed, a yearly open competition will be held to
+drive interest in policy module development and help establish the
+effectiveness of the Jouler framework. Finally, we propose to integrate
+energy management into `ops-class.org`, a free online educational environment
+created to train systems programmers.

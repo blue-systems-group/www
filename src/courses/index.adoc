@@ -1,0 +1,19 @@
+---
+title: blue Teaching
+layout: courses/index.hbt
+---
+[.lead]
+*Teaching is an integral part of link:/[blue's] mission.* We enjoy the chance
+to introduce students to the elegance of computer systems as well as the
+opportunity to work with more experienced students as they continue to
+develop their abilities.
+
+We regularly teach an introduction to operating systems for advanced
+undergraduates and beginning graduate students and a small seminar designed
+for Ph.D. students that explores rotating contemporary topics in modern
+mobile systems. Our undergraduate operating systems course uses the
+link:/projects/opsclass[ops-class.org instructional operating systems
+framework] our group has built to automate testing and simplify assignment
+submission. The course also benefits from the contributions of multiple
+volunteers each year--who we refer to as ninjas--who give back to the class
+by assisting the next generation of students.

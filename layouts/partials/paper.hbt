@@ -1,0 +1,68 @@
+<div class="row" style="margin-bottom:20px;">
+  <div class="col-xs-12 col-sm-1 text-center" style="margin-bottom:10px;">
+    {{#if @new_year}}
+    <span class="h4">
+      {{year}}
+    </span>
+    {{/if}}
+  </div>
+  <div class="col-xs-12 col-sm-11">
+    <span class="h4">
+      {{ link this }}
+      {{#if invited}}(Invited){{/if}}
+      {{#if poster}}(Poster){{/if}}
+      {{#if thesis}}(Thesis){{/if}}
+      <br/>
+    </span>
+    {{ and_list people }}
+    {{#if conference }}
+      <div>
+        {{#if toappear}}To appear in{{/if}}
+        <i>
+          {{ published.preface }}
+          {{#if conference.link}}<a href="{{ conference.link }}">{{/if}}{{ conference.number}} {{ published.name }} ({{ conference.shortname }}){{#if conference.link}}</a>{{/if}}
+        </i>
+      </div>
+    {{/if}}
+    {{#if thesis }}
+      <div>
+        Defended {{ format_date date "normal" }}
+      </div>
+    {{/if}}
+    {{#if conference_metadata }}
+      {{#if published.core }}
+      <a href="{{ published.core.link}}"> {{ published.core.name }}</a>:
+      {{published.core.rank}}.
+      {{/if}}
+      {{#if conference.acceptance }}
+      Acceptance rate: {{ conference.acceptance }}%.
+      {{/if}}
+    {{/if}}
+    <div>
+      <ul class="list-inline dash-list">
+        {{#if PDF }}
+        <li><a href="{{ PDF }}">{{#if poster}}View{{else}}Read{{/if}}</a></li>
+        {{/if}}
+        {{#if scholar }}
+        <li><a href="{{ scholar }}">Cite</a></li>
+        {{/if}}
+        {{#if git }}
+        <li><a href="{{ git}}">Clone</a></li>
+        {{/if}}
+      </ul>
+    </div>
+    {{#if presenters }}
+    <div>
+      Presented by {{ and_list presenters }}.
+      <ul class="list-inline dash-list">
+        {{#if slides }}
+        <li><a href="{{ slides }}">Talk</a></li>
+        {{/if}}
+        {{#if youtube }}
+        <li><a href="https://www.youtube.com/watch?v={{ youtube }}">Video</a></li>
+        {{/if}}
+      </ul>
+    </div>
+    {{/if}}
+  </div>
+</div>

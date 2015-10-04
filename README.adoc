@@ -1,0 +1,4 @@
+= Private blue Group Website Sources
+
+No documentation here. See the documentation for the website builder,
+https://www.npmjs.com/package/metalsmith-blue[`metalsmith-blue`].

@@ -1,0 +1,4 @@
+---
+title: blue Projects
+layout: projects/index.hbt
+---

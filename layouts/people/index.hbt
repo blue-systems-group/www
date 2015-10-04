@@ -1,0 +1,111 @@
+{{> header}}
+
+<div id="content">
+  <div class="container" style="margin-top:21px;">
+
+    <div class="row">
+      <div class="col-sm-12 col-md-10">
+
+        {{#each people.active}}
+        <a class="anchor" id="{{ this.slug }}"></a>
+        <div class="row" style="margin-bottom:10px;">
+          <div class="col-xs-12 col-sm-3" style="margin-bottom:10px;">
+            <a href="/{{ this.path }}">
+              <img class="img-responsive" src="{{ this.photo_2_col }}" alt="Photo of {{ this.name }}" style="margin: 0 auto;">
+            </a>
+          </div>
+          <div class="col-xs-12 col-sm-9">
+            <div class="text-center-xs">
+              <h3 style="margin-top:0px;">{{ link this }}</h3>
+            </div>
+            <div class="paragraph {{ this.snippet_classes }}">
+            {{{ this.snippet }}}
+            {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
+            </div>
+          </div>
+        </div>
+        <div class="clearfix visible-xs-block"></div>
+        {{/each}}
+        
+        <hr />
+        
+        <a class="anchor" id="alumni"></a>
+        <div class="row" style="margin-top:-20px">
+          <div class="col-xs-12">
+            <h2>Alumni</h2>
+          </div>
+
+          {{#each people.inactive}}
+          <a class="anchor" id="{{ this.slug }}"></a>
+          <div class="row" style="margin-bottom:10px;">
+            <div class="col-xs-12 col-sm-3" style="margin-bottom:10px;">
+              <img class="img-responsive" src="{{ this.photo_2_col }}" alt="Photo of {{ this.name }}" style="margin: 0 auto;">
+            </div>
+            <div class="col-xs-12 col-sm-9">
+              <div class="text-center-xs">
+                <h3 style="margin-top:0px;">{{ link this }}</h3>
+              </div>
+              <div class="paragraph {{ this.snippet_classes }}">
+                {{{ this.snippet }}}
+                {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
+              </div>
+            </div>
+          </div>
+          <div class="clearfix visible-xs-block"></div>
+          {{/each}}
+        
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-unstyled">
+              {{#each people.shortgroup.first}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-unstyled">
+              {{#each people.shortgroup.second}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+        
+        <hr />
+        
+        <a class="anchor" id="external"></a>
+        <div class="row" style="margin-top:-20px">
+          <div class="col-xs-12">
+            <h3>Collaborators</h3>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-unstyled">
+              {{#each people.other.first}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-unstyled">
+              {{#each people.other.second}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+      <div class="hidden-xs hidden-sm col-md-2 blue-sidebar big">
+        <ul id="sidebar" class="nav nav-stacked fixed">
+          {{#each people.active }}
+          <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
+          {{/each}}
+          <li><hr /></li>
+          <li><a href="#alumni">Alumni</a></li>
+          <li><a href="#external">Collaborators</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{> footer}}

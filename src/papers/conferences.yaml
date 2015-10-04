@@ -1,0 +1,160 @@
+gosmart:
+  preface: Proceedings of the
+  name: IEEE International Workshop on Global Trends in Smart Cities
+  2013:
+    number: 2nd
+    shortname: goSmart'13
+    link: "http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=6758480"
+    date: 2013-10-21
+    location: Sydney, Australia
+    acceptance: 50
+globecom:
+  preface: Proceedings of the
+  name: Global Communications Conference, Exhibition, and Industry Forum
+  core:
+    name: CORE 2014
+    rank: B
+    link: http://portal.core.edu.au/conf-ranks/2030/
+  2015:
+    number: 2015
+    shortname: GLOBECOM'15
+    link: http://globecom2015.ieee-globecom.org/
+    date: 2015-12-06
+    location: San Diego, CA
+hotmobile:
+  preface: Proceedings of the
+  name: Workshop on Hot Topics in Mobile Computing Systems and Applications
+  core:
+    name: CORE 2013
+    rank: C
+    link: http://portal.core.edu.au/conf-ranks/1914/
+  2014:
+    number: 15th
+    shortname: HotMobile'14
+    link: http://www.hotmobile.org/2014/
+    date: 2014-02-26
+    acceptance: 31
+    location: Santa Barbara, CA
+  2015:
+    number: 16th
+    shortname: HotMobile'15
+    link: http://www.hotmobile.org/2015/
+    date: 2015-02-12
+    blah: 28
+    acceptance: 28
+    location: Santa Fe, NM
+hotnets:
+  preface: Proceedings of the
+  name: ACM Workshop on Hot Topics in Networks
+  core:
+    name: CORE 2013
+    rank: A
+    link: http://portal.core.edu.au/conf-ranks/69/
+  2014:
+    number: 13th
+    shortname: HotNets'14
+    link: http://conferences.sigcomm.org/hotnets/2014/
+    date: 2014-10-27
+    acceptance: 22
+    location: Los Angeles, CA
+hotos:
+  preface: Proceedings of the
+  name: Workshop on Hot Topics in Operating Systems
+  core:
+    name: CORE 2013
+    rank: A
+    link: http://portal.core.edu.au/conf-ranks/1845/
+  2011:
+    number: 13th
+    shortname: HotOS-XIII
+    link: http://static.usenix.org/events/hotos11/index.html
+    date: 2011-05-09
+    acceptance: 25
+    location: Napa Valley, CA
+hotplanet:
+  preface: Proceedings of the
+  name: ACM HotPlanet Workshop
+  2014:
+    number: 6th
+    shortname: HotPlanet'14
+    date: 2014-10-27
+    location: Philadelphia, PA
+hotwireless:
+  preface: Proceedings of the
+  name: Workshop on Hot Topics in Wireless
+  2015:
+    number: 2nd
+    shortname: HotWireless'15
+    date: 2015-09-11
+    acceptance: 63
+    location: Paris, France
+iiswc:
+  preface: Proceedings of the
+  name: IEEE International Symposium on Workload Characterization
+  2015:
+    number: 2015
+    shortname: IISWC'15
+    link: http://www.iiswc.org/iiswc2015/index.html
+    date: 2015-10-04
+    location: Atlanta, GA
+    acceptance: 33
+lwmoocs:
+  preface: Proceedings of the
+  name: Learning with MOOCs Practitioner’s Workshop
+  2014:
+    number: 2014
+    shortname: LWMOOCs'14
+    link: http://www.moocworkshop.org/
+    date: 2014-08-12
+    location: Cambridge, MA
+mobicase:
+  preface: Proceedings of the
+  name: International Conference on Mobile Computing, Applications and Services
+  2014:
+    number: 16th
+    shortname: MobiCASE'14
+    link: http://mobicase.org/2014/show/home
+    date: 2014-11-06
+    acceptance: 29
+    location: Austin, TX
+netmob:
+  preface: Proceedings of the
+  name: Conference on the Analysis of Mobile Phone Datasets
+  2013:
+    number: 3rd
+    shortname: NetMob'13
+    link: http://perso.uclouvain.be/vincent.blondel/netmob/2013/
+    date: 2013-05-01
+    location: Cambridge, MA
+sensemine:
+  preface: Proceedings of the
+  name: International Workshop on Sensing and Big Data Mining
+  2013:
+    number: 1st
+    shortname: SENSEMINE'13
+    link: http://iucat.iu.edu/iupui/14103985
+    date: 2013-11-14
+    location: Rome, Italy
+tpctc:
+  preface: Proceedings of the
+  name: Technology Conference on Performance Evaluation and Benchmarking
+  2015:
+    number: 7th
+    shortname: TPCTC'15
+    link: http://www.tpc.org/tpctc/tpctc2015/default.asp
+    date: 2015-08-31
+    location: Kohala Coast, HI
+ubicomp:
+  preface: Proceedings of the
+  name: ACM International Joint Conference on Pervasive and Ubiquitous Computing
+  core:
+    name: CORE 2013
+    rank: A*
+    link: http://portal.core.edu.au/conf-ranks/1825/
+  2014:
+    number: 2014
+    shortname: UbiComp'14
+    link: http://ubicomp.org/ubicomp2014/
+    date: 2014-09-13
+    acceptance: 14
+    location: Seattle, WA

@@ -1,0 +1,51 @@
+{{> header}}
+<div id="content">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-8">
+        {{#each projects.active }}
+        <a class="anchor" id="{{ this.slug }}"></a>
+        <h3>{{ link this }}</h3>
+        <p>
+        {{{ this.snippet }}}
+        {{#if this.has_more }}<a href="/{{ this.path}}">Read more...</a>{{/if}}
+        </p>
+        {{/each}}
+        {{#if projects.inactive}}
+        <hr />
+        <h2>Complete</h2>
+        {{#each projects.inactive }}
+        <a class="anchor" id="{{ this.slug }}"></a>
+        <h3>{{ link this }}</h3>
+        <p>
+        {{{ this.snippet }}}
+        {{#if this.has_more }}<a href="/{{ this.path}}">Read more...</a>{{/if}}
+        </p>
+        {{/each}}
+        {{/if}}
+      </div>
+
+      <div class="hidden-xs col-sm-4 blue-sidebar big">
+        <div id="sidebar" class="fixed">
+          <h3>Active</h3>
+          <ul class="nav nav-stacked">
+            {{#each projects.active }}
+            <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
+            {{/each}}
+          </ul>
+          {{#if projects.inactive}}
+          <h3>Complete</h3>
+          <ul class="nav nav-stacked">
+            {{#each projects.inactive }}
+            <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{{> footer}}

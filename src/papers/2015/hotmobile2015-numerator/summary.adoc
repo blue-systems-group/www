@@ -1,0 +1,35 @@
+---
+name: "The Missing Numerator: Toward a Value Measure for Smartphone Apps"
+published: hotmobile
+people:
+- anudipam
+- challen
+presenters:
+- anudipam
+youtube: XCocN1OeaVs
+git: https://github.com/gchallen/papers.hotmobile2015-numerator
+projects:
+- jouler
+funding:
+- 2014-CSR-Jouler
+---
+== Abstract
+
+While great strides have been made in measuring energy consumption, these
+measures alone are not sufficient to enable effective energy management on
+battery-constrained mobile devices. What is urgently needed is a way to put
+energy consumption into context by measuring the _value_ delivered by mobile
+apps. While difficult to compute, an accurate value measure would enable
+cross-app comparison, app improvement, energy inefficient app detection, and
+effective runtime energy allocation and prioritization. Our paper motivates
+the problem, describes requirements for a value measure, discusses and
+evaluates several possible inputs to such a measure, and presents results
+from a preliminary (unsuccessful) attempt to formulate one.
+
+== Video
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://www.youtube.com/embed/XCocN1OeaVs" allowfullscreen></iframe>
+</div>
+++++

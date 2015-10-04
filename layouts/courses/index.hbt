@@ -1,0 +1,20 @@
+{{> header}}
+<div id="content">
+  <div class="container" style="margin-top:21px;">
+
+    <div class="row">
+
+      <div class="col-xs-12 col-sm-10">
+        {{{ contents }}}
+
+        <hr />
+        {{#list_with_years courses}}
+        {{> course }}
+        {{/list_with_years}}
+      </div>
+
+    </div>
+
+  </div>
+</div>
+{{> footer}}

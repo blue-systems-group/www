@@ -1,0 +1,200 @@
+# Old group members
+- name: Micheal Benedict
+  group: true
+  link: "https://www.linkedin.com/in/michealb"
+  institution: Twitter
+- name: Vinu Charanya Athangudi Purushothaman
+  group: true
+  link: "https://www.linkedin.com/in/vinucharanya"
+  institution: Crushpath
+- name: Anuja Raval
+  group: true
+  link: "https://www.linkedin.com/in/anujaraval"
+  institution: Citi
+- name: Bhaavyaa Kapoor
+  group: true
+  email: bhaavyaa@buffalo.edu
+- name: Rajeshwari Adapalam
+  group: true
+  link: "https://www.linkedin.com/in/rajeshwariadapalam"
+  institution: Citi
+- name: Scott Haseley
+  email: shaseley@buffalo.edu
+  group: true
+  link: "https://www.facebook.com/scott.haseley"
+- name: Gino Buzzelli
+  email: ginobuzz@buffalo.edu
+  group: true
+  institution: Microsoft
+  link: "https://www.linkedin.com/in/ginobuzz"
+- name: Sonali Batra
+  email: sonaliba@buffalo.edu
+  group: true
+  link: "http://www.acsu.buffalo.edu/~sonaliba/"
+- name: Manoj Chandresekaran
+  email: manojmyl@buffalo.edu
+  group: true
+  link: "https://www.linkedin.com/pub/manoj-mylapore-chandrasekaran/24/443/919"
+  institution: Cerner
+- name: Jay Inamdar
+  email: jayinamd@buffalo.edu
+  group: true
+  link: "https://www.linkedin.com/pub/jay-inamdar/15/6a1/a36"
+  institution: Microsemi
+- name: Denise Blady
+  email: dcblady@buffalo.edu
+  group: true
+  link: "https://www.linkedin.com/pub/denise-blady/24/a43/93a"
+  institution: DISA
+- name: Eric Lehner
+  email: ericj@buffalo.edu
+  group: true
+  link: "https://www.linkedin.com/pub/eric-lehner/34/20a/56b"
+  institution: MITRE
+- name: Agrim Nigam
+  group: true
+  link: "https://www.linkedin.com/pub/agrim-nigam/a/8b6/5aa"
+  institution: Holistic Labs
+- name: John Gerber
+  email: jgerber@buffalo.edu
+  group: true
+- name: Nishanth Vasisht
+  email: nishanth@buffalo.edu
+  group: true
+  link: "https://www.linkedin.com/in/nishanthvasisht"
+  institution: Sling Media
+- name: Sean Zawicki
+  group: true
+  link: "https://twitter.com/seanzawi"
+  institution: Black Pearl Systems
+- name: Mitch Nguyen
+  group: true
+- name: Frank Rossi
+  email: frankros@buffalo.edu
+  group: true
+  link: "https://www.linkedin.com/pub/frank-rossi/99/239/a09"
+  institution: APPrise Mobile
+# UB faculty
+- name: Karthik Dantu
+  email: kdantu@buffalo.edu
+  link: "http://www.cse.buffalo.edu/faculty/kdantu/"
+- name: Murat Demirbas
+  email: demirbas@buffalo.edu
+  link: "http://www.cse.buffalo.edu/faculty/demirbas/"
+- name: Wen Dong
+  email: wendong@buffalo.edu
+  link: "http://www.cse.buffalo.edu/~wendong/"
+- name: Jeff Good
+  link: "http://www.acsu.buffalo.edu/~jcgood/"
+- name: Oliver Kennedy
+  email: okennedy@buffalo.edu
+  link: "http://odin.cse.buffalo.edu/people/oliver-kennedy/"
+- name: Steven Y. Ko
+  email: stevko@buffalo.edu
+  link: "https://nsr.cse.buffalo.edu/?page_id=272"
+- name: Tevfik Kosar
+  email: tkosar@buffalo.edu
+  link: "http://www.cse.buffalo.edu/faculty/tkosar/"
+- name: Dimitrios Koutsonikolas
+  email: dimitrio@buffalo.edu
+  link: "http://www.cse.buffalo.edu/faculty/dimitrio/"
+- name: Chris Renschler
+  email: rensch@buffalo.edu
+  link: "http://www.acsu.buffalo.edu/~rensch/"
+- name: Chunming Qiao
+  email: qiao@buffalo.edu
+  link: "http://www.cse.buffalo.edu/~qiao/"
+- name: Lukasz Ziarek
+  email: lziarek@buffalo.edu
+  link: "http://www.cse.buffalo.edu/~lziarek/"
+# UB students
+- name: Matt Adam
+  email: mfadam@buffalo.edu
+  link: https://www.linkedin.com/pub/matthew-adam/4a/477/2b5
+- name: Fatih Bulut
+  email: mbulut@buffalo.edu
+  link: "http://scholar.google.com/citations?user=aUaOP48AAAAJ"
+- name: Zihe Chen
+  email: zihechen@buffalo.edu
+- name: Doug Giordano
+  email: dmgiorda@buffalo.edu
+- name: Scott Florentino
+  email: scottflo@buffalo.edu
+- name: Tong Guan
+  email: tongguan@buffalo.edu
+  link: "http://www.cse.buffalo.edu/people/?u=tongguan"
+- name: Zhangyu Guan
+  email: zguan2@buffalo.edu
+- name: Taeyeon Ki
+  email: tki@buffalo.edu
+  link: "http://www.cse.buffalo.edu/people/?u=tki"
+- name: James Mazur
+  email: jamesmaz@buffalo.edu
+- name: Gino Notto
+  email: ginonott@buffalo.edu
+- name: Liwen Gui
+  email: liwengui@buffalo.edu
+- name: Mukta Puri
+  email: mpuri2@buffalo.edu
+- name: Natasha Sanford
+  email: nsanford@buffalo.edu
+- name: Feng Shen
+  email: fengshen@buffalo.edu
+- name: Ryan Smith
+  email: ryansmit@buffalo.edu
+- name: Junfei Wang
+  email: junfeiwa@buffalo.edu
+- name: Aditya Wagh
+  email: aswagh@buffalo.edu
+- name: Mack Ward
+  email: mward4@buffalo.edu
+- name: Misa Yasumiishi
+  email: misayasu@buffalo.edu
+  link: "https://www.linkedin.com/in/misay"
+# External collaborators
+- name: Rizwana Begum
+  email: rb639@drexel.edu
+  link: "http://www.linkedin.com/pub/rizwana-begum/45/108/1"
+  institution: Drexel University
+- name: Milind Buddhikot
+  email: milind.buddhikot@bell-labs.com
+  institution: Bell Labs
+  link: "https://www.bell-labs.com/usr/milind.buddhikot/www/Front.html"
+- name: Yih-Farn Chen
+  email: chen@research.att.com
+  link: "http://www2.research.att.com/~chen/"
+  institution: AT&amp;T Labs Research
+- name: Mark Hempstead
+  email: mhempstead@drexel.edu
+  link: "http://ece.drexel.edu/mhempstead/"
+  institution: Drexel University
+- name: Raja Jurdak
+  email: raja.jurdak@csiro.au
+  link: "http://jurdak.com/"
+  institution: CSIRO ICT Center
+- name: Brano Kusy
+  email: brano.kusy@csiro.au
+  link: "http://people.csiro.au/K/B/Brano-Kusy.aspx"
+  institution: CSIRO ICT Center
+- name: Tommaso Melodia
+  email: melodia@ece.neu.edu
+  link: "http://www.ece.neu.edu/wineslab/tmelodia.php"
+  institution: Northeastern University
+- name: Emiliano Miluzzo
+  email: miluzzo@research.att.com
+  link: "https://www.linkedin.com/pub/emiliano-miluzzo/2/606/a20"
+  institution: AT&amp;T Labs Research
+- name: Sean Purdon
+  email: sean.purdon@csiro.au
+  institution: University of Queensland
+- name: Margo Seltzer
+  email: margo@eecs.harvard.edu
+  link: "http://www.eecs.harvard.edu/margo/"
+  institution: Harvard University
+- name: Immanuel Schweizer
+  email: schweizer@tk.informatik.tu-darmstadt.de
+  link: "https://www.tk.informatik.tu-darmstadt.de/en/people/immanuel-schweizer/"
+  institution: Technische Universität Darmstadt
+- name: David Werner
+  email: daw77@drexel.edu
+  institution: Drexel University

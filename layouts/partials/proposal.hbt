@@ -1,0 +1,50 @@
+<div class="row" style="margin-bottom:20px;">
+  <div class="col-xs-12 col-sm-1 text-center" style="margin-bottom:10px;">
+    {{#if @new_year}}
+    <span class="h4">
+      {{year}}
+    </span>
+    {{/if}}
+  </div>
+  <div class="col-xs-12 col-sm-11">
+    <span class="h4">
+      {{ link this }}
+      {{#if inactive }} (Inactive){{/if}}
+    </span>
+    <div class="authors-ml">
+      <em>Authors:</em> {{ and_list faculty }} <br />
+      {{#if students}}
+        {{#if active}}<em>Supports:</em>{{ else }}<em>Supported:</em>{{/if}} {{ and_list students }}
+      {{/if}}
+    </div>
+    <div>
+      {{#if ends}}
+      {{format_date started "proposal"}}&ndash;{{format_date ends "proposal" }}
+      {{ else }}
+      Awarded {{format_date started "proposal"}}
+      {{/if}}
+    </div>
+    <div>
+      {{ amount }} from the 
+      <i>
+        {{#if source.link}}<a href="{{ source.link }}">{{/if}}
+          {{ source.name }}{{#if source.link}}</a>{{/if}}&nbsp;
+        {{#if program.link}}<a href="{{ program.link }}">{{/if}}
+          {{ program.name }}{{#if program.link}} Program</a>{{/if}}
+      </i>
+    </div>
+    {{#if rate }}
+    Funding rate: {{ rate }}%.
+    {{/if}}
+    <div>
+      <ul class="list-inline dash-list">
+        {{#if abstract }}
+        <li><a href="{{ abstract }}">Abstract</a></li>
+        {{/if}}
+        {{#if PDF }}
+        <li><a href="{{ PDF }}">Proposal</a></li>
+        {{/if}}
+      </ul>
+    </div>
+  </div>
+</div>

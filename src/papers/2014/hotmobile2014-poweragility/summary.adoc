@@ -1,0 +1,25 @@
+---
+name: New Interfaces for Achieving Power Agility on Mobile Devices
+published: hotmobile
+people:
+- gurupras
+- rb639@drexel.edu
+- shaseley
+- mhempstead@drexel.edu
+- challen
+git: https://github.com/gchallen/posters.hotmobile2014-poweragility
+projects:
+- poweragility
+funding:
+- 2014-CSR-PowerAgility
+poster: true
+---
+== Abstract
+
+As mobile devices become increasingly complex power management requires
+communication across multiple layers of the system. Future systems with
+complex interactions will require interfaces that allow
+performance-and-energy information to be communicated between hardware and
+the operating system. We present a plan for interfaces between the
+application, OS, and hardware. We introduce the concept of inefficiency which
+can be used to encapsulate the priorities between tasks.

@@ -1,0 +1,35 @@
+---
+name: Controlling Smartphone User Privacy via Objective-driven Context Mocking
+published: mobicase
+people:
+- nvdirien
+- challen
+git: https://github.com/gchallen/papers.mobicase2014-pocketmocker
+projects:
+- pocketmocker
+funding:
+- 2013-REU-PhoneLab
+---
+== Abstract
+
+Smartphones represent the most serious threat to user privacy of any
+widely-deployed computing technology because these devices are always on and
+always connected, making them the perfect candidate to know most about the
+owner. Unfortunately, existing permission models provide smartphone users
+with limited protection, in part due to the difficulty to users in
+distinguishing between legitimate and illegitimate use of their data; for
+example, a mapping app may upload the same location information it uses to
+download maps (legitimate) to a marketing agency interested in delivering
+location-based ads (illegitimate). As a result, smartphone users find
+themselves forced to make burdensome and error-prone tradeoffs between app
+functionality and privacy. To combat this, we propose a new approach called
+PocketMocker. By allowing substitution of real data streams with artificial
+or _mocked_ data, PocketMocker allows users to manipulate impressions of
+their behavior in well-defined ways, such as appearing more fit, more social,
+or more on-time than they actually are. Instead of focusing on privacy, we
+explore providing users with better management of their smartphone-derived
+digital identities. We discuss the design of PocketMocker, which uses
+user-initiated context trace recording and replay to enable objective-driven
+context mocking. Our evaluation shows that users want to use PocketMocker,
+that PocketMocker can mock popular smartphone apps, and that PocketMocker is
+usable.

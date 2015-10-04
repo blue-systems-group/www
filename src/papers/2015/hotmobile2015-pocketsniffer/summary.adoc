@@ -1,0 +1,39 @@
+---
+name: Crowdsourcing Access Network Spectrum Allocation Using Smartphones
+published: hotmobile
+people:
+- jinghaos
+- zguan2
+- qiao
+- melodia@ece.neu.edu
+- dimitrio
+- challen
+git: https://github.com/gchallen/posters.hotmobile2015-pocketsniffer
+projects:
+- pocketsniffer
+funding:
+- 2011-CRI-PhoneLab
+poster: true
+---
+== Abstract
+
+The rapid proliferation of smartphones creates both challenges and new
+opportunities for wireless networks. On one hand, smartphones compete for the
+same limited spectrum already crowded with other devices. On the other hand,
+because smartphones are _always on_ but _mostly idle_, they are ideal for
+observing the network conditions on behalf of nearby active wireless devices.
+When used for continuous network adaptation, offloading measurements to
+inactive clients avoids disrupting active sessions, a capability that has not
+been adequately exploited by other systems using client-side feedback. When
+used for network monitoring and debugging, smartphones provide more valuable
+measurements than planned site surveys, since the data that smartphones
+provide is continuous and representative of wireless conditions experienced
+by users while surveys are neither. We refer to these approaches collectively
+as crowdsourcing access network spectrum allocation using smartphones, or
+*CANSAS*.
+
+We are currently developing a prototype system called PocketSniffer that
+implements CANSAS for Wifi networks. It collects measurements from passive
+smartphones to improve network performance. PocketSniffer also captures a
+variety of measurements generated naturally by smartphones as they discover
+and connect to networks--valuable data that is currently discarded.

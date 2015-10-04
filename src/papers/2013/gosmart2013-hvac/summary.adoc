@@ -1,0 +1,30 @@
+---
+name: "Model-Free HVAC Control Using Occupant Feedback"
+published: gosmart
+people:
+- sean.purdon@csiro.au
+- brano.kusy@csiro.au
+- raja.jurdak@csiro.au
+- challen
+git: 
+projects:
+---
+== Abstract
+
+Optimal control of Heating, Ventilation, and Air Conditioning (HVAC) is an
+important step towards reducing the carbon footprint of buildings and
+requires balancing energy reductions and occupant comfort. Conventional
+thermostats for temperature set points provide a centralized single point of
+user input, often leading to significant thermal discomfort for occupants. We
+propose to instead include users in the HVAC control loop through distributed
+smart-phone based votes about their thermal comfort for aggregated control of
+HVAC. Unlike existing approaches that require in-situ sensors or build
+complex comfort models of individual users, we propose a model- and
+sensor-free HVAC control algorithm that uses simple user input (hot/cold) and
+adapts to changing office occupancy or ambient temperature in real time. We
+develop an iterative data fusion algorithm that finds optimal temperature in
+offices with multiple users and propose techniques that can aggressively save
+energy by drifting indoor temperatures towards the outdoor temperature. Our
+evaluation is based on empirical data collected in 12 offices over a 3-week
+period and shows that adaptive HVAC control can save up to 60% of energy at a
+relatively small increase of 0.3 ◦C in average occupant discomfort.

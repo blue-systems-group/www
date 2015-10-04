@@ -1,0 +1,178 @@
+---
+created: 2015-07-14T12:51:48.993Z
+---
+
+== My Case for Reverse-Blind Reviewing
+
+[.snippet]
+--
+[.lead]
+I've been trying recently footnote:[With only a certain degree of success] to
+avoid serving on technical program committees, particularly for conferences
+in sensor networking--an area I'm no longer working in. But when I received
+the invitation to review papers for
+https://sites.google.com/site/realwsn2015/[RealWSN], I was intrigued. After
+carrying out my own personal experiment with reverse-blind reviewing for the
+past few years, this was the first time I have observed an entire workshop
+giving this approach a try. [.readmore]#Maybe reverse-blind reviewing is
+about to go mainstream--and if so, it's about time.#
+--
+
+=== Reverse-Blind Reviewing
+
+What is _reverse-blind_ reviewing? It's my term for a natural complement to
+computer science's two existing approaches to reviewing technical papers:
+
+* *double-blind* reviewing: where reviewers identities are hidden from
+authors and, through anonymization, authors identities are hidden from
+reviewers; and
+* *single-blind* reviewing: where reviewers identities are hidden from
+authors but authors identities are known to reviewers.
+
+Both of these approaches have well-established pros and cons and both
+defenders and critics. But they both share the position that reviewers
+identities should be hidden from authors. In fact, this tenet is so standard
+that it's actually codified as part of the ACM's
+http://www.acm.org/publications/policies/reviewer-anonymity/[Policy on
+Reviewer Anonymity], which "assures that [sic] ACM will maintain the
+anonymity of reviewers."
+
+In contrast, I propose to introduce the term:
+
+* *reverse-blind reviewing: where reviewers identities are revealed to
+authors, but authors identities are hidden from reviewers.*
+
+=== Read to Reject
+
+I've been conducting my own experiment in reverse-blind reviewing since
+starting my faculty appointment in 2011. When asked to join a program
+committee, I notify the chairs of my intention of signing my reviews to
+ensure that they are comfortable with that decision. Nobody has ever had a
+problem with this, and by now I think that many people know this about me.
+And then I sign my reviews by including my name and email address at the
+bottom of each review.
+
+My initial impetus to experimenting with this approach was the many terrible
+paper reviews I received as a graduate student--both for rejected and
+accepted papers. [.pullquote]#Having the months or years you spent working on
+a project dismissed in several sentences by an anonymous reviewer who clearly
+spent about ten minutes reading your paper is possibly one of the most
+disheartening things I've ever experienced.# (And still is.) If the paper
+happens to be accepted that provides some comfort, but confused and erroneous
+reviews still make you nervous about what will happen next time.
+
+There are all kinds of things contributing to poor-quality reviews:
+increasing reviewer burden that goes along with a growing field, a general
+culture of overcritical negativity within computer science footnote:[The NSF
+has evidence that computer scientists are much more negative when reviewing
+each others proposals. This leads to problems securing funding for the area,
+and disadvantages CS proposals when they are considered in NSF-wide
+competitions along with proposals from more positive scientific
+disciplines.], unsupervised delegation of reviews to graduate students with
+less experience in the field, and our tendency to be impressed--rather than
+worried--about colleagues that are serving on dozens of program committees a
+year. 
+
+The combination of reviewer overload and a culture that supports unbridled
+negativity footnote:[Exampli gratia: I recently witnessed a discussion on
+Facebook where reviewers for a top conference in my area bragged that they
+didn't feel satisfied by the program committee meeting unless they personally
+"killed" at least one paper--meaning that they argued successfully for it to
+be rejected, even over more positive assessments by others.] frequently leads
+to the deployment of the "read to reject" algorithm:
+
+. Read a sentence of the paper.
+. Can I reject the paper yet? If so `HALT`. Otherwise `GOTO 1`.
+
+Obviously while this algorithm does a great job of helping a review optimize
+the process of reviewing many papers, it produces reviews that are neither
+accurate nor helpful. After receiving a review like this you only really know
+the first place where a rushed reviewer got stuck. And writing for "read to
+reject" reviewers also becomes an exercise in defensiveness, with faculty
+teaching students how to write papers that won't get rejected by overcritical
+reviewers. I am not arguing against clarity and persuasiveness, but there is
+something a bit sycophantic and unexciting about overly defensive papers, and
+certain arguments can't be made in ways that are guaranteed not to confuse or
+offend anyone.
+
+=== My Experiment
+
+So the main reason I started signing my reviews was that I wanted to write
+good reviews. If that required a lot of time and energy, so be it. And if it
+meant serving on fewer program committees, that's alright too footnote:[And
+maybe even a benefit!]. As noted above, there are plenty of contributing
+factors to poor reviews and few consequences for writing them. This is my
+attempt at a personal counterbalance.
+
+I'm aware of the risks. Signing my rejections makes it possible for
+vindictive researchers to retaliate against me and my group, including by
+rejecting our papers when it's their turn to review. I don't know if this
+will happen or is happening, but I've always felt that to succumb to this
+concern is to accept a very dark view of my field. [.pullquote]#If enough of
+my colleagues can and will punish me (and my students) because of a
+well-intentioned, careful, but negative review, then in the long run I'll
+probably be happier doing something else with my life.# The protection
+provided by double-blind conferences also helps address this concern, and
+hopefully more will move in the direction of author anonymization
+footnote:[I'm looking at you, http://www.sigmobile.org/mobisys/[MobiSys].].
+
+Overall I'm happy to report that the tangible results from this four-year
+experiment have been positive. Signing my reviews has only led to one ugly
+encounter with an author, who had complaints that were at least
+partly-justified. In other cases, making myself available to authors has led
+to productive post-submission interactions and clarifications, and at least
+once these have played a very small role in turning a rejected paper into an
+accepted submission.
+
+*But more importantly, signing my reviews helps me achieve my goal of writing
+better reviews.* Are my reviews perfectly accurate? No: I make mistakes like
+every other reviewer, and I've heard about them from a few authors. But I
+take ownership of those mistakes, and the worry that I've made a critical one
+in my signed review has more than once caused me to go back and reread parts
+of the paper. Overall I also find my reviews to be more positive and
+constructive, because--like most people, I suspect--when stripped of the
+cloak of anonymity I'm less willing to say things that are nothing more than
+mean and dismissive. I've noticed that my reviews when I'm recommending
+rejection are usually far longer than those that recommend acceptance, which
+seems appropriate. Accepted papers speak for themselves, while authors of
+rejected papers frequently benefit from more feedback on how to continue or
+better explain their work.
+
+And although I'm ashamed to admit it, one of the ways that I know signing my
+reviews helps is that in a couple of cases when I haven't been able to do
+reviews that I was proud of, I didn't sign them. So at least for me, putting
+my name on a review creates a higher bar than I'd normally set.
+
+=== The RealWSN Experiment and Beyond
+
+Reverse-blind reviewing has helped me write better reviews. Would it help
+others as well? Perhaps a fully reverse-blind program committee will create a
+reviewing process that's more focused on improvement rather than binary
+assessment, less reflexively critical and more open to new ideas and
+approaches, more like a conversation within a community and less like a
+competition.
+
+We'll see, because that's what
+https://sites.google.com/site/realwsn2015/home[RealWSN 2015] is aiming to
+try. Kudos to https://scholar.google.ch/citations?user=aExySZkAAAAJ[Anna],
+http://www.coventry.ac.uk/research-bank/research-archive/engineering/cogent-computing/about-us/our-team/professor-elena-gaura/[Elena],
+http://www.coventry.ac.uk/research-bank/research-archive/engineering/cogent-computing/about-us/our-team/dr-james-brusey/[James]
+and [.spelling_exception]#https://www.sics.se/people/thiemo-voigt[Thiemo]#
+for initiating this experiment, and to the
+https://sites.google.com/site/realwsn2015/technical-program-committee[other
+program committee members] who have been willing to participate. If you want
+to take part in it yourself, please consider submitting a paper. It will be
+exciting to see how it goes.
+
+On a broader level, experiments like this one recognize that it's worthwhile
+to tinker in order to improve our publishing culture and methods. Despite the
+creativity that computer researchers bring to what they do, we're remarkably
+hidebound when it comes to _how_ we do it. Professor must sit alone in
+office. Professor must hold weekly 30-minute meetings with graduate students.
+Papers must be two-column format. Conferences must be 2.5 days long.
+Reviewers identities must be hidden from authors. And so on. As the world
+around us changes, some of these traditions carry on as best practices--but
+others perpetuate out of habit, laziness, or the fear of the unknown. And so
+they're all worth revisiting periodically using the same method I remind my
+students to use whenever we don't know how something will turn out: perform
+the experiment!

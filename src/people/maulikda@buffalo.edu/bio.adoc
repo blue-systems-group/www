@@ -1,0 +1,17 @@
+---
+name: Maulik Dave
+role: PhoneLab Administrator
+slug: maulikda
+active: false
+---
+[.lead]
+I work as the link:/projects/phonelab/[PhoneLab] administrator. I help
+participants with any issues they may have with given smartphones. I interact
+with Sprint to handle the logistics of our account and assist with PhoneLab
+development. 
+
+I got B.S. degree in Computer Engineering from California State University,
+Fresno. I worked for IBM as an engineer and technical sales professional for
+many years before obtaining my M.S. degree in Computer Science from the
+University at Buffalo Working for PhoneLab is a great opportunity for me as I
+enjoy technology and people.

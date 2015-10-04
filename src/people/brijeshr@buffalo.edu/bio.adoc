@@ -1,0 +1,39 @@
+---
+name: Brijesh Rakholia
+role: Undergraduate
+slug: brijeshr
+joined: 2015-02-1
+scholar: https://scholar.google.co.in/citations?user=ISItfAwAAAAJ&hl=en&authuser=1
+linkedin: https://www.linkedin.com/in/brijeshrakholia
+---
+[.lead]
+I am a second-year undergraduate majoring in computer science here at the
+University at Buffalo. I am working with link:/[blue] through the
+link:/proposals/2013-reu-phonelab/[PhoneLab REU]. I am passionate about
+learning something related to computers *every day*, and being a sophomore
+makes it more interesting as I have so much to learn. After joining PhoneLab
+it seems I'm getting more inclined towards mobile systems!
+
+I became curious about computers when I first joined my high school's
+robotics team--The [.spelling_exception]#GalaxyRoboTechs#! We used to
+participate in several competitions which were organized by
+http://www.usfirst.org/[FIRST] and
+[.spelling_exception]#http://www.wroboto.org/[WRO]#. It
+gave me an amazing opportunity to explore various fields such as robotics,
+research and designing. We represented India and achieved prestigious awards
+at various international robotic events in USA, Germany and Malaysia. These
+experiences helped me figure out what I love--programming! After I graduated
+from my high school, I mentored various teams which represented India in
+various robotic competitions, which helped me develop my leadership skills.
+
+I joined the University at Buffalo in August 2013, and figured out there's so
+many things I can do while I'm here. I joined UB's ACM chapter & Robotics
+Club, and worked on interesting stuff! I have also worked with Dr. Varun
+Chandola on his research project
+[.spelling_exception]#http://www.cse.buffalo.edu/~chandola/iglobe/iglobe.html[iGlobe]#. In
+February 2015, I joined PhoneLab where I'm exploring various components of
+academic research and getting my hands-on mobile systems alongside
+http://blue.cse.buffalo.edu/people/gwa/[Geoffrey Challen] and
+http://blue.cse.buffalo.edu/people/nvdirien/[Nick DiRienzo]. 
+
+I look forward to give my best to PhoneLab!

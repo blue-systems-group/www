@@ -1,0 +1,29 @@
+---
+name: "CI-ADDO-NEW: PhoneLab: A Programmable Participatory Smartphone Testbed (REU Supplement)"
+started: 2013-08-05
+amount: 36000
+source: NSF
+program: CRI
+rate:
+faculty:
+- challen
+- demirbas
+- stevko
+- tkosar
+- qiao
+students:
+- nvdirien
+- frankros
+- ginonott
+- mrferris
+- brijeshr
+projects:
+- phonelab
+- pocketmocker
+---
+
+This is a http://www.nsf.gov/crssprgm/reu/[Research Experiences for
+Undergraduates (REU)] supplement for the original
+link:/proposals/2011-CRI-PhoneLab/[PhoneLab award]. It has allowed us to give
+some fantastic and talented undergraduates the chance to work in the
+PhoneLab.

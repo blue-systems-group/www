@@ -1,0 +1,80 @@
+{{> header}}
+<div id="content" class="thin">
+  <div class="container">
+    
+    <div class="row links hidden-xs hidden-sm">
+      <div class="col-md-5 text-left" style="padding-right:20px;">
+        {{#if previous_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ previous_item.path }}">
+            <span class="glyphicon glyphicon-step-backward"></span>
+            {{{ previous_item.name }}}
+          </a>
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-md-5 col-md-push-2 text-right" style="padding-left:20px;">
+        {{#if next_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ next_item.path }}">
+            {{{ next_item.name }}}
+            <span class="glyphicon glyphicon-step-forward"></span>
+          </a>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-9">
+        <section class="top">
+          <h2>{{{title}}} {{#if active}}{{else}}(Complete){{/if}}</h2>
+        </section>
+        
+        {{{ contents }}}
+
+      </div>
+
+      <div class="col-sm-12 col-md-3 blue-sidebar">
+        <div class="fixed-md">
+          {{#if people}}
+          <h4><a href="/people/">People</a></h4>
+          
+          <hr class="underline">
+
+          <ul class="list-unstyled">
+            {{#each people}}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
+          {{/if}}
+
+          {{#if papers}}
+          <h4><a href="/papers/">Publications</a></h4>
+
+          <hr class="underline">
+
+          <ul class="list-unstyled">
+            {{#each papers}}
+            <li><a href="/{{path}}">{{ conference.shortname }}</a></li>
+            {{/each}}
+          </ul>
+          {{/if}}
+          
+          {{#if funding}}
+          <h4><a href="/papers/">Funding</a></h4>
+
+          <hr class="underline">
+
+          <ul class="list-unstyled">
+            {{#each funding}}
+            <li><a href="/{{path}}">{{ source.shortname }} ({{ year }})</a></li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{{> footer}}

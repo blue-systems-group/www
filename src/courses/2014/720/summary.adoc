@@ -1,0 +1,35 @@
+---
+common: personalclouds
+started: 2014-08-25
+ends: 2014-12-15
+semester: Fall
+instructors:
+- challen
+enrollment: 5
+website: "https://piazza.com/buffalo/fall2014/cse720/home"
+---
+++++
+<a class="anchor" id="summary"></a>
+++++
+== Summary
+
+Computing history seems to be on a "Back to the Future" trajectory. 50 years
+ago we had to line up to use large expensive computers maintained by a small
+elite; today, we are increasing required to rent computing from cloud service
+providers, paying with either our money or with our privacy. Some of the
+tinkering spirit that launched the personal computing movement is being lost.
+
+Interestingly, at the same moment that we are becoming more reliant on the
+corporate cloud, consumers increasingly have their own personal cloud
+consisting of multiple powerful devices: smartphones, tablets, laptops,
+desktops, various kinds of computing appliances, as well as retired old
+devices lying unused in closets and drawers. This seminar will explore
+applying the design principles of cloud computing to allow consumers to build
+scalable, powerful, reliable, and usable personal clouds out of their
+existing personal devices.
+
+During the semester we will read papers related to the seminar's themes with
+student-led discussions. Students will also work in teams on several projects
+related to the course content, which could include new file systems, wireless
+protocols, and approaches to migrating computation suitable for
+next-generation personal clouds.

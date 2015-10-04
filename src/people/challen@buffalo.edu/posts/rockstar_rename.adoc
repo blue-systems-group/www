@@ -1,0 +1,181 @@
+---
+created: 2015-06-23T20:12:53.310Z
+---
+
+== Let's Rename the SIGMOBILE Rockstar Award
+
+[.lead]
+Many congratulations to http://web.engr.illinois.edu/~croy/[Romit Roy Choudhury], the 2015 recipient
+of the http://www.sigmobile.org/awards/rsa.html[SIGMOBILE RockStar Award]
+footnote:[I'm not sure about the strange capitalization of the word
+"rockstar" in the award title--seems like a bug.]. This award is
+relatively-recent but has a strong history, having previously been given to
+http://www.ruf.rice.edu/~lzhong/[Lin Zhong] (2014) and
+http://pages.cs.wisc.edu/~suman/[Suman Banerjee] (2013). It's great for the
+SIGMOBILE community to recognize early career success (although all
+recipients were tenured by the time they received it), but the award has a
+terrible name. [.readmore]*Let's change it!*
+
+I understand the positive connotations of the term "rockstar": someone is
+well known (famous) and does great work (writes hits). The problem is
+that--at least for me--the term is overpowered by its negative connotations.
+Rockstars have ego management problems, hog the spotlight, light hotel rooms
+on fire, do a lot of drugs, and tour for years playing tired songs to aging
+audiences. I know that this isn't true for all actual rockstars, or as far as
+I can tell for _any_ of the SIGMOBILE rockstars. But to me the term
+"rockstar" brings to mind someone who's brilliant but also a bit too high on
+themselves. Given the teamwork required to do good mobile systems research, I
+think that this is a problematic connotation. Plus: as long as the award is
+named the Rockstar award I'm worried that certain very well-deserving but
+non-rockstar-like researchers (like http://www.cs.duke.edu/~lpcox/[Landon
+Cox]) may never win.
+
+I don't know what the new name should be. How about the "SIGMOBILE Beta
+Award"? Or the "SIGMOBILE Superstar Award", if we want to keep something
+snappy and hip? Everyone loves a superstar! I also know that there was some
+support at http://www.hotmobile.org/2015/[HotMobile'15] for creating an award
+to honor http://homes.cs.washington.edu/~gaetano/[Gaetano Borriello], someone
+I didn't know well but who had a major impact on many in the mobile systems
+community. I don't know enough about Gaetano's early career to claim that his
+in an appropriate name for an early career award, but it's an idea.
+
+Feel free to leave suggestions in the comments or on Facebook. And in the
+mean time, scroll down to see my own RockStar Researcher to real rockstar
+mappings for the three past recipients and two possible future winners...
+
+++++
+<div class="spelling_exception">
+<div class="row" style="border-bottom: 1px solid grey; margin-bottom: 5px;">
+
+<div class="col-xs-6 text-center">
+<h3>SIGMOBILE RockStar</h3>
+</div>
+
+<div class="col-xs-6 text-center">
+<h3>Actual Rockstar</h3>
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://pages.cs.wisc.edu/~suman/">Suman Banerjee</a></h4>
+<img src="http://www.cs.wisc.edu/sites/default/files/styles/user-pictures/public/pictures/picture-7274-1395155627.jpg" alt="Suman Banerjee" class="img-responsive center-block">
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://thewho.com">John Entwistle</a></h4>
+<img src="http://iv1.lisimg.com/image/1722171/600full-john-entwistle.jpg" alt="John Entwistle" class="img-responsive center-block">
+</div>
+
+<div class="clearfix visible-xs-block"></div>
+
+<div class="col-xs-12" style="margin-bottom: 10px; margin-top: 10px; border-bottom: 1px solid grey;">
+<p>I can't really defend this one&mdash;it just makes sense to me.</p>
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://www.ruf.rice.edu/~lzhong/">Lin Zhong</a></h4>
+<img src="http://www.ruf.rice.edu/~lzhong/zhong.jpg" alt="Lin Zhong" class="img-responsive center-block">
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://phish.com">Trey Anastasio</a></h4>
+<img src="http://binaryapi.ap.org/4708bffaae82423ab1eb6e48e766c384/512x.jpg" alt="Trey Anastasio" class="img-responsive center-block">
+</div>
+
+<div class="clearfix visible-xs-block"></div>
+
+<div class="col-xs-12" style="margin-bottom: 10px; margin-top: 10px; border-bottom: 1px solid grey;">
+<p>Both want to build monsters and happen to wear glasses.</p>
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://web.engr.illinois.edu/~croy/">Romit Roy Choudhury</a></h4>
+<img src="http://web.engr.illinois.edu/~croy/images/headshot.jpg" alt="Romit Roy Choudhury" class="img-responsive center-block">
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://www.billyjoel.com">Billy Joel</a></h4>
+<img
+src="http://www.gannett-cdn.com/-mm-/f23f7f5f00009f639994163536df06bc21a2063d/c=0-0-3387-4516&r=537&c=0-0-534-712/local/-/media/USATODAY/USATODAY/2014/11/13/635514964101700009-Billy-Joel-I2A9965.jpg" alt="Billy Joel" class="img-responsive center-block">
+</div>
+
+<div class="clearfix visible-xs-block"></div>
+
+<div class="col-xs-12" style="margin-bottom: 10px; margin-top: 10px; border-bottom: 1px solid grey;">
+<p>One brings life to toys, the other to the Garden.</p>
+</div>
+
+</div>
+
+<div class="row" style="border-bottom: 1px solid grey; margin-bottom: 5px;">
+
+<div class="col-xs-6 text-center">
+<h3>Future SIGMOBILE RockStar?</h3>
+</div>
+
+<div class="col-xs-6 text-center">
+<h3>Actual Rockstar</h3>
+</div>
+
+</div>
+
+<div class="row">
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://www3.cs.stonybrook.edu/~arunab/">Aruna Balasubramanian</a></h4>
+<img
+src="https://www.cs.stonybrook.edu/sites/default/files/wwwfiles/aruna_0.jpg" alt="Aruna Balasubramanian" class="img-responsive center-block">
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://miauniverse.tumblr.com">M.I.A.</a></h4>
+<img src="http://img2-3.timeinc.net/people/i/2009/news/090302/mia240.jpg" alt="M.I.A." class="img-responsive center-block">
+</div>
+
+<div class="clearfix visible-xs-block"></div>
+
+<div class="col-xs-12" style="margin-bottom: 10px; margin-top: 10px; border-bottom: 1px solid grey;">
+<p>You just have to hear Aruna rap...</p>
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://www.cs.duke.edu/~lpcox/">Landon Cox</a></h4>
+<img src="http://www.cs.duke.edu/~lpcox/172908f_cox001-1.jpg" alt="Landon Cox" class="img-responsive center-block">
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://benjamingibbard.net/">Ben Gibbard</a></h4>
+<img
+src="http://www.xpn.org/media/k2/items/cache/2fc863fc8d940a5d8d41465cb8e0596c_XL.jpg" alt="Ben Gibbard" class="img-responsive center-block">
+</div>
+
+<div class="clearfix visible-xs-block"></div>
+
+<div class="col-xs-12" style="margin-bottom: 10px; margin-top: 10px; border-bottom: 1px solid grey;">
+<p>This one's obvious (at least to me).</p>
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="http://research.microsoft.com/en-us/people/sagarwal/">Sharad Agarwal</a></h4>
+<img
+src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKmAAAAJGM2NGExZWJkLTExODctNGJmMC05YTQzLTkwYjM3YzU0OWMzZA.jpg" alt="Sharad Agarwal" class="img-responsive center-block">
+</div>
+
+<div class="col-xs-6 text-center">
+<h4><a href="https://en.wikipedia.org/wiki/Chris_Daughtry">Chris Daughtry</a></h4>
+<img
+src="http://yrbmagazine.com/wp-content/uploads/2012/06/Chris-Daughtry8441.jpg" alt="Chris Daughtry" class="img-responsive center-block">
+</div>
+
+<div class="clearfix visible-xs-block"></div>
+
+<div class="col-xs-12" style="margin-top: 10px;">
+<p>Pretty spot on.</p>
+</div>
+
+</div>
+</div>
+++++

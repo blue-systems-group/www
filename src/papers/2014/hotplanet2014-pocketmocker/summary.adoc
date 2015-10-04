@@ -1,0 +1,29 @@
+---
+name: Should Smartphone Users Mock Apps?
+published: hotplanet
+people:
+- nvdirien
+- challen
+git: https://github.com/gchallen/papers.hotplanet2014-pocketmocker
+projects:
+- pocketmocker
+funding:
+- 2013-REU-PhoneLab
+---
+== Abstract
+
+Smartphones represent the most serious threat to user privacy of any
+widely-deployed computing technology. Unfortunately, existing permission
+models provide smartphone users with limited protection, in part due to the
+difficulty users have distinguishing between legitimate and illegitimate use
+of their data. A mapping app may upload the same location information it uses
+to download maps (legitimate) to a marketing agency interested in delivering
+location-based ads (illegitimate). However, armed with the right technology
+users can turn apps' interest in personal data against them by intentionally
+manipulating the data that they expose. We refer to the intentional
+substitution of real data with artificial data intended to alter an apps
+perception of a user as _mocking_ to differentiate this approach from other
+privacy-motivated techniques that focus on concealing data. In this paper, we
+explore the desirability and implications of this approach, present results
+from a survey suggesting that many users are interested in mocking apps, and
+discuss ethical and practical issues related to widespread app mocking.

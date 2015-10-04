@@ -1,0 +1,22 @@
+NSF:
+  name: National Science Foundation
+  shortname: NSF
+  link: http://www.nsf.gov/
+  programs:
+    CRI:
+      shortname: CRI
+      name: CISE Research Infrastructure
+      link: "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12810"
+    CSR:
+      shortname: CSR
+      name: Computer Systems Research
+      link: "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503306"
+Google:
+  name: Google
+  shortname: Google
+  link: http://www.google.com
+  programs:
+    GRA:
+      shortname: GRA
+      name: "Faculty Research Awards"
+      link: "http://research.google.com/university/relations/research_awards.html"

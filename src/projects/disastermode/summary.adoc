@@ -1,0 +1,62 @@
+---
+name: Smartphone Disaster Mode
+title: Turning Smartphones Into Disaster Aids
+started: 2013-01-11
+ended: 2014-09-22
+people:
+- misayasu
+- sriramsh
+- mfadam
+- nishanth
+- rensch
+- kdantu
+- challen
+spelling_exceptions:
+- SmartAmerica
+---
+[.lead]
+When disaster strikes, the smartphone in your pocket could be a powerful
+ally, helping you locate resources, navigate to safety, assist others, and
+contact loved ones, all while collecting sensor data to help emergency
+responders understand the unfolding situation on the ground. But today's
+smartphones are prepared to do only one thing well during a disaster: run out
+of battery. We investigated Android support for a _disaster mode_ allowing
+smartphones to prepare for and operate effectively during disasters.
+
+Natural disasters should be an ideal environment for today's ubiquitous
+smartphones, allowing them to put their power, connectivity, and sensing
+capabilities to a truly critical purpose: helping their user survive and
+escape, especially while traveling in an unknown rapidly changing location.
+Unfortunately, disaster environments challenge smartphones' core assumptions,
+requiring radical adaptation that today's phones cannot perform.  During
+typical operation, smartphones assume that energy is plentiful--making
+sub-day device lifetime acceptable--and that high-speed mobile data and Wifi
+networks are almost always available. During a disaster, these assumptions
+fail: power is scarce, the phone may need to last for days, and networks are
+down or overloaded. To compound the problem, smartphones face these
+challenges at the moment when they are needed most, since users are likely to
+be navigating unfamiliar routes to detour around hazardous areas, attempting
+to find or reassure loved ones, communicating with rescuers, and gathering
+data to reassess rapidly-changing conditions.
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="http://www.youtube.com/embed/videoseries?list=PLE6LEE8y2Jp9Nr6BuoyqfgH7yx0hDWLGh&amp;showinfo=1" allowfullscreen></iframe>
+</div>
+++++
+
+We explored new techniques enabling smartphone _disaster mode_, a setting
+similar to the familiar airplane mode. When a disaster is imminent, disaster
+mode helps users get ready, by preparing their phone and gathering data to
+identify vulnerable communities and individuals. When disaster strikes,
+disaster mode enables aggressive energy management, novel user interfaces,
+and new communication patterns, all working together to retain essential
+functionality while maximizing battery life. The YouTube playlist above
+contains videos by link:/people/gwa/[Geoffrey Challen],
+link:/people/sriramsh[Sriram Shantharam], Chris Renschler, and Matt Adam
+discussing various components of the project.
+
+As the culmination of the project our team participated in the White
+House-sponsored http://smartamerica.org/[SmartAmerica Challenge] and
+presented our results at the SmartAmerica Expo held in Washington, DC, in
+June 2014.

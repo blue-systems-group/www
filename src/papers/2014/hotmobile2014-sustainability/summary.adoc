@@ -1,0 +1,39 @@
+---
+name: "The Mote is Dead. Long Live the Discarded Smartphone!"
+published: hotmobile
+people:
+- challen
+- shaseley
+- anudipam
+- ans25
+- gurupras
+- mpuri2
+- junfeiwa
+git: https://github.com/gchallen/papers.hotmobile2014-sustainability
+projects:
+- sustainability
+funding:
+- 2011-CRI-PhoneLab
+---
+== Abstract
+
+As the rapid pace of smartphone improvements drives consumer appetites for
+the latest and greatest devices, the hidden cost is millions of tons of
+e-waste containing hazardous chemicals and difficult to dispose of safely.
+Studies show that smartphone users are replacing their devices every 18
+months, almost three times faster than desktop computers, producing millions
+of discarded smartphones each year that end up lying in desk drawers, buried
+in landfills, or shipped to third-world countries where they are burned to
+extract precious metals, a process that damages both the health of those
+involved and the environment.
+
+Fortunately, the capabilities of discarded smartphones make them ideal for
+reuse. Instead of ending up in a landfill, a discarded smartphone could be
+integrated into a home security system or transformed into a health care
+device for the elderly. In this paper, we evaluate using discarded
+smartphones to replace traditional sensor network "motes". Compared with
+motes, discarded devices have many advantages: price, performance,
+connectivity, interfaces, and ease of programming. While the main question is
+whether their energy consumption is low enough to enable harvesting solutions
+to allow continuous operation, we present preliminary results indicating that
+this may be possible. 

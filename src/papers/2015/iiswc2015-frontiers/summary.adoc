@@ -1,0 +1,36 @@
+---
+name: Energy-Performance Trade-offs on Energy-Constrained Devices with Multi-Component DVFS
+published: iiswc
+people:
+- rb639@drexel.edu
+- gurupras
+- daw77@drexel.edu
+- jerryant
+- challen
+- mhempstead@drexel.edu
+projects:
+- poweragility
+funding:
+- 2014-CSR-PowerAgility
+---
+== Abstract
+
+Battery lifetime continues to be a top complaint about smartphones. Dynamic
+voltage and frequency scaling (DVFS) has existed for mobile device CPUs for
+some time, and can be used to dynamically trade off energy for performance.
+To make more energy-performance tradeoffs possible, DVFS is beginning to be
+applied to memory as well.
+
+We present the first characterization of the behavior and optimal frequency
+settings of workloads running both under _energy constraints_ and on
+systems with _both_ CPU and memory DVFS, an environment representative
+of next-generation mobile devices. Our results show that continuously using
+the optimal frequency settings results in a large number of frequency
+transitions which end up hurting performance. However, by permitting a small
+loss in performance, transition overhead can be reduced and end-to-end
+performance and energy consumption improved. We introduce the idea of
+_inefficiency_ as a way of constraining task energy consumption
+relative to the most energy-efficient settings, and characterize the
+performance of multiple workloads running under different inefficiency
+settings. Overall our results have multiple implications for next-generation
+mobile devices exposing multiple energy-performance tradeoffs.

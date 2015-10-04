@@ -1,0 +1,30 @@
+---
+name: "Expressing Uncertainty Using the <code>maybe</code> System"
+started: 2015-08-14
+amount: 38656
+source: Google
+program: GRA
+rate: 15
+faculty:
+- challen
+- okennedy
+- lziarek
+projects:
+- maybe
+---
+== Abstract
+
+Android apps currently run on 18,796 distinct devices with different hardware
+capabilities. Those devices connect to multiple data networks with 100-fold
+variations in speed and latency. Android users are elderly adults and young
+children, have highly-variable mobility patterns and install different
+mixtures of the 1.5 million apps published on the Google Play Store. All of
+this diversity creates uncertainty for developers, who may be unsure how to
+adapt their app to achieve performance, correctness, and usability on any
+device, at all times, for anyone, anywhere. Our new system, `maybe`,
+addresses this challenge by allowing programmers to express _development-time
+uncertainty_. A new language construct and online infrastructure allow
+programmers to indicate where they are uncertain, what legitimate options are
+available, and what constitutes success or failure. Post-deployment testing
+and machine learning are then used to resolve the uncertainty by crafting
+effective data-driven adaptation strategies.

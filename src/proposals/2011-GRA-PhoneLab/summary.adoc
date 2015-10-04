@@ -1,0 +1,45 @@
+---
+name: "PhoneLab: A Participatory Smartphone Cloud Testbed"
+started: 2011-09-11
+ends: 2012-09-01
+amount: 60994
+source: Google
+program: GRA
+rate: 15
+faculty:
+- challen
+- stevko
+- demirbas
+- tkosar
+- qiao
+students:
+- tki
+- jayinamd
+projects:
+- phonelab
+papers:
+- sensemine2013-phonelab
+- netmob2013-phonelab
+---
+== Abstract
+
+The expanding capabilities and growing number of smartphones are producing a
+new computing infrastructure integrating phones, users, and the cloud. We
+call this emerging device the _phone cloud_, and its power is transforming
+user expectations. They now expect their phones to locate friends; identify
+the song playing at a restaurant; provide instant access to music, video, and
+other information; and help document their lives--all in addition to placing
+phone calls and sending text messages. Meeting these expectations requires
+addressing multiple challenges: efficiently utilizing multiple radio
+technologies and integrated sensors, harnessing powerful processors to
+support demanding applications, and leveraging distributed storage to move
+data closer to users. _Yet, despite the challenges and transformative nature
+of the phone cloud, no public testbed exists enabling large-scale realistic
+smartphone experimentation._
+
+We propose to develop PhoneLab, a new scientific instrument enabling
+smartphone operating system and mobile application research in a realistic
+environment at a scale not previously possible. PhoneLab will eventually
+consist of 1,000 reprogrammable Android devices deployed into the hands of UB
+students and staff, providing the *power*, *scale*, and *realism* necessary
+to enable mobile computing research.

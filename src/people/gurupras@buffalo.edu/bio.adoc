@@ -1,0 +1,34 @@
+---
+name: Guru Prasad Srinivasa
+role: PhD Student
+slug: gurupras
+joined: 2012-10-19
+scholar: http://scholar.google.com/citations?user=MvOkpygAAAAJ&hl=en
+---
+[.lead]
+I am a second year Ph.D. student. My primary work is on the
+link:/projects/poweragility[Power Agile Operating Systems] project. My research
+interests lie in operating systems, networking and mobile systems.
+
+My tryst with computers began when my father took a huge loan to purchase a
+PC [.spelling_exception]#spec'd# at 166MHz having 32MB RAM and a 1GB HDD
+running Windows 95. Games were soon to follow with Microsoft's Pinball and
+Midway's [.spelling_exception]#Mortal Kombat# 3. Me and my dad had this cat
+and mouse game we would play wherein he would find new ways to prevent me
+from playing--BIOS password, hidden folders, etc and I would be forced to
+bypass these measures.
+
+I did my undergrad in Computer Science at [.spelling_exception]#SRM#
+University and joined the Masters program at the University at Buffalo in
+2011. I started working with Geoffrey Challen in the fall of 2012 and was
+quickly drawn to research. This was what I had always wanted to do - build
+complex systems of my own. I joined the Ph.D. program in 2013. 
+
+I love to code and so while I'm not playing computer games, I spend time on
+other coding projects. Currently,
+http://odin.cse.buffalo.edu/people/oliver-kennedy/[Oliver] and I are working
+on a http://www.github.com/okennedy/worldtree.git[constrained world
+generator] for games. I'm also trying to get my
+[.spelling_exception]#quadcopter# to fly and am working on a
+http://wavelength.fm[Wavelength] clone so me and my girlfriend can watch TV
+soaps together.

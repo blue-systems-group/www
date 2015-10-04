@@ -1,0 +1,38 @@
+---
+name: The PocketLocker Personal Cloud Storage System
+published: mobicase
+people:
+- ans25
+- carlnues
+- challen
+- miluzzo@research.att.com
+- chen@research.att.com
+git: https://github.com/gchallen/papers.mobicase2014-pocketlocker
+projects:
+- pocketlocker
+funding:
+- 2011-CRI-PhoneLab
+---
+== Abstract
+
+PocketLocker creates scalable, reliable, and performant personal storage
+clouds out of available space distributed across multiple personal devices.
+Designed to store rarely-changed files on both interactive devices with
+limited storage (such as smartphones) and non-interactive devices with large
+amounts of storage (such as storage appliances), PocketLocker differs from
+previous systems in not requiring that each device be able to store all
+available content or be configured to only view certain files. Instead, a
+storage orchestrator running as a cloud service distributes erasure-coded
+file chunks across all available devices to maximize performance and capacity
+and minimize energy usage at battery-powered clients while meeting
+configurable backup requirements. Unlike current cloud storage options,
+PocketLocker is free and will scale as users add devices.
+
+We motivate PocketLocker's design by analyzing two months of file access
+traces taken from 100 smartphones, and evaluate its performance using
+trace-based simulations to explore design parameters and measurements of a
+prototype Android implementation to establish real-world performance. By
+locating content close to where it will be accessed by mobile devices,
+PocketLocker provides low-latency access to large amounts of content. By
+exploiting mobility and charging habits, PocketLocker can meet backup
+requirements without draining the smartphone's battery.

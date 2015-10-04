@@ -1,0 +1,239 @@
+---
+created: 2015-05-13T21:33:20.845Z
+---
+
+== The Professorial Pivot
+
+[.snippet]
+--
+
+(Or how I've learned to stop programming (mostly) and embrace being
+a sometimes designer, sometimes manager, sometimes pep talk deliverer.)
+
+[.lead]
+In the fall of 2009, as I was preparing to graduate, I went on a series of
+self-funded university visits footnote:[This used to be referred to as an
+academically-inclined PhD candidates "fall tour", although I haven't heard
+this term used recently.], each consisting of a talk and multiple one-on-one
+meetings with faculty members. While I had previously met many faculty at
+conferences, this was the first time that I had encountered them in their
+more natural setting--in their labs and offices, teaching and working with
+their graduate students. And so it was the first time that I was exposed to
+what I now hear fairly regularly, with varying degrees of regret and
+resignation, particularly from colleagues working in computer systems and
+networking: *"I wish I had more time to write code. I'm just a manager now."*
+
+I really liked to program, to build things, to hack. (And still do.) I was
+also interested in becoming a professor. But I didn't interpret those
+complaints from systems faculty as a warning about my own prospective career
+path. Instead, I remember feeling annoyed. "You knew what you were getting in
+to", I thought. "Do your job footnote:[To quote the
+http://whdh.images.worldnow.com/images/6436845_G.jpg[2014 Patriots].]." I had
+an advisor who liked to try to help out with our projects, and it didn't
+always work out well. As a student, finding bugs in your advisor's code was
+naturally a bit nerve wracking, and at times his internal programmer would
+cause him to exercise an unhelpful amount of low-level control over the code
+that his students were ultimately responsible for writing and maintaining.
+
+I'm remembering these feelings now, having recently gone through the
+transition from programmer to manager myself--my *pivot*, as the industry
+jargon goes. Like others before me, I'm finding leaving my development role
+behind both frightening and disorienting. But I think it's a good thing for
+my group, and so I'm trying to adapt to my new role. [.readmore.remove]#Here's the
+full story.#
+
+--
+
+=== Hit The Ground Hacking
+
+Transforming from Professor Hacker to Professor Manager took longer than I
+would probably have expected footnote:[Had I thought about it, which I
+didn't], because for the first few years after arriving at UB I found plenty
+of things to hack on. I wrote code to run our
+http://www.phone-lab.org[PhoneLab] smartphone testbed and a suite of tools to
+analyze the data we collected. I wrote code to automate submission and
+grading for Harvard's OS/161 assignments, allowing me to assign them in a
+class with an order of magnitude less instructional support. I pitched in
+wherever needed on a bunch of our early projects, helping with things like
+building simulators and writing graphing scripts.
+
+Looking back, my initial years of hacking can seem like a reasonable response
+to events. We quickly got a lot of money to build a smartphone testbed, and
+so that needed to happen--even if I hadn't yet assembled students that I
+trusted and had the required development abilities.
+http://www.phone-lab.org[PhoneLab] is also really something akin to a
+production system, not a research prototype, and it had to work at the risk
+of irritating and alienating our testbed participants. With my course, I
+threw my hat over the wall and there was no way to make it work without
+devoting a lot of early effort to automation. And the course was another
+thing that really had to work, since it was being used by tuition-paying
+students. Finally, working with graduate students that are just getting
+started, you find it natural and times to lend a hand when they get stuck.
+
+But a lot of it was driven by fear. [.pullquote]#Being set down to a
+challenging task in a new environment, it's easy to reach for what you know.#
+I knew how to program. I didn't know how to manage an engineering team. And
+so at least for a while hacking allowed me to feel like I was making some
+progress. I suspect that this may be a common experience, particularly for
+systems faculty, and particularly for faculty that don't get a lot of
+experience managing other students while completing their PhD--which I bet is
+most of us. But ultimately, the urge to fall back on familiar strengths can
+hinder the development of the new skills required by new situations. I was
+lucky that a change was around the corner.
+
+=== Suddenly, A Pivot Comes
+
+http://firstround.com/review/this-is-what-impactful-engineering-leadership-looks-like/[This
+article] claims that "nearly all engineering managers remember their
+pivot--that moment when coding was no longer their number one priority." I
+definitely do, and it when the transition happened last semester it felt like
+overnight I suddenly had no development role on any of my group's projects.
+
+Initially this felt exhilarating, because the root cause was the fact that my
+students were working so hard on so many cool projects that it was impossible
+for me to keep up. It was like I had spent years pulling from the front
+desperately trying to get things started, and then all of a sudden I'm being
+run over as everything takes off because of a bunch of people are pushing
+from the rear. Even feeling a bit shaken and more than a bit left behind, I
+still had a distinct urge to cheer footnote:[Which is one of the things I
+still get to do. I've been joking with my students that one of my remaining
+roles is giving motivational speeches, when needed.].
+
+[.pullquote]#Having gotten out of the way, I'm finding that things just
+happen.# We did a bunch of projects this semester where I contributed zero
+lines of code and yet new systems got built, deployed, and evaluated. Having
+never previously managed a group of developers that I have grown to respect
+and trust, it's pretty awesome. And at the same time I know that my students
+are enjoying themselves, because they like hacking too and they get to the do
+those fun bits that nobody lets me meddle with anymore. So they're having
+fun, I'm watching interesting things get built, and everyone's happy.
+
+=== But Where's My Paddle?
+
+But my new reality is also a bit bewildering and puts me into a position
+where I'm challenged to find new ways to contribute to my group's future
+success. I am well aware that, while I have somehow assembled a fantastic
+engineering team, I am not yet a good engineering manager. That's something
+that I'm still learning how to do. At the moment my approach to managing
+their development process is probably a bit _too_ hands off, and we should
+probably be doing things like code reviews in addition to having high-level
+design discussions. At least so far the hands-off approach seems to be
+working, but I think I can do it better--and will need to, soon.
+
+On the other hand, my early days as Professor Hacker did help me set up my
+lab in a way that allows things to get done. Mainly, I don't force my
+students to endure regular fixed-length meetings footnote:[Academic meeting
+styles deserve--and will get--their own post.], the main purpose of which is
+to make me feel like I'm contributing to their project. While the initial
+purpose of my ad-hoc meeting stance was to let _me_ focus on programming, it
+works equally well for letting my students focus on programming. But I will
+admit that without writing code, I do sometimes feel a bit like I'm not
+contributing enough to what we do. Maybe I should hold more meetings!
+
+I also have had to learn to be more patient. When you're less involved with
+the development process, it's easy to get frustrated at why it is taking
+longer than you anticipated for something seemingly simple to get done.
+Sometimes this is because the student made some kind of boneheaded design
+decision or implementation choice that just needs to work itself out
+naturally. But more often than not it's because what seems simple at a high
+level ends up being complicated to implement well. So although my patience as
+a manager has been tested recently, here another aspect of our working
+arrangement helps. Because I'm in the lab all day with my students, I know
+that they're working hard. And as long as they keep working, they'll either
+discover and correct their bad design decisions, or finish implementing the
+hard thing that seemed simple to me. That makes the waiting easier. It also
+helps that I have more time to manage the process and can make sure that we
+start early enough to meet important deadlines.
+
+Having such strong programmers to work with also challenges me to develop new
+ideas for us to work on, and one of the things I worry about frequently now
+is coming up with novel systems for link:/people/anudipa/[Anudipa] (or
+link:/people/gurupras/[Guru], or link:/people/jinghaos[Jinghao], or
+link:/people/nvdirien/[Nick], etc.) to build. One of the ways I'm responding
+to this challenge is starting to think of myself our group's chief
+_designer_, although I expect all of my students to also play creative roles
+in our projects. (Once a student is able to independently design, implement,
+and document their own new systems, it's time for them to graduate.) I
+usually tell students that systems research is 10% coming up with ideas and
+90% getting them to work, and so spending less time on the 90% should leave
+me with more time for the 10%. Given that we don't have the automatic
+legitimacy of a group at MIT, this is probably an important thing for me to
+focus on.
+
+=== Unexpected Benefits
+
+In addition to more time to focus on these other aspects of being a good
+teammate for my students, I've found the shift away from programming to have
+two interesting and somewhat unexpected benefits.
+
+First, I find myself enjoying reading research papers much more than I ever
+have previously. Part of this is probably just a bit of
+temporally-overlapping maturing on my part, but I think part of it is also
+not having the little voice in the back of your mind when you're trying to
+read a research paper whispering "But when do we get back to building _our_
+system?" That's made it a lot easier to appreciate other people's work, which
+is a critical part of both developing new ideas and staying on top of what's
+novel in my new role as designer.
+
+Second, I _think_ that I'm doing a better job of writing portions of our
+papers. (We'll find out for sure once reviews for some of the half-dozen or
+so papers we have under submission start coming in.) Of course, not having to
+simultaneously build and document the system leaves more time to write, but
+at least for me the improvement doesn't seem only due to the extra time. My
+hypothesis is that programming a system puts you in a certain kind of mental
+state that makes it hard to write eloquently about the same system ten
+minutes later--or maybe just hard to write with the level of sweeping
+grandiosity that seems necessary to produce a winning introduction. You're
+just thinking too much like a hacker, which makes it easy to write (or "hack"
+together) prose that's uninspiring and often confusing.
+
+I actually struggled in a way that I had never experienced before writing up
+parts of one of our group's submissions this year, to the point where I found
+myself wandering around campus aimlessly feeling kind of like I was having a
+nervous breakdown. (This is not usually what I do at work.) I think it was
+because I was actually trying to get the text and the design arguments
+_right_, whereas previously the programmer-writer version of me just got them
+_"to work"_. In any case, since writing is, for now, still something that my
+students let me do (sometimes), writing better is a welcome development, even
+if it requires long walks outdoors.
+
+=== Getting the Balance Right
+
+Despite feeling a bit wistful about my bygone days as a developer, I wouldn't
+trade my team for anything and so I won't complain excessively about my new
+role as our group's manager and designer. While I'll continue to have a
+direct role in things like keeping the lights on and the paychecks coming, I
+anticipate that more and more my job will be to help keep my talented
+students creative, productive, and happy.
+
+Looking back, I do wish that I had trusted my students more a bit earlier
+along and let them take the lead a bit sooner, particularly given how well
+that is working out now. But I'm also glad I didn't make the mistake of
+trying to be _too_ managerial too soon. That may work fine when there are
+already strong students waiting to be led--at top-tier schools, or when
+you're joining a department in an area of established strength populated by
+strong colleagues. [.pullquote]#But in other cases I think it's more
+important for early-stage faculty to establish an example of the kind of
+graduate student they want their students to be# and then wait for their team
+to materialize. After all, everyone knows what they say about a leader
+without any followers.
+
+I am plotting to find a way to start writing some code again. Part of the
+reason is to follow link:/people/jinghaos[Jinghao's] advice, who reminded me
+to "stay sharp." Part of the reason is to continue to participate in the
+hacker culture that attracted these strong students to my group in the first
+place. But part of the reason is simpler: I still like to hack.
+
+So what to work on? At this point I've decided fairly categorically _not_ to
+take development roles on our research projects, since this is something that
+on every level is better left to my students. Happily, there are still a lot
+of non-research development tasks left for Professor Hacker to work on. Like
+building this website, and updating our http://www.phone-lab.org[PhoneLab]
+infrastructure and tools. I have some new ideas I want to try out in the
+classroom that will require some new online infrastructure, and I've been
+promising myself that after over a decade I would finally repeat the OS
+projects I assign to students footnote:[That's pretty much pure pleasure.].
+So there's enough to keep me busy and give me the opportunity to maintain my
+skill set--keep my code hand dirty, as we say.
+
+And while it may not count as coding, I can always write on our new blog.

@@ -1,0 +1,18 @@
+---
+title: blue Funding
+layout: proposals/index.hbt
+---
+[.lead]
+*link:/[blue] depends on public funding to continue our research and
+educational missions.* We are grateful to American taxpayers for their
+financial support, and also thankful for the support we have received from
+http://www.google.com[Google] and the excellent working relationship we have
+with http://www.sprint.com[Sprint].
+
+We strive to be responsible stewards of the public trust that has been placed
+in us. As part of this goal, we have chosen to make details of our funded
+grant proposals available below. Proposal PDFs contain all the science
+content provided to reviewers, but do not include the proposal budget and
+other supporting documents (facilities statement, investigator biographies,
+etc.) We also hope that other young faculty members may find these documents
+helpful as examples of funded proposals.

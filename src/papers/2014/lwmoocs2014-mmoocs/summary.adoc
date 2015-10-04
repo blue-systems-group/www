@@ -1,0 +1,23 @@
+---
+name: Enabling MOOC Collaborations Through Modularity
+published: lwmoocs
+people:
+- challen
+- margo@eecs.harvard.edu
+git: https://github.com/gchallen/papers.lwmoocs2014-mmoocs
+projects:
+- opsclass
+---
+== Abstract
+
+Massive open online courses (MOOCs) have the potential to transform teaching
+and learning, and their impact is already being felt on university campuses
+and in popular culture. To meet the diverse learning needs of students at
+many institutions, MOOCs must encourage collaboration, not confrontation,
+with the professors using them. Today's online courses, typically created and
+controlled by small groups of faculty, both fail to foster this collaboration
+and also miss the opportunity to leverage the experience and experimental
+capacity present in classrooms across the country. A variety of instructors
+teaching a variety of different students in a variety of different ways
+represents an incredible education resource and living laboratory that MOOCs
+must find a way to harness, not suppress. 

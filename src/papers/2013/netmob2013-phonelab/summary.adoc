@@ -1,0 +1,31 @@
+---
+name: Participant Behavior in PhoneLab
+published: netmob
+people:
+- ans25
+- anudipam
+- mbulut
+- sonaliba
+- tki
+- challen
+- demirbas
+- stevko
+- tkosar
+- qiao
+git: https://github.com/gchallen/papers.netmob2013-phonelab
+projects:
+- phonelab
+funding:
+- 2011-CRI-PhoneLab
+- 2011-GRA-PhoneLab
+poster: true
+---
+== Abstract
+
+This abstract examines the behavior of the participants in PhoneLab, a public
+smartphone testbed being developed at the University at Buffalo. Currently
+consisting of 191 participants using Nexus S 4G smartphones, PhoneLab aims to
+provide a combination of unique features desirable for smartphone
+experimentation. This abstract briefly introduces PhoneLab and presents some
+of the early results of a usage measurement study conducted with 115
+participants. 

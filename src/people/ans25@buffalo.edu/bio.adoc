@@ -1,0 +1,13 @@
+---
+name: Anandatirtha Nandugudi
+role: PhD Student
+slug: ans25
+joined: Fall 2010
+scholar: http://scholar.google.com/citations?user=EIZKxj0AAAAJ&hl
+---
+[.lead]
+I am  a 5th year Ph.D. student. My research interests lie broadly in
+mobile computing and wireless networking. 
+
+I started my PhD. in 2010 after completing my MS in Computer Science here at the University at Buffalo. I'm co-advised by Prof. Chunming Qiao and Prof. Geoffrey Challen. 
+I am planning to defend my dissertation in Spring 2015 and  I'm currently searching for a suitable position after my graduation.

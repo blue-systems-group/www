@@ -1,0 +1,72 @@
+---
+name: Crowdsourcing Available Parking and Available Storage Using Smartphones
+thesis: true
+date: 2015-06-05
+people:
+- ans25
+projects:
+- pocketparker
+- pocketlocker
+- phonelab
+funding:
+- 2011-CRI-PhoneLab
+---
+== Abstract
+
+Smartphones have emerged as the most significant large-scale mobile platform
+in computing history. However, the scale of smartphone experimentation has
+lagged behind. Keeping pace requires new facilities that enable
+experimentation at a scale large enough to ensure that research discoveries
+translate to the ever growing network of smartphone devices.
+
+In this dissertation, we introduce PhoneLab, a smartphone testbed that is
+open for public experimentation. To demonstrate the efficacy of PhoneLab, we
+present results from three research studies conducted on PhoneLab with the
+experiments that ran on participants phones.
+
+In the first study, we present results from a usage characterization
+experiment that ran on 115 phones for 21 days to demonstrate the power of
+PhoneLab for systems research.
+
+In the second study, we present PocketParker, a crowdsourcing system that
+uses smartphones to predict parking lot availability. PocketParker does not
+require explicit user input or additional infrastructure and can run
+effectively without the phone leaving the user’s pocket. We consider
+PocketParker to be an example of a subset of crowdsourcing that we call
+pocketsourcing. Users interact with PocketParker only when looking for
+parking spots. PocketParker detects arrival and departure events by
+leveraging existing activity recognition algorithms. Detected events are used
+to maintain per-lot availability models allows the PocketParker server to
+respond to client availability queries. By estimating the number of hidden
+drivers--those not using PocketParker--we can use a small fraction of
+monitored drivers to estimate arrival and departure rates and make accurate
+predictions. Our evaluation uses multiple data sets to determine the accuracy
+of each PocketParker component and the system as a whole. We show that
+PocketParker quickly and correctly detects parking events, and that our
+availability estimator is accurate and robust to the presence of hidden
+drivers. Finally, we deploy a prototype and use camera monitoring of several
+parking lots to demonstrate PocketParker’s performance in the wild.
+
+In the third and the final study, we present the PocketLocker personal cloud
+storage system. PocketLocker creates scalable, reliable, and performant
+personal storage clouds out of available space distributed across multiple
+personal devices. Designed to store rarely-changed files on both interactive
+devices with limited storage (such as smartphones) and non-interactive
+devices with large amounts of storage (such as storage appliances),
+PocketLocker differs from previous systems in not requiring that each device
+be able to store all available content or be configured to only view certain
+files. Instead, a storage orchestrator running as a cloud service distributes
+erasure-coded file chunks across all available devices to attempt to maximize
+performance and capacity and minimize energy usage at battery-powered clients
+while meeting configurable backup requirements. And unlike current cloud
+storage options, PocketLocker is free and will scale as users add devices to
+their personal cloud.
+
+We motivate PocketLocker’s design by analyzing two months of file access
+traces taken from 100 smartphones, and evaluate its performance both using
+trace-based simulations to explore design parameters and measurements of a
+prototype Android implementation to establish real-world performance. By
+locating file content close to where it will be accessed by mobile devices,
+PocketLocker provides low-latency access to large amounts of content. By
+exploiting mobility and user charging habits, PocketLocker can meet backup
+requirements without draining the smartphone’s battery.

@@ -1,0 +1,125 @@
+{{> header}}
+<div id="content" class="thin">
+  <div class="container">
+    
+    <div class="row links hidden-xs hidden-sm">
+      <div class="col-md-5 text-left">
+        {{#if previous_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ previous_item.path }}">
+            <span class="glyphicon glyphicon-step-backward"></span>
+            {{{ previous_item.name }}}
+          </a>
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-md-5 col-md-push-2 text-right">
+        {{#if next_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ next_item.path }}">
+            {{{ next_item.name }}}
+            <span class="glyphicon glyphicon-step-forward"></span>
+          </a>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-9">
+        <section class="top">
+          <h2>
+            {{#if PDF}}
+            <a class="nopdf" href="{{PDF}}">
+              {{/if}}
+              {{{name}}} {{#if active}}{{else}}(Complete){{/if}}
+              {{#if PDF}}
+            </a>
+            {{/if}}
+          </h2>
+          <a class="anchor" id="people"></a>
+          <div class="h4 authors-ml">
+            <em>Authors:</em> {{ and_list faculty }} <br />
+            {{#if students}}
+              {{#if active}}<em>Supports:</em>{{ else }}<em>Supported:</em>{{/if}} {{ and_list students }}
+            {{/if}}
+          </div>
+          <div class="h4">
+            {{#if ends }}
+            {{format_date started "proposal"}}&ndash;{{format_date ends "proposal" }}
+            {{else}}
+            Awarded {{format_date started "proposal"}}
+            {{/if}}
+          </div>
+          <div class="h4" style="margin-bottom:5px;">
+            {{ amount }} from the 
+            <i>
+              {{#if source.link}}<a href="{{ source.link }}">{{/if}}
+                {{ source.name }}{{#if source.link}}</a>{{/if}}&nbsp;
+              {{#if program.link}}<a href="{{ program.link }}">{{/if}}
+                {{ program.name }}{{#if program.link}} Program</a>{{/if}}
+            </i>
+          </div>
+          <div class="h4">
+            <ul class="list-inline dash-list">
+              {{#if PDF }}
+              <li><a href="{{ PDF }}">Proposal</a></li>
+              {{/if}}
+              {{#if abstract }}
+              <li><a href="{{ abstract }}">Abstract</a></li>
+              {{/if}}
+            </ul>
+          </div>
+        </section>
+        
+        {{{ contents }}}
+
+        {{> projectsandpapers }}
+
+      </div>
+
+      <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
+        <div class="fixed-md">
+          <a href="{{ source.link }}"><img src="{{ logo_166 }}" alt="Sponsor Logo" style="margin-top:21px;" /></a>
+          <div>
+            <ul class="list-unstyled" style="margin-top:20px;">
+              <li>Source: {{ link source }}</li>
+              <li>Amount: {{ amount }}</li>
+              <li>Program: {{ link program }}</li>
+              {{#if ends }}
+              <li>Dates: {{format_date started "proposal"}}&ndash;{{format_date
+              ends "proposal" }}</li>
+              {{/if}}
+            </ul>
+          </div>
+          <div class="h5">
+            <ul class="list-inline dash-list">
+              {{#if projects.list }}
+              <li><a href="#projects">Projects</a></li>
+              {{/if}}
+              {{#if list_papers }}
+              <li><a href="#papers">Papers</a></li>
+              {{/if }}
+            </ul>
+          </div>
+          <div class="h5">
+            <ul class="list-inline dash-list">
+              {{#if PDF }}
+              <li><a href="{{ PDF }}">Proposal</a></li>
+              {{/if}}
+              {{#if abstract }}
+              <li><a href="{{ abstract }}">Abstract</a></li>
+              {{/if}}
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row hidden-md hidden-lg text-center">
+        <a href="{{ source.link }}">
+          <img src="{{ logo_166 }}" alt="Sponsor Logo" />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+{{> footer}}

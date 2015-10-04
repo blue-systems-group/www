@@ -1,0 +1,52 @@
+---
+name: <code>maybe</code> We Should Enable More Uncertain Mobile App Programming
+published: hotmobile
+people:
+- challen
+- jerryant
+- nvdirien
+- okennedy
+- anudipam
+- ans25
+- sriramsh
+- jinghaos
+- gurupras
+- lziarek
+presenters:
+- alijmabe
+- jerryant
+youtube: shJZqLjo88c
+git: https://github.com/gchallen/papers.hotmobile2015-maybe
+projects:
+- maybe
+---
+== Abstract
+
+One of the reasons programming mobile systems is so hard is the wide variety
+of environments a typical app encounters at runtime. As a result, in many
+cases only post-deployment user testing can determine the right algorithm to
+use, the rate at which something should happen, or when an app should attempt
+to conserve energy. Programmers should not be forced to make these choices at
+development time. Unfortunately, languages leave no way for programmers to
+express and structure uncertainty about runtime conditions, forcing them to
+adopt ineffective or fragile ad-hoc solutions.
+
+We introduce a new approach based on _structured uncertainty_ through a new
+language construct: the `maybe` statement. `maybe` statements allow
+programmers to defer choices about app behavior that cannot be made at
+development time, while providing enough structure to allow a system to later
+adaptively choose from multiple alternatives. Eliminating the uncertainty
+introduced by `maybe` statements can be done in a large variety of ways:
+through simulation, split testing, user configuration, temporal adaptation,
+or machine learning techniques, depending on the type of adaptation
+appropriate for each situation. Our paper motivates the `maybe`
+statement, presents its syntax, and describes a complete system for testing
+and choosing from `maybe` alternatives.
+
+== Video
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://www.youtube.com/embed/shJZqLjo88c" allowfullscreen></iframe>
+</div>
+++++

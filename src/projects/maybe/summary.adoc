@@ -1,0 +1,93 @@
+---
+name: Structuring Programmer Uncertainty
+title: Structuring Uncertainty Using the <code>maybe</code> Statement
+started: 2014-09-19
+people:
+- ychen78
+- sriramsh
+- gurupras
+- jinghaos
+- jerryant
+- alijmabe
+- nvdirien
+- anudipam
+- ans25
+- lziarek
+- okennedy
+- challen
+papers:
+- hotmobile2015-maybe
+funding:
+- 2015-GRA-maybe
+---
+[.lead]
+One of the reasons programming mobile systems is so hard is the uncertainty
+created by the wide variety of environments a typical app encounters at
+runtime. In many cases only post-deployment user testing can determine the
+right algorithm to use, the rate at which something should happen, or when an
+app should attempt to conserve energy. Programmers should not be forced to
+make these choices at development time. But today's programming languages
+leave no way for programmers to express and structure their uncertainty about
+runtime conditions, forcing them to adopt ineffective, fragile, and untested
+ad-hoc approaches to runtime adaptation. We introduce a new approach based on
+*structured uncertainty* through a new language construct: the `maybe`
+statement.
+
+Consider the following attempt to adapt to the available battery level by
+establishing a low-battery code path, which might use a slower but more
+energy efficient algorithm or retrieve lower resolution but more compact
+content:
+[source,java]
+----
+if (plugged == false && batteryLevel < 10) { <1>
+  // Try to save energy <2>
+} else {
+  // Don't try to save energy <2>
+}
+----
+Although the attempt to adapt and conserve energy is laudable footnote:[Many
+apps probably don't bother.], there are two serious problems with this
+approach:
+
+<1> This threshold is arbitrary. If the app is the user's favorite, it may
+never make sense to activate the low-battery path.
+<2> The two code paths may or may not produce the desired result. In some
+cases no energy saving may be achieved, and in others the attempt to save
+energy may fail and consume more energy than the other code path.
+
+The root of the problem is that *today's languages force programmers
+to be certain at a moment when they cannot be: at development time.* While
+this problem is endemic to existing programming languages, when developing
+mobile apps it is magnified by the amount of variation developers must
+confront. Our solution is simple: (1) provide developers with a way to
+express _structured uncertainty_, and (2) use the resulting
+flexibility to enable a large array of downstream tools for resolving
+uncertainty by choosing from the alternatives provided by the developer.
+
+[.pullquote]#We allow programmers to express structured uncertainty through a
+new language construct: the `maybe` statement.# Here's how we can rewrite the
+earlier example using a `maybe` statement.
+
+[source,java]
+----
+maybe {
+  // Try it one way
+} or {
+  // Try it another way
+}
+----
+Note the differences from the previous example. Uncertain about how to adapt
+to energy availability, the programmer does not have to implement an
+arbitrary decision threshold, or even determine which code path has what
+effect on energy consumption. Instead, all she has to do is express
+uncertainty by indicating that there are multiple ways to perform this task
+and she is not certain which one to use.
+
+At this point the `maybe` system can take over and use a variety of
+approaches--including post-deployment split testing--to resolve the
+uncertainty and make intelligent runtime decisions. For more details please
+read our link:/papers/hotmobile2015-maybe/[HotMobile'15 paper].
+
+We are currently in the process of building a prototype of the `maybe` system
+which we will evaluate on the link:/projects/phonelab/[PhoneLab Smartphone
+Platform Testbed].

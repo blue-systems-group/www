@@ -1,0 +1,114 @@
+{{> header}}
+
+<div id="content" class="thin">
+  <div class="container">
+    
+    <div class="row links hidden-xs hidden-sm">
+      <div class="col-md-5 text-left">
+        {{#if previous_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ previous_item.path }}">
+            <span class="glyphicon glyphicon-step-backward"></span>
+            {{ previous_item.common.title }} ({{ previous_item.semester}} {{ previous_item.year}})
+          </a>
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-md-5 col-md-push-2 text-right">
+        {{#if next_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ next_item.path }}">
+            {{ next_item.common.title }} ({{ next_item.semester}} {{ next_item.year}})
+            <span class="glyphicon glyphicon-step-forward"></span>
+          </a>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-9">
+        <section class="top">
+          <h2>
+            {{#if syllabus}}
+            <a class="nopdf" href="{{syllabus}}">
+              {{/if}}
+              {{ common.number }} : {{ common.title }}
+              {{#if syllabus}}
+            </a>
+            {{/if}}
+          </h2>
+          <div class="h4">
+            {{semester}} {{year}}
+            ({{format_date started "normal"}}&ndash;{{#if ends}}{{format_date ends "normal" }}{{/if}})
+          </div>
+          <div class="h4 authors-ml">
+            <em>Instructors:</em> {{ and_list instructors }} <br />
+            {{#if staff}}
+            <em>Staff:</em> {{ and_list staff }}
+            {{/if}}
+          </div>
+          <div class="h4" style="margin-bottom:5px;">
+            Enrollment: {{ enrollment }}
+          </div>
+          <div class="h4">
+            <ul class="list-inline dash-list">
+              {{#if website }}
+              <li><a href="{{ website }}">Website</a></li>
+              {{/if}}
+              {{#if syllabus }}
+              <li><a href="{{ syllabus }}">Syllabus</a></li>
+              {{/if}}
+              {{#if videos }}
+              <li><a href="{{ videos }}">Videos</a></li>
+              {{/if}}
+            </ul>
+          </div>
+        </section>
+        
+        {{{ contents }}}
+
+      </div>
+
+      <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
+        <div class="fixed-md">
+          <div>
+            <h4>Instructors</h4>
+
+            <hr class="underline" />
+
+            <ul class="list-unstyled">
+              {{#each instructors }}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+            {{#if staff}}
+            <h4>Staff</h4>
+            
+            <hr class="underline" />
+            
+            <ul class="list-unstyled">
+              {{#each staff }}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+            {{/if}}
+            {{#if volunteers}}
+            <h4>Volunteers</h4>
+            
+            <hr class="underline" />
+            
+            <ul class="list-unstyled">
+              {{#each volunteers }}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+            {{/if}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{> footer}}

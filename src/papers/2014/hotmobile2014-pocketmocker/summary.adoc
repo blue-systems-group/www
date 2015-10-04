@@ -1,0 +1,26 @@
+---
+name: Smartphone Users Want to be Mocked
+published: hotmobile
+people:
+- nvdirien
+- ginobuzz
+- challen
+git: https://github.com/gchallen/posters.hotmobile2014-pocketmocker
+projects:
+- pocketmocker
+funding:
+- 2013-REU-PhoneLab
+poster: true
+---
+== Abstract
+
+We propose a new tool in the battle to allow smartphone users to control
+their digital identities: objective-based context mocking. In contrast to
+privacy-based approaches that try to limit application access to data,
+mocking allows users to manipulate data-driven impressions of their behavior
+in well-defined ways, to appear more fit, more social, or more on-time than
+they actually are. We describe the design of the PocketMocker system which
+uses user-initiated context trace collection and white-hat data analytics
+running on the phone to provide control over the mocking process. We also
+present data from a survey indicating that many users would feel comfortable
+using our system.

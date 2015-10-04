@@ -1,0 +1,40 @@
+---
+name: "A Little Sharing Goes a Long Way: The Case for Reciprocal Wifi Sharing"
+published: hotwireless
+people:
+- jinghaos
+- liwengui
+- dimitrio
+- qiao
+- challen
+projects:
+- pocketsniffer
+funding:
+- 2011-CRI-PhoneLab
+---
+== Abstract
+
+Widespread deployment of private home Wifi access points (APs) can result in
+uncoordinated and overlapping wireless networks that compete with each other
+for limited bandwidth. We expect this suboptimal arrangement to only get
+worse, particularly in the dense urban environments that house an increasing
+fraction of the world's population. Broadband penetration and the demand for
+high-speed Wifi throughout at home will lead to more private APs, which will
+generate more interference for neighboring networks, resulting in even more
+private APs and additional interference, and so on.
+
+In this paper we investigate whether we can prevent this vicious cycle by
+using _reciprocal Wifi sharing_ to make better use of existing private home
+APs. We define reciprocal Wifi sharing as cases where two users both improve
+their network performance by connecting to each other's overlapping private
+Wifi networks. Compared to previous approaches that attempted to use private
+APs to create large-scale open-access Wifi networks, reciprocal Wifi sharing
+relationships more closely mirror existing human relationships and can be
+maintained without elaborate reputation mechanisms.
+
+To evaluate the potential for reciprocal Wifi sharing, we analyze 21 M Wifi
+scans collected from 254 smartphones over 5 months. Our results show that
+even in a sparsely-populated suburban area, reciprocal Wifi sharing can be
+beneficial. And surprisingly, we detected several reciprocal Wifi sharing
+opportunities even within our tiny user sample. Motivated by these results,
+we present the design of WiseFi, a system enabling reciprocal Wifi sharing. 

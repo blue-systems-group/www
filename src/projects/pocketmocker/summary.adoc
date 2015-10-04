@@ -1,0 +1,46 @@
+---
+name: Mocking Smartphone Apps
+title: Increasing Smartphone User Privacy Through Objective-Driven Context Mocking
+started: 2014-02-26
+ended: 2014-11-06
+people:
+- nvdirien
+- ginobuzz
+- ericj
+- dcblady
+- challen
+papers:
+- mobicase2014-pocketmocker
+- hotplanet2014-pocketmocker
+- hotmobile2014-pocketmocker
+---
+[.lead]
+Smartphone apps are already able to determine a great deal about us through
+passive observation, and as smartphone usage becomes more pervasive and
+analytical approaches that fuse data from multiple sensors improve,
+smartphones may reveal fundamental things about us: the strength of our
+friendships, the health of our lifestyle, and our level of happiness. *With
+the digital portraits smartphones can paint becoming more clear, we believe
+it is time to give users more control over their smartphone-derived digital
+identities.*
+
+While many projects on smartphone security focus on trying to preserve user
+privacy, we investigated a different approach. Instead of focusing on
+privacy, we improved control by using synthetic or "mocked" data to
+manipulate data-driven analytics as directed by the user. In contrast to
+privacy, which aims to limit access to data, mocking reduces the percentage
+of legitimate data by injecting false data to achieve user-defined
+objectives: to seem more active, more social, or wealthier.
+
+Eventually, through modifications to the Android platform, our approach was
+able to feed mocked data to unsuspecting apps. The video that follows
+demonstrates a mocking session of a GPS-based mapping app called
+[.spelling_exception]#https://www.waze.com/[Waze]#. Note that the smartphone
+is stationary, yet the app believes that the user is walking around our
+University at Buffalo campus:
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://www.youtube.com/embed/GIqXP6b769c" allowfullscreen></iframe>
+</div>
+++++

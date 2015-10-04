@@ -1,0 +1,77 @@
+---
+common: ops 
+started: 2012-01-17
+ends: 2012-05-10
+semester: Spring
+instructors:
+- challen
+staff:
+- anudipam
+- fengshen
+- sonaliba
+enrollment: 99
+videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp8tllE40n3tHfWXqxFeyFuY"
+---
+++++
+<a class="anchor" id="evaluations"></a>
+++++
+== Evaluations
+
+[cols="60,^20,^20",options='header']
+|===
+
+| {nbsp}
+a| *421*
+a| *521*
+
+| Enrollment | 48 | 51
+| Response Rate (%) | 63 | 88
+| Instructor Rating (out of 5)| 3.3 | 3.8
+| Course Rating (out of 5) | 4.0 | 4.0
+
+|===
+
+++++
+<a class="anchor" id="summary"></a>
+++++
+== Summary
+
+Operating systems are the masterworks of the programming world: beautiful and
+sophisticated solutions to difficult design problems that have emerged from
+years of effort by thousands of skilled programmers. Just like budding
+artists study the works of the great masters for inspiration, we programmers
+study operating systems. While most of you will never contribute a single
+line of code to a production operating system, we hope that by the end of
+"CSE 421/521: Introduction to Operating Systems", you will have learned
+something from their elegance and maturity.
+
+Understanding operating system design will make you a better software
+engineer, and struggling with operating system programming will make you a
+better programmer. CSE 421/521 gives you a chance to do both. We establish a
+_conceptual_ track through lectures and exams, where we discuss the concepts
+and design principles of modern operating systems and how hardware devices
+such as the CPU, memory, and disks are multiplexed and abstracted. Equally
+important, however, is the _programming_ track which proceeds through four
+assignments that give you the chance to implement core operating system
+functionality in a simplified development environment. After studying
+synchronization, you will implement synchronization primitives. After
+studying the system call interface, you will implement it. After studying
+virtual memory and address translation, you will design and implement a
+virtual memory subsystem.
+
+Designing and implementing operating system concepts is not easy, and neither
+is this course. But we are here to help and committed to providing you with
+the support you need to succeed. Our online grading tools provide helpful
+feedback and allow you to repeatedly test and submit your assignments until
+you earn the grade you desire. And our TAs are experienced and will be
+available for many hours each week to provide individual help. We expect that
+you will find this course difficult, but we hope you will also learn a large
+amount, have fun, and develop a passion for computer systems.
+
+== Lecture Videos
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="http://www.youtube.com/embed/videoseries?list=PLE6LEE8y2Jp8tllE40n3tHfWXqxFeyFuY&amp;showinfo=1" allowfullscreen></iframe>
+</div>
+++++

@@ -1,0 +1,30 @@
+---
+name: Ali Ben Ali
+role: PhD Student
+slug: alijmabe
+joined: Fall 2014
+scholar: http://scholar.google.com/citations?user=M4fY6AUAAAAJ&hl=en
+---
+[.lead]
+I'm a first year Ph.D. student at the Computer Science and Engineering
+Department of the State University of New York at Buffalo. My research
+interests are in operating systems, distributed systems, and mobile systems.
+
+I received my B.S. degree in computer science from Kuwait University in 2005.
+After graduation, I decided to work for few years before pursuing my graduate
+studies. In 2011, I moved to New York City to pursue my graduate studies in
+the City College of New York ([.spelling_exception]#CUNY#). I received my
+M.S. degree in computer science from the City College in 2013 and moved back
+to Kuwait. After working again for one year in Kuwait, I received an
+admission offer from University at Buffalo into Ph.D. computer science and
+engineering program for fall 2014 semester and moved to Buffalo since then.
+
+During my graduate studies at the City College, I was a member of research
+group that worked mainly in the fields of data structures, algorithms, and
+computational geometry. C is my primary programming language that I have used
+almost for all my undergraduate and graduate projects. By the time I got
+master's degree, my research interest has shifted to operating systems. Upon
+receiving my PhD admission offer and considering my research options at UB, I
+have decided to work with Prof. Geoffrey Challen in the systems field. I
+joined Blue research group during my first semester at UB and I’m so excited
+about the projects we are working on.

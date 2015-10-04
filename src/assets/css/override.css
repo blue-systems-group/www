@@ -1,0 +1,266 @@
+body {
+  padding-top: 60px;
+  position: relative;
+  color: #333;
+}
+.lead {
+  font-size: 20px;
+}
+.navbar {
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+  border-radius: 0px;
+}
+code {
+  color: #191995;
+  font-weight: bold;
+  font-size: inherit;
+  background-color: inherit;
+  padding: inherit;
+}
+div#content > img {
+  max-width: 100%;
+  height: auto;
+}
+div#content {
+  padding-bottom: 20px;
+}
+#sidebar {
+  top: 80px;
+  bottom: 0;
+  overflow-y: auto;
+  background-color: white;
+  z-index: 1;
+}
+.blue-sidebar {
+  font-size: 0.9em;
+}
+.blue-sidebar.big {
+  font-size: 1em;
+}
+.blue-sidebar .nav>li>a {
+  color: #222;
+  border-left: 2px solid transparent;
+  padding: 5px 10px;
+}
+.blue-sidebar .nav>.active>a, 
+.blue-sidebar .nav>li>a:hover, 
+.blue-sidebar .nav>li>a:focus {
+  text-decoration: none;          
+  text-shadow: 1px 0px 0px;
+  background-color: transparent;  
+}
+.blue-sidebar .nav>.active>a,
+.blue-sidebar .nav>li>a:focus {
+  color: #191995 !important;
+  border-left-color: #191995 !important;
+}
+.blue-sidebar .nav>li>a:hover {
+  border-left-color: #222;
+  color: #222;
+}
+#sidebar > h3:first-of-type {
+  margin-top: 0px;
+}
+a.anchor {
+  display: block; 
+  position: relative; 
+  top: -70px; 
+  visibility: hidden;
+}
+a.footnote {
+  top: -60px;
+}
+ul.dash-list {
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.3;
+  display: inline;
+}
+.dash-list > li {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+}
+.dash-list > li:after {
+  content:  " // ";
+}
+.dash-list > li:last-of-type:after {
+  content: none;
+}
+a.external:after {
+  font-family: "Glyphicons Halflings";
+  font-size: 0.7em;
+  margin-left: 0.3em;
+  content: "\e164";
+}
+.fixed {
+  position: fixed;
+}
+.fixed-xs {
+  position: fixed;
+}
+.text-center-xs {
+  text-align: center;
+}
+.fixed-sm {
+  position: relative;
+}
+.imageblock img {
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 768px) {
+  .fixed-sm {
+    position: fixed;
+  }
+  .text-center-xs {
+    text-align: inherit;
+  }
+}
+
+@media (min-width: 992px) {
+  .fixed-md {
+    position: fixed;
+  }
+  #person {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .fixed-lg {
+    position: fixed;
+  }
+  #person {
+    min-height: 500px;
+  }
+}
+.imageblock {
+  margin-bottom: 10px;
+}
+.imageblock.hascaption {
+  border: 1px solid DarkGrey;
+}
+.imageblock .title {
+  padding: 10px 0px;
+}
+#navbar li {
+  font-size: 1.2em;
+  height: 60px;
+}
+.tableblock td {
+  padding: 0px 0px;
+}
+.halign-center {
+  text-align: center;
+}
+p.tableblock {
+  margin: 0;
+}
+div#post_contents {
+  margin-bottom: 20px;
+}
+a.nodecoration {
+  color: inherit;
+}
+a.nodecoration:hover {
+  text-decoration: none;
+}
+a.nodecoration:focus {
+  text-decoration: none;
+}
+li.menu-selected a {
+  font-weight: bolder;
+  color: #191995;
+}
+.badge.footnote {
+  font-size: 0.7em;
+  background-color: DarkGrey;
+  color: white;
+  vertical-align: top;
+  padding: 2px 5px;
+}
+.default-popover + .popover.in {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.default-popover + .popover > .popover-inner {
+  background-color: white;
+  text-align: left;
+  color: inherit;
+  border: 1px solid LightGrey;
+}
+.default-popover + .popover > .popover-arrow {
+  border-bottom-color: LightGrey;
+}
+.nonopaque {
+  background-color: white;
+  z-index: 1;
+}
+div.bibliography {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid DarkGrey;
+}
+div.posts {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+div.posts .post-title {
+  border-bottom: 1px solid DarkGrey;
+  margin-bottom: 5px;
+}
+div.posts .post-author {
+  margin-bottom: 20px;
+}
+.pulledquote {
+  display: block;
+  float: right;
+  padding: 0 0 0 10px;
+  margin: 0 0 10px 10px;
+  width: 200px;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  text-align: right;
+  border-left: 3px solid DarkGrey;
+}
+#twitter-widget-0 {
+  vertical-align: bottom;
+}
+@media (min-width:960px) {
+  li.menu-selected {
+    border-bottom: 2px solid #191995;
+  }
+}
+div#content {
+  margin-top: 10px;
+}
+div#content.thin {
+  margin-top: 5px;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+hr.underline {
+  margin-top:0px;
+  margin-bottom:5px;
+}
+div.h2.top {
+  margin-top:10.5px;
+  margin-bottom:10.5px;
+}
+section.top > h2:first-of-type {
+  margin-top:10.5px;
+  margin-bottom:10.5px;
+}
+#post_contents h2:first-of-type {
+  margin-top:10.5px;
+  margin-bottom:10.5px;
+}
+#posts-index div.h3:first-of-type {
+  margin-top:10.5px;
+  margin-bottom:10.5px;
+}

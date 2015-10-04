@@ -1,0 +1,30 @@
+---
+name: Sriram Shantharam
+role: Masters Student
+slug: sriramsh
+joined: 2013-08-27
+active: false
+scholar: https://scholar.google.com/citations?user=bbgOUNMAAAAJ
+linkedin: https://www.linkedin.com/pub/sriram-shantharam/14/626/658
+---
+[.lead]
+I'm a second year Masters student. My primary research interest is mobile
+systems and I enjoy developing apps.
+
+I have an undergraduate degree in Electronics and Communication from
+[.spelling_exception]#http://en.wikipedia.org/wiki/Sri_Jayachamarajendra_College_of_Engineering[SJCE].#
+I mostly ignored the electronics part (except during the exams) and
+concentrated on the remaining subjects which mainly dealt with signal
+processing, information theory and beginner AI courses. After graduating, I
+joined Motorola Inc where I worked as an Android app developer. I later
+joined the Push-to-Talk over Cellular team whose VoIP solution is used by
+government agencies in US.
+
+At UB, I initially intended to specialize in AI but ended up liking systems
+more. My primary areas of interest are mobile systems especially Android and machine learning. When I'm on campus I can be usually found in PhoneLab, which has become
+my second home or hanging out at La Rosa Pizzeria in The Commons.
+
+In my free time I explore and photograph little-known places in the city,
+especially on sunny days. I love traveling and recently I've been teaching
+myself how to create 3D models and renders. I also blog occasionally at
+[.spelling_exception]#http://srirambms.github.io.#

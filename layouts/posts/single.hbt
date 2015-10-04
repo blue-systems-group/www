@@ -1,0 +1,81 @@
+{{> posts_header}}
+
+<div id="content" class="thin">
+  <div class="container">
+
+    <div class="row links hidden-xs hidden-sm">
+      <div class="col-md-5 text-left">
+        {{#if previous_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ previous_item.path }}">
+            <span class="glyphicon glyphicon-step-backward"></span>
+            {{{ previous_item.title }}}
+          </a>
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-md-5 col-md-push-2 text-right">
+        {{#if next_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ next_item.path }}">
+            {{{ next_item.title }}}
+            <span class="glyphicon glyphicon-step-forward"></span>
+          </a>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-9">
+
+        <div id="post_contents">
+          {{{ contents }}}
+        </div>
+
+        <hr>
+
+        <div class="h4 spelling_exception">
+          Posted by {{ and_list people }}on {{format_date created "blog" false}}.
+          {{#if modified }}<br>Updated on {{format_date updated "blog" false}}.{{/if}}
+        </div>
+        <div>
+          <div style="display:inline-block; margin-right: 20px;">
+            <a href="/posts/feed.xml">Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="height: 1em" /></a>
+          </div>
+          <div style="display:inline-block; margin-right: 20px;">
+            <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ full_url }}" data-text="{{ title }}" data-hashtags="bluesystemsgroup">Tweet</a>
+          </div>
+          <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button_count"></div>
+        </div>
+
+        <hr />
+
+        <div class="fb-comments" data-href="{{ full_url }}" data-numposts="5"></div>
+      </div>
+
+      <div class="hidden-xs hidden-sm col-md-3 text-right blue-sidebar">
+        <h4>Recent Posts</h4>
+        
+        <hr class="underline">
+        
+        <ul class="list-unstyled">
+          {{#each visible_posts }}
+          <li style="margin-bottom:10px; line-height:1.1em;"><a href="/{{ this.path }}">{{ this.title }}</a></li>
+          {{/each}}
+        </ul>
+        <h4>Future Post Ideas</h4>
+        
+        <hr class="underline">
+
+        <p><a href="https://docs.google.com/document/d/1jMVw8mwJkb4XUEr-7Gi7NrxXqNcholqt7PBDpdsza4w/edit?usp=sharing">Comment on mine, or add some of your
+        
+        <h4 style="margin-top:24px;">
+          <a target="_blank" href="/posts/feed.xml">Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-left: 0.5em; height: 1em" /></a>
+        </h4>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{> footer}}

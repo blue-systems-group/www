@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blue Blog</title>
+    <description>blue is a systems research group.</description>
+    <link>http://blue.cse.buffalo.edu/posts/</link>
+
+    <atom:link href="http://blue.cse.buffalo.edu/posts/feed.xml" rel="self" type="application/rss+xml" />
+
+    {{#each visible_posts}}
+    <item>
+      <title>{{ this.title }}</title>
+      <description>{{ this.excerpt }}</description>
+      <pubDate>{{ format_date created "xml" true }}</pubDate>
+      <link>http://blue.cse.buffalo.edu/{{ this.path }}</link>
+      <guid isPermaLink="true">http://blue.cse.buffalo.edu/{{ this.path }}</guid>
+    </item>
+    {{/each}}
+  </channel>
+</rss>

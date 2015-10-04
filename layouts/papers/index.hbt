@@ -1,0 +1,22 @@
+{{> header}}
+<div id="content">
+  <div class="container">
+    <div class="hidden-xs row text-right" style="margin-top:-5px; margin-bottom: 10px;">
+      <a href="/posts/feed.xml">
+        Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to papers" style="margin-left: 0.5em; height: 1em" /></a>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-11">
+        {{#list_with_years papers}}
+        {{> paper }}
+        {{/list_with_years}}
+      </div>
+
+      <div class="hidden-xs col-sm-1 blue-sidebar">
+      </div>
+    </div>
+
+  </div>
+</div>
+{{> footer}}

@@ -1,0 +1,19 @@
+---
+name: The Case for Power Agile Computing
+published: hotos
+people:
+- challen
+- mhempstead@drexel.edu
+git: https://github.com/gchallen/papers.hotos2011-agile
+projects:
+- poweragility
+scholar: http://scholar.google.com/citations?view_op=view_citation&hl=en&citation_for_view=VS9wzBsAAAAJ:2osOgNQ5qMEC
+---
+== Abstract
+
+This paper outlines the principles of power-agile computing. To begin, we
+design a heterogeneous power-proportional device to illustrate the size and
+diversity of the state space inherent to these architectures. Next, we
+present a scenario demonstrating our device responding to changes in demand.
+Using this scenario, we develop a set of challenges inherent to power-agile
+operation and discuss approaches to overcoming them.

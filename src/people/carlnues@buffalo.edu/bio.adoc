@@ -1,0 +1,14 @@
+---
+name: Carl Nuessle
+role: PhD Student
+slug: carlnues
+joined: 2013
+scholar:
+---
+[.lead]
+I recently completed my masters and a first year student.  I am interested broadly in systems research.
+
+In PhoneLab, I am studying how file access on mobile platforms compares to that of more traditional platforms.
+Looking ahead, I am interested in researching the performance and optimization of system platforms.  I am a
+returning student with a formal math background.  Much has changed since the days of Pascal.
+

@@ -1,0 +1,22 @@
+---
+common: acs
+started: 2011-08-29
+ends: 2011-12-19
+semester: Fall
+instructors:
+- challen
+- stevko
+enrollment: 23
+---
+++++
+<a class="anchor" id="summary"></a>
+++++
+== Summary
+
+This course is intended to be an introduction to systems research for more
+advanced graduate students. Our goal is to attempt to give students an
+introduction to the research process: identifying and investigating a
+research question, and rapidly prototyping a novel computer system. The
+course is structured around a student-proposed group project and class time
+discussing systems research papers. In order to keep the class a manageable
+size, the course is capped at around 20 students.

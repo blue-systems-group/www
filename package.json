@@ -1,0 +1,15 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "blue.cse.buffalo.edu website sources. For use with the metalsmith-blue website builder.",
+  "readmeFilename": "README.adoc",
+  "author": {
+    "name": "Geoffrey Challen",
+    "email": "challen@buffalo.edu"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.8.5",
+    "metalsmith-blue": "^0.1.1"
+  }
+}

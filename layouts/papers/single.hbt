@@ -1,0 +1,169 @@
+{{> header}}
+
+<div id="content" class="thin">
+  <div class="container">
+    
+    <div class="row links hidden-xs hidden-sm">
+      <div class="col-md-5 text-left">
+        {{#if previous_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ previous_item.path }}">
+            <span class="glyphicon glyphicon-step-backward"></span>
+            {{{ previous_item.name }}}
+          </a>
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-md-5 col-md-push-2 text-right">
+        {{#if next_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ next_item.path }}">{{{ next_item.name }}}<span class="glyphicon glyphicon-step-forward"></span>
+          </a>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-9">
+        <section class="top">
+          <h2>
+            {{#if PDF}}
+            <a class="nopdf" href="{{PDF}}">
+              {{/if}}
+              {{{name}}}
+              {{#if PDF}}
+            </a>
+            {{/if}}
+            {{#if invited}}(Invited){{/if}}
+            {{#if poster}}(Poster){{/if}}
+            {{#if thesis}}(Thesis){{/if}}
+          </h2>
+          <div class="h4">
+            {{ and_list people }}
+          </div>
+          {{#if conference }}
+          <div class="h4" style="margin-bottom:5px;">
+            {{#if toappear}}To appear in{{/if}}
+            <i>
+              {{ published.preface }}
+              {{#if conference.link}}
+              <a href="{{ conference.link }}">
+                {{/if}}
+                {{ conference.number}} {{ published.name }} ({{ conference.shortname }})
+                {{#if conference.link}}
+              </a>
+              {{/if}}
+            </i>
+          </div>
+          {{/if}}
+          {{#if thesis }}
+          <div>
+            Defended {{ format_date date "normal" }}
+          </div>
+          {{/if}}
+          <div class="h4">
+            <ul class="list-inline dash-list">
+              {{#if this.PDF }}
+              <li><a href="{{ this.PDF }}">{{#if poster}}View{{else}}Read{{/if}}</a></li>
+              {{/if}}
+              {{#if this.scholar }}
+              <li><a href="{{ this.scholar }}">Cite</a></li>
+              {{/if}}
+              {{#if this.git }}
+              <li><a href="{{ this.git}}">Clone</a></li>
+              {{/if}}
+              {{#if this.slides }}
+              <li><a href="{{ this.slides }}">Talk</a></li>
+              {{/if}}
+            </ul>
+          </div>
+          {{#if projects }}
+          <div class="h4 hidden-md hidden-lg">
+            <em>Projects:</em> {{ and_list projects }}
+          </div>
+          {{/if}}
+        </section>
+
+        {{{ contents }}}
+
+      </div>
+
+      <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
+        <div class="fixed-md">
+          {{#if projects}}
+          <h4><a href="/projects/">Projects</a></h4>
+          
+          <hr class="underline">
+
+          <ul class="list-unstyled">
+            {{#each projects }}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
+          {{/if}}
+
+          {{#if people}}
+          <h4><a href="/people/">People</a></h4>
+          
+          <hr class="underline">
+
+          <ul class="list-unstyled">
+            {{#each people}}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
+          {{/if}}
+          
+          {{#if funding}}
+          <h4><a href="/papers/">Funding</a></h4>
+
+          <hr class="underline">
+
+          <ul class="list-unstyled">
+            {{#each funding}}
+            <li><a href="/{{path}}">{{ source.shortname }} ({{ year }})</a></li>
+            {{/each}}
+          </ul>
+          {{/if}}
+
+          {{#if conference }}
+          {{#if conference.link}}
+          <h4><a href="{{ conference.link }}">{{ conference.shortname }}</a></h4>
+          {{else}}
+          <h4>{{ conference.shortname }}</h4>
+          {{/if}}
+
+          <hr class="underline">
+
+          <ul class="list-unstyled">
+            <li>Date: {{ format_date date "normal" }}
+            {{#if conference_metadata }}
+            {{#if published.core }}
+            <li>
+            <a href="{{ published.core.link}}"> {{ published.core.name }}</a>:
+            {{published.core.rank}}
+            </li>
+            {{/if}}
+            {{#if conference.acceptance }}
+            <li>Acceptance rate: {{ conference.acceptance }}%</li>
+            {{/if}}
+            {{/if}}
+            {{#if conference.location }}
+            <li>Location: <span class="spelling_exception">{{ conference.location }}</span></li>
+            {{/if}}
+          </ul>
+          {{/if}}
+
+          <h4 style="margin-top:24px;">
+            <a target="_blank" href="/posts/feed.xml">Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to papers" style="margin-left: 0.5em; height: 1em" /></a>
+          </h4>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{{> footer}}

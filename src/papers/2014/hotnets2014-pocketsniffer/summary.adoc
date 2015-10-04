@@ -1,0 +1,31 @@
+---
+name: Crowdsourcing Access Network Spectrum Allocation Using Smartphones
+published: hotnets
+people:
+- jinghaos
+- zguan2
+- qiao
+- melodia@ece.neu.edu
+- dimitrio
+- challen
+git: https://github.com/gchallen/papers.hotnets2014-pocketsniffer
+projects:
+- pocketsniffer
+funding:
+- 2011-CRI-PhoneLab
+---
+== Abstract
+
+The hundreds of millions of deployed smartphones provide an unprecedented
+opportunity to collect data to monitor, debug, and continuously adapt
+wireless networks to improve performance. In contrast with previous mobile
+devices, such as laptops, smartphones are _always on_ but _mostly idle_,
+making them available to perform measurements that help other nearby active
+devices make better use of available network resources. We present the design
+of PocketSniffer, a system delivering wireless measurements from smartphones
+both to network administrators for monitoring and debugging purposes and to
+algorithms performing real-time network adaptation. By collecting data from
+smartphones, PocketSniffer supports novel adaptation algorithms designed
+around common deployment scenarios involving both cooperative and
+self-interested clients and networks. We present preliminary results from a
+prototype and discuss challenges to realizing this vision.

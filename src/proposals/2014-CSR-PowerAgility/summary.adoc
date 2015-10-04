@@ -1,0 +1,92 @@
+---
+name: "CSR: Medium: Collaborative Research: Architecture and System Support for Power-Agile Computing"
+link: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1409367"
+abstract: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1409367"
+started: 2014-09-01
+ends: 2016-09-01
+amount: 561766
+source: NSF
+program: CSR
+rate: 20
+faculty:
+- challen
+- mhempstead@drexel.edu
+students:
+- gurupras
+- jerryant
+- rb639@drexel.edu
+projects:
+- poweragility
+papers:
+- hotmobile2014-poweragility
+- hotos2011-poweragility
+---
+== Summary
+
+As energy management on energy-constrained devices continues to challenge
+researchers and frustrate users, device designs are addressing the problem by
+integrating more hardware components that can trade off energy and
+performance. Dynamic voltage-and-frequency scaling (DVFS) allows CPUs
+and memory to trade off speed and energy, buffering and polling rates allow
+radios to trade off latency and energy, and screen refresh rates allow
+displays to trade off quality and energy. And as the Dark Silicon utilization
+wall forces systems to choose what parts of the CPU to operate, the
+already-large configuration space will explode. This proposal refers to the
+emerging class of devices integrating multiple energy-proportional components
+as _power-agile_, reflecting their potential ability to adaptively
+reallocate energy usage between components to improve performance and save
+energy. But as energy-management features proliferate, new interfaces
+enabling coordination between applications, the operating system (OS), and
+hardware are urgently needed to realize the potential energy and performance
+benefits.
+
+=== Intellectual Merit
+
+Our proposal describes a new architecture for power-agile systems with both
+novel interfaces that cleanly separate energy management responsibilities and
+a new approach to energy allocation driven by differences in hardware energy
+efficiency. Applications use _resource requests_ to allocate energy between
+hardware components, making their resource needs explicit. The OS manages
+energy by using the application's priority to determine an _inefficiency
+allocation_, which controls how much extra energy the application can consume
+to improve performance. Hardware energy usage is controlled through
+per-component _energy constraints_, which facilitate OS control while
+allowing components to maximize constrained performance. By improving energy
+coordination and allocation, the system achieves energy-efficient performance
+not currently possible.
+
+Enabling power agility requires research at both the application-OS and
+OS-hardware boundary. At the application-OS boundary we will invent a new
+interface allowing applications to allocate energy between components that
+expose energy-efficiency tradeoffs. This interface requires new ways to
+describe energy balance between components, language support for programmer
+annotations to guide the tuning process, and libraries of algorithms to
+support unannotated applications. Resource request traces will also help
+inform hardware design and consumer purchases in exciting and novel ways. At
+the OS-hardware boundary, a new energy management interface must be invented
+allowing the operating system to effectively set energy constraints, and new
+ways to support this interface in hardware must be explored.
+
+While resource requests allow applications to adjust energy balance between
+components, the OS must remain in control of total energy usage in order to
+prioritize energy between applications and over time. Because the energy
+efficiency of many hardware components changes along with their
+energy-performance settings, we propose to investigate inefficiency as an
+novel energy allocation mechanism. This approach has the potential to address
+many of the limitations of previous attempts at OS energy management.
+
+=== Broader Impact
+
+The proposed broader impact activities will excite the next generation of
+computer scientists about power-agile design and build a shared knowledge and
+development base within the energy management community. First, a
+publicly-available component energy usage database will be established and
+seeded with both device and component energy measurements and workloads
+developed during the project. This will meet a critical need in the energy
+management community, as reliable numbers for components are difficult to
+obtain and few appropriate workloads are available. Standardizing and sharing
+this information will accelerate research in this area. Second, support for
+energy-proportional components and Dark Silicon features will be added to the
+popular `gem5` simulator and made available for other researchers to use.
+Finally, a new graduate course on power-agile computing will be developed and
+taught by the co-PIs.

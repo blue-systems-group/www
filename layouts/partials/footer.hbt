@@ -1,0 +1,30 @@
+<div class="container">
+  <div class="row" style="margin-top: 10px; margin-bottom: 20px;">
+    <div class="col-xs-12">
+      <hr />
+    </div>
+    <div class="col-xs-12 col-md-4 text-center">
+      Forged with <a href="http://www.metalsmith.io/" target="_blank">Metalsmith</a>
+    </div>
+    <div class="col-xs-12 col-md-4 text-center">
+      Last updated {{ format_date build_date "normal" false }}
+    </div>
+  </div>
+</div>
+
+<script>
+var cb = function() {
+  var s = document.createElement("script");
+  s.src = "/assets/js/site.min.js";
+  document.body.appendChild(s);
+};
+var raf = requestAnimationFrame || mozRequestAnimationFrame || webkitRequestAnimationFrame || msRequestAnimationFrame;
+if (raf) {
+  raf(cb);
+} else {
+  window.addEventListener('load', cb);
+}
+</script>
+
+</body>
+</html>

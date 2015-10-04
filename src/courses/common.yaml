@@ -1,0 +1,16 @@
+ops:
+  number: "CSE 421/521"
+  title: "Introduction to Operating Systems"
+  slug: "UB_421"
+acs:
+  number: "CSE 622"
+  title: "Advanced Computer Systems"
+  slug: "UB_622"
+sustainability:
+  number: "CSE 720"
+  title: "Smartphone Sustainability"
+  slug: "UB_720"
+personalclouds:
+  number: "CSE 720"
+  title: "Personal Cloud Computing"
+  slug: "UB_720"

@@ -1,0 +1,111 @@
+---
+name: "CI-ADDO-NEW: PhoneLab: A Programmable Participatory Smartphone Testbed"
+link: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1205656"
+abstract: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1205656"
+started: 2012-06-01
+ends: 2016-06-01
+amount: 1322510
+source: NSF
+program: CRI
+rate: 12
+faculty:
+- challen
+- demirbas
+- stevko
+- tkosar
+- qiao
+students:
+- maulikda
+- ans25
+- anudipam
+- jinghaos
+- alijmabe
+- carlnues
+- sriramsh
+- tki
+- tongguan
+- bhaavyaa
+- ginobuzz
+- manojmyl
+projects:
+- phonelab
+spelling_exceptions:
+- MoteLab
+- PlanetLab
+- EmuLab
+---
+== Summary
+
+The expanding capabilities and growing number of smartphones are producing a
+new computing ecosystem integrating phones, users, and the Internet. The
+power of smartphones is truly transformative--users now rely on their phones
+to locate their friends, identify the song playing at a restaurant, stream
+video and music, provide instant access to information, and help document
+their lives, all in addition to placing phone calls and sending text
+messages. However, with this new computing paradigm come new challenges:
+utilizing multiple radio technologies and integrated sensors, harnessing
+powerful processors to support demanding applications, and efficiently moving
+data to devices. _Yet, despite the challenges and transformative nature
+of smartphones, no public research testbed exists enabling large-scale
+realistic smartphone experimentation._
+
+We propose to develop PhoneLab, a new scientific instrument enabling
+smartphone research in a realistic environment at a scale not previously
+possible. Targeting 1,000 programmable Android devices supported by backend
+servers and distributed to University at Buffalo students, PhoneLab will provide the
+*power*, *scale*, *realism* and *density* required to enable the
+next-generation of mobile computing research.
+
+=== Intellectual Merit
+
+_PhoneLab will harness the potential of smartphones_ by allowing researchers
+to experiment with mobile operating system design, wireless networking,
+distributed algorithms, and smartphone applications. PhoneLab provides
+*power*, allowing the modification of smartphone operating systems as well as
+applications, while simplifying instrumentation and data collection to
+facilitate efficient experimentation. PhoneLab provides *scale*, allowing
+researchers access to an order-of-magnitude more participants than typically
+used by smartphone studies. By minimizing experimental disturbance, PhoneLab
+provides *realism*, ensuring that participants use their smartphones as they
+would normally. And, by facilitating access to a colocated group of
+participants, PhoneLab provides the *density* to enable peer-to-peer
+applications or infrastructure-driven experimentation. PhoneLab will
+accelerate research on smartphone applications, networking, infrastructure,
+and system software, providing a standardized environment where experiments
+can be validated and compared.
+
+=== Broader Impact
+
+PhoneLab will be a publicly-available
+open-access testbed. Considering the research impact of other similar
+instruments--EmuLab on distributed systems, PlanetLab on wide-area
+networking, and MoteLab on sensor networking--we anticipate that
+_PhoneLab will accelerate smartphone research._ Given the sensing and
+inference capabilities of the smartphones, we expect PhoneLab to engage
+computer scientists from a broad range of sub-disciplines. Wireless
+networking, distributed systems, operating systems, mobile sensing, social
+networking, crowdsourcing, and many other sub-disciplines will find uses for
+the testbed. PhoneLab is designed to enable their research.
+
+PhoneLab will also play a vital role in teaching and learning. At the
+secondary level, we will encourage and support middle- and high-school
+students to use PhoneLab for science projects. At the college level, PhoneLab
+will enable a host of new testbed-based assignments in computer science and
+engineering courses. PhoneLab will help excite the next generation of
+computer scientists and developers by exposing them to the potential of
+smartphones. U.S. leadership in mobile computing depends on our ability to
+teach these skills, and PhoneLab provides a useful tool to this end.
+
+=== Partnerships
+
+We are actively collaborating with both Google--who develops the Android
+platform--and Sprint, a major nationwide wireless carrier. Google provided
+seed funding for an initial small-scale PhoneLab testbed currently under
+development. Sprint has entered into a unique partnership with the University
+at Buffalo allowing us to offer attractive incentives to participants while
+reducing the cost to the NSF. With our deal, Sprint assumes 55% of the total
+cost of the incentives required to maintain PhoneLab at 1,000 participants;
+each participant will receive a free Android smartphone as well as the
+monthly discount of 42% in addition to the typical 10% student discount
+available to University at Buffalo students. The total cost saving for each
+participant over 4 years will be over $2,000.

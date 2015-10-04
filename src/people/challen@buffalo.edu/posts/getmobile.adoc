@@ -1,0 +1,135 @@
+---
+created: 2015-05-20T22:30:54.719Z
+---
+== Why I'm Editing a GetMobile Column
+
+[.snippet]
+--
+[.lead]
+A few months ago [.spelling_exception]#http://www.cs.toronto.edu/~delara/[Eyal de Lara]#
+approached
+me about editing a column for the SIGMOBILE
+http://www.sigmobile.org/pubs/getmobile/[GetMobile] magazine, which is
+replacing a previous incarnation known as the Mobile Computing and
+Communications Review (MC^2^R) footnote:[I've heard MC^2^R described as
+"venerable", but I had never heard of it until very recently.]. I considered
+the offer for as long as I was able, because there were two very good reasons
+to say no. First, I don't need anything else to do. Second, I don't need
+anything else to read--at least not about mobile systems. I've heard
+that concern echoed by others who, like me, take their work-related magazines
+footnote:[I'm looking at you, "Communications of the ACM"] on the shortest-path trip from
+mail slot to recycle bin. But in the end I did end up agreeing to edit a new
+column. Given that the main goal of this post is to convince some of you to
+contribute to this new endeavor, [.readmore]#let me try to explain why.#
+--
+
+=== It's Not About Me
+
+First, let me say that this was in no way a CV-boosting move. Over time I
+have learned, like other junior faculty before me, to be more careful about
+issuing blanket agreements to participate in the review and publication
+process. [.pullquote]#Thankfully requests to review journal articles have an
+"Unavailable" option.# I could be at sea without Internet access, or in the
+hospital, or taking care of new quadruplets, or have lost all use of my
+fingers, or just not want to read what looks like a long and terrible
+research paper and have it and its revisions haunt me for years. That
+"Unavailable" options provides so much useful ambiguity... Plus, the rename
+has ensured that GetMobile sounds more like a teenage zine than the kind of
+venerable and reputable "Transactions of"-type publication that a
+status-conscious junior faculty member would want to be mixed up with. So
+believe me or not: whether this would be a good thing for me to do for me
+didn't cross my mind.
+
+=== Some Magazines Are Good
+
+The main thing I considered is what would I want a mobile systems magazine to
+be like? Again, I certainly don't need more to read--just keeping up with the
+major conference proceedings related to my area would be a full-time job. At
+the same time, I do like to read magazines. Well, to be exact, as my partner
+and friends know very well, I read to read _one_ magazine specifically:
+http://www.newyorker.com/[The New Yorker].
+
+I have been a New Yorker subscriber for years now and read it
+semi-religiously. I skip the fiction pieces (and issues), some of the less
+interesting "Talk of the Town" items, and [.spelling_exception]#Sasha
+Frere-Jones's# self-promotional attempts to write about pop music, but
+otherwise read it weekly almost cover-to-cover. I'm aware of at least some of
+its many shortcomings. It has a specific style, publishes way too many
+articles related to health and medicine, sneers repeatedly at West Coast
+technology culture, and occasionally allows
+[.spelling_exception]#Jonathan Franzen# to let his bird obsession
+http://www.newyorker.com/magazine/2015/04/06/carbon-capture[get the better of
+him]. But overall it's fantastic and has been consistently so during the
+years I've been a subscriber. Reading the New Yorker has improved my own
+writing, and it's pretty much the only reason I know anything about anything
+unrelated to smartphones and mobile systems footnote:[Like did you know that
+they are starting to use psychedelics
+http://www.newyorker.com/magazine/2015/02/09/trip-treatment[to treat
+depression associated with terminal illness?] I'm praying this is legal
+before it's my turn to go...].
+
+[.pullquote]#What's nice about reading articles about technology in popular
+magazines is that the _cognitive load_ is much lower compared with a research
+paper.# This isn't entirely because the research paper is more detailed,
+although that's undeniably part of what makes them denser and more complex.
+Partly it's just because popular articles are _better written_ than most
+research papers: more interesting, clearer, possessing a captivating
+narrative arc, and freed from the formulaic "Introduction, Contributions,
+Motivation, Design, ..." structure that research papers are expected to
+follow.
+
+=== I Want to Want to Read This
+
+So that's part of what I see as the potential for a mobile system magazine:
+*to publish articles that are technically illuminating while being easier and
+more fun to read than the research papers we are all constantly bombarded
+with.* Things that I want to read, not just have to read or feel like I
+should read. And part of the goal for my column will be to get contributions
+to that level of quality and readability.
+
+Of course, no promises about my ability to actually facilitate that process,
+given that my credentials for this role are limited to (1) writing a lot of
+research papers and (2) reading a lot of New Yorker articles. But one of my
+strategies for achieving this is to encourage contributors _not_ to start
+with or pull text from research papers. Too many of the things I've read in
+research magazines seem to have that lineage, and I think it's hard to start
+with a research paper and get it anywhere close to realizing the full
+potential of the magazine format.
+
+=== Use the Past to Predict the Future
+
+Magazines also give us the option to break away from the structural
+single-project confines of the research paper, another freedom that should
+make it possible to create more interesting and readable pieces. One way that
+you see this manifesting itself is in the form of retrospectives, like
+http://www.sigmobile.org/pubs/getmobile/articles/Vol18Issue4_1.pdf["A Brief
+History of Cloud Offload"] by
+[.spelling_exception]#https://www.cs.cmu.edu/~satya/[Satya]# in the last
+edition of GetMobile. I think that these can be extremely interesting, at
+least when they are more than a string of "paper-lets" arranged in
+chronological order.
+
+For my column I've settled on asking contributors to connect cutting-edge
+pre-publication research with past work in similar or related areas: to "use
+the past to predict the future" in the words of the mantram that I repeat in
+front of my operating systems students. *So my second goal is to use the
+column to provide the kind of context that a good retrospective can deliver,
+but put in the service of motivating, explaining, or even dismissing new
+research directions.*
+
+=== I'm Just the Editor
+
+So if you think that you're up to the dual challenges of _both_ using the
+mobile systems past to predict the mobile systems future, and putting
+together a piece that paper-weary mobile systems researchers will want to
+settle in to a comfortable chair with a comfortable beverage to enjoy, please
+mailto:challen@buffalo.edu[contact me directly]. Editors are standing by.
+
+To be honest, I have no idea if this will work. Maybe the community really
+doesn't need this venue. Maybe it's already covered by
+http://www.wired.com[Wired], http://makezine.com[Maker], and the
+http://www.technologyreview.com[MIT Technology Review] footnote:[I wouldn't know.
+I only read the New Yorker!]. Maybe mobile systems researchers just can't
+write and edit well enough to produce things that we'll be excited to read.
+But at least now if it doesn't work, it won't be because you didn't know what
+I was trying to do.

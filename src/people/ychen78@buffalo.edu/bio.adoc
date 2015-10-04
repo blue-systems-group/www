@@ -1,0 +1,28 @@
+---
+name: Yihong Chen
+role: PhD Student
+slug: ychen78
+joined: 2014-10-14
+scholar: http://scholar.google.com/citations?user=FkD_nSQAAAAJ&hl=en
+---
+[.lead]
+I'm a second year Ph.D. student.
+My research interests include smartphone energy management and wearable devices.
+
+We have modified Android Open Source Project to add energy management policy
+framework. We call it link:/projects/jouler/[Jouler]. It provides APIs for
+developers to write their own energy management policy. Related experiments
+show that Jouler works well under both controlled experiments and when
+deployed on the link:/projects/phonelab/[PhoneLab] smartphone platform
+testbed.
+
+I received my B.S. degree in Electrical Engineering from North China
+Institute of Science and Technology in 2008. After that, I got my master
+degree in Software Engineering from Beijing Institute of Technology in 2011.
+As a graduate student, I studied with [.spelling_exception]#Chunxia Zhang#.
+She led us for a project named Theory and Method to Ontology Learning Field
+about Chinese Text, funded by National Natural Science Foundation of China.
+
+I spent one year for some temporary works in China and finally decided to pursue
+a Ph.D. degree. I got offer and joined the University at Buffalo in 2013. I have
+really enjoyed the experience of studying at UB and blue, and I have learned a lot.

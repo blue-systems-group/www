@@ -1,0 +1,26 @@
+---
+name: "Pocket Data: The Need for TPC-MOBILE"
+published: tpctc
+people:
+- okennedy
+- jerryant
+- challen
+- lziarek
+---
+== Abstract
+
+Because embedded database engines, such as SQLite, provide a convenient data
+persistence layer, they have spread along with the applications using them to
+many types of systems, including interactive devices such as smartphones.
+Android, the most widely-distributed smartphone platform, both uses SQLite
+internally and provides interfaces encouraging apps to use SQLite to store
+their own private structured data. As a result, embedded database performance
+affects the response times and resource consumption of both the platforms
+that operation billions of smartphones and the millions of apps that run on
+them--making it more important than ever to characterize smartphone embedded
+database workloads. To do so, we present results from an experiment which
+recorded SQLite activity on 11 Android smartphones during one month of
+typical usage. Our analysis shows that Android SQLite usage produce queries
+and access patterns quite different from canonical server workloads. We argue
+that evaluating smartphone embedded database will require a new benchmarking
+suite, and we use our results to outline some of its characteristics. 

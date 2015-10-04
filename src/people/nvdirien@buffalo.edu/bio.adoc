@@ -1,0 +1,39 @@
+---
+name: Nick DiRienzo
+role: Undergraduate
+slug: nvdirien
+joined: 2013-11-30
+active: false
+scholar: https://scholar.google.com/citations?user=qwcFsGsAAAAJ&hl=en
+spelling_exceptions:
+- Corso
+- Optimizely
+---
+[.lead]
+I am a fourth-year computer science undergraduate working in blue through the
+PhoneLab REU. My interests are primarily in mobile systems and distributed
+systems, and I generally love software engineering. I am also a Teaching
+Assistant for Distributed Systems and Intro to Computer Science.
+
+I joined link:http://mort11.org/[MORT], my high school's
+link:http://www.usfirst.org/roboticsprograms/frc[FIRST Robotics Competition]
+team, which exposed me to Java and robotics. During my senior year, I led the
+programming team for MORT where I taught students Java and developed our
+[.spelling_exception]#tele-operational# and autonomous processes. 
+
+I joined the University at Buffalo in 2011, and instantly started working in
+Dr. Jason Corso's group, which introduced me to academic research and helped
+hone my programming skills. From August 2012 to May 2014, I was president of
+link:http://ubacm.org[UB ACM] where I started a tech talk series, weekly hack
+nights, and link:http://ubhacking.com[UB Hacking], our university's annual
+hackathon. In November 2013, I joined PhoneLab, where I jumped right into
+mobile systems research working alongside Geoffrey Challen.
+
+Since my first-year, I have interned with Google (in 2012 and 2013) and
+link:https://www.optimizely.com/[Optimizely] (in 2014). After graduation, I
+will be joining Optimizely as a Software Engineer, where I will be helping
+companies turn data into action.
+
+My personal site can be found at
+link:http://nickdirienzo.com[nickdirienzo.com] where you can find more
+projects and information.

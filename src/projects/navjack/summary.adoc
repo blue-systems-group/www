@@ -1,0 +1,27 @@
+---
+name: A Sustainable, Mostly-Stationary, City-Scale Sensor Network
+title: "Navjack: Using Discarded Smartphones to Sneak Into Cars"
+started: 2013-11-14
+people:
+- sriramsh
+- schweizer@tk.informatik.tu-darmstadt.de
+- challen
+papers:
+---
+[.lead]
+Ubiquitous personal vehicles are the ideal platform for deploying city-scale
+sensor networks, providing available power, good spatial coverage, and
+predictable quasi-stationary mobility patterns. The challenge is figuring out
+how to get inside the cars operated by thousands of people in an urban area.
+We are exploring a novel way of doing so by *hijacking personal
+navigation devices based on discarded smartphones* to create a large-scale
+sensing platform which we call Navjack.
+
+When the vehicle is on, the Navjack unit guides the user to their destination
+and offers vehicle monitoring capabilities. While the vehicle is off--which
+is most of the time--the Navjack unit acts as a stationary sensing platform
+transmitting data from its own sensors and other sensors deployed on the
+vehicle. Once deployed, we will evaluate the Navjack approach by comparing
+its coverage and cost with other alternatives and address the problem of
+ensuring good spatial coverage by and optimizing sensor queries over
+quasi-stationary Navjack sensor networks.

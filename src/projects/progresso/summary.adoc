@@ -1,0 +1,54 @@
+---
+name: Measuring User-Perceived Latency
+title: "Progresso: Using Progress Bars to Measure User-Perceived Latency for Smartphone Apps"
+started: 2014-11-23
+people:
+- nvdirien
+- brijeshr
+- challen
+spelling_exceptions:
+- SIGCHI
+---
+[.lead]
+Recently, many software applications, particularly mobile apps, have moved
+away from determinate progress bars--those that attempt to progress toward a
+finite end. Instead, apps are utilizing indeterminate progress bars--most
+notably, http://en.wikipedia.org/wiki/Throbber[_throbbers_] like the spinning
+wheel--which have no perceived end. *Progresso is a system designed to use
+indeterminate progress bars to study user-facing latency on mobile devices.*
+While well-written apps employ many strategies to reduce user-perceived
+latency, progress bars appear when those strategies have failed or are not
+employed and the user is asked to explicitly wait. This makes them an ideal
+way to study the causes and consequences of latency affecting smartphone
+apps.
+
+Progress bars are a way to keep the user informed on the status of the
+currently running computation. Deterministic progress bars were introduced to
+computing in 1985 <<progress>>. Due to an increase in app complexity, we are
+less aware of how long processes will take and what they are doing.
+Furthermore, it seems that developers fallback to throbbers whenever the user
+initiates a process that could take some time--no matter the length--such as
+refreshing an inbox, checking for new Facebook stories, or analyzing your
+month's worth of health-related activities. Unfortunately, Android's
+fragmented ecosystem does not make quality control any easier on developers,
+so they have no choice but to deploy to the millions of smartphone users with
+this fallback and hope their users do not wait too long.
+
+[.pullquote]#Progresso aims to shed some light on user-facing latency# by
+instrumenting the Android platform to measure the on-screen time of progress
+bars. Progresso combines low-level Android logging and analysis to measure
+the length of time users wait for apps to complete certain actions, like
+refresh their email Inbox, and to provide developers a new tool to debug
+their apps by monitoring progress bars drawn on-screen. Our first goal is to
+study per-app progress bar usage to determine how long progress bars take and
+how much waits produced by individual progress bars vary. Understanding the
+distribution of progress bar waiting times allows us to eventually identify
+unusually long--or short--progress bars waits and use them to trigger
+detailed logging to attempt to address root causes.
+
+[bibliography]
+
+- [[[progress]]] Brad A. Myers. "The Importance of 
+  Percent-Done Progress Indicators for Computer-Human Interfaces." In
+  _Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+  (CHI '85)_.

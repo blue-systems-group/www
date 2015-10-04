@@ -1,0 +1,327 @@
+---
+created: 2015-08-01T16:06:23.697Z
+---
+
+== To Become More Diverse, CS Programs Must Grow
+
+[.snippet]
+--
+//
+[.lead]
+Recently I've been considering two important challenges to university
+computer science education.
+//
+The first is how to deal with rising enrollments.
+//
+The second is how to improve diversity within CS.
+As a result of thinking about both of these goals, I've realized that they
+are linked in a way that has important consequences--particularly for efforts
+to improve diversity.
+//
+Put simply, *improving diversity in computer science requires universities
+both grow their undergraduate programs and disproportionately attract
+underrepresented students.*
+//
+And the fact that improving diversity is coupled to growth can make things
+more challenging for many departments that are struggling to grow--including
+mine.
+//
+[.readmore.remove]#Click here to read more about this connection and its
+implications.#
+//
+--
+
+=== A Bad Starting Point
+
+Seeing the connection between diversity and growth is easy.
+//
+Every year, a new group of students arrive on campus.
+//
+The ones that already want to study computer science are overwhelmingly white
+or Asian and male for all of the well-known reasons footnote:[Cultural
+stereotypes, role model, video games, etc.].
+//
+For the sake of clarity I'll focus on gender diversity from this point
+forward.
+//
+While computer science has a problem with most forms of diversity--including
+gender, racial, and socioeconomic--they all share the same link between
+growth and improved diversity.
+
+Of course, one of the solutions to the diversity problem in computer science
+is to try and make that group of incoming freshman itself more diverse, but a
+potentially more powerful approach for college educators is to graduate a
+class that's more diverse by improving on the unrepresentative group that we
+start with.
+//
+So imagine that we have 100 new majors of which 80 are male and 20 are
+female.
+//
+To get to an ideal 50/50 male to female split, we have two options:
+
+. _Shrink_: convince 60 men to leave computer science, or
+//
+. _Grow_: attract 60 new women into computer science.
+
+I have no interest in turning away anyone who wants to study computer
+science, so to me shrinking isn't a viable option.
+//
+That leaves us with growth.
+//
+That has interesting corollaries:
+
+* It requires increasing the size of the student population substantially--by
+_at least_ 60% in this example; and
+//
+* it requires attracting students that are _disproportionately female_.
+
+In fact, the _less_ disproportionately female the new students are the _more_ of
+them you need.
+//
+In our example above the fastest way to 50/50 is with 60 new students... *as
+long as all of them are women.*
+//
+If only 83% of them are female you need 120.
+//
+And the gender ratio that you can achieve is bounded by the gender ratio of
+the new students you attract.
+//
+If that group is only 30% female, then even an infinite amount of growth will
+only get you to 30% female.
+
+So this ends up indicating both *what* we have to do (grow) and *how* we have
+to do it. Both aspects are worth more discussion.
+//
+I'm going to focus on growth (what) here and largely leave the growth (how)
+question for another post, particularly given that it intersects with how we
+teach computer science at the introductory level.
+
+=== Growth Is Feasible
+
+But first, is this approach really feasible? Well, not quite, since it's
+unlikely that we'd be able to completely invert the same prevailing cultural
+norms and stereotypes that produced our 20% female entering class and manage
+to attract _only_ women.
+//
+However, I do think that introductory computer science courses are a
+_terrific_ opportunity to help reverse stereotypes about computer science.
+//
+Universities offer degree programs in many areas that high school students
+are unfamiliar with, and freshman and sophomores are frequently
+encouraged to explore courses in new fields.
+//
+At UB, the result is that 65% of students change majors at least once.
+//
+[.pullquote]#So we're not stuck with what we start with, and we have a chance
+to begin a fresh conversation with students of all genders and backgrounds
+about why computer science is so exciting.#
+
+In addition, given how powerful and practical computer abilities are, it
+should be possible to convince students who may be headed in other directions
+that a few computer science courses will be complementary to their other
+studies footnote:[It helps that this is also true. 75% of Harvard
+undergraduates now take an introductory computer science course designed for
+majors.].
+//
+Once we can get them in our classrooms, the onus is on us to get them hooked
+and keep them there.
+
+And finally, computer science just happens to be the most powerful tool
+available to anyone who wants to solve a problem or make the world a better
+place.
+//
+Period.
+//
+That's not a bad selling point.
+
+=== Growth Isn't Automatic
+
+So growth is the answer, but it does require a department that is ready and
+willing to grow.
+//
+Now, from the outside you might think that this would be a natural goal of
+any academic department.
+//
+After all, one of the reasons that many faculty have chosen an academic life
+is that they find what they do to be extremely exciting and enjoy sharing
+that excitement with others.
+//
+Sadly, my experience is that there are many organization factors that get in
+the way of growth and efforts to attract students that should be very normal
+departmental goals.
+
+I expect that a common problem is instructional resources.
+//
+If I had a way to double the size of our student population overnight, it
+would be a serious challenge to our department.
+//
+While we have been growing our faculty head count, faculty hiring is a slow
+process and not something you want to rush if you want high-quality
+colleagues.
+//
+And given that we are living in the shadow of the 90s tech bust, some
+administrators might be reluctant to rapidly add computer science faculty in
+case another downturn is around the horizon.
+//
+(I don't think that this is the case, and neither do several top-tier
+departments that have been hiring extremely rapidly recently
+footnote:[Top-tier departments can probably get away with rapid burst of
+hiring, given their ability to woo away multiple top candidates from
+less-prestigious institutions.].)
+//
+In addition, budgeting for instructional support--in my department, mainly
+funding to support graduate student teaching assistants--is always lagging a
+year behind the numbers in our classrooms.
+
+And then there are the administrative and institutional hurdles.
+//
+Given that these are more specific to each institution, I can only comment on
+my experience at UB--but that has been illuminating enough.
+//
+For reasons that have never been made particularly clear to our faculty
+footnote:[And that I will resist, speculating about, at least for now.], we
+have seen steadily reduced instructional support even as our student
+population has grown.
+//
+Each year, the number of students goes up; each each year, the teaching
+assistant to student ratio goes down, compromising instructional quality and
+the balance between teaching and research in the department.
+
+This is even more curious when you consider that (a) the School of
+Engineering, in which my department is included, is one of the only
+University at Buffalo units that has experienced steady growth over the past
+decade, (b) the computer science department is driving that trend, and (c)
+many of our students are international and pay higher tuition, making our
+growing head count even more profitable.
+//
+And yet, each year as our classes get larger the number of teaching
+assistants per student gets smaller.
+//
+[.pullquote]#In the environment of uncertainty created by shrinking instructional
+resources it's hard to embrace the growth we need to become more diverse.#
+
+==== Pre-College Growth Masks As During-College Growth
+
+A common thread embedded in our department's story is that another factor
+limiting departmental appetites for the growth required by diversity *is
+growth itself!*
+//
+There _is_ an undeniable upswing in interest in computer science that is
+driving enrollments higher at universities nationwide.
+//
+But, as far as I can tell, that growth isn't making our incoming classes much
+more diverse: it's taking us from 100 students with 20 females to 200
+students with (maybe) 45 females.
+//
+So we still have a long way to go.
+
+While it should be something to be celebrated, pre-college growth actually
+creates two problems when it interacts with the during-college growth needed
+to improve diversity.
+//
+First, pre-college growth creates the same problems I've described above for
+departments that are struggling to grow, making them even less inclined to
+embrace more during-college growth.
+//
+When you aren't provided the resources you need to grow, but you're growing
+anyway, the last thing that you want to do is attract _more_ students.
+
+Second, pre-college growth can create the illusion that the department is
+succeeding at attracting students to CS even when it is not.
+//
+Given the increasing number of students arriving at college interested in
+computer science, departments could be growing even when the quality of their
+course offerings are declining and they're losing larger numbers of potential
+students.
+//
+Those departments may not _want_ to be able to separate pre-college growth
+from their ability to attract students on campus, since doing so points out
+problems that may be difficult to address.
+
+=== In Summary: Read the Title Again
+
+To summarize, the connection between diversity and growth results in the
+following recommendations for departments that want to become more diverse:
+
+* *Increase efforts to attract students on campus.*
+//
+Admissions changes will help a bit and pre-college outreach efforts will help
+a bit but what will help a _lot_ is attracting students after they arrive on
+campus.
+//
+Take the chance to reintroduce college students to computer science.
+//
+We're college educators--if we don't do this, nobody else will.
+//
+* *Bend over backwards to attract women and other CS minorities.*
+//
+Counteracting our unrepresentative input pool requires unrepresentative
+growth that brings us back toward a healthy balance.
+//
+But we should also expect that an effective introduction to computer science
+and a healthy departmental environment will attract men and women equally.
+
+There are many ways to accomplish these goals.
+//
+Good intro courses are a big part of the solution.
+//
+While they should be specifically designed with features that drive growth
+and diversity, happily there's a lot of overlap between those objectives.
+//
+[.pullquote]#To a great degree, intro courses that are good at improving
+diversity are just good intro courses.#
+//
+Computer science departments should also be teaching programming as service
+course to huge numbers of non-majors and using those courses as a chance to
+attract new students.
+//
+And we need to make sure that we can accept students that are late to the
+computer science party, with a curriculum that allows them to graduate on
+time and to succeed even if they only start programming as freshman or
+sophomores.
+//
+Unfortunately, I suspect that a lot of departments allow pre-college
+preparation to mask inadequacies in their intro courses, which not only
+doesn't attract new students but actively discourages those that didn't start
+programming in middle school (possibly women) or didn't have access to a
+computer at home (possibly poorer students).
+
+Messaging and on-campus outreach are also important.
+//
+Departments need to send strong positive signals to women and other
+minorities through promotional materials, hiring, and when recognizing
+student achievement.
+//
+Promoting student organizations that specifically try to address diversity in
+STEM (like http://www.scientistafoundation.com/[Scientista]) is important,
+and it's equally ensure that more general computer science student groups
+that _don't_ have improving diversity as their charter (like the
+https://www.acm.org/chapters/students[ACM student chapters]) recognize the
+importance of this issue and work with the department to address it.
+//
+And we need to make sure that underrepresented groups find a welcoming home
+in our field, which requires confronting the overrepresented groups (men)
+with the problems that are sometimes created by their behavior.
+
+==== Growth and diversity: an approach that works
+
+Finally, while at some level the connection is pure math, it's nice to see it
+reinforced by some empirical evidence.
+//
+At Harvard, the enormous success of
+[.spelling_exception]#http://www.thecrimson.com/article/2014/9/11/cs50-breaks-enrollment-records/[CS50]#
+seems to be
+https://medium.com/@winniewu/race-and-gender-among-computer-science-concentrators-at-harvard-1c1943a20457[improving
+diversity].
+//
+And at [.spelling_exception]#Harvey Mudd#,
+http://www.nytimes.com/2012/04/03/science/giving-women-the-access-code.html[well-publicized
+efforts to increase diversity] seem to also be
+http://webcache.googleusercontent.com/search?q=cache:QO2zDIiUCqIJ:tsl.pomona.edu/articles/2013/2/22/news/3604-computer-science-departments-under-strain+&cd=1&hl=en&ct=clnk&gl=us[driving
+growth].
+//
+So efforts at growth help improve diversity, while efforts at improving
+diversity also drive growth.
+//
+Two good things you can have together in a package deal--as long as you're
+able to embrace both.

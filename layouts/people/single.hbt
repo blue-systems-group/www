@@ -1,0 +1,90 @@
+{{> header}}
+
+<div id="content" class="thin">
+  <div class="container">
+
+    <div class="row links hidden-xs hidden-sm" style="margin-bottom:10px;">
+      <div class="col-md-5 text-left">
+        {{#if previous_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ previous_item.path }}">
+            <span class="glyphicon glyphicon-step-backward"></span>
+            {{{ previous_item.name }}}
+          </a>
+        </div>
+        {{/if}}
+      </div>
+      <div class="col-md-5 col-md-push-2 text-right">
+        {{#if next_item}}
+        <div class="h6" style="line-height:1.0;">
+          <a href="/{{ next_item.path }}">{{{ next_item.name }}}<span class="glyphicon glyphicon-step-forward"></span>
+          </a>
+        </div>
+        {{/if}}
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="hidden-md hidden-lg col-xs-12" style="margin-bottom:10px;">
+        <div class="text-center">
+          <img class="img-responsive"
+          src="{{ photo_4_col }}"
+          alt="Photo of {{ name }}"
+          style="border-bottom: 4px solid #191995; margin: 0 auto;">
+          <section>
+            <h2>{{name}}</h2>
+            <h4>{{role}}</h4>
+            <h4><a href="mailto:{{email}}">{{email}}</a></h4>
+            <div class="h4">
+              <ul class="list-inline dash-list">
+                {{#if CV }}
+                <li><a href="{{ CV }}">CV</a></li>
+                {{/if}}
+                {{#if scholar }}
+                <li><a href="{{ scholar }}">Scholar</a></li>
+                {{/if}}
+                {{#if linkedin }}
+                <li><a href="{{ linkedin }}">LinkedIn</a></li>
+                {{/if}}
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="person" class="col-xs-12 col-md-8">
+        {{{ contents }}}
+        {{> projectsandpapers }}
+      </div>
+
+      <div class="hidden-xs hidden-sm col-md-4 blue-sidebar">
+        <div class="fixed-md">
+          <div class="text-center">
+            <img class="img-responsive"
+            src="{{ photo_4_col }}"
+            alt="Photo of {{ name }}"
+            style="border-bottom: 4px solid #191995; margin: 0 auto;">
+            <h2>{{name}}</h2>
+            <h4>{{role}}</h4>
+            <h4><a href="mailto:{{email}}">{{email}}</a></h4>
+            <div class="h4">
+              <ul class="list-inline dash-list">
+                {{#if CV }}
+                <li><a href="{{ CV }}">CV</a></li>
+                {{/if}}
+                {{#if scholar }}
+                <li><a href="{{ scholar }}">Scholar</a></li>
+                {{/if}}
+                {{#if linkedin }}
+                <li><a href="{{ linkedin }}">LinkedIn</a></li>
+                {{/if}}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{{> footer}}

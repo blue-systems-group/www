@@ -1,0 +1,6 @@
+*.swp
+/npm-debug.log
+/node_modules/
+/build
+/src/links_failed.json
+/src/spelling_failed.json

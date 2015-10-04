@@ -1,0 +1,33 @@
+---
+common: sustainability
+started: 2013-08-26
+ends: 2013-12-16
+semester: Fall
+instructors:
+- challen
+enrollment: 8
+website: "https://piazza.com/buffalo/fall2013/cse720/home"
+---
+++++
+<a class="anchor" id="summary"></a>
+++++
+== Summary
+
+Consumer demand for the latest technologies along with carrier replacement
+programs cause smartphones to be discarded three times faster than other
+consumer devices such as laptop and desktop computers. These short lifetimes
+produce large amounts of electronic waste, which is difficult to dispose of
+safely.
+
+This semester we will attempt to address this sustainability challenge by
+addressing energy consumption, frequently cited by users as a top performance
+problem with current smartphones. Redesign, reduce, and reuse will be our
+mantram: redesigning smartphone hardware for improved energy consumption,
+reducing energy usage during active use, and finding novel ways to reuse
+phones after they are discarded, potentially as cheap, easily-deployed
+environmental sensors.
+
+Throughout the semester we will read research papers about smartphone energy
+management and power-aware design. Students will lead discussion and work in
+teams to initiate research projects organized around our sustainability
+theme.
