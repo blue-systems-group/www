@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+
+LOCKFILE="/home/git/www/blue.cse.buffalo.edu/deploy.lock"
+LOCKFD=99
+
+_lock()             { flock -$1 $LOCKFD; }
+_no_more_locking()  { _lock u; _lock xn && rm -f $LOCKFILE; }
+_prepare_locking()  { eval "exec $LOCKFD>\"$LOCKFILE\""; trap _no_more_locking EXIT; }
+
+_prepare_locking
+
+exlock_now()        { _lock xn; }
+
+if ! [ "deploy" == "$1" ]; then
+  exit 1
+fi
+
+exlock_now || exit 0
+
+unset GIT_DIR
+cd /home/git/www/blue.cse.buffalo.edu/
+git fetch --all > /dev/null
+git reset --hard origin/deploy > /dev/null
+if make ; then
+  rsync -ai build/* /mnt/ramdisk/blue.cse.buffalo.edu/build/ | while read unused filename; do
+    curl --request PURGE 'http://127.0.0.1/$filename' > /dev/null 2> /dev/null
+    echo "Updated $filename"
+  done
+  echo "Success. Thanks for updating the website."
+else
+  echo "Build failed. Please try again."
+  exit 1
+fi
