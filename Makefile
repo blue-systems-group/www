@@ -19,4 +19,4 @@ statics:
 	@wget https://platform.twitter.com/widgets.js -O src/assets/js/twitter.js 2>/dev/null
 
 .PHONY:
-	run clean silent
+	run clean silent build
