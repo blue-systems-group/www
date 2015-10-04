@@ -4,5 +4,6 @@
   <div class="container">
     {{{ contents }}}
   </div>
+</div>
 
 {{> footer}}
