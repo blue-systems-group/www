@@ -15,5 +15,5 @@ exlock()            { _lock x; }
 shlock()            { _lock s; }
 unlock()            { _lock u; }
 
-exlock_now || ( echo "Deploy in progress. Exiting." && exit 1 )
+exlock_now || ( echo "Deploy in progress. Exiting." || exit 1 )
 sleep 60
