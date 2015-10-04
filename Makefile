@@ -18,5 +18,4 @@ statics:
 	@wget http://connect.facebook.net/en_US/sdk.js -O src/assets/js/facebook.js 2>/dev/null
 	@wget https://platform.twitter.com/widgets.js -O src/assets/js/twitter.js 2>/dev/null
 
-.PHONY:
-	run clean silent build
+.PHONY: run clean silent build
