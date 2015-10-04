@@ -14,6 +14,6 @@
   "license": "MIT",
   "dependencies": {
     "http-server": "^0.8.5",
-    "metalsmith-blue": "^0.1.1"
+    "metalsmith-blue": "^0.1.2"
   }
 }
