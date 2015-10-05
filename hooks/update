@@ -26,14 +26,14 @@ if ! [ -z "$3" ]; then
   git diff $2 $3 > $WORKING_DIR/patch
   unset GIT_DIR
   cd $WORKING_DIR
-  git fetch origin
-  git reset --hard $2
-  git apply patch
+  git fetch origin > /dev/null
+  git reset --hard $2 > /dev/null
+  git apply patch > /dev/null
   rm patch
 else
   cd $WORKING_DIR
-  git fetch origin
-  git reset --hard origin/deploy
+  git fetch origin > /dev/null
+  git reset --hard origin/deploy > /dev/null
 fi
 
 echo "Building blue.cse.buffalo.edu..."
