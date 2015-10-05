@@ -4,10 +4,15 @@
       <hr />
     </div>
     <div class="col-xs-12 col-md-4 text-center">
-      Forged with <a href="http://www.metalsmith.io/" target="_blank">Metalsmith</a>
+      Built by the
+      <a href="https://www.npmjs.com/package/metalsmith-blue" target="_blank">metalsmith-blue</a>
+      research group website
+      <a href="http://www.metalsmith.io/" target="_blank">Metalsmith</a>
+      pipeline.
     </div>
     <div class="col-xs-12 col-md-4 text-center">
-      Last updated {{ format_date build_date "normal" false }}
+      Created {{ format_date created "normal" false }}. <br />
+      Updated {{ format_date updated "normal" false }}.
     </div>
   </div>
 </div>
