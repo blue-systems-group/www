@@ -52,7 +52,7 @@
             {{/if}}
           </div>
           <div class="h4" style="margin-bottom:5px;">
-            {{ amount }} from the 
+            {{ pretty_amount }} from the 
             <i>
               {{#if source.link}}<a href="{{ source.link }}">{{/if}}
                 {{ source.name }}{{#if source.link}}</a>{{/if}}&nbsp;
@@ -84,7 +84,7 @@
           <div>
             <ul class="list-unstyled" style="margin-top:20px;">
               <li>Source: {{ link source }}</li>
-              <li>Amount: {{ amount }}</li>
+              <li>Amount: {{ pretty_amount }}</li>
               <li>Program: {{ link program }}</li>
               {{#if ends }}
               <li>Dates: {{format_date started "proposal"}}&ndash;{{format_date
