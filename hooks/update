@@ -28,7 +28,7 @@ if ! [ -z "$3" ]; then
   cd $WORKING_DIR
   git fetch origin > /dev/null
   git reset --hard $2 > /dev/null
-  git apply patch > /dev/null
+  git apply patch > /dev/null >> /dev/null
   rm patch
 else
   cd $WORKING_DIR
