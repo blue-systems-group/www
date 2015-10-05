@@ -2,3 +2,9 @@
 
 No documentation here. See the documentation for the website builder,
 https://www.npmjs.com/package/metalsmith-blue[`metalsmith-blue`].
+
+== TODOs
+
+- Add group GitLab link as a Code tab
+- Add personal GitHub links
+- Generate Bibtex references for papers
