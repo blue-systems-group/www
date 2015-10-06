@@ -91,3 +91,14 @@ read our link:/papers/hotmobile2015-maybe/[HotMobile'15 paper].
 We are currently in the process of building a prototype of the `maybe` system
 which we will evaluate on the link:/projects/phonelab/[PhoneLab Smartphone
 Platform Testbed].
+
+== Videos
+
+Geoffrey Challen motivates the link:/projects/maybe[maybe project] at the
+https://gdg-buffalo.github.io/[GDG DevFest Buffalo 2015]:
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://www.youtube.com/embed/9w2J4sqJ2nM" allowfullscreen></iframe>
+</div>
+++++
