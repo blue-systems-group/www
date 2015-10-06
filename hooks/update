@@ -23,7 +23,7 @@ export HOME="/home/git/"
 
 WORKING_DIR=$HOME/www/blue.cse.buffalo.edu/
 if ! [ -z "$3" ]; then
-  git diff $2 $3 > $WORKING_DIR/patch
+  git diff --binary $2 $3 > $WORKING_DIR/patch
   unset GIT_DIR
   cd $WORKING_DIR
   git fetch origin > /dev/null
