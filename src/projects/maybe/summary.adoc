@@ -94,11 +94,20 @@ Platform Testbed].
 
 == Videos
 
+Yihong Chen walk through a screencast of how to set up `maybe` for your own
+Android project:
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://www.youtube-nocookie.com/embed/RYcQ7WVunmc" allowfullscreen></iframe>
+</div>
+++++
+
 Geoffrey Challen motivates the link:/projects/maybe[maybe project] at the
 https://gdg-buffalo.github.io/[GDG DevFest Buffalo 2015]:
 
 ++++
 <div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
 <iframe src="https://www.youtube.com/embed/9w2J4sqJ2nM" allowfullscreen></iframe>
-</div>
 ++++
+

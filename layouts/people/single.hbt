@@ -30,7 +30,7 @@
           <img class="img-responsive"
           src="{{ photo }}"
           alt="Photo of {{ name }}"
-          style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px; object-fit: cover">
+          style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px;">
           <section>
             <h3>{{name}}</h3>
             <h4>{{role}}</h4>
@@ -73,7 +73,7 @@
             <img class="img-responsive"
             src="{{ photo }}"
             alt="Photo of {{ name }}"
-            style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px; object-fit: cover">
+            style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px;">
             <h3>{{name}}</h3>
             <h4>{{role}}</h4>
             <h4><a href="mailto:{{email}}">{{email}}</a></h4>
