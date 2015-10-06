@@ -1,9 +1,5 @@
 = blue Group Website Sources
 
-== TODOs
-
-- Generate Bibtex references for papers
-
 == Installing and Building
 
 . Install https://nodejs.org/en/[`node.js`] and `npm`, the node package manager.
@@ -102,4 +98,10 @@ the word that is being marked as misspelled.
 rebuilt on `blue.cse.buffalo.edu`. *If it fails your push will be rejected and
 you will be asked to fix the changes and try again.*
 
+== TODOs
+
+- Generate Bibtex references for papers
+- GitHub links for projects
+- Update all content
+- Add proposal paper links
 
