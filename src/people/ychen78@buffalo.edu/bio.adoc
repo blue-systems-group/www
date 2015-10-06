@@ -1,7 +1,6 @@
 ---
 name: Yihong Chen
 role: PhD Student
-slug: ychen78
 joined: 2014-10-14
 scholar: http://scholar.google.com/citations?user=FkD_nSQAAAAJ&hl=en
 ---

@@ -1,7 +1,6 @@
 ---
 name: Nick DiRienzo
 role: Undergraduate
-slug: nvdirien
 joined: 2013-11-30
 active: false
 scholar: https://scholar.google.com/citations?user=qwcFsGsAAAAJ&hl=en

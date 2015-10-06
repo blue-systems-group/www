@@ -48,6 +48,16 @@
                 {{/if}}
               </ul>
             </div>
+            <div class="h4">
+              <ul class="list-inline dash-list">
+                {{#if github }}
+                <li><a href="{{ github }}">GitHub</a></li>
+                {{/if}}
+                {{#if active }}
+                <li><a href="http://blue.cse.buffalo.edu/gitlab/u/{{ username }}">Group GitLab</a></li>
+                {{/if}}
+              </ul>
+            </div>
           </section>
         </div>
       </div>
@@ -77,6 +87,16 @@
                 {{/if}}
                 {{#if linkedin }}
                 <li><a href="{{ linkedin }}">LinkedIn</a></li>
+                {{/if}}
+              </ul>
+            </div>
+            <div class="h4">
+              <ul class="list-inline dash-list">
+                {{#if github }}
+                <li><a href="{{ github }}">GitHub</a></li>
+                {{/if}}
+                {{#if active }}
+                <li><a href="http://blue.cse.buffalo.edu/gitlab/u/{{ username }}">Group GitLab</a></li>
                 {{/if}}
               </ul>
             </div>

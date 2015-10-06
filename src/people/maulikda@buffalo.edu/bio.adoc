@@ -1,7 +1,6 @@
 ---
 name: Maulik Dave
 role: PhoneLab Administrator
-slug: maulikda
 active: false
 ---
 [.lead]

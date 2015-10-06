@@ -1,7 +1,6 @@
 ---
 name: Sriram Shantharam
 role: Masters Student
-slug: sriramsh
 joined: 2013-08-27
 active: false
 scholar: https://scholar.google.com/citations?user=bbgOUNMAAAAJ

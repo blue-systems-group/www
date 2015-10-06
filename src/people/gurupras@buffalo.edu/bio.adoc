@@ -1,7 +1,6 @@
 ---
 name: Guru Prasad Srinivasa
 role: PhD Student
-slug: gurupras
 joined: 2012-10-19
 scholar: http://scholar.google.com/citations?user=MvOkpygAAAAJ&hl=en
 ---

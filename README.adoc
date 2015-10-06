@@ -2,8 +2,6 @@
 
 == TODOs
 
-- Add group GitLab link as a Code tab
-- Add personal GitHub links
 - Generate Bibtex references for papers
 
 == Installing and Building
