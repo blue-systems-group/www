@@ -2,7 +2,7 @@ all: build | silent
 
 build:
 	@npm install
-	@./node_modules/metalsmith-blue/bin/blue .
+	@node ./node_modules/metalsmith-blue/lib/index.js .
 
 silent:
 	@:
