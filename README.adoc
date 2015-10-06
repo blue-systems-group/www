@@ -1,10 +1,107 @@
-= Private blue Group Website Sources
-
-No documentation here. See the documentation for the website builder,
-https://www.npmjs.com/package/metalsmith-blue[`metalsmith-blue`].
+= blue Group Website Sources
 
 == TODOs
 
 - Add group GitLab link as a Code tab
 - Add personal GitHub links
 - Generate Bibtex references for papers
+
+== Installing and Building
+
+. Install https://nodejs.org/en/[`node.js`] and `npm`, the node package manager.
+** I suggest you use https://github.com/creationix/nvm[`nvm`] (the node
+version manager) or install node.js from source on Ubuntu. The `apt-get`
+packages are fairly old.
+. Complete your group http://blue.cse.buffalo.edu/gitlab/[GitLab] registration, update your profile and add an SSH
+key
+. `git clone git@blue.cse.buffalo.edu:blue/www.git`. If this doesn’t work, you
+probably don’t have a key installed. Return to Step 2.
+. `cd www; make run`
+** The first time this will take some time since `npm install` is running and
+performing some local compilation. Note that you also need ImageMagick
+installed locally to build the node packages. `sudo apt-get install
+libmagick++-dev` does the trick on Ubuntu 14.04.
+. Open localhost:8080
+. When you edit, rerun `make` and the site will be rebuilt
+** I suggest a three terminal environment, possibly using `screen`: (1) to run
+`make run` (and let the webserver run), (2) to edit and (3) to rerun `make` after
+changing things.
+
+== Adding a Profile
+
+. `cd src/people/<your @buffalo email address>`
+. Edit `bio.adoc` which is in
+http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[AsciiDoc]
+format. Here's a bit of mine as an example:
++
+[source,asciidoc]
+----
+---
+name: Geoffrey Challen
+role: Assistant Professor
+slug: gwa
+joined: 2011-08-29
+scholar: http://scholar.google.com/citations?user=VS9wzBsAAAAJ&hl=en
+linkedin: https://www.linkedin.com/pub/geoffrey-challen/1a/b77/572
+spelling_exceptions:
+- Chuchu
+- Xyz
+- Ziz
+---
+[.lead]
+I'm an Assistant Professor at the http://www.buffalo.edu[University at
+Buffalo], where I lead the link:/[blue Systems Research Group] and also
+direct the http://www.phone-lab.org[PhoneLab].
+----
++
+. The first part of the file (between the "---"s) is http://yaml.org/[YAML]
+front matter which is used to declare attributes. The rest is AsciiDoc text
+which defines the page content.
+. The first graph of your bio is used as the snippet on the people page and
+should be marked [.lead]; the rest appears on your full bio.
+. Please add a square-ish headshot photo in your directory as photo.jpg. Don't
+worry too much about the file size or dimensions—the build script
+automatically creates files that are the right size for the large bootstrap
+layout. (But don't add something huge.)
+. Other things to add (see mine for examples):
+** You can add a CV as CV.pdf in your profile directory and it will be
+automatically linked
+** LinkedIn (in YAML front matter)
+** Google Scholar (in YAML front matter)
+** GitHub (in YAML front matter)
+
+== Deploying
+
+. `make` runs several sets of build-time checks
+** Broken links by
+http://npmjs.com/package/metalsmith-linkcheck[`metalsmith-linkcheck`]. Broken
+external links will not fail the build; broken internal links will.
+** Formatting checks by
+https://www.npmjs.com/package/metalsmith-formatcheck[`metalsmith-formatcheck`].
+*Format failures will fail the build*, but I doubt you'll be changing the
+format much.
+** Spelling checks by
+https://www.npmjs.com/package/metalsmith-spellcheck[`metalsmith-spellcheck`].
+*Spelling failures will halt the build.*
+** I maintain all three of these Metalsmith plugins, so if you find bugs let
+me know.
+
+. If the build doesn’t complete, fix the problems and rerun make. *Don’t commit
+until the build completes.*
+
+. Please check the `links_failed.json` file if it complains. Sometimes
+external broken links are a transient problem, but at least check to make
+sure that you understand what is failing.
+
+. To add spelling exceptions see the documentation for
+https://www.npmjs.com/package/metalsmith-spellcheck[`metalsmith-spellcheck`].
+There are a bunch of ways to do this depending on
+the word that is being marked as misspelled.
+
+. Commit your changes to `master`.
+
+. Merge and push to `develop`. During the push to develop the site will be
+rebuilt on `blue.cse.buffalo.edu`. *If it fails your push will be rejected and
+you will be asked to fix the changes and try again.*
+
+
