@@ -28,11 +28,11 @@
       <div class="hidden-md hidden-lg col-xs-12" style="margin-bottom:10px;">
         <div class="text-center">
           <img class="img-responsive"
-          src="{{ photo_4_col }}"
+          src="{{ photo }}"
           alt="Photo of {{ name }}"
-          style="border-bottom: 4px solid #191995; margin: 0 auto;">
+          style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px; object-fit: cover">
           <section>
-            <h2>{{name}}</h2>
+            <h3>{{name}}</h3>
             <h4>{{role}}</h4>
             <h4><a href="mailto:{{email}}">{{email}}</a></h4>
             <div class="h5">
@@ -71,16 +71,16 @@
         <div class="fixed-md">
           <div class="text-center">
             <img class="img-responsive"
-            src="{{ photo_4_col }}"
+            src="{{ photo }}"
             alt="Photo of {{ name }}"
-            style="border-bottom: 4px solid #191995; margin: 0 auto;">
-            <h2>{{name}}</h2>
+            style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px; object-fit: cover">
+            <h3>{{name}}</h3>
             <h4>{{role}}</h4>
             <h4><a href="mailto:{{email}}">{{email}}</a></h4>
             <div class="h5">
               <ul class="list-inline dash-list">
                 {{#if CV }}
-                <li><a href="{{ CV }}">CV</a></li>
+                <li><a class="noexternal" href="{{ CV }}">CV</a></li>
                 {{/if}}
                 {{#if scholar }}
                 <li><a href="{{ scholar }}">Scholar</a></li>

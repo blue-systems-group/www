@@ -11,7 +11,8 @@
         <div class="row" style="margin-bottom:10px;">
           <div class="col-xs-12 col-sm-3" style="margin-bottom:10px;">
             <a href="/{{ this.path }}">
-              <img class="img-responsive" src="{{ this.photo_2_col }}" alt="Photo of {{ this.name }}" style="margin: 0 auto;">
+              <img class="img-responsive" src="{{ this.photo }}" alt="Photo of {{ this.name }}"
+                   style="margin: 0 auto; height: 162px; width: 162px; object-fit: cover">
             </a>
           </div>
           <div class="col-xs-12 col-sm-9">
@@ -39,7 +40,8 @@
           <a class="anchor" id="{{ this.slug }}"></a>
           <div class="row" style="margin-bottom:10px;">
             <div class="col-xs-12 col-sm-3" style="margin-bottom:10px;">
-              <img class="img-responsive" src="{{ this.photo_2_col }}" alt="Photo of {{ this.name }}" style="margin: 0 auto;">
+              <img class="img-responsive" src="{{ this.photo }}" alt="Photo of {{ this.name }}"
+                   style="margin: 0 auto; height: 162px; width: 162px; object-fit: cover">
             </div>
             <div class="col-xs-12 col-sm-9">
               <div class="text-center-xs">
