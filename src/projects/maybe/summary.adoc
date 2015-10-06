@@ -94,6 +94,6 @@ Platform Testbed].
 
 ++++
 <div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
-<iframe src="https://www.youtube.com/embed/RYcQ7WVunmc" allowfullscreen></iframe>
+<iframe src="https://www.youtube-nocookie.com/embed/RYcQ7WVunmc?rel=0" allowfullscreen></iframe>
 </div>
 ++++
