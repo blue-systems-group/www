@@ -94,7 +94,7 @@ the word that is being marked as misspelled.
 
 . Commit your changes to `master`.
 
-. Merge and push to `develop`. During the push to develop the site will be
+. Merge and push to `deploy`. During the push to `deploy` the site will be
 rebuilt on `blue.cse.buffalo.edu`. *If it fails your push will be rejected and
 you will be asked to fix the changes and try again.*
 
