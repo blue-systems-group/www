@@ -1,7 +1,6 @@
 ---
 name: Brijesh Rakholia
 role: Undergraduate
-slug: brijeshr
 joined: 2015-02-1
 scholar: https://scholar.google.co.in/citations?user=ISItfAwAAAAJ&hl=en&authuser=1
 linkedin: https://www.linkedin.com/in/brijeshrakholia

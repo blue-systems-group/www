@@ -1,7 +1,6 @@
 ---
 name: Ali Ben Ali
 role: PhD Student
-slug: alijmabe
 joined: Fall 2014
 scholar: http://scholar.google.com/citations?user=M4fY6AUAAAAJ&hl=en
 ---

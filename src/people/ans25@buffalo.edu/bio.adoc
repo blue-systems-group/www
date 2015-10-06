@@ -1,7 +1,6 @@
 ---
 name: Anandatirtha Nandugudi
 role: PhD Student
-slug: ans25
 joined: Fall 2010
 scholar: http://scholar.google.com/citations?user=EIZKxj0AAAAJ&hl
 ---

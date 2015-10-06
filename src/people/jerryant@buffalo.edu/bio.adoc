@@ -1,7 +1,6 @@
 ---
 name: Jerry Ajay
 role: PhD Student
-slug: jerryant
 joined: 2015-01-01
 scholar: http://scholar.google.com/citations?user=MVmyI34AAAAJ
 ---

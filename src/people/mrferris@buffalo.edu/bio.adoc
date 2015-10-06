@@ -1,7 +1,7 @@
 ---
 name: Michael Ferris
 role: Undergraduate
-slug: mrferris
+active: false
 joined: 2014-11-15
 ---
 

@@ -8,6 +8,7 @@ linkedin: https://www.linkedin.com/pub/geoffrey-challen/1a/b77/572
 noprojects: true
 nopapers: true
 nocourses: true
+github: https://github.com/gchallen
 spelling_exceptions:
 - Chuchu
 - Xyz

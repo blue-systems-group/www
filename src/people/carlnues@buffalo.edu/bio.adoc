@@ -1,7 +1,6 @@
 ---
 name: Carl Nuessle
 role: PhD Student
-slug: carlnues
 joined: 2013
 scholar:
 ---

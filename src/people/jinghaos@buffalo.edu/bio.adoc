@@ -1,7 +1,6 @@
 ---
 name: Jinghao Shi
 role: PhD Student
-slug: jinghaos
 joined: 2013-08-29
 scholar: http://scholar.google.com/citations?user=98Yup7wAAAAJ&hl=en
 ---
