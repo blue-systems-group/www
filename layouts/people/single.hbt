@@ -35,7 +35,7 @@
             <h2>{{name}}</h2>
             <h4>{{role}}</h4>
             <h4><a href="mailto:{{email}}">{{email}}</a></h4>
-            <div class="h4">
+            <div class="h5">
               <ul class="list-inline dash-list">
                 {{#if CV }}
                 <li><a href="{{ CV }}">CV</a></li>
@@ -48,7 +48,7 @@
                 {{/if}}
               </ul>
             </div>
-            <div class="h4">
+            <div class="h5">
               <ul class="list-inline dash-list">
                 {{#if github }}
                 <li><a href="{{ github }}">GitHub</a></li>
@@ -77,7 +77,7 @@
             <h2>{{name}}</h2>
             <h4>{{role}}</h4>
             <h4><a href="mailto:{{email}}">{{email}}</a></h4>
-            <div class="h4">
+            <div class="h5">
               <ul class="list-inline dash-list">
                 {{#if CV }}
                 <li><a href="{{ CV }}">CV</a></li>
@@ -90,7 +90,7 @@
                 {{/if}}
               </ul>
             </div>
-            <div class="h4">
+            <div class="h5">
               <ul class="list-inline dash-list">
                 {{#if github }}
                 <li><a href="{{ github }}">GitHub</a></li>
