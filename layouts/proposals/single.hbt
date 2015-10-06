@@ -80,7 +80,8 @@
 
       <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
         <div class="fixed-md">
-          <a href="{{ source.link }}"><img src="{{ logo_166 }}" alt="Sponsor Logo" style="margin-top:21px;" /></a>
+          <a href="{{ source.link }}"><img src="{{ logo }}" alt="Sponsor Logo"
+             style="margin-top:21px; width: 166px;" /></a>
           <div>
             <ul class="list-unstyled" style="margin-top:20px;">
               <li>Source: {{ link source }}</li>
@@ -115,8 +116,8 @@
         </div>
       </div>
       <div class="row hidden-md hidden-lg text-center">
-        <a href="{{ source.link }}">
-          <img src="{{ logo_166 }}" alt="Sponsor Logo" />
+        <a href="{{ source.link }}"><img src="{{ logo }}" alt="Sponsor Logo"
+           style="margin-top:21px; width: 166px;" /></a>
         </a>
       </div>
     </div>
