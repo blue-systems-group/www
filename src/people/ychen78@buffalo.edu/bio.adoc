@@ -3,6 +3,7 @@ name: Yihong Chen
 role: PhD Student
 joined: 2014-10-14
 scholar: http://scholar.google.com/citations?user=FkD_nSQAAAAJ&hl=en
+CV: http://resume.xcv58.com
 ---
 [.lead]
 I'm a second year Ph.D. student.
