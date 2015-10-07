@@ -1,28 +1,28 @@
 # Old old_group members
 - name: Micheal Benedict
   old_group: true
-  website: "https://www.websiteedin.com/in/michealb"
+  website: "https://www.linkedin.com/in/michealb"
   institution: Twitter
 - name: Vinu Charanya Athangudi Purushothaman
   old_group: true
-  website: "https://www.websiteedin.com/in/vinucharanya"
+  website: "https://www.linkedin.com/in/vinucharanya"
   institution: Crushpath
 - name: Anuja Raval
   old_group: true
-  website: "https://www.websiteedin.com/in/anujaraval"
+  website: "https://www.linkedin.com/in/anujaraval"
   institution: Citi
 - name: Bhaavyaa Kapoor
   old_group: true
   email: bhaavyaa@buffalo.edu
 - name: Rajeshwari Adapalam
   old_group: true
-  website: "https://www.websiteedin.com/in/rajeshwariadapalam"
+  website: "https://www.linkedin.com/in/rajeshwariadapalam"
   institution: Citi
 - name: Gino Buzzelli
   email: ginobuzz@buffalo.edu
   old_group: true
   institution: Microsoft
-  website: "https://www.websiteedin.com/in/ginobuzz"
+  website: "https://www.linkedin.com/in/ginobuzz"
 - name: Sonali Batra
   email: sonaliba@buffalo.edu
   old_group: true
@@ -30,26 +30,26 @@
 - name: Manoj Chandresekaran
   email: manojmyl@buffalo.edu
   old_group: true
-  website: "https://www.websiteedin.com/pub/manoj-mylapore-chandrasekaran/24/443/919"
+  website: "https://www.linkedin.com/pub/manoj-mylapore-chandrasekaran/24/443/919"
   institution: Cerner
 - name: Jay Inamdar
   email: jayinamd@buffalo.edu
   old_group: true
-  website: "https://www.websiteedin.com/pub/jay-inamdar/15/6a1/a36"
+  website: "https://www.linkedin.com/pub/jay-inamdar/15/6a1/a36"
   institution: Microsemi
 - name: Denise Blady
   email: dcblady@buffalo.edu
   old_group: true
-  website: "https://www.websiteedin.com/pub/denise-blady/24/a43/93a"
+  website: "https://www.linkedin.com/pub/denise-blady/24/a43/93a"
   institution: DISA
 - name: Eric Lehner
   email: ericj@buffalo.edu
   old_group: true
-  website: "https://www.websiteedin.com/pub/eric-lehner/34/20a/56b"
+  website: "https://www.linkedin.com/pub/eric-lehner/34/20a/56b"
   institution: MITRE
 - name: Agrim Nigam
   old_group: true
-  website: "https://www.websiteedin.com/pub/agrim-nigam/a/8b6/5aa"
+  website: "https://www.linkedin.com/pub/agrim-nigam/a/8b6/5aa"
   institution: Holistic Labs
 - name: John Gerber
   email: jgerber@buffalo.edu
@@ -57,7 +57,7 @@
 - name: Nishanth Vasisht
   email: nishanth@buffalo.edu
   old_group: true
-  website: "https://www.websiteedin.com/in/nishanthvasisht"
+  website: "https://www.linkedin.com/in/nishanthvasisht"
   institution: Sling Media
 - name: Sean Zawicki
   old_group: true
@@ -68,7 +68,7 @@
 - name: Frank Rossi
   email: frankros@buffalo.edu
   old_group: true
-  website: "https://www.websiteedin.com/pub/frank-rossi/99/239/a09"
+  website: "https://www.linkedin.com/pub/frank-rossi/99/239/a09"
   institution: APPrise Mobile
 
 # UB faculty
@@ -108,7 +108,7 @@
 # UB students
 - name: Matt Adam
   email: mfadam@buffalo.edu
-  website: https://www.websiteedin.com/pub/matthew-adam/4a/477/2b5
+  website: https://www.linkedin.com/pub/matthew-adam/4a/477/2b5
 - name: Fatih Bulut
   email: mbulut@buffalo.edu
   website: "http://scholar.google.com/citations?user=aUaOP48AAAAJ"
@@ -148,12 +148,12 @@
   email: mward4@buffalo.edu
 - name: Misa Yasumiishi
   email: misayasu@buffalo.edu
-  website: "https://www.websiteedin.com/in/misay"
+  website: "https://www.linkedin.com/in/misay"
 
 # External collaborators
 - name: Rizwana Begum
   email: rb639@drexel.edu
-  website: "http://www.websiteedin.com/pub/rizwana-begum/45/108/1"
+  website: "http://www.linkedin.com/pub/rizwana-begum/45/108/1"
   institution: Drexel University
 - name: Milind Buddhikot
   email: milind.buddhikot@bell-labs.com
@@ -181,7 +181,7 @@
   institution: Northeastern University
 - name: Emiliano Miluzzo
   email: miluzzo@research.att.com
-  website: "https://www.websiteedin.com/pub/emiliano-miluzzo/2/606/a20"
+  website: "https://www.linkedin.com/pub/emiliano-miluzzo/2/606/a20"
   institution: AT&amp;T Labs Research
 - name: Sean Purdon
   email: sean.purdon@csiro.au
