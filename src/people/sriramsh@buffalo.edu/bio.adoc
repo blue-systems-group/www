@@ -2,7 +2,7 @@
 name: Sriram Shantharam
 role: Masters Student
 joined: 2013-08-27
-active: false
+alumni: true
 scholar: https://scholar.google.com/citations?user=bbgOUNMAAAAJ
 linkedin: https://www.linkedin.com/pub/sriram-shantharam/14/626/658
 ---

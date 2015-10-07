@@ -2,8 +2,9 @@
 name: Nick DiRienzo
 role: Undergraduate
 joined: 2013-11-30
-active: false
+alumni: true
 scholar: https://scholar.google.com/citations?user=qwcFsGsAAAAJ&hl=en
+person_website: http://nickdirienzo.com
 spelling_exceptions:
 - Corso
 - Optimizely

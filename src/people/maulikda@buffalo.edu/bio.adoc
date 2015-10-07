@@ -1,7 +1,7 @@
 ---
 name: Maulik Dave
 role: PhoneLab Administrator
-active: false
+alumni: true
 ---
 [.lead]
 I work as the link:/projects/phonelab/[PhoneLab] administrator. I help

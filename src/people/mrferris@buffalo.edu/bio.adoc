@@ -1,7 +1,8 @@
 ---
 name: Michael Ferris
 role: Undergraduate
-active: false
+alumni: true
+short_alumni: true
 joined: 2014-11-15
 ---
 
