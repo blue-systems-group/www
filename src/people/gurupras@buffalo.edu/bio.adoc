@@ -28,6 +28,5 @@ other coding projects. Currently,
 http://odin.cse.buffalo.edu/people/oliver-kennedy/[Oliver] and I are working on
 a http://www.github.com/okennedy/worldtree.git[constrained world generator] for
 games. I'm also trying to get my [.spelling_exception]#quadcopter# to fly and
-am working on a http://wavelength.fm[Wavelength]
-https://github.com/gurupras/videoshare.git[clone] so people can watch their
-home videos (or movies from not-so-legitimate sources) together
+am working on a http://wavelength.fm[Wavelength] clone so people can watch
+their home videos (or movies from not-so-legitimate sources) together
