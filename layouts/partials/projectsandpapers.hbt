@@ -23,6 +23,7 @@
     </ul>
   </div>
   {{/if}}
+  <div class="clearfix visible-md visible-lg"></div>
   {{#if projects.inactive}}
   <div class="col-sm-12 col-md-6">
     <h4>Completed</h4>

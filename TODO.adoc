@@ -20,9 +20,6 @@
 - External
 ** Morley
 ** QoE students
-** Fix Mark's website
-
-Fix project flow breaking.
 
 = Projects
 
@@ -44,12 +41,4 @@ Fix project flow breaking.
 == 2015
 
 - mobicase2015-jouler
-** Acceptance rate and homepage link
-** Double check iteration (6th or 7th)
-- globecom2015-localization
-** New PDF
-** Repo link?
-
-= Courses
-
-Get UB 2015 start and end dates.
+** Acceptance rate

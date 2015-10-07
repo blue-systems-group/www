@@ -1,7 +1,7 @@
 ---
 common: maybe
-started: 2015-08-25
-ends: 2014-12-15
+started: 2015-08-31
+ends: 2015-12-21
 semester: Fall
 instructors:
 - challen
