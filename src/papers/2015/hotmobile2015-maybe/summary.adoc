@@ -19,6 +19,8 @@ youtube: shJZqLjo88c
 git: https://github.com/gchallen/papers.hotmobile2015-maybe
 projects:
 - maybe
+funding:
+- 2011-CRI-PhoneLab
 ---
 == Abstract
 

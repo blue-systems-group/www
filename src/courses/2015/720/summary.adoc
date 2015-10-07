@@ -1,0 +1,41 @@
+---
+common: maybe
+started: 2015-08-25
+ends: 2014-12-15
+semester: Fall
+instructors:
+- challen
+enrollment: 7
+website: "https://piazza.com/buffalo/fall2015/cse720/home"
+---
+++++
+<a class="anchor" id="summary"></a>
+++++
+== Summary
+
+While the success of app marketplaces has made it easier to distribute mobile
+apps, global distribution has made it harder to write them. To achieve good
+performance on billions of devices around the globe, mobile apps must run
+efficiently on a wide variety of hardware, cope with constantly changing
+network conditions, conserve limited energy resources, and deal with varying
+availability and accuracy of core services such as location, all while
+satisfying a diverse community of users. This diversity creates
+development-time uncertainty for app programmers, who may be unsure how to
+adapt their app to achieve good performance at all times, for anyone,
+anywhere.
+
+My research group is working on a new system, link:/projects/maybe[`maybe`]
+which addresses the challenge of mobile systems adaptation by allowing
+programmers to express—rather than suppress—development-time uncertainty. A
+new language construct allows programmers to indicate where they are
+uncertain about what to do, what legitimate options are available, and what
+constitutes success or failure—all things that can be determined at
+development time. Post-deployment testing and machine learning are then used
+to resolve the uncertainty by crafting effective data-driven adaptation
+strategies once more information is known.
+
+In this seminar we will both explore other approaches to mobile systems
+adaptation (through paper reading) and continue to develop, evaluate, and use
+the maybe system (through implementation). Students will also work in teams on
+several projects related to the course content. Our goal will be to begin
+projects which may lead to full-length publications in the spring.

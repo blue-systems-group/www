@@ -3,8 +3,9 @@ name: Mocking Smartphone Apps
 title: Increasing Smartphone User Privacy Through Objective-Driven Context Mocking
 started: 2014-02-26
 ended: 2014-11-06
-people:
+leads:
 - nvdirien
+people:
 - ginobuzz
 - ericj
 - dcblady

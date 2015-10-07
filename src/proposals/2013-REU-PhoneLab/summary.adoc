@@ -12,14 +12,21 @@ faculty:
 - tkosar
 - qiao
 students:
+- kylescho
+- johncher
+- edwinsan
+- brijeshr
 - nvdirien
 - frankros
 - ginonott
 - mrferris
-- brijeshr
 projects:
 - phonelab
 - pocketmocker
+papers:
+- mobicase2014-pocketmocker
+- hotplanet2014-pocketmocker
+- hotmobile2014-pocketmocker
 ---
 
 This is a http://www.nsf.gov/crssprgm/reu/[Research Experiences for

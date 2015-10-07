@@ -15,7 +15,6 @@ git: https://github.com/gchallen/papers.sensemine2013-phonelab
 projects:
 - phonelab
 funding:
-- 2011-CRI-PhoneLab
 - 2011-GRA-PhoneLab
 invited: true
 ---

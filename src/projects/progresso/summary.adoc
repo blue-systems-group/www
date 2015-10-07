@@ -1,10 +1,11 @@
 ---
-name: Measuring User-Perceived Latency
-title: "Progresso: Using Progress Bars to Measure User-Perceived Latency for Smartphone Apps"
+name: Quantifying Smartphone Quality of Experience
 started: 2014-11-23
+leads:
+- shaseley
 people:
-- nvdirien
 - brijeshr
+- nvdirien
 - challen
 spelling_exceptions:
 - SIGCHI

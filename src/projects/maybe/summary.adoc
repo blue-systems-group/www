@@ -2,16 +2,10 @@
 name: Structuring Programmer Uncertainty
 title: Structuring Uncertainty Using the <code>maybe</code> Statement
 started: 2014-09-19
-people:
+leads:
 - ychen78
-- sriramsh
-- gurupras
-- jinghaos
-- jerryant
-- alijmabe
-- nvdirien
-- anudipam
-- ans25
+people:
+- ramyarao
 - lziarek
 - okennedy
 - challen

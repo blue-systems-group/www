@@ -14,3 +14,7 @@ personalclouds:
   number: "CSE 720"
   title: "Personal Cloud Computing"
   slug: "UB_720"
+maybe:
+  number: "CSE 720"
+  title: "Using Uncertainty to Program Mobile Systems"
+  slug: "UB_720"

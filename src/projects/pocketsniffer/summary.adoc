@@ -2,8 +2,10 @@
 name: Crowdsourcing Spectrum Allocation
 title: Crowdsourcing Access Network Spectrum Allocation Using Smartphones
 started: 2013-06-01
-people:
+ended: 2015-09-01
+leads:
 - jinghaos
+people:
 - zguan2
 - qiao
 - milind.buddhikot@bell-labs.com

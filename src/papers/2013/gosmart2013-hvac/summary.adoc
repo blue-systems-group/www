@@ -6,8 +6,6 @@ people:
 - brano.kusy@csiro.au
 - raja.jurdak@csiro.au
 - challen
-git: 
-projects:
 ---
 == Abstract
 

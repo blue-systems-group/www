@@ -42,6 +42,11 @@
           <div class="h4">
             {{ and_list people }}
           </div>
+          {{#if presenters }}
+          <div class="h4">
+            Presented by {{ and_list presenters }}.
+          </div>
+          {{/if}}
           {{#if conference }}
           <div class="h4" style="margin-bottom:5px;">
             {{#if toappear}}To appear in{{/if}}

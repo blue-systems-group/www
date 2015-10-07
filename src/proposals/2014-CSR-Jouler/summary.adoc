@@ -16,6 +16,8 @@ students:
 projects:
 - jouler
 papers:
+- mobicase2015-jouler
+- hotmobile2015-numerator
 ---
 == Summary
 

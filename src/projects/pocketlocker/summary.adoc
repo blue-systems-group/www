@@ -3,8 +3,9 @@ name: Personal Storage Clouds
 title: The PocketLocker Personal Cloud Storage System
 started: 2013-06-01
 ended: 2013-11-06
-people:
+leads:
 - ans25
+people:
 - carlnues
 - miluzzo@research.att.com
 - chen@research.att.com

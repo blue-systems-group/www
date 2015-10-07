@@ -7,7 +7,9 @@ people:
 - daw77@drexel.edu
 - jerryant
 - challen
-- mhempstead@drexel.edu
+- mark@ece.tufts.edu
+presenters:
+- rb639@drexel.edu
 projects:
 - poweragility
 funding:

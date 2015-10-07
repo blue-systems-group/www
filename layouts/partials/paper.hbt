@@ -43,8 +43,11 @@
         {{#if PDF }}
         <li><a href="{{ PDF }}">{{#if poster}}View{{else}}Read{{/if}}</a></li>
         {{/if}}
-        {{#if this.slides }}
-        <li><a href="{{ this.slides }}">Slides</a></li>
+        {{#if youtube }}
+        <li><a href="https://www.youtube.com/watch?v={{ youtube }}">Watch</a></li>
+        {{/if}}
+        {{#if slides }}
+        <li><a href="{{ slides }}">Talk</a></li>
         {{/if}}
         {{#if scholar }}
         <li><a href="{{ scholar }}">Cite</a></li>
@@ -54,18 +57,5 @@
         {{/if}}
       </ul>
     </div>
-    {{#if presenters }}
-    <div>
-      Presented by {{ and_list presenters }}.
-      <ul class="list-inline dash-list">
-        {{#if slides }}
-        <li><a href="{{ slides }}">Talk</a></li>
-        {{/if}}
-        {{#if youtube }}
-        <li><a href="https://www.youtube.com/watch?v={{ youtube }}">Video</a></li>
-        {{/if}}
-      </ul>
-    </div>
-    {{/if}}
   </div>
 </div>

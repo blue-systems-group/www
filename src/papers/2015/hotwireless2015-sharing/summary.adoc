@@ -7,6 +7,8 @@ people:
 - dimitrio
 - qiao
 - challen
+presenters:
+- dimitrio
 projects:
 - pocketsniffer
 funding:

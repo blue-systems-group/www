@@ -3,7 +3,7 @@ name: The Case for Power Agile Computing
 published: hotos
 people:
 - challen
-- mhempstead@drexel.edu
+- mark@ece.tufts.edu
 git: https://github.com/gchallen/papers.hotos2011-agile
 projects:
 - poweragility

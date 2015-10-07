@@ -15,20 +15,32 @@ faculty:
 - tkosar
 - qiao
 students:
-- maulikda
+- jinghaos
 - ans25
 - anudipam
-- jinghaos
-- alijmabe
 - carlnues
-- sriramsh
+- alijmabe
 - tki
 - tongguan
+- maulikda
+- rbalasub
+- ramyarao
+- sriramsh
 - bhaavyaa
 - ginobuzz
 - manojmyl
 projects:
 - phonelab
+papers:
+- hotwireless2015-sharing
+- tpctc2015-pocketdata
+- ans25-thesis
+- hotmobile2015-maybe
+- hotmobile2015-pocketsniffer
+- mobicase2014-pocketlocker
+- hotnets2014-pocketsniffer
+- ubicomp2014-pocketparker
+- hotmobile2014-sustainability
 spelling_exceptions:
 - MoteLab
 - PlanetLab

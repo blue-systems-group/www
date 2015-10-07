@@ -5,7 +5,7 @@ people:
 - gurupras
 - rb639@drexel.edu
 - shaseley
-- mhempstead@drexel.edu
+- mark@ece.tufts.edu
 - challen
 git: https://github.com/gchallen/posters.hotmobile2014-poweragility
 projects:

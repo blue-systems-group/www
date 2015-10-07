@@ -2,11 +2,13 @@
 name: Flexible Smartphone Energy Management
 title: Flexible and Effective Smartphone Energy Management Using Jouler
 started: 2014-01-15
-people:
+leads:
 - anudipam
+people:
 - ychen78
 - challen
 papers:
+- mobicase2015-jouler
 - hotmobile2015-numerator
 funding:
 - 2014-CSR-Jouler

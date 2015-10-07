@@ -6,7 +6,11 @@ people:
 - jerryant
 - challen
 - lziarek
+presenters:
+- okennedy
 git: http://gitlab.odin.cse.buffalo.edu/sqlite-benchmark/tpc-tc-2015
+funding:
+- 2011-CRI-PhoneLab
 ---
 == Abstract
 

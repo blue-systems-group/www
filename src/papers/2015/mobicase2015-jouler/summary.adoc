@@ -8,6 +8,8 @@ people:
 git: https://blue.cse.buffalo.edu/gitlab/blue/papers.mobicase2015-jouler
 projects:
 - jouler
+funding:
+- 2014-CSR-Jouler
 ---
 == Abstract
 

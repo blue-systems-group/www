@@ -5,6 +5,8 @@ amount: 38656
 source: Google
 program: GRA
 rate: 15
+students:
+- ychen78
 faculty:
 - challen
 - okennedy

@@ -43,6 +43,9 @@
           <hr class="underline">
 
           <ul class="list-unstyled">
+            {{#each leads}}
+            <li>{{ link this }} (Lead)</li>
+            {{/each}}
             {{#each people}}
             <li>{{ link this }}</li>
             {{/each}}

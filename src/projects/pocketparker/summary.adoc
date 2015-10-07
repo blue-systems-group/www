@@ -3,8 +3,9 @@ name: Pocketsourcing Parking Lot Availability
 title: "PocketParker: Pocketsourcing Parking Lot Availability"
 started: 2012-12-01
 ended: 2014-09-13
-people:
+leads:
 - ans25
+people:
 - carlnues
 - tki
 - challen

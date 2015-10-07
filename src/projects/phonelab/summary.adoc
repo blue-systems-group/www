@@ -1,18 +1,19 @@
 ---
 name: The PhoneLab Smartphone Platform Testbed
-title: "PhoneLab: An Open Smartphone Platform Testbed"
 started: 2011-09-01
-people:
+leads:
 - jinghaos
-- maulikda
-- ans25
-- anudipam
+people:
+- edwinsan
 - qiao
 - challen
 papers:
-- hotwireless2015-sharing
+- mobicase2015-jouler
 - tpctc2015-pocketdata
+- hotmobile2015-numerator
 - ans25-thesis
+- ubicomp2014-pocketparker
+- mobicase2014-pocketlocker
 - sensemine2013-phonelab
 - netmob2013-phonelab
 funding:

@@ -1,4 +1,8 @@
-=== People
+= All
+
+Move github/challen repos to group GitLab.
+
+= People
 
 - MS
 ** Rakesh
@@ -12,22 +16,31 @@
 ** Devashish
 ** Harshita
 
-=== Projects
+- External
+** Morley
+** QoE students
+** Fix Mark's website
 
-- Update
-** QoE
-- New
+Fix project flow breaking.
+
+= Projects
+
+== Update
+- QoE
+** Add UMich people
+- Navjack
+** Add Rakesh as lead
+- PhoneLab
+** Add Edwin
+
+== New
 ** Embedded databases
 ** Filesystem performance
 ** Personal cloud computing
-- Archive
-** PocketSniffer
 
-- Add project leads
+= Papers
 
-=== Papers
-
-=== 2015
+== 2015
 
 - mobicase2015-jouler
 ** Acceptance rate and homepage link
@@ -35,17 +48,7 @@
 - globecom2015-localization
 ** New PDF
 ** Repo link?
-- hotmobile2015-maybe
-** Move to group GitLab
-- hotmobile2015-numerator
-** Move to group GitLab
-- hotmobile2015-pocketsniffer
-** Move to group GitLab
 
-=== 2014 and earlier
+= Courses
 
-Move to group GitLab and rename repositories.
-
-=== Proposals
-
-Linkage.
+Get UB 2015 start and end dates.

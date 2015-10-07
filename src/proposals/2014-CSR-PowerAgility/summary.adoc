@@ -10,14 +10,16 @@ program: CSR
 rate: 20
 faculty:
 - challen
-- mhempstead@drexel.edu
+- mark@ece.tufts.edu
 students:
 - gurupras
+- shaseley
 - jerryant
 - rb639@drexel.edu
 projects:
 - poweragility
 papers:
+- iiswc2015-frontiers
 - hotmobile2014-poweragility
 - hotos2011-poweragility
 ---
