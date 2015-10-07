@@ -1,6 +1,7 @@
 = All
 
-Move github/challen repos to group GitLab.
+- Move github/challen repos to group GitLab.
+- Fix convert so that it doesn't change the photos every time.
 
 = People
 
