@@ -111,12 +111,18 @@ mobicase:
   preface: Proceedings of the
   name: International Conference on Mobile Computing, Applications and Services
   2014:
-    number: 16th
+    number: 6th
     shortname: MobiCASE'14
     link: http://mobicase.org/2014/show/home
     date: 2014-11-06
     acceptance: 29
     location: Austin, TX
+  2015:
+    number: 7th
+    shortname: MobiCASE'14
+    link: http://mobicase.org/2015/show/home
+    date: 2015-11-13
+    location: Berlin, Germany
 netmob:
   preface: Proceedings of the
   name: Conference on the Analysis of Mobile Phone Datasets

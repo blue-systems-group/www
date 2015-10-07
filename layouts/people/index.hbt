@@ -75,13 +75,13 @@
         <hr />
 
         <a class="anchor" id="external"></a>
-        <div class="row" style="margin-top:-20px margin-bottom: 0px;">
+        <div class="row" style="margin-top:-20px">
           <div class="col-xs-12">
             <h3>Collaborators</h3>
           </div>
         </div>
         <div class="col-xs-12 col-sm-6">
-          <ul class="list-unstyled">
+          <ul class="list-unstyled" style="margin-bottom: 0px;">
             {{#each people.collaborators.first}}
             <li>{{ link this }}</li>
             {{/each}}

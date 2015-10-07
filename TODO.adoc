@@ -11,3 +11,41 @@
 ** Corey
 ** Devashish
 ** Harshita
+
+=== Projects
+
+- Update
+** QoE
+- New
+** Embedded databases
+** Filesystem performance
+** Personal cloud computing
+- Archive
+** PocketSniffer
+
+- Add project leads
+
+=== Papers
+
+=== 2015
+
+- mobicase2015-jouler
+** Acceptance rate and homepage link
+** Double check iteration (6th or 7th)
+- globecom2015-localization
+** New PDF
+** Repo link?
+- hotmobile2015-maybe
+** Move to group GitLab
+- hotmobile2015-numerator
+** Move to group GitLab
+- hotmobile2015-pocketsniffer
+** Move to group GitLab
+
+=== 2014 and earlier
+
+Move to group GitLab and rename repositories.
+
+=== Proposals
+
+Linkage.

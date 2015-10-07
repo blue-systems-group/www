@@ -1,0 +1,28 @@
+---
+name: "Jouler: A Policy Framework Enabling Effective and Flexible Smartphone Energy Management"
+published: mobicase
+people:
+- anudipam
+- ychen78
+- challen
+git: https://blue.cse.buffalo.edu/gitlab/blue/papers.mobicase2015-jouler
+projects:
+- jouler
+---
+== Abstract
+
+Smartphone energy management is a complex challenge. Considerable
+energy-related variation exists between devices, apps, and users; and while
+over-allocating energy can strand the user with an empty battery,
+over-conserving energy can unnecessarily degrade performance. But despite
+this complexity, current smartphone platforms include "one-size-fits-all"
+energy management policies that cannot satisfy the diverse needs of all
+users. To address this problem we present Jouler, a framework enabling
+effective and flexible smartphone energy management by cleanly separating
+energy control mechanisms from management policies. Jouler provides both
+imperative mechanisms that can control all apps, and cooperative mechanisms
+that allow modified apps to adapt to the user's energy management goals. We
+have implemented Jouler for Android and used it to provide three new energy
+management policies to 203 smartphone users. Results from our deployment
+indicate that users appreciate more flexible smartphone energy management and
+that Jouler policies can help users achieve their energy management goals.
