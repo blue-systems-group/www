@@ -43,6 +43,9 @@
         {{#if PDF }}
         <li><a href="{{ PDF }}">{{#if poster}}View{{else}}Read{{/if}}</a></li>
         {{/if}}
+        {{#if this.slides }}
+        <li><a href="{{ this.slides }}">Slides</a></li>
+        {{/if}}
         {{#if scholar }}
         <li><a href="{{ scholar }}">Cite</a></li>
         {{/if}}

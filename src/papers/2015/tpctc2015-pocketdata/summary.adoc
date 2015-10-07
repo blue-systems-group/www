@@ -6,6 +6,7 @@ people:
 - jerryant
 - challen
 - lziarek
+git: http://gitlab.odin.cse.buffalo.edu/sqlite-benchmark/tpc-tc-2015
 ---
 == Abstract
 

@@ -12,6 +12,7 @@ projects:
 - poweragility
 funding:
 - 2014-CSR-PowerAgility
+git: http://blue.cse.buffalo.edu/gitlab/blue/papers.iiswc2015-frontiers
 ---
 == Abstract
 
