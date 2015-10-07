@@ -36,7 +36,7 @@
         <hr>
 
         <div class="h4 spelling_exception">
-          Posted by {{ and_list people }}on {{format_date created "blog" false}}.
+          Posted by {{ and_list people }} on {{format_date created "blog" false}}.
           {{#if modified }}<br>Updated on {{format_date updated "blog" false}}.{{/if}}
         </div>
         <div>

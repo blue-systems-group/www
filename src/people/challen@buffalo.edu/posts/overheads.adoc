@@ -1,0 +1,83 @@
+---
+working: true
+---
+
+== Lies, Damned Lies, and University Overheads
+
+[.snippet]
+--
+TL;DR: if you know what university overheads are, are an academic computer
+scientist in the U.S., and want to take the overhead survey so that we can
+try to create a meaningful comparison between different universities, the
+link is http://broken.broken.com[here]. Otherwise, if you want an
+introduction to the arcane word of univeristy finances, or just to enjoy an
+inquiry into the same, read on.
+
+[.lead]
+Bring a few faculty members together, and the topic of research funding
+usually comes up. And when the topic of research funding comes up, the topic
+of university overheads footnote:[Also known as indirect costs] frequently
+comes up. In my experience, this is something that faculty like to complain
+about, and a part of the challenge to funding university research that makes
+us look enviously at our colleagues at industry research labs. But I also
+think that there's a lot to complain about, [.readmore]#so let me try to hit
+the high points.#
+--
+
+=== What Are University Overheads?
+
+For the uninitiated, one of my responsibilities as an academic research is to
+raise money. Mobile systems research like link:/[my group] does requires a
+fairly large number of graduate students, and usually their tuition and very
+modest stipends are paid using external funds. For example, currently I'm
+working with link:/people/[eight Ph.D. students] footnote:[A few more than
+I'd prefer at steady state, but all fantastic students], six of whom are
+externally supported by three different active link:/proposals/[grants]. The
+other two work for the department as teaching assistants, which is another
+way that Ph.D. students support themselves during their degree.
+
+I don't want to digress into the history and current challenges associated
+with research funding--a topic for another post, or several--but let's just
+say that external funding is not easy to come by. I spend more of my time
+than I would prefer writing grant proposals, and most funding programs are
+_extremely_ competitive. I actually don't have too many complaints about the
+National Science Foundation grant application process, except maybe that it's
+too slow. Fundamentally, there are just too many people trying to eat the
+same pie. [.pullquote]#Overall, the result is that at least at present
+external funding is hard to obtain and therefore when you _do_ receive
+external awards, you want the money to go as far as possible.#
+
+That's where overheads come in. Every grant request contains two components:
+*Direct costs* support things that I can directly identify: student stipends,
+tuition, and fringe benefits; new equipment; or my salary during the two
+months each year that I'm not technically paid as part of my academic year
+appointment. If you're new to overheads, this may surprise you, but it's
+quite common in the U.S. for faculty at research universities to only be paid
+for the 10 months that classes are in session. As a result, faculty can
+request several months of summer salary to support themselves while
+supervising grant-funded research. Keep this in mind--we'll come back to it
+later.
+
+In contrast, *indirect costs* or overheads are supposed to cover the costs
+that the proposed research will _indirectly_ incur. For example, to do
+research me and my students need a room in a building with heat
+footnote:[It's Buffalo!], electricity, and the Internet. We might use shared
+resources like the university's computing infrastructure or libraries
+footnote--although library usage is fairly low in computer science, where
+we're busily moving everything online.
+
+Unlike direct costs, which can be included as line items in the budget, it
+would be a nightmare and probably impossible to budget for indirect costs. So
+instead, they are typically assessed as a percentage of the direct costs
+included in the grant. Actually it's way more complicated than that, but I'm
+writing a long blog post, not a http://www.broken.com[David Foster Wallace
+novel], so I'll spare you the gory details of how the "Modified Direct Cost"
+is calculated. Except to point out that this futzing has funny effects. For
+example, at some institutions researchers encourage their students to avoid
+purchasing equipment that is _under_ a certain amount because it will incur
+overheads, while larger equipment purchases do not. So go ahead and add a few
+TB of Flash storage to that new desktop!
+
+=== Let The Problems Begin
+
+So far so good, but this is where things start to get problematic.
