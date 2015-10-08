@@ -8,7 +8,7 @@ people:
 - melodia@ece.neu.edu
 - dimitrio
 - challen
-git: https://github.com/gchallen/posters.hotmobile2015-pocketsniffer
+git: http://blue.cse.buffalo.edu/gitlab/blue/posters.hotmobile2015-pocketsniffer
 projects:
 - pocketsniffer
 funding:

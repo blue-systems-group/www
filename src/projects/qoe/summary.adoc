@@ -4,8 +4,10 @@ started: 2014-11-23
 leads:
 - shaseley
 people:
+- ashnik@umich.edu
 - brijeshr
 - nvdirien
+- zmao@umich.edu
 - challen
 spelling_exceptions:
 - SIGCHI

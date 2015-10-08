@@ -17,19 +17,7 @@
 ** Devashish
 ** Harshita
 
-- External
-** Morley
-** QoE students
-
 = Projects
-
-== Update
-- QoE
-** Add UMich people
-- Navjack
-** Add Rakesh as lead
-- PhoneLab
-** Add Edwin
 
 == New
 ** Embedded databases
@@ -37,8 +25,6 @@
 ** Personal cloud computing
 
 = Papers
-
-== 2015
 
 - mobicase2015-jouler
 ** Acceptance rate
