@@ -40,13 +40,17 @@
           {{#if modified }}<br>Updated on {{format_date updated "blog" false}}.{{/if}}
         </div>
         <div>
-          <div style="display:inline-block; margin-right: 20px;">
-            <a href="/posts/feed.xml">Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="height: 1em" /></a>
+          <div style="float:left; margin-right: 20px;">
+            <a href="/posts/feed.xml">Subscribe <img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="height: 1em" /></a>
           </div>
-          <div style="display:inline-block; margin-right: 20px;">
+          <div style="float:left; margin-right: 20px;">
             <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ full_url }}" data-text="{{ title }}" data-hashtags="bluesystemsgroup">Tweet</a>
+            </a>
           </div>
+          <div style="float: left; padding-top: 2px;">
           <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button_count"></div>
+          </div>
+          <div style="clear: both;"></div>
         </div>
 
         <hr />
