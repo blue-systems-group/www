@@ -177,11 +177,12 @@ li.menu-selected a {
   color: #191995;
 }
 .badge.footnote {
-  font-size: 0.7em;
+  font-size: 0.5em;
   background-color: DarkGrey;
   color: white;
   vertical-align: top;
   padding: 2px 5px;
+  line-height: inherit;
 }
 .default-popover + .popover.in {
   opacity: 1;
