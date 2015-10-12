@@ -1,0 +1,112 @@
+---
+working: true
+---
+
+== Two Days at Google
+
+[.snippet.lead]
+I was fortunate to spend last Thursday and Friday at Google participating in
+the
+https://sites.google.com/site/googuniversityrelationsevents/home/workshops/mobile-workshop-2015[Google
+Mobile Faculty Summit]. It was my first trip to the Googleplex and I came
+away impressed both with the work that Googlers are doing and with the
+obvious contributions the research community has made to these new mobile
+technologies. In more than a few cases, talented Googlers are doing the other
+99% of the work required to bring promising ideas contributed by the research
+community to fruition. [.readmore]#Here's a writeup that hopefully conveys my
+excitement without violating the NDA that I didn't sign...#
+
+http://www.mdw.la[Matt Welsh] organized the workshop. Over a day and a half
+about twenty footnote:[The website claimed 40, but it didn't feel like that
+many to me.] faculty reseachers--and some of their students, which was a nice
+feature--heard from ten Googlers about their projects, which are at various
+stages of completion. Briefly:
+
+. http://www.google.com/loon/[*Project Loon*]: balloons providing wide-area
+Internet coverage.
++
+. https://google.github.io/physical-web/[*The Physical Web*]: Google's
+web-based approach to the "Internet of Things".
++
+. https://developers.google.com/nearby/connections/overview?hl=en[*Nearby*]:
+An API for determining whether two devices are, well, nearby.
++
+. https://fi.google.com/about/[*Project Fi*]: Google's entry into the
+cellular service space built on top of both Sprint's and T-Mobile's mobile
+data networks.
++
+. *Sensor Hub*: a way to make the sensing required by context awareness more
+energy efficient.
++
+. http://research.google.com/pubs/AndreasTerzis.html[*Mobile Content
+Delivery*]: new interfaces for mobile devices to interrogate
+and interact with mobile data networks.
++
+. http://research.google.com/pubs/author672.html[*Mobile Web Performance*]:
+making the Web better for billions of new users with limited connectivity.
++
+. https://www.google.com/atap/project-soli/[*Project Soli*]: near-field radar
+enabling new touch-free device interaction.
++
+. https://www.google.com/atap/project-soli/[*Project Iris*]: contact lenses
+with embedded electronics for sensing blood glucose levels to help people
+with diabetes.
++
+. https://www.google.com/events/io/io14videos/64bf2234-4bcb-e311-b297-00155d5066d7[*Project
+Volta*]: improvements to battery lifetime for Android.
+
+Overall it was a fascinating and diverse set of projects that illustrates
+some of the breadth of Google's interests as well as the many ways that
+Googlers leverage Google's resources to have enormous impact. Sometimes it's
+by trying things nobody else will try, like Internet balloons, instrumented
+contact lenses, or tiny radars. Other times it's by leveraging their dominant
+market position to influence other parts of the technology space, to push
+hardware makers to embrace the physical web or incorporate sensor hubs into
+new devices, or to drive mobile data prices down by competing with existing
+cell providers. Other times all you need to be is Google. For example, if you
+want to experiment with Internet protocol replacements, it helps to have
+billions of devices and mobile browsers that you can migrate at will to your
+new protocols (https://http2.github.io/[1],
+https://en.wikipedia.org/wiki/QUIC[2]).
+
+But there was an overwhelming sense of _practicality_ to most of the projects
+that were presented, along with a willingness to embrace and discard existing
+technologies as needed. I came away with the impression that Google has a lot
+of smart people working hard to solve real problems aided by tremendous
+resources. And I was also happy to see the web being embraced by many of the
+speakers, which seems like a loosely-coordinated pushback against the app
+explosion footnote:[Although I think that there is a lot more that Google
+could do in this area...].
+
+As an academic researcher, it was also gratifying to clearly see the
+contributions of the mobile systems community being brought to fruition at
+Google. For example, the sensor hub work has emerged alongside
+http://mobilehub.cs.washington.edu/index.html[very similar work] by
+researchers at UW. And the Nearby project does a nice job of combining many
+point solutions to the proximity problem proposed by researchers over the
+years into a single reliable solution. So it may be hard for academic labs to
+stay ahead of Google, but it's possible, and it's also possible to see your
+ideas incorporated into a very well-designed product or service at some point
+in the future.
+
+I also very much enjoyed the talks by the academics in the audience. (All of
+the slides, including mine, are available
+https://drive.google.com/folderview?id=0B9coPBZbv_ugNUNaN1FJNHZEMDQ&usp=sharing[here].)
+Interestingly, there was a lot of work on two topics: wireless connectivity
+and wireless sensing. Seven out of the fifteen faculty talks were on one of
+these two topics, while the rest were all over the place. As an attempt at
+complete mashup of the academic research, I guess we can look forward to a
+future where all of our five-thousand personal interactive
+continuously-adapting wirelessly-powered devices are busily communicating
+using every available waveform to enable seamless computing experiences while
+carefully collecting measurements of every kind of electromagnetic radiation
+and performing continuous vision processing to track our movements,
+breathing, and posture as we move around the house so that they can intervene
+as appropriate--all while efficiently communicating over the mobile web,
+particularly in emerging markets. And cars. There: 15/15.
+
+Anyway, many thanks to http://www.mdw.la[Matt],
+http://research.google.com/pubs/RoyWant.html[Roy],
+http://research.google.com/pubs/AndreasTerzis.html[Andreas], Melanie and
+Deanna for organizing the workshop, and to the many Googlers and academics
+who participated. Very thought provoking.
