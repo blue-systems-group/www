@@ -1,0 +1,62 @@
+---
+working: true
+---
+
+== CS101, Part 1: How and Why Intro Computer Science Courses Fail
+
+[.snippet.lead]
+I'm part of a group at UB that's working to revamp our own introductory
+computer science course sequence. I'm also teaching a new first course on the
+Internet next year which will be offered to both majors and non-majors as a
+first-year "seminar" footnote:[With scare quotes indicating the irony of a
+seminar having several hundred students in it...]. So I've been thinking a
+lot about introductory courses recently, and I'm planning on organizing my
+thoughts about them into multiple posts. Future planned additions to this
+series will explore aspects of introductory courses such as content,
+audience, language choice (why it doesn't matter that much), instructor
+charisma (why it does), and evaluation metrics. [.readmore]#But let me start
+by arguing that these courses are incredibly important before explaining how
+and why they so often fail to live up to their potential.#
+
+=== The Potential of (Intro) CS
+
+The potential of introductory CS courses should reflect the power and
+excitement of computer science. Today, our field has *by far* the most
+incredible, accessible, and powerful tools for anyone who wants to change the
+world, solve a problem, build something new or find something out.
+Computation is cheaper now then when I started this post, we're collecting
+and publishing exabytes of new data about every aspect of life on earth,
+small powerful computers are deployed into every corner of the world and can
+communicate with every other corner, and we've built amazing software and new
+languages to help us control and direct these incredible resources. Never has
+it been more apparent how all of this is changing our world. Never has so
+much computation and data been made available to so many people. Also: *ROBOTS
+ARE DRIVING CARS.*
+
+We know this. And intro CS is how we share that knowledge with others. When
+we get it right, students end up as excited about computer science as we are.
+
+Getting it right also has other positive effects. When we get intro CS right,
+women and men end up as excited about computer science as we are, as shown by
+the University of Washington, Harvard, Harvey Mudd, and I suspect others.
+When you look at successful efforts to improve on our woeful gender and other
+forms of diversity within CS, exciting (and frequently redesigned)
+introductory courses always seem to play a role.
+
+When we get intro CS right, it also goes a long way to reversing negative
+stereotypes about CS students may bring with them to college. I'm very
+supportive of efforts to teach CS in high school and work on stereotypes and
+misconceptions _before_ students arrive at univeristy. But I'm a college
+educator, and I don't think that college is too late. Plus, there are a lot
+of fields that students arrive at college not knowing much about, and the
+solution isn't to teach everything at the high school level. (Although,
+again, CS in high school is a great idea.)
+
+We have a chance to introduce students to the most exciting field out there.
+In baseball terms footnote:[It is October, after all.], this is a big fat
+pitch sitting right out over the plate, just waiting for us to give it a
+ride.
+
+=== How Intro CS Fails
+
+=== Why Intro CS Fails
