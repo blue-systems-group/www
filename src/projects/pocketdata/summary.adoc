@@ -1,0 +1,59 @@
+---
+name: Redesigning Mobile Data Storage
+title: "PocketData: Benchmarking and Redesigning Mobile Data Storage Systems"
+started: 2015-08-31
+leads:
+- jerryant
+people:
+- lziarek
+- challen
+- okennedy
+papers:
+- tpctc2015-pocketdata
+---
+[.lead]
+Smartphone apps and platforms rely on access to structured and unstructured
+data. Today, many apps build persistent storage layers on top of embedded SQL
+databases such as https://en.wikipedia.org/wiki/SQLite[SQLite]. However, SQL
+is not necessarily an ideal choice for persisting many types of data
+structures. Embedded database engines lack benchmarks that reflect the
+differences between interactive workloads and the traditional
+throughput-driven workloads that are used to evaluate database servers
+supporting big data and web applications. The
+link:/projects/pocketdata[PocketData] project is developing new benchmarks
+based on smartphone embedded database workloads that can drive innovative
+next-generation approaches to mobile structured data storage and access.
+
+The usage of embedded databases by smartphone apps differs from traditional
+database access patterns in two important ways. First, mobile app
+embedded databases support interactive workloads where queries arrive in
+bursts separately by long periods of idleness. Thus, raw throughput is a poor
+way to evaluate their performance, and opportunities exist to reorganize data
+after interactive bursts to prepare for future requests. We plan to leverage
+the ongoing work by the http://odin.cse.buffalo.edu/[ODIn Lab] on
+http://odin.cse.buffalo.edu/research/astral/[just-in-time datastructures] as
+a way to use idleness and previous queries to iterative improve performance.
+
+Second, mobile app embedded databases support single apps that may issue
+queries with very specific properties. For example, our
+link:/papers/tpctc2015-pocketdata[initial analysis] has demonstrated that
+many Android apps use SQLite purely as a key-value store. In other cases,
+query patterns indicate that apps are using existing object-relational
+mapping libraries
+(https://en.wikipedia.org/wiki/Object-relational_mapping[ORMs]) to persist
+objects, which produce their own distinctive access patterns. We have also
+seen cases where SQLite database were never updated by apps, indicating that
+the entire database may serve as a cache of structured app data that is only
+updated during app upgrades. [.pullquote]#In all of these cases, the freedom
+of the embedded database to couple itself tightly to a specific app may open
+up new optimization opportunities.#
+
+To explore these ideas we are beginning by building a smartphone embedded app
+database benchmark--actually a benchmark _generator_, which will be able to
+use traces of database activity to synthesize a benchmark for any app. This
+feature is critical to ensure that we can support the variety of app database
+usage patterns and update the benchmark suite easily as they change. We are
+also evaluating the performance and energy consumption of SQLite, the
+embedded database provided by default to Android apps, against alternatives
+such as https://en.wikipedia.org/wiki/Berkeley_DB[BerkeleyDB] and
+https://en.wikipedia.org/wiki/H-Store[H-Store].
