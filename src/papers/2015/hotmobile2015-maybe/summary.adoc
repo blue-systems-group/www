@@ -20,7 +20,7 @@ git: http://blue.cse.buffalo.edu/gitlab/blue/papers.hotmobile2015-maybe
 projects:
 - maybe
 funding:
-- 2011-CRI-PhoneLab
+- 2011-cri-phonelab
 ---
 == Abstract
 

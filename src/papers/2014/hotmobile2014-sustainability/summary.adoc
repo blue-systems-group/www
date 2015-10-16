@@ -13,7 +13,7 @@ git: https://github.com/gchallen/papers.hotmobile2014-sustainability
 projects:
 - sustainability
 funding:
-- 2011-CRI-PhoneLab
+- 2011-cri-phonelab
 ---
 == Abstract
 

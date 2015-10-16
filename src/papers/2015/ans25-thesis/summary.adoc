@@ -9,7 +9,7 @@ projects:
 - pocketlocker
 - phonelab
 funding:
-- 2011-CRI-PhoneLab
+- 2011-cri-phonelab
 ---
 == Abstract
 

@@ -12,7 +12,7 @@ git: https://github.com/gchallen/papers.hotnets2014-pocketsniffer
 projects:
 - pocketsniffer
 funding:
-- 2011-CRI-PhoneLab
+- 2011-cri-phonelab
 ---
 == Abstract
 

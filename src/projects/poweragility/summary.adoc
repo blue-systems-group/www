@@ -14,7 +14,7 @@ papers:
 - hotmobile2014-poweragility
 - hotos2011-poweragility
 funding:
-- 2014-CSR-PowerAgility
+- 2014-csr-poweragility
 ---
 
 [.lead]

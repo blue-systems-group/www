@@ -11,7 +11,7 @@ git: https://github.com/gchallen/papers.mobicase2014-pocketlocker
 projects:
 - pocketlocker
 funding:
-- 2011-CRI-PhoneLab
+- 2011-cri-phonelab
 ---
 == Abstract
 

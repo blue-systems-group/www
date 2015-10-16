@@ -17,8 +17,8 @@ papers:
 - sensemine2013-phonelab
 - netmob2013-phonelab
 funding:
-- 2011-CRI-PhoneLab
-- 2011-GRA-PhoneLab
+- 2011-cri-phonelab
+- 2011-gra-phonelab
 spelling_exceptions:
 - WGZR
 ---

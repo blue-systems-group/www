@@ -9,7 +9,7 @@ git: https://github.com/gchallen/posters.hotmobile2014-pocketmocker
 projects:
 - pocketmocker
 funding:
-- 2013-REU-PhoneLab
+- 2013-reu-phonelab
 poster: true
 ---
 == Abstract

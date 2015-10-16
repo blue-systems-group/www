@@ -11,7 +11,7 @@ git: http://blue.cse.buffalo.edu/gitlab/blue/papers.hotmobile2015-numerator
 projects:
 - jouler
 funding:
-- 2014-CSR-Jouler
+- 2014-csr-jouler
 ---
 == Abstract
 

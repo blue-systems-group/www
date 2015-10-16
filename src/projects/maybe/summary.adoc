@@ -12,7 +12,7 @@ people:
 papers:
 - hotmobile2015-maybe
 funding:
-- 2015-GRA-maybe
+- 2015-gra-maybe
 ---
 [.lead]
 One of the reasons programming mobile systems is so hard is the uncertainty

@@ -13,7 +13,7 @@ presenters:
 projects:
 - poweragility
 funding:
-- 2014-CSR-PowerAgility
+- 2014-csr-poweragility
 git: http://blue.cse.buffalo.edu/gitlab/blue/papers.iiswc2015-frontiers
 ---
 == Abstract

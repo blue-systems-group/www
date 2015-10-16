@@ -21,7 +21,6 @@
 = Projects
 
 == New
-** Embedded databases
 ** Filesystem performance
 ** Personal cloud computing
 

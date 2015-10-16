@@ -11,7 +11,7 @@ papers:
 - mobicase2015-jouler
 - hotmobile2015-numerator
 funding:
-- 2014-CSR-Jouler
+- 2014-csr-jouler
 ---
 [.lead]
 Despite the fact that current smartphone platforms already incorporate energy

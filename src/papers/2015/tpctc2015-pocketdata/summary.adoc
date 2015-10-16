@@ -10,7 +10,7 @@ presenters:
 - okennedy
 git: http://gitlab.odin.cse.buffalo.edu/sqlite-benchmark/tpc-tc-2015
 funding:
-- 2011-CRI-PhoneLab
+- 2011-cri-phonelab
 ---
 == Abstract
 

@@ -16,7 +16,7 @@ git: https://github.com/gchallen/papers.netmob2013-phonelab
 projects:
 - phonelab
 funding:
-- 2011-GRA-PhoneLab
+- 2011-gra-phonelab
 poster: true
 ---
 == Abstract

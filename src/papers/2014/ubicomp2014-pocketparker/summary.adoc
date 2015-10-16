@@ -10,7 +10,7 @@ git: https://github.com/gchallen/papers.ubicomp2014-pocketparker
 projects:
 - pocketparker
 funding:
-- 2011-CRI-PhoneLab
+- 2011-cri-phonelab
 ---
 == Abstract
 

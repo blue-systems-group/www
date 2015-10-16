@@ -11,7 +11,7 @@ git: https://github.com/gchallen/posters.hotmobile2014-poweragility
 projects:
 - poweragility
 funding:
-- 2014-CSR-PowerAgility
+- 2014-csr-poweragility
 poster: true
 ---
 == Abstract

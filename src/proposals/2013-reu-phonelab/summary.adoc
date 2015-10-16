@@ -31,6 +31,6 @@ papers:
 
 This is a http://www.nsf.gov/crssprgm/reu/[Research Experiences for
 Undergraduates (REU)] supplement for the original
-link:/proposals/2011-CRI-PhoneLab/[PhoneLab award]. It has allowed us to give
+link:/proposals/2011-cri-phonelab/[PhoneLab award]. It has allowed us to give
 some fantastic and talented undergraduates the chance to work in the
 PhoneLab.

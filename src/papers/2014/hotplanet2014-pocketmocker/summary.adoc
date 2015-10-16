@@ -8,7 +8,7 @@ git: https://github.com/gchallen/papers.hotplanet2014-pocketmocker
 projects:
 - pocketmocker
 funding:
-- 2013-REU-PhoneLab
+- 2013-reu-phonelab
 ---
 == Abstract
 
