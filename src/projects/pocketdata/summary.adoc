@@ -8,6 +8,7 @@ people:
 - lziarek
 - challen
 - okennedy
+external: http://odin.cse.buffalo.edu/research/pocketdata/
 papers:
 - tpctc2015-pocketdata
 ---
