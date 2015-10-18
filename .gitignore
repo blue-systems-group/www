@@ -6,3 +6,4 @@
 /src/spelling_failed.json
 /src/format_failed.json
 /src/.*
+.DS_Store
