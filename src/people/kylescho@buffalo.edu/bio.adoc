@@ -6,8 +6,34 @@ linkedin: https://www.linkedin.com/pub/kyle-schoener/106/982/906
 github: https://github.com/kschoener
 ---
 [.lead]
-I'm a second year computer science undergraduate at the University at Buffalo.  I've been working with link:/[blue] since June, 2015 on the link:/projects/jouler/[Jouler] project.  When I started CSE 115 in the fall semester of my freshman year, I absolutely fell in love with programming and wanted to learn as much as I possibly could.  Since then I have taught myself how to make Android and iOS applications as well as websites, scripts, games and databases.  I am expanding my knowledge every day and I love it.
+I'm a second year computer science undergraduate at the University at
+Buffalo.  I've been working with link:/[blue] since June, 2015 on the
+link:/projects/jouler/[Jouler] project.  When I started CSE 115 in the fall
+semester of my freshman year, I absolutely fell in love with programming and
+wanted to learn as much as I possibly could.  Since then I have taught myself
+how to make Android and iOS applications as well as websites, scripts, games
+and databases.  I am expanding my knowledge every day and I love it.
 
-I am very determined in making use of all of the opportunities the University at Buffalo has to offer during my short time here as an undergraduate.  So, when I first heard about the ACM chapter at UB, I joined straight away.  I joined with the desire to meet other people that were as motivated to learn as me, and I did just that.  Through my involvement in ACM I got involved in maintaining and making changes to the ACM http://www.ubacm.org/[website].  During one of our ACM meetings in the Spring, long-time member and Senior link:/people/nvdirien@buffalo.edu[Nick DiRienzo] made a pitch about Blue and said that they were accepting undergraduate researchers.  I immediately retrieved his contact information and he put me in touch with link:/people/challen@buffalo.edu/[Geoffrey Challen] with whom I set a meeting, and it was scheduled for me to start working at the beginning of the summer!
+I am very determined in making use of all of the opportunities the University
+at Buffalo has to offer during my short time here as an undergraduate.  So,
+when I first heard about the ACM chapter at UB, I joined straight away.  I
+joined with the desire to meet other people that were as motivated to learn
+as me, and I did just that.  Through my involvement in ACM I got involved in
+maintaining and making changes to the ACM http://www.ubacm.org/[website].
+During one of our ACM meetings in the Spring, long-time member and Senior
+link:/people/nvdirien/[Nick DiRienzo] made a pitch about Blue and
+said that they were accepting undergraduate researchers.  I immediately
+retrieved his contact information and he put me in touch with
+link:/people/gwa/[Geoffrey Challen] with whom I set a
+meeting, and it was scheduled for me to start working at the beginning of the
+summer!
 
-Currently, link:/people/anudipam@buffalo.edu/[Anudipa Maiti] and I are working on link:/projects/jouler/[Jouler].  In our research, we are attempting to find the best way to manage energy on Android devices.  Through user feedback, we have created several policies for the user to select depending on how they want their energy managed.  We also, through hacking the https://source.android.com/[Android Open Source Project], have created new ways to conserve energy that you couldn’t do on a factory Android device.  This research is perfect for me because with my degree I’d like to get into working in an energy-related field or something to do mobile devices.  
+Currently, link:/people/anudipa/[Anudipa Maiti] and I are
+working on link:/projects/jouler/[Jouler].  In our research, we are
+attempting to find the best way to manage energy on Android devices.  Through
+user feedback, we have created several policies for the user to select
+depending on how they want their energy managed.  We also, through hacking
+the https://source.android.com/[Android Open Source Project], have created
+new ways to conserve energy that you couldn’t do on a factory Android device.
+This research is perfect for me because with my degree I’d like to get into
+working in an energy-related field or something to do mobile devices.  

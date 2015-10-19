@@ -16,4 +16,4 @@ of people around me, I was motivated to pursue a PhD program.
 I'm presently associated with Blue researching on problems in mobile
 environments. I interned as a developer as well as a researcher both at
 start-ups and corporates. In my spare time I troll
-www.stackoverflow.com[Stack Overflow], play piano and learn Spanish.
+http://www.stackoverflow.com[Stack Overflow], play piano and learn Spanish.

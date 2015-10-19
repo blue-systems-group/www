@@ -6,10 +6,16 @@
       <div class="col-xs-12 col-sm-8">
         {{#each projects.active }}
         <a class="anchor" id="{{ this.slug }}"></a>
-        <h3>{{ link this }}</h3>
+        <h3 class="noexternal">{{ link this }}</h3>
         <p>
         {{{ this.snippet }}}
-        {{#if this.has_more }}<a href="/{{ this.path}}">Read more...</a>{{/if}}
+        {{#if this.external }}
+        <a href="{{{ external }}}">External project page.</a>
+        {{else}}
+          {{#if this.has_more }}
+          <a href="/{{ this.path}}">Read more...</a>
+          {{/if}}
+        {{/if}}
         </p>
         {{/each}}
         {{#if projects.inactive}}
