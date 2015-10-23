@@ -152,9 +152,23 @@ a.external:after {
   height: 60px;
 }
 .tableblock td {
-  padding: 0px 0px;
+  padding: 0px 5px;
 }
-.halign-center {
+.tableblock th {
+  padding: 0px 5px;
+}
+table.tableblock {
+  width: 100%;
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+.tableblock .halign-right {
+  text-align: right;
+}
+.tableblock .halign-center {
   text-align: center;
 }
 p.tableblock {
@@ -264,4 +278,7 @@ section.top > h2:first-of-type {
 #posts-index div.h3:first-of-type {
   margin-top:10.5px;
   margin-bottom:10.5px;
+}
+td {
+  padding: 5px;
 }

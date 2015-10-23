@@ -7,11 +7,11 @@ working: true
 [.snippet]
 --
 TL;DR: if you know what university overheads are, are an academic computer
-scientist in the U.S., and want to take the overhead survey so that we can
-try to create a meaningful comparison between different universities, the
-link is here[http://goo.gl/forms/R2QyVtb5Zt]. Otherwise, if you want an
-introduction to the arcane word of univeristy finances, or just to enjoy an
-inquiry into the same, read on.
+scientist in the U.S., and want to take the overhead survey to facilitate a
+meaningful comparison between different universities, the link is
+http://goo.gl/forms/R2QyVtb5Zt[here]. Otherwise, if you want an introduction
+to the arcane word of univeristy finances--or just to enjoy an inquiry into
+the same--read on.
 
 [.lead]
 Bring a few faculty members together, and the topic of research funding
@@ -21,7 +21,7 @@ comes up. In my experience, this is something that faculty like to complain
 about, and a part of the challenge to funding university research that makes
 us look enviously at our colleagues at industry research labs. But I also
 think that there's a lot to complain about, [.readmore]#so let me try to hit
-the high points.#
+the low points.#
 --
 
 === What Are University Overheads?
@@ -31,10 +31,11 @@ raise money. Mobile systems research like link:/[my group] does requires a
 fairly large number of graduate students, and usually their tuition and very
 modest stipends are paid using external funds. For example, currently I'm
 working with link:/people/[eight Ph.D. students] footnote:[A few more than
-I'd prefer at steady state, but all fantastic students], six of whom are
-externally supported by three different active link:/proposals/[grants]. The
-other two work for the department as teaching assistants, which is another
-way that Ph.D. students support themselves during their degree.
+I'd prefer at steady state, but all fantastic students], five of whom are
+externally supported by three different active link:/proposals/[grants]. Two
+others work for the department as teaching assistants, which is another
+way that Ph.D. students support themselves during their degree. The last one
+is self-supported, which is rare.
 
 I don't want to digress into the history and current challenges associated
 with research funding--a topic for another post, or several--but let's just
@@ -43,12 +44,13 @@ than I would prefer writing grant proposals, and most funding programs are
 _extremely_ competitive. I actually don't have too many complaints about the
 National Science Foundation grant application process, except maybe that it's
 too slow. Fundamentally, there are just too many people trying to eat the
-same pie. [.pullquote]#Overall, the result is that at least at present
-external funding is hard to obtain and therefore when you _do_ receive
-external awards, you want the money to go as far as possible.#
+same pie. Overall, the result is that at least at present external funding is
+hard to obtain. [.pullquote]#So when you _do_ receive external awards, you
+want the money to go as far as possible.#
 
 That's where overheads come in. Every grant request contains two components:
-*Direct costs* support things that I can directly identify: student stipends,
+
+. *Direct costs* support things that I can directly identify: student stipends,
 tuition, and fringe benefits; new equipment; or my salary during the two
 months each year that I'm not technically paid as part of my academic year
 appointment. If you're new to overheads, this may surprise you, but it's
@@ -57,8 +59,8 @@ for the 10 months that classes are in session. As a result, faculty can
 request several months of summer salary to support themselves while
 supervising grant-funded research. Keep this in mind--we'll come back to it
 later.
-
-In contrast, *indirect costs* or overheads are supposed to cover the costs
++
+. In contrast, *indirect costs* or overheads are supposed to cover the costs
 that the proposed research will _indirectly_ incur. For example, to do
 research me and my students need a room in a building with heat
 footnote:[It's Buffalo!], electricity, and the Internet. We might use shared
@@ -76,8 +78,8 @@ I'll spare you the gory details of how the "Modified Direct Cost" is
 calculated. Except to point out that this futzing has funny effects. For
 example, at some institutions researchers encourage their students to avoid
 purchasing equipment that is _under_ a certain amount because it will incur
-overheads, while larger equipment purchases do not. So go ahead and add a few
-TB of Flash storage to that new desktop!
+overheads, while larger equipment purchases do not. So go ahead and add a
+multi-TB Flash RAID array to that new desktop!
 
 === Let The Problems Begin
 
@@ -117,12 +119,19 @@ to do the same research at Harvard compared to North Dakota State. But the
 second problem with overhead rates is that they are impossible to compare,
 because they don't reflect many other differences between institutions,
 including how research is supported, other costs associated with research,
-and how overheads are used. Examples include:
+and how overheads are used. All of these institution-specific policies end up
+either increasing or decreasing the negotiated overhead rate. (It's kind of
+like loopholes in the U.S. tax code, except they seem to only ever have a
+downward effect.)
+
+Examples of these differences include:
 
 * **Administrative support.** At Harvard or MIT, three or four faculty might
 share one administrative assistant, whereas at UB the ratio is closer to ten
 to one. Less staff support places more adminstrative burden on faculty
-investigators who end up with less time to do actual research.
+investigators who end up with less time to do actual research. Whether the
+amount of administrative support has any relationship with the overhead rate
+is anyone's guess.
 +
 * **Faculty return.** At some institutions a portion of the overheads
 collected on each grant are actually returned directly to the faculty
@@ -141,38 +150,48 @@ externally-supported students vary. Some collect full tuition, while others
 provide subsidies or discounts in various ways. For example, at some state
 schools that charge different in-state and out-of-state tuition rates,
 externally-supported students all pay in-state tuition regardless of their
-residency status. Despite the fact that tuition is being paid to the school,
+residency status.
+Despite the fact that tuition is being paid to the school,
 and these policies can have a large impact on the grant's bottom line,
 tuition is not considered overhead.
 +
+This is even stranger when you realize that a fair percentage of the courses
+taken by many Ph.D. student to meet their degree requirement are effectively
+supervised research courses (like
+http://www.cse.buffalo.edu/shared/course.php?e=CSE&n=799[this one]) where the
+course content is doing research. So essentially they pay the university
+tuition to be able to be able to be paid to do research. Putting it this way
+makes it seem even more like overheads!
++
 * **Academic year salary.** Recall that research faculty in the U.S. are
-usually on 9 or 10 month academic contracts, leaving the free summer months
-free to devote to research. And typically grant requests will include some
-summer salary for the investigator. Now, in my experience this entire system
-is a bit of a fiction. Research-active faculty usually work year-round,
-regardless of whether they have summer support or not, and so the summer
-salary really acts more as a bonus that rewards faculty who obtain external
-support. Put another way, I can give myself up to a 33% raise by writing
-successful external grants. You might argue that obtaining external support
-and doing research are part of a research faculty's job description, and I
-would agree, but in practice given the unfortunate reality of the tenure
-system I suspect that this kind of financial incentive is an important part
-of encouraging faculty to continue to write grants and do research.
+usually on 9- or 10-month academic contracts, leaving several unpaid summer
+months free to devote to research. Typically grant requests will include
+some summer salary for the investigator.
++
+Now, in my experience this entire system is a bit of a fiction.
+Research-active faculty usually work year-round, regardless of whether they
+have summer support or not, and so the summer salary really acts more as a
+bonus that rewards faculty who obtain external support. Put another way, I
+can give myself up to a 33% raise by writing successful external grants. You
+might argue that obtaining external support and doing research are part of a
+research faculty's job description, and I would agree, but in practice given
+the unfortunate reality of the tenure system I suspect that this kind of
+financial incentive is an important part of encouraging faculty to continue
+to write grants and do research.
 +
 Unfortunately, some institutions have a policy of forcing faculty to ask
-external sponsors to pay for some of their ten academic year months. For
-example, instead of using a month of salary support from a sponsor to support
-myself for 11 months, rather than 10, the university reduces their support to
-9 months, leaving me with the 10 that I originally started with. The argument
+external sponsors to pay for some of their academic year months. For example,
+instead of using a month of salary support from a sponsor to support myself
+for 11 months, rather than 10, the university reduces their support to 9
+months, leaving me with the 10 that I originally started with. The argument
 for this practice is that the university is "recovering" some of the portion
 of faculty salaries that pay for research activities. But in reality, the
 university is just trying to get away with paying faculty less more the same
 amount of work. Teaching and research are both part of my job description,
 and I've never heard of anyone forced to budget academic year salary who was
 allowed to teach 9/10 of a class footnote:[What does that even mean?] or had
-any of their departmental responsibilities reduced by 10%. In reality,
-academic year salary is just another form of overhead, but not 
-counted that way.
+any of their departmental responsibilities reduced by 10%.
+[.pullquote]#Academic year salary is just another form of hidden overhead.#
 +
 * **Other fees.** Finally, there are other cases where faculty are encouraged
 or required to pad grants with fees that cover things that should be covered
@@ -182,17 +201,57 @@ mine--are still requiring investigators add these charges, despite the fact
 that basic computer services are part of the indirect cost of doing research
 in any field today.
 
+=== One Example Budget
+
+So how does this all work out for in my case? Well, UB has a 59.5% overhead
+rate (fairly high), returns no portion of the overheads to the PI (sad),
+charges full out-of-state tuition to grant-supported foreign Ph.D. students
+(and most of them are foreign), does not require me to budget academic year
+salary (although other departments do) but does require me to budget computer
+service fees. Putting everything in three big categories, here's how it all
+works out:
+
+[width="70%", cols="60,30,10", options="header", role="center"]
+|===
+| Component | $ | %
+
+| Total Direct Costs (Including Tuition) | 57,465 | 70
+
+| Tuition Separately | 17,172 | 21
+
+| Indirect Costs | 23,974 | 30
+
+| Total | 81,439 | &nbsp;
+|===
+
+So around 30% of my grant budget goes to overheads. Maybe that's not so bad.
+But it's also almost $24K for a _single year_. That's enough to hire half of
+a well-paid administrator, and I certainly don't have anywhere near that much
+administrative support--not total, much less per award. Alternatively, it's
+almost enough to add another half-student to the award, and given how hard my
+students work that would make a huge difference. As a final comparison, at
+https://www.ndsu.edu/[North Dakota State], North Dakota's top-ranked research
+university, footnote:[Go Bisons!] the same project would cost $6K (or 7.5%)
+less. Why?
+
+Plus the usual caveats apply. Although UB's tuition rates are quite
+reasonable, the $17K that I pay for tuition is three times more than it would
+be for an in-state student. And the direct costs include $2K of computer
+service fees that as far as I can tell constitute extra overhead.
+
 === How About Them Apples-to-Apples
 
 I think that academic researchers suspect that lurking behind all of these
-differences are the real issues of institutional administrative competence.
-Unfortunately, all of these differences make it hard to perform the
-apples-to-apples comparisons required to determine whether your own
-institution creates a supportive environment for research or not.
+differences are the real issues of institutional administrative competence,
+efficiency, and planning. Unfortunately, all of these differences make it
+hard to perform the apples-to-apples comparisons required to determine
+whether your own institution creates a competitive financial environment for
+research or not.
 
 So let's try an apples-to-apples comparison. If you'd like to participate,
 please complete http://goo.gl/forms/knCgTLXpkh[this survey]. It includes a
 variety of questions about your institution and shouldn't take _too_ long to
 complete. An optional (but extremely important) component asks you to create
-a sample one-year budget, and that should provide the best way to compare the
-impact of at least some of the differences I outlined above.
+a sample one-year budget similar to mine above, and that should provide the
+best way to compare the impact of at least some of the differences I outlined
+above.
