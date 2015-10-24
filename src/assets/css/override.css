@@ -12,13 +12,6 @@ body {
   border-right-style: none;
   border-radius: 0px;
 }
-code {
-  color: #191995;
-  font-weight: bold;
-  font-size: inherit;
-  background-color: inherit;
-  padding: inherit;
-}
 div#content > img {
   max-width: 100%;
   height: auto;
@@ -160,9 +153,7 @@ a.external:after {
 table.tableblock {
   width: 100%;
 }
-table.center {
-  margin-left: auto;
-  margin-right: auto;
+table {
   margin-bottom: 10px;
 }
 .tableblock .halign-right {
@@ -281,4 +272,8 @@ section.top > h2:first-of-type {
 }
 td {
   padding: 5px;
+}
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
 }

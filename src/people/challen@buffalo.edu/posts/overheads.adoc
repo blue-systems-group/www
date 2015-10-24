@@ -211,27 +211,31 @@ salary (although other departments do) but does require me to budget computer
 service fees. Putting everything in three big categories, here's how it all
 works out:
 
-[width="70%", cols="60,30,10", options="header", role="center"]
+[width="90%", cols="50,>30,>20", options="header", role="block-center"]
 |===
-| Component | $ | %
+| Component | $ | % of Total
 
-| Total Direct Costs (Including Tuition) | 57,465 | 70
+| Salaries | `31,084` | `40`
 
-| Tuition Separately | 17,172 | 21
+| Student Tuition | `17,172` | `22`
 
-| Indirect Costs | 23,974 | 30
+| Other Direct Costs | `7,302` | `9`
 
-| Total | 81,439 | &nbsp;
+| Total Direct Costs | `55,558` | `71`
+
+| Total Indirect Costs | `22,840` | `29`
+
+| Total | `78,398` | &nbsp;
 |===
 
-So around 30% of my grant budget goes to overheads. Maybe that's not so bad.
-But it's also almost $24K for a _single year_. That's enough to hire half of
+So 29% of my grant budget goes to overheads. Maybe that's not so bad.
+But it's also almost $23K for a _single year_. That's enough to hire half of
 a well-paid administrator, and I certainly don't have anywhere near that much
 administrative support--not total, much less per award. Alternatively, it's
 almost enough to add another half-student to the award, and given how hard my
 students work that would make a huge difference. As a final comparison, at
 https://www.ndsu.edu/[North Dakota State], North Dakota's top-ranked research
-university, footnote:[Go Bisons!] the same project would cost $6K (or 7.5%)
+university, footnote:[Go Bisons!] the same project would cost $5.7K (or 7.3%)
 less. Why?
 
 Plus the usual caveats apply. Although UB's tuition rates are quite
