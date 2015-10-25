@@ -97,6 +97,7 @@ Android project:
 </div>
 ++++
 
+[.spelling_exception]
 Geoffrey Challen motivates the link:/projects/maybe[maybe project] at the
 https://gdg-buffalo.github.io/[GDG DevFest Buffalo 2015]:
 

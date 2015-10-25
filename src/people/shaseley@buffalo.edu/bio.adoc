@@ -10,11 +10,11 @@ Buffalo], where I research mobile systems and operating systems.
 Currently, I'm working on measuring and quantifying quality of experience
 on mobile systems.
 
-Before formally joing the link:/[blue Systems Research Group] this year, 
+Before formally joining the link:/[blue Systems Research Group] this year, 
 I worked with the group while earning my Masters in the spring of 2014.
 During that time, I worked on `link:/projects/poweragility[Power Agile Operating Systems] 
 and link:/projects/sustainability[SmartPhone Sustainability].  Prior to that, I earned my
-B.S in mathematics from UB in 2004.
+B.S. in mathematics from UB in 2004.
 
 When I'm not hacking in the lab, I enjoy traveling, brewing (hopefully) delicious craft
 beer, and listening to and playing music.

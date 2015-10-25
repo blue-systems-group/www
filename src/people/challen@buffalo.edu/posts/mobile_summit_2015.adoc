@@ -1,3 +1,9 @@
+---
+spelling_exceptions:
+- Andreas
+- Soli
+- Fi
+---
 == Two Days at Google
 
 [.snippet.lead]
@@ -14,7 +20,7 @@ excitement without violating the NDA that I didn't sign...#
 
 http://www.mdw.la[Matt Welsh] organized the workshop. Over a day and a half
 about twenty footnote:[The website claimed 40, but it didn't feel like that
-many to me.] faculty reseachers--and some of their students, which was a nice
+many to me.] faculty researchers--and some of their students, which was a nice
 feature--heard from ten Googlers about their projects, which are at various
 stages of completion. Briefly:
 

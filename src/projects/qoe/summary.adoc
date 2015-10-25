@@ -26,8 +26,8 @@ Surprisingly, few resource management decisions on mobile smartphones are
 made with QoE in mind. Threads are scheduled, memory is allocated, data is
 stored and transmitted to other devices, but without any consideration of how
 these operations related to what is on screen and the overall QoE. Our goal
-is to change this by quantifying QoE and then using it to priorize resource
-managament decisions--both on a single device and across the network.
+is to change this by quantifying QoE and then using it to prioritize resource
+management decisions--both on a single device and across the network.
 
 There are many challenges to accomplishing this. Quantifying QoE requires
 communication between normally independent layers of the system to monitor

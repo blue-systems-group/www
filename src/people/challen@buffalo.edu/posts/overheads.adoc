@@ -1,5 +1,7 @@
 ---
 working: true
+spelling_exceptions:
+- Ummm
 ---
 
 == Lies, Damned Lies, and University Overheads
@@ -10,7 +12,7 @@ TL;DR: if you know what university overheads are, are an academic computer
 scientist in the U.S., and want to take the overhead survey to facilitate a
 meaningful comparison between different universities, the link is
 http://goo.gl/forms/R2QyVtb5Zt[here]. Otherwise, if you want an introduction
-to the arcane word of univeristy finances--or just to enjoy an inquiry into
+to the arcane word of university finances--or just to enjoy an inquiry into
 the same--read on.
 
 [.lead]
@@ -128,7 +130,7 @@ Examples of these differences include:
 
 * **Administrative support.** At Harvard or MIT, three or four faculty might
 share one administrative assistant, whereas at UB the ratio is closer to ten
-to one. Less staff support places more adminstrative burden on faculty
+to one. Less staff support places more administrative burden on faculty
 investigators who end up with less time to do actual research. Whether the
 amount of administrative support has any relationship with the overhead rate
 is anyone's guess.
@@ -243,6 +245,34 @@ reasonable, the $17K that I pay for tuition is three times more than it would
 be for an in-state student. And the direct costs include $2K of computer
 service fees that as far as I can tell constitute extra overhead.
 
+=== And Then There's the Conversation...
+
+All of the inter-institution differences between research policies make it
+hard to have a conversation about whether your institution is doing a good
+job of providing a supportive research environment. And in my experience,
+that conversation is hard enough anyway. I've asked several university
+administrators at UB about why our overhead rates are so high. Here's how
+that chat usually goes:
+
+* *Me*: Why is our overhead rate so high?
+* *Administrator*: No it's not!
+* *Me*: Yes it is. (Recites some numbers from table above.)
+* *Administrator*: Ummm... well... we pay a lot for snow removal!
+* *Me*: North Dakota State (44.5%)?
+* *Administrator*: Ummm... well... UB has great benefits!
+* *Me*: MIT (56%) also has great benefits.
+* *Administrator*: --
+
+No: the line about snow removal is not made up. I have heard that used as an
+explanation before. But beyond it's transparent silliness, it also points to
+another problem with overheads, which is that in a lot of cases the things
+people claim they are covering are actually mixed-use facilities that are
+probably actually being paid for by tuition dollars. As far as I know, UB has
+no special parking lots or spots for faculty researchers footnote:[That would
+be great though, so I'll keep looking...], and the lots need
+to be plowed when classes are in session. So that's something that should be
+(and probably is) paid for with tuition revenue, not with research overheads.
+
 === How About Them Apples-to-Apples
 
 I think that academic researchers suspect that lurking behind all of these
@@ -259,3 +289,8 @@ complete. An optional (but extremely important) component asks you to create
 a sample one-year budget similar to mine above, and that should provide the
 best way to compare the impact of at least some of the differences I outlined
 above.
+
+Assuming a decent number of responses, I'll return to this topic in the
+spring and present an analysis of the survey responses. I look forward to
+your contribution. And if you have any suggestions are other comments, feel
+free to email me.

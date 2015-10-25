@@ -46,7 +46,7 @@ introductory courses always seem to play a role.
 When we get intro CS right, it also goes a long way to reversing negative
 stereotypes about CS students may bring with them to college. I'm very
 supportive of efforts to teach CS in high school and work on stereotypes and
-misconceptions _before_ students arrive at univeristy. But I'm a college
+misconceptions _before_ students arrive at university. But I'm a college
 educator, and I don't think that college is too late. Plus, there are a lot
 of fields that students arrive at college not knowing much about, and the
 solution isn't to teach everything at the high school level. (Although,

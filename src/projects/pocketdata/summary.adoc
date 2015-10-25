@@ -32,7 +32,7 @@ bursts separately by long periods of idleness. Thus, raw throughput is a poor
 way to evaluate their performance, and opportunities exist to reorganize data
 after interactive bursts to prepare for future requests. We plan to leverage
 the ongoing work by the http://odin.cse.buffalo.edu/[ODIn Lab] on
-http://odin.cse.buffalo.edu/research/astral/[just-in-time datastructures] as
+http://odin.cse.buffalo.edu/research/astral/[just-in-time data structures] as
 a way to use idleness and previous queries to iterative improve performance.
 
 Second, mobile app embedded databases support single apps that may issue

@@ -10,7 +10,7 @@ link:/projects/poweragility[Power Agile Operating Systems]. My research
 interests lie in operating systems, networking and mobile systems.
 
 My tryst with computers began when my father took a huge loan to purchase a PC
-[.spelling_exception]#spec'd# at 166MHz having 32MB RAM and a 1GB HDD running
+[.spelling_exception]#spec'd# at 166 MHz having 32 MB RAM and a 1 GB HDD running
 Windows 95. Games were soon to follow with Microsoft's Pinball and Midway's
 [.spelling_exception]#Mortal Kombat# 3. Me and my dad had this cat and mouse
 game we would play wherein he would find new ways to prevent me from

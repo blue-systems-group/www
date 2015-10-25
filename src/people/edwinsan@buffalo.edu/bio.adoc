@@ -6,20 +6,25 @@ linkedin: https://www.linkedin.com/pub/edwin-santos/74/42/947
 github: https://github.com/saintsantos
 ---
 [.lead]
-This is my fourth year as an undergraduate in computer engineering at the University at Buffalo.
-My time here has been full of interesting events as well as unexpected opportunities. Before I 
-was in the PhoneLab I was and still am involved in the custom ROM and android modification
-community over at xda and was building ROMs as a hobby. I am now one of the Systems Administrators
-and platform developers for the PhoneLab. I am also working on logging all api calls in the platform.
+This is my fourth year as an undergraduate in computer engineering at the
+University at Buffalo. My time here has been full of interesting events as
+well as unexpected opportunities. Before I was in the PhoneLab I was and
+still am involved in the custom ROM and Android modification community over
+at xda and was building ROMs as a hobby. I am now one of the Systems
+Administrators and platform developers for the PhoneLab. I am also working on
+logging all API calls in the platform.
 
-I've been working with computers ever since my middle school years when I was finding ways to run 
-my own programs on school computers by running them on flash drives. After I was introduced to linux 
-in my high school I have been slowly integrating myself into the linux environment and growing in the 
-open source community. I am currently a programming mentor for my local FIRST robotics team 1507. I 
-enjoy being able to show the kids in my high school all of the things they can do with the knowledge 
-and skills they acquire through the robotics program. I am also an avid tinkerer. I am always working 
-on some idea I have come up with in my spare time when I should probably be working on more important 
-things. This lab has allowed me to really expand upon my abilities though. Seeing what they do in the 
-lab with these devices is amazing and has only led me further towards an interest in mobile hardware 
-applications. I don't know what it's going to be like for me here in six months, but I can't wait to 
-find out.
+I've been working with computers ever since my middle school years when I was
+finding ways to run my own programs on school computers by running them on
+flash drives. After I was introduced to Linux in my high school I have been
+slowly integrating myself into the Linux environment and growing in the open
+source community. I am currently a programming mentor for my local FIRST
+robotics team 1507. I enjoy being able to show the kids in my high school all
+of the things they can do with the knowledge and skills they acquire through
+the robotics program. I am also an avid tinkerer. I am always working on some
+idea I have come up with in my spare time when I should probably be working
+on more important things. This lab has allowed me to really expand upon my
+abilities though. Seeing what they do in the lab with these devices is
+amazing and has only led me further towards an interest in mobile hardware
+applications. I don't know what it's going to be like for me here in six
+months, but I can't wait to find out.

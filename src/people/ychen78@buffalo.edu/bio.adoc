@@ -13,7 +13,7 @@ I mainly work on the link:/projects/maybe/[Maybe] project in past year.
 We introduce a new approach based on structured uncertainty through a
 new language construct: the maybe statement. We have developed a custom
 [.spelling_exception]#Java# compiler, [.spelling_exception]#Gradle# plugin,
-Backend based on [.spelling_exception]#Meteor#, Android Library.
+backend based on [.spelling_exception]#Meteor#, Android Library.
 Another project I participated is link:/projects/jouler/[Jouler]. We have
 modified Android Open Source Project to add energy management policy
 framework. It provides APIs for developers to write their own energy
