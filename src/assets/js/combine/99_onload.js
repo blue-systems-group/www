@@ -22,15 +22,19 @@ $(function() {
     }
   }
   if (isMobile()) {
-    $('body').swipe({
-      swipe: function (event, direction) {
-        if (direction === "right" && $("#content").data('prev')) {
-          window.location.replace($("#content").data('prev'));
-        } else if (direction === "left" && $("#content").data('next')) {
+    $('#content.swipe').swipe({
+      swipeLeft: function() {
+        if ($("#content").data('next')) {
           window.location.replace($("#content").data('next'));
         }
       },
-      threshold: 150
+      swipeRight: function () {
+        if ($("#content").data('previous')) {
+          window.location.replace($("#content").data('previous'));
+        }
+      },
+      threshold: 150,
+      allowPageScroll: "auto"
     });
   }
 });

@@ -1,8 +1,8 @@
 {{> header}}
 
-<div id="content" class="thin"
+<div id="content" class="thin swipe"
     {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
-    {{#if previous_item}}data-prev="/{{ previous_item.path }}"{{/if}}>
+    {{#if previous_item}}data-previous="/{{ previous_item.path }}"{{/if}}>
 
   <div class="container">
 
