@@ -1,5 +1,9 @@
 {{> header}}
-<div id="content" class="thin">
+
+<div id="content" class="thin"
+    {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
+    {{#if previous_item}}data-prev="/{{ previous_item.path }}"{{/if}}>
+
   <div class="container">
     
     <div class="row links hidden-xs hidden-sm">

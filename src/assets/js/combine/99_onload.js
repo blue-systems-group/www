@@ -15,11 +15,7 @@ $(function() {
   });
   $('body').swipe({
     swipe: function (event, direction) {
-      if (direction === "right" && $("#content").data('prev')) {
-        window.location.replace($("#content").data('prev'));
-      } else if (direction === "left" && $("#content").data('next')) {
-        window.location.replace($("#content").data('next'));
-      }
+      console.log("Swipe event");
     }
   });
 });
