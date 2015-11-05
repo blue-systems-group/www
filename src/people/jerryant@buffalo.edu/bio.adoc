@@ -5,7 +5,7 @@ joined: 2015-01-01
 scholar: http://scholar.google.com/citations?user=MVmyI34AAAAJ
 ---
 [.lead] 
-I'm a first year PhD student at Blue. I joined UB during Fall 2013
+I'm a first year PhD student at Blue. I joined UB in Fall 2013
 and decided to extend my Masters to the PhD program. My research interests
 include mobile systems, wireless networking and databases.
 
@@ -16,4 +16,4 @@ of people around me, I was motivated to pursue a PhD program.
 I'm presently associated with Blue researching on problems in mobile
 environments. I interned as a developer as well as a researcher both at
 start-ups and corporates. In my spare time I troll
-http://www.stackoverflow.com[Stack Overflow], play piano and learn Spanish.
+http://www.stackoverflow.com/users/3749292/jerry[Stack Overflow], play piano and learn Spanish.
