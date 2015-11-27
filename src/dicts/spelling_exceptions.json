@@ -34,6 +34,7 @@
     "proposals/**"
   ],
   "Dropbox": true,
+  "/datasets?/": true,
   "exabytes": true,
   "Facebook": true,
   "Gaetano Borriello": true,

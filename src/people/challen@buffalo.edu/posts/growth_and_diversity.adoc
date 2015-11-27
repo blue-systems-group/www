@@ -317,8 +317,7 @@ diversity].
 And at [.spelling_exception]#Harvey Mudd#,
 http://www.nytimes.com/2012/04/03/science/giving-women-the-access-code.html[well-publicized
 efforts to increase diversity] seem to also be
-http://webcache.googleusercontent.com/search?q=cache:QO2zDIiUCqIJ:tsl.pomona.edu/articles/2013/2/22/news/3604-computer-science-departments-under-strain+&cd=1&hl=en&ct=clnk&gl=us[driving
-growth].
+http://tsl.news/articles/2013/2/22/news/3604-computer-science-departments-under-strain[driving growth].
 //
 So efforts at growth help improve diversity, while efforts at improving
 diversity also drive growth.

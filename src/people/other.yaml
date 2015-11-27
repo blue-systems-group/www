@@ -161,7 +161,7 @@
   website: "https://www.bell-labs.com/usr/milind.buddhikot/www/Front.html"
 - name: Yih-Farn Chen
   email: chen@research.att.com
-  website: "http://www2.research.att.com/~chen/"
+  website: "http://www.research.att.com/people/Chen_Yih-farn_R/index.html"
   institution: AT&amp;T Labs Research
 - name: Mark Hempstead
   email: mark@ece.tufts.edu
@@ -205,3 +205,11 @@
   email: ashnik@umich.edu
   institution: University of Michigan
   website: http://web.eecs.umich.edu/~ashnik/
+- name: Aaron Striegel
+  email: striegel@nd.edu
+  institution: Notre Dame University
+  website: https://engineering.nd.edu/profiles/astriegel
+- name: Lei Meng
+  email: lmeng@nd.edu
+  institution: Notre Dame University
+  website: http://www3.nd.edu/~lmeng/

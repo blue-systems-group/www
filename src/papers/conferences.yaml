@@ -25,7 +25,7 @@ hotmobile:
   preface: Proceedings of the
   name: Workshop on Hot Topics in Mobile Computing Systems and Applications
   core:
-    name: CORE 2013
+    name: CORE 2014
     rank: C
     link: http://portal.core.edu.au/conf-ranks/1914/
   2014:
@@ -47,7 +47,7 @@ hotnets:
   preface: Proceedings of the
   name: ACM Workshop on Hot Topics in Networks
   core:
-    name: CORE 2013
+    name: CORE 2014
     rank: A
     link: http://portal.core.edu.au/conf-ranks/69/
   2014:
@@ -61,7 +61,7 @@ hotos:
   preface: Proceedings of the
   name: Workshop on Hot Topics in Operating Systems
   core:
-    name: CORE 2013
+    name: CORE 2014
     rank: A
     link: http://portal.core.edu.au/conf-ranks/1845/
   2011:
@@ -98,6 +98,20 @@ iiswc:
     date: 2015-10-04
     location: Atlanta, GA
     acceptance: 33
+infocom:
+  preface: Proceedings of the
+  name: IEEE International Conference on Computer Communications
+  core:
+    name: CORE 2014
+    rank: A*
+    link: http://portal.core.edu.au/conf-ranks/2074/
+  2016:
+    number: 2016
+    shortname: INFOCOM'16
+    link: http://infocom2016.ieee-infocom.org/
+    date: 2016-05-10
+    location: San Francisco, CA
+    acceptance: 18
 lwmoocs:
   preface: Proceedings of the
   name: Learning with MOOCs Practitioner’s Workshop
@@ -154,7 +168,7 @@ ubicomp:
   preface: Proceedings of the
   name: ACM International Joint Conference on Pervasive and Ubiquitous Computing
   core:
-    name: CORE 2013
+    name: CORE 2014
     rank: A*
     link: http://portal.core.edu.au/conf-ranks/1825/
   2014:

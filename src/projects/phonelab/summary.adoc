@@ -21,6 +21,7 @@ funding:
 - 2011-gra-phonelab
 spelling_exceptions:
 - WGZR
+- WIVB
 ---
 [.lead]
 The 2{nbsp}billion smartphones deployed worldwide represent the largest
@@ -77,11 +78,15 @@ PhoneLab has been covered several times in the media, including
 http://www.wgrz.com/news/article/180829/37/UB-Students-to-Study-Smartphones-Usage[this
 piece by WGZR Channel 2 News],
 http://www.ubspectrum.com/article/2012/09/ub-google-and-sprint-work-to-improve-smart-phones[this
-article in the UB Spectrum], as well as
+article in the UB Spectrum],
 http://www.buffalo.edu/news/releases/2012/08/13631.html[this official UB
-press release]. And if you're curious about some of the projects we've been
-using PhoneLab to work on, the following video was recorded at the first
-annual PhoneLab participant meeting in May, 2014:
+press release], and
+http://wivb.com/2015/11/26/ub-phone-lab-research-tries-to-spread-internet-access-to-developing-countries/[this
+more recent article on WIVB Channel 4 News].
+//
+And if you're curious about some of the projects we've been using PhoneLab to
+work on, the following video was recorded at the first annual PhoneLab
+participant meeting in May, 2014:
 
 ++++
 <div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
