@@ -12,6 +12,7 @@ projects:
 - pocketsniffer
 funding:
 - 2011-cri-phonelab
+git: https://github.com/blue-systems-group/papers.infocom16-scan.git
 ---
 == Abstract
 
