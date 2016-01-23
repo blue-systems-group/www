@@ -25,7 +25,7 @@ own. I joined the Ph.D. program in 2013.
 
 I love to code and so while I'm not playing computer games, I spend time on
 other coding projects. Currently,
-http://odin.cse.buffalo.edu/people/oliver-kennedy/[Oliver] and I are working on
+http://odin.cse.buffalo.edu/people/oliver_kennedy.html[Oliver] and I are working on
 a http://www.github.com/okennedy/worldtree.git[constrained world generator] for
 games. I'm also trying to get my [.spelling_exception]#quadcopter# to fly and
 am working on a http://wavelength.fm[Wavelength] clone so people can watch

@@ -8,7 +8,6 @@ leads:
 people:
 - zguan2
 - qiao
-- milind.buddhikot@bell-labs.com
 - melodia@ece.neu.edu
 - dimitrio
 - challen
