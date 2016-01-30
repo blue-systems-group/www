@@ -57,6 +57,6 @@ link:/people/sriramsh[Sriram Shantharam], Chris Renschler, and Matt Adam
 discussing various components of the project.
 
 As the culmination of the project our team participated in the White
-House-sponsored http://smartamerica.org/[SmartAmerica Challenge] and
-presented our results at the SmartAmerica Expo held in Washington, DC, in
-June 2014.
+House-sponsored http://www.nist.gov/el/smartamerica.cfm/[SmartAmerica
+Challenge] and presented our results at the SmartAmerica Expo held in
+Washington, DC, in June 2014.
