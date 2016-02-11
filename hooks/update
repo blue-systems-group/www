@@ -39,7 +39,7 @@ fi
 echo "Building blue.cse.buffalo.edu..."
 npm install
 if node ./node_modules/metalsmith-blue/lib/index.js . --check --deploy; then
-  rsync -crlpgoDi build/* /mnt/ramdisk/blue.cse.buffalo.edu/www/ | while read unused filename; do
+  rsync -crlpgoDi .build/* /mnt/ramdisk/blue.cse.buffalo.edu/www/ | while read unused filename; do
     curl --request PURGE 'http://127.0.0.1/$filename' > /dev/null 2> /dev/null
     echo "Updated $filename"
   done
