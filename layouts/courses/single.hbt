@@ -47,12 +47,10 @@
           <div class="h4 authors-ml">
             <em>Instructors:</em> {{ and_list instructors }}
             {{#if staff}}
-						<br />
-            <em>Staff:</em> {{ and_list staff }}
+            <div style="margin-top:5px;"><em>Staff:</em> {{ and_list staff }}</div>
             {{/if}}
             {{#if volunteers}}
-						<br />
-            <em>Volunteers:</em> {{ and_list volunteers }}
+            <div style="margin-top:5px;"><em>Volunteers:</em> {{ and_list volunteers }}</div>
             {{/if}}
           </div>
           <div class="h4" style="margin-bottom:5px;">
