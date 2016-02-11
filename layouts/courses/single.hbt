@@ -45,11 +45,13 @@
             ({{format_date started "normal"}}&ndash;{{#if ends}}{{format_date ends "normal" }}{{/if}})
           </div>
           <div class="h4 authors-ml">
-            <em>Instructors:</em> {{ and_list instructors }} <br />
+            <em>Instructors:</em> {{ and_list instructors }}
             {{#if staff}}
+						<br />
             <em>Staff:</em> {{ and_list staff }}
             {{/if}}
             {{#if volunteers}}
+						<br />
             <em>Volunteers:</em> {{ and_list volunteers }}
             {{/if}}
           </div>
