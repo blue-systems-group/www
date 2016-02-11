@@ -13,7 +13,7 @@ volunteers:
 - carlnues
 - shaseley
 - jgerber
-website: "http://www.ops-class.org/course/edition/ub_cse421_sp2014"
+website: "https://www.ops-class.org/"
 videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp_Dugcm7mBsEahZS5Xr-zWe"
 enrollment: 161
 ---

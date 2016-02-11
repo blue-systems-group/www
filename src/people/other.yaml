@@ -108,12 +108,20 @@
 # UB students
 - name: Matt Adam
   email: mfadam@buffalo.edu
-  website: https://www.linkedin.com/pub/matthew-adam/4a/477/2b5
+  website: "https://www.linkedin.com/pub/matthew-adam/4a/477/2b5"
+- name: Rakesh Balasubramaniam
+  email: rbalasub@buffalo.edu
+  website: "https://www.linkedin.com/in/ramyarao"
 - name: Fatih Bulut
   email: mbulut@buffalo.edu
   website: "http://scholar.google.com/citations?user=aUaOP48AAAAJ"
 - name: Zihe Chen
   email: zihechen@buffalo.edu
+- name: John Cherry
+  email: johncher@buffalo.edu
+  website: "http://www.acsu.buffalo.edu/~johncher/"
+- name: Dan Conway
+  email: dconway@buffalo.edu
 - name: Doug Giordano
   email: dmgiorda@buffalo.edu
 - name: Scott Florentino
@@ -126,6 +134,9 @@
 - name: Taeyeon Ki
   email: tki@buffalo.edu
   website: "http://www.cse.buffalo.edu/people/?u=tki"
+- name: Gela Malek Pour
+  email: gelarehm@buffalo.edu
+  website: "http://www.acsu.buffalo.edu/~gelarehm/"
 - name: James Mazur
   email: jamesmaz@buffalo.edu
 - name: Gino Notto
@@ -134,10 +145,22 @@
   email: liwengui@buffalo.edu
 - name: Mukta Puri
   email: mpuri2@buffalo.edu
+- name: Ramya Rao
+  email: ramyarao@buffalo.edu
+  website: "https://www.linkedin.com/in/ramyarao"
+- name: Isaac Reath
+  email: isaacrea@buffalo.edu
+  website: "https://www.linkedin.com/in/isaac-reath-60304782"
+- name: Benjamin Rueda
+  email: bjrueda@buffalo.edu
+  website: "https://www.linkedin.com/in/benjamin-rueda-b5b186b2"
 - name: Natasha Sanford
   email: nsanford@buffalo.edu
 - name: Feng Shen
   email: fengshen@buffalo.edu
+- name: Mark Simson
+  email: marksims@buffalo.edu
+  website: "https://www.linkedin.com/in/marksimson"
 - name: Ryan Smith
   email: ryansmit@buffalo.edu
 - name: Junfei Wang
@@ -146,9 +169,15 @@
   email: aswagh@buffalo.edu
 - name: Mack Ward
   email: mward4@buffalo.edu
+- name: Zhen Xu
+  email: zxu8@buffalo.edu
+  website: "http://www.cse.buffalo.edu/people/?u=zxu8"
 - name: Misa Yasumiishi
   email: misayasu@buffalo.edu
   website: "https://www.linkedin.com/in/misay"
+- name: Yousuf Zubairi
+  email: yousufzu@buffalo.edu
+  website: "https://www.facebook.com/public/Yousuf-Zubairi"
 
 # External collaborators
 - name: Rizwana Begum
