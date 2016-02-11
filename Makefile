@@ -2,16 +2,25 @@ all: build | silent
 
 build:
 	@npm install
-	@node ./node_modules/metalsmith-blue/lib/index.js .
+	@node ./node_modules/metalsmith-blue/lib/index.js . $(CHECK) $(DEPLOY)
+	@while [ -n "$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
+	@rsync -rlpgoDc --delete .build/ build 2>/dev/null
+	@rm -rf .build
+
+deploy: DEPLOY = --deploy
+deploy: check build
+
+check: CHECK = --check
+check: build
 
 silent:
 	@:
 
-run: build
+run:
 	./node_modules/http-server/bin/http-server build
 
 clean:
-	@rm -rf build 
+	@rm -rf .build build
 
 statics:
 	@wget http://google-analytics.com/ga.js -O src/assets/js/google/ga.js 2>/dev/null
