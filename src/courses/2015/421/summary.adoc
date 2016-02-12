@@ -20,7 +20,8 @@ volunteers:
 - scottflo
 - sriramsh
 - ychen78
-website: "https://www.ops-class.org/"
+website: "https://www.ops-class.org/courses/buffalo/CSE421_Spring2015/"
+syllabus: "https://www.ops-class.org/courses/buffalo/CSE421_Spring2015.pdf"
 videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp8U4xVODdQtgJ945HeMwosQ"
 enrollment: 144
 ---
