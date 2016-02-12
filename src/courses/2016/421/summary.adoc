@@ -22,7 +22,7 @@ volunteers:
 - ychen78
 - yousufzu
 website: "https://www.ops-class.org/courses/buffalo/CSE421_Spring2016/"
-videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp_YJn8wu9aJTPOgeWqiaJDF"
+videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3"
 enrollment: 139
 ---
 ++++
@@ -68,7 +68,7 @@ amount, have fun, and develop a passion for computer systems.
 
 ++++
 <div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
-<iframe src="http://www.youtube.com/embed/videoseries?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3&amp;showinfo=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3&amp;showinfo=1" allowfullscreen></iframe>
 </div>
 ++++
 
@@ -76,6 +76,6 @@ amount, have fun, and develop a passion for computer systems.
 
 ++++
 <div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
-<iframe src="http://www.youtube.com/embed/videoseries?list=PLE6LEE8y2Jp_YJn8wu9aJTPOgeWqiaJDF&amp;showinfo=1" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLE6LEE8y2Jp_YJn8wu9aJTPOgeWqiaJDF&amp;showinfo=1" allowfullscreen></iframe>
 </div>
 ++++
