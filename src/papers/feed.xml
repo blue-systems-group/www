@@ -1,4 +1,4 @@
 ---
-template: papers/feed.hbt
+layout: papers/feed.hbt
 permalink: false
 ---
