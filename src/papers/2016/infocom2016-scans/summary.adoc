@@ -32,3 +32,8 @@ management, and (2) predict the impact of AP failure or overload. In each case,
 a walk on the client side yields valuable insights for network operators that
 are otherwise impossible to gain from AP-side measurements, and together our
 results demonstrate the value of smartphone channel scans.
+
+=== Dataset
+
+We have made the PhoneLab Wifi dataset analyzed in this paper available on
+http://crawdad.org/buffalo/phonelab-wifi/20160309/[CRAWDAD].
