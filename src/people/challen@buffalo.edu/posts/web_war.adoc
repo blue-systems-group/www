@@ -1,0 +1,65 @@
+---
+working: true
+---
+
+== Universities' War Against the Internet
+
+[.snippet.lead]
+The Internet is the most transformative technology computer scientists have
+ever created. So it's interesting to watch universities seemingly digging in
+for a full-fledged battle with the web. Or at least, with the openness
+embodied by the web.
+
+If you want to observe trouble brewing, look at the conversation surrounding
+videotaping lectures and posting them online. I've been doing this for four
+years, ever since I started my faculty job. At the the time I was the only
+faculty member at UB that was doing this. In the computer science department.
+I thought that that was a bit odd, but faculty can take a while to change.
+
+Four years later? Now there are two of us
+footnote:[http://www.cse.buffalo.edu/~chandola/[Varun Chandola] has also
+figured this out. He also has a half-decent website, which is likely
+correlated]. At that rate, in 50 years all of the lectures in my department
+will be posted online. Just in case you didn't notice, I work in the
+*computer science department*. So let's assume that there isn't a technology
+gap here. I don't know if I completely believe that, but let's just assume
+for a minute that my fellow computer scientist faculty members can all manage
+to post content on https://www.youtube.com[YouTube]&mdash;along with children
+and millions of people with strange cats. So why don't they?
+
+I've heard a variety of things. I've noticed a strange tendency in academia
+to act like videotaping lectures is a huge project which requires a special
+room, an expensive camera and cameraperson, expensive editing software, a
+university website dedicated to hosting the videos, etc. Of course, that's
+not true. My rig is a halfway-decent camera and lapel mic that cost maybe a
+few hundred dollars a few years ago. One of my teaching assistants sets it up
+at the beginning of class and cleans up afterward. After class I have a bit
+of tooling that I use to title, brand, transcode, and upload the videos--but
+that's optional. It takes maybe five minutes of my time, and it could be done
+by a teaching assistant footnote:[But then they'd have to interact with my
+terrible Python-based video tool, which I'm embarrased by...].
+
+Another argument I hear is that videotaping lectures and making materials
+available online will discourage students from coming to class. And it will.
+If your goal is to have warm bodies in class, not posting any of the course
+content anywhere online will achieve that. Of course people may be fooling
+around online footnote:[But then take away their laptops!], sleeping, or just
+generally not paying attention--but who cares! There they are, and if that's
+your goal, that works.
+
+But if you goal is to help students learn I think you make things as widely
+available as possible. Students miss class for all kinds of reasons, many of
+them legitimate, and they use online videos for review and reinforcement--not
+just as a way to avoid attending class. Overall trying to control attendance
+and what students do in class just seems like a losing battle, and also
+fundamentally not aligned with respecting students agency. [.pullquote]#I
+consider it my job to make it compelling for students to attend class by
+giving funny, informative, and engaging lectures.# Students are free to
+attend or not, depending on what works best for them.
+
+This also reduces load on the course staff. I hear a lot of complaining from
+colleagues about the amount of time they spend interacting with students, but
+if there isn't a well-organized website that you can redirect students to you
+are going to send a lot of repetitive email. (And given the number of emails
+that you receive with those "Sent from my mobile device" footers, maybe a
+website that isn't completely unusable on mobile would also help.)
