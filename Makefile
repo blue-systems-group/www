@@ -1,7 +1,6 @@
 all: build | silent
 
 build:
-	@npm install
 	@node ./lib/index.js . $(CHECK) $(DEPLOY)
 	@while [ -n "$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
 	@rsync -rlpgoDc --delete .build/ build 2>/dev/null
@@ -12,6 +11,9 @@ deploy: check build
 
 check: CHECK = --check
 check: build
+
+install:
+	@npm install
 
 silent:
 	@:
