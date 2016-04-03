@@ -21,9 +21,9 @@ and why they so often fail to live up to their potential.#
 === The Potential of (Intro) CS
 
 The potential of introductory CS courses should reflect the power and
-excitement of computer science. Today, our field has *by far* the most
+excitement of our field. [.pullquote]#Today, CS has *by far* the most
 incredible, accessible, and powerful tools for anyone who wants to change the
-world, solve a problem, build something new or find something out.
+world, solve a problem, build something new or find something out.#
 Computation is cheaper now then when I started this post, we're collecting
 and publishing exabytes of new data about every aspect of life on earth,
 small powerful computers are deployed into every corner of the world and can
