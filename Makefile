@@ -2,7 +2,7 @@ all: build | silent
 
 build:
 	@npm install
-	@node ./node_modules/metalsmith-blue/lib/index.js . $(CHECK) $(DEPLOY)
+	@node ./lib/index.js . $(CHECK) $(DEPLOY)
 	@while [ -n "$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
 	@rsync -rlpgoDc --delete .build/ build 2>/dev/null
 	@rm -rf .build
