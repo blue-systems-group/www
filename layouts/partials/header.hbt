@@ -48,7 +48,7 @@ href="/assets/img/favicon/android-icon-192x192.png">
           <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="/" style="padding:0px 10px 0px 0px;">
-          <img src="/assets/img/logos/blue-small.jpg"
+					<img {{#if logo_flipped}}class="flipped"{{/if}} src="/assets/img/logos/blue-small.jpg"
           alt="blue Logo" />
         </a>
       </div>
