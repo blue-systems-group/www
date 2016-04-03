@@ -1,5 +1,8 @@
 ---
 working: true
+spelling_exceptions:
+  - cameraperson
+  - transcode
 ---
 
 == Universities' War Against the Internet
