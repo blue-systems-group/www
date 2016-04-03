@@ -1,4 +1,9 @@
 ---
 title: blue Projects
 layout: projects/index.hbt
+description: >
+  Learn about research and educational projects that the blue Systems
+  Research group is currently working on.
+changefreq: weekly
+priority: 0.8
 ---

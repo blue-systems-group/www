@@ -1,3 +1,6 @@
 ---
 layout: posts/index.hbt
+description: >
+  Here the blue Systems Research Group shares its thoughts on issues related
+  to systems research and education.
 ---

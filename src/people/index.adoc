@@ -1,4 +1,8 @@
 ---
 title: blue People
 layout: people/index.hbt
+description: >
+  Meet the members of the blue Systems Research Group.
+changefreq: weekly
+priority: 0.9
 ---

@@ -1,6 +1,11 @@
 ---
 title: blue Teaching
 layout: courses/index.hbt
+description: >
+  Teaching as a critical part of the blue Systems Research Group's mission.
+  Learn more about the courses we teach and our approach to education.
+changefreq: weekly
+priority: 0.6
 ---
 [.lead]
 *Teaching is an integral part of link:/[blue's] mission.* We enjoy the chance

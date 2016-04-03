@@ -1,4 +1,9 @@
 ---
 title: blue Papers
 layout: papers/index.hbt
+description: >
+  Read the latest papers and other publications by the blue Systems Research
+  Group.
+changefreq: weekly
+priority: 0.7
 ---
