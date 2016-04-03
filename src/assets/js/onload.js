@@ -1,10 +1,4 @@
 $(function() {
-  $("#content a[href$='.pdf']")
-    .attr("target","_blank")
-    .click(function() {
-      ga('send', 'pageview', $(this).attr('href'));
-    });
-
   $('[data-toggle="popover"]').popover();
   $('body').on('click', function (e) {
     $('[data-toggle="popover"]').each(function () {
@@ -37,4 +31,14 @@ $(function() {
       allowPageScroll: "auto"
     });
   }
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-45109275-1']);
+	_gaq.push(['_trackPageview']);
+
+	$("#content a[href$='.pdf']")
+		.attr("target","_blank")
+		.click(function() {
+			ga('send', 'pageview', $(this).attr('href'));
+		});
 });
