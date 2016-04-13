@@ -15,7 +15,7 @@ probably don’t have a key installed. Return to Step 2.
 performing some local compilation. Note that you also need ImageMagick
 installed locally to build the node packages. `sudo apt-get install
 libmagick++-dev` does the trick on Ubuntu 14.04.
-. Open localhost:8080
+. Open localhost:8081
 . When you edit, rerun `make` and the site will be rebuilt
 ** I suggest a three terminal environment, possibly using `screen`: (1) to run
 `make run` (and let the webserver run), (2) to edit and (3) to rerun `make` after
