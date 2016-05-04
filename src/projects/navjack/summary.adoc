@@ -2,8 +2,9 @@
 name: A Sustainable, Mostly-Stationary, City-Scale Sensor Network
 title: "Navjack: Using Discarded Smartphones to Sneak Into Cars"
 started: 2013-11-14
+ended: 2014-12-01
 leads:
-- rbalasub
+  - rbalasub
 people:
 - sriramsh
 - schweizer@tk.informatik.tu-darmstadt.de
