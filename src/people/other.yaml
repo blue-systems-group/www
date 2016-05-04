@@ -70,7 +70,11 @@
   old_group: true
   website: "https://www.linkedin.com/pub/frank-rossi/99/239/a09"
   institution: APPrise Mobile
-
+- name: Jerry Ajay
+  email: jerryant@buffalo.edu
+  old_group: true
+  institution: University at Buffalo
+  website: "https://www.linkedin.com/in/jerryant"
 # UB faculty
 - name: Karthik Dantu
   email: kdantu@buffalo.edu
@@ -186,7 +190,7 @@
   institution: Drexel University
 - name: Yih-Farn Chen
   email: chen@research.att.com
-  website: "http://www.research.att.com/people/Chen_Yih-farn_R/index.html"
+  website: "http://www.research.att.com/people/Chen_Yih-farn_R"
   institution: AT&amp;T Labs Research
 - name: Mark Hempstead
   email: mark@ece.tufts.edu
