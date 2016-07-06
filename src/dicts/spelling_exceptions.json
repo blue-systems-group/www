@@ -19,6 +19,7 @@
   "B.S.": true,
   "backend": true,
   "BerkeleyDB": true,
+  "Bisons": true,
   "Bluetooth": true,
   "CANSAS": true,
   "chipset": true,
@@ -33,9 +34,11 @@
   "CSR": [
     "proposals/**"
   ],
+	"dataset": true,
   "Dropbox": true,
   "/datasets?/": true,
   "exabytes": true,
+  "Exampli gratia": true,
   "Facebook": true,
   "Gaetano Borriello": true,
   "GetMobile": true,
@@ -47,6 +50,7 @@
   "Hari Balakrishnan": true,
   "Harvey Mudd": true,
   "HDD": true,
+	"hotplug": true,
   "/inbox/i": true,
   "iOS": true,
   "incentivized": true,
@@ -60,7 +64,8 @@
   "mashup": true,
   "mantram": true,
   "mentorship": true,
-  "Metalsmith": true,
+  "metalsmith": true,
+  "MobiSys": true,
   "multi": true,
   "NDA": true,
   "Notre Dame": true,
@@ -107,12 +112,5 @@
   "WiFi": true,
   "wirelessly": true,
   "WiseFi": true,
-  "xda": true,
-  "Bisons": true,
-  "Exampli": true,
-  "gratia": true,
-  "metalsmith": true,
-  "MobiSys": true,
-  "Dataset": true,
-  "hotplug": true
+  "xda": true
 }
