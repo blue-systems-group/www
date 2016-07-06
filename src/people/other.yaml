@@ -188,6 +188,10 @@
   email: rb639@drexel.edu
   website: "https://www.linkedin.com/pub/rizwana-begum/45/108/1"
   institution: Drexel University
+- name: Ranveer Chandra
+  email: ranveer@microsoft.com
+  website: https://www.microsoft.com/en-us/research/people/ranveer/
+  institution: Microsoft Research
 - name: Yih-Farn Chen
   email: chen@research.att.com
   website: "http://www.research.att.com/people/Chen_Yih-farn_R"
@@ -204,14 +208,30 @@
   email: brano.kusy@csiro.au
   website: "http://people.csiro.au/K/B/Brano-Kusy.aspx"
   institution: CSIRO ICT Center
+- name: Shuvendu Lahiri
+  email: Shuvendu.Lahiri@microsoft.com
+  website: https://www.microsoft.com/en-us/research/people/shuvendu/
+  institution: Microsoft Research
+- name: Morley Mao
+  email: zmao@umich.edu
+  institution: University of Michigan
+  website: http://web.eecs.umich.edu/~zmao/
 - name: Tommaso Melodia
   email: melodia@ece.neu.edu
   website: "http://www.ece.neu.edu/wineslab/tmelodia.php"
   institution: Northeastern University
+- name: Lei Meng
+  email: lmeng@nd.edu
+  institution: Notre Dame University
+  website: http://www3.nd.edu/~lmeng/
 - name: Emiliano Miluzzo
   email: miluzzo@research.att.com
   website: "https://www.linkedin.com/pub/emiliano-miluzzo/2/606/a20"
   institution: AT&amp;T Labs Research
+- name: Ashkan Nikravesh
+  email: ashnik@umich.edu
+  institution: University of Michigan
+  website: http://web.eecs.umich.edu/~ashnik/
 - name: Sean Purdon
   email: sean.purdon@csiro.au
   institution: University of Queensland
@@ -223,22 +243,10 @@
   email: schweizer@tk.informatik.tu-darmstadt.de
   website: "https://www.tk.informatik.tu-darmstadt.de/en/people/immanuel-schweizer/"
   institution: Technische Universität Darmstadt
-- name: David Werner
-  email: daw77@drexel.edu
-  institution: Drexel University
-- name: Morley Mao
-  email: zmao@umich.edu
-  institution: University of Michigan
-  website: http://web.eecs.umich.edu/~zmao/
-- name: Ashkan Nikravesh
-  email: ashnik@umich.edu
-  institution: University of Michigan
-  website: http://web.eecs.umich.edu/~ashnik/
 - name: Aaron Striegel
   email: striegel@nd.edu
   institution: Notre Dame University
   website: https://engineering.nd.edu/profiles/astriegel
-- name: Lei Meng
-  email: lmeng@nd.edu
-  institution: Notre Dame University
-  website: http://www3.nd.edu/~lmeng/
+- name: David Werner
+  email: daw77@drexel.edu
+  institution: Drexel University
