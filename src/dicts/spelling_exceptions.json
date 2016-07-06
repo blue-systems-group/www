@@ -113,5 +113,6 @@
   "gratia": true,
   "metalsmith": true,
   "MobiSys": true,
-  "Dataset": true
+  "Dataset": true,
+  "hotplug": true
 }

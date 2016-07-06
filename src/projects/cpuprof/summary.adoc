@@ -1,0 +1,36 @@
+---
+name: Improving Smartphone Thermal Management
+title: Improving Smartphone Thermal Management
+started: 2015-12-10
+leads:
+- gurupras
+people:
+- shaseley
+- rb639@drexel.edu
+- mark@ece.tufts.edu
+- challen
+papers:
+funding:
+---
+[.lead]
+Does your smartphone get hot? On a Nexus 5, only 2 out of
+the 4 available CPU cores are used most of the time. This happens because the
+Linux kernel often makes poor choices which lead to the phone getting very hot
+which in turn causes cores to shut down.
+
+== More Cores or Higher Frequency
+Given that more cores *and* higher frequency is not thermally sustainable, we
+are working on identifying the power-performance tradeoffs of running workloads
+with more cores - each running at a lower frequency versus less cores - each
+running at a higher frequency. This understanding is critical to improving
+smartphone battery life as the CPU has been observed to draw up to 40%
+additional current at high temperatures.
+
+== Instrumentation
+We have currently added instrumentation to the Linux kernel to log the following:
+
+- Temperature from on-chip thermal sensor
+- Processes that run (aggregated over 1 second intervals)
+- CPU frequency switch
+- CPU hotplug events
+
