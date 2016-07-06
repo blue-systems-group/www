@@ -31,6 +31,8 @@ if ! [ -z "$3" ]; then
   if [ -f $PATCH_FILE ]; then
     git apply $PATCH_FILE > /dev/null >> /dev/null
     rm -f $PATCH_FILE
+	else
+		echo "Warning: patch file is empty"
   fi
 else
   cd $WORKING_DIR
