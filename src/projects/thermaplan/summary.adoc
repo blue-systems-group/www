@@ -16,7 +16,7 @@ spelling_exceptions:
 Does your smartphone get hot? On a Nexus 5, only 2 out of
 the 4 available CPU cores are used most of the time. This happens because the
 Linux kernel often makes poor choices which lead to the phone getting very hot
-which in turn causes cores to shut down.
+which in turn causes cores to shut down. This is bad.
 
 == More Cores or Higher Frequency
 Given that more cores *and* higher frequency is not thermally sustainable, we
