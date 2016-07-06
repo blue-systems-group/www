@@ -1,6 +1,6 @@
 ---
 name: Improving Smartphone Thermal Management
-title: Improving Smartphone Thermal Management
+title: "ThermaPlan: Improving Smartphone Thermal Management"
 started: 2015-12-10
 leads:
 - gurupras
