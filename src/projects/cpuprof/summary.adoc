@@ -9,8 +9,8 @@ people:
 - rb639@drexel.edu
 - mark@ece.tufts.edu
 - challen
-papers:
-funding:
+spelling_exceptions:
+- hotplug
 ---
 [.lead]
 Does your smartphone get hot? On a Nexus 5, only 2 out of
@@ -33,4 +33,3 @@ We have currently added instrumentation to the Linux kernel to log the following
 - Processes that run (aggregated over 1 second intervals)
 - CPU frequency switch
 - CPU hotplug events
-
