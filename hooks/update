@@ -19,17 +19,18 @@ exlock_now || exit 0
 
 export HOME="/home/git/"
 WORKING_DIR=$HOME/www/blue.cse.buffalo.edu/
+PATCH_FILE=/tmp/blue-patch
 
 if ! [ -z "$3" ]; then
-  git diff --binary $2 $3 > /tmp/blue-patch
+  git diff --binary $2 $3 > $PATCH_FILE
   unset GIT_DIR
   cd $WORKING_DIR
   git clean -df > /dev/null
   git fetch origin > /dev/null
   git reset --hard $2 > /dev/null
-  if [ -f patch ]; then
-    git apply /tmp/blue-patch > /dev/null >> /dev/null
-    rm -f /tmp/blue-patch
+  if [ -f $PATCH_FILE ]; then
+    git apply $PATCH_FILE > /dev/null >> /dev/null
+    rm -f $PATCH_FILE
   fi
 else
   cd $WORKING_DIR
