@@ -21,15 +21,15 @@ export HOME="/home/git/"
 WORKING_DIR=$HOME/www/blue.cse.buffalo.edu/
 
 if ! [ -z "$3" ]; then
-  git clean -df > /dev/null
-  git diff --binary $2 $3 > $WORKING_DIR/patch
+  git diff --binary $2 $3 > /tmp/blue-patch
   unset GIT_DIR
   cd $WORKING_DIR
+  git clean -df > /dev/null
   git fetch origin > /dev/null
   git reset --hard $2 > /dev/null
   if [ -f patch ]; then
-    git apply patch > /dev/null >> /dev/null
-    rm -f patch
+    git apply /tmp/blue-patch > /dev/null >> /dev/null
+    rm -f /tmp/blue-patch
   fi
 else
   cd $WORKING_DIR
