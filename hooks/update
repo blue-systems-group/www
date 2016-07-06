@@ -3,16 +3,16 @@
 LOCKFILE="/home/git/www/blue.cse.buffalo.edu/deploy.lock"
 LOCKFD=99
 
-_lock()             { flock -$1 $LOCKFD; }
-_no_more_locking()  { _lock u; _lock xn && rm -f $LOCKFILE; }
-_prepare_locking()  { eval "exec $LOCKFD>\"$LOCKFILE\""; trap _no_more_locking EXIT; }
+_lock()							{ flock -$1 $LOCKFD; }
+_no_more_locking()	{ _lock u; _lock xn && rm -f $LOCKFILE; }
+_prepare_locking()	{ eval "exec $LOCKFD>\"$LOCKFILE\""; trap _no_more_locking EXIT; }
 
 _prepare_locking
 
-exlock_now()        { _lock xn; }
+exlock_now()				{ _lock xn; }
 
 if ! [ -z "$1" ] && ! [ "refs/heads/master" == "$1" ]; then
-  exit 0
+	exit 0
 fi
 
 exlock_now || exit 0
@@ -22,23 +22,23 @@ WORKING_DIR=$HOME/www/blue.cse.buffalo.edu/
 PATCH_FILE=/tmp/blue-patch
 
 if ! [ -z "$3" ]; then
-  git diff --binary $2 $3 > $PATCH_FILE
-  unset GIT_DIR
-  cd $WORKING_DIR
-  git clean -df > /dev/null
-  git fetch origin > /dev/null
-  git reset --hard $2 > /dev/null
-  if [ -f $PATCH_FILE ]; then
-    git apply $PATCH_FILE > /dev/null >> /dev/null
-    rm -f $PATCH_FILE
+	git diff --binary $2 $3 > $PATCH_FILE
+	unset GIT_DIR
+	cd $WORKING_DIR
+	git clean -df > /dev/null
+	git fetch origin > /dev/null
+	git reset --hard $2 > /dev/null
+	if [ -f $PATCH_FILE ]; then
+		git apply $PATCH_FILE > /dev/null >> /dev/null
+		rm -f $PATCH_FILE
 	else
 		echo "Warning: patch file is empty"
-  fi
+	fi
 else
-  cd $WORKING_DIR
-  git clean -df > /dev/null
-  git fetch origin > /dev/null
-  git reset --hard origin/master > /dev/null
+	cd $WORKING_DIR
+	git clean -df > /dev/null
+	git fetch origin > /dev/null
+	git reset --hard origin/master > /dev/null
 fi
 
 echo "Building blue.cse.buffalo.edu..."
@@ -48,12 +48,12 @@ NVM_DIR="/home/git/.nvm"
 
 npm install
 if node ./lib/index.js . --check --deploy; then
-  rsync -crlpgoDi --delete .build/* /mnt/ramdisk/blue.cse.buffalo.edu/www/ | while read unused filename; do
-    curl --request PURGE 'http://127.0.0.1/$filename' > /dev/null 2> /dev/null
-    echo "Updated $filename"
-  done
-  echo "Success. Thanks for updating the website."
+	rsync -crlpgoDi --delete .build/* /mnt/ramdisk/blue.cse.buffalo.edu/www/ | while read unused filename; do
+		curl --request PURGE 'http://127.0.0.1/$filename' > /dev/null 2> /dev/null
+		echo "Updated $filename"
+	done
+	echo "Success. Thanks for updating the website."
 else
-  echo "Failed. Please try again."
-  exit 1
+	echo "Failed. Please try again."
+	exit 1
 fi
