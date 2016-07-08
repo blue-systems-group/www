@@ -1,0 +1,81 @@
+---
+name: Optimizing Wifi Networks
+title: "OptiWifi: Using Crowdsourcing to Optimize Wifi Networks"
+started: 2016-06-01
+leads:
+- grantwra
+- viyer5
+people:
+- edwinsan
+- jinghaos
+- challen
+---
+
+[.lead]
+//
+Wifi is common and important way that wireless devices access the internet.
+//
+Wifi networks, however, are difficult to manage.
+//
+Home deployments are typically completely unplanned resulting in unnecessary
+interference and performance degradation.
+//
+Most home Wifi users have no idea how to optimize the settings of their own
+routers.
+//
+Even enterprise deployments must content with interference from co-located
+networks that may be separately or independently administered.
+//
+Data gathered from Android smartphones may hold the key to finding order in
+this chaos.
+//
+Based on link:/papers/infocom2016-scans/[promising results from previous
+studies] on link:/projects/phonelab[PhoneLab], OptiWifi is building a
+complete Wifi scan collection and analysis stack.
+//
+Our goal is to help individuals and small businesses manage and improve the
+performance of their wireless networks.
+
+Our key insight is that Android devices already collect and expose a great
+deal of information about Wifi networks.
+//
+Android smartphones frequently and continuously scan their surroundings and
+record the presence and signal strength of nearby wireless access points.
+//
+These channel scans allow the device to connect to networks that it has
+access to, roam between access points as the user moves, and use access point
+proximity to estimate the device's location using Google's Wifi access point
+location database.
+
+Currently this valuable information about Wifi deployments is immediately
+discarded.
+//
+The OptiWifi Android library and data analysis stack will collect these
+scans, upload them to a central point for processing while the device is
+charging, and use the data they contain to provide analytics to individuals
+and wireless network operators.
+//
+We plan to build out several simple wireless configuration apps on top of the
+OptiWifi library.
+//
+It can also be easily added to other apps to support new "bring your own app"
+approaches.
+
+Key to our approach is the utility of _client-side_ (as opposed to
+infrastructure-side) measurements.
+//
+Most enterprise Wifi networks and even some home access points will attempt
+to optimize their settings based on their view of the surrounding wireless
+environment.
+//
+Unfortunately, our link:/papers/infocom2016-scans/[previous work] has
+demonstrated that reliance on infrastructure-side measurements can lead to
+poor performance.
+//
+For example, an access point may adjust its channel to avoid interfering with
+a neighboring access point even if no clients would be affected by the
+interference.
+//
+Client-side measurements improve the performance of infrastructure-side
+measurements and may be all that is available depending on the wireless
+hardware being used.
