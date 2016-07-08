@@ -46,8 +46,8 @@ Given the amount of cycles that are lost during the cooling period, it is
 more effective to preemptively lower the CPU frequency and avoid thermal
 emergencies altogether.
 
-Second, the fact that the device acts as a small heat sink creates an
-opportunity for medium-term thermal planning.
+[.pullquote]#Second, the fact that the device acts as a heat sink creates an
+opportunity for medium-term thermal planning.#
 //
 This is similar to the idea of
 http://web.eecs.umich.edu/~twenisch/papers/hpca12-sprint.pdf[computational

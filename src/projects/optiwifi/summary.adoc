@@ -36,8 +36,8 @@ complete Wifi scan collection and analysis stack.
 Our goal is to help individuals and small businesses manage and improve the
 performance of their wireless networks.
 
-Our key insight is that Android devices already collect and expose a great
-deal of information about Wifi networks.
+[.pullquote]#Our key insight is that Android devices already collect and
+expose a great deal of information about Wifi networks.#
 //
 Android smartphones frequently and continuously scan their surroundings and
 record the presence and signal strength of nearby wireless access points.
