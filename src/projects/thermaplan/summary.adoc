@@ -12,24 +12,62 @@ people:
 spelling_exceptions:
 - hotplug
 ---
+
 [.lead]
-Does your smartphone get hot? On a Nexus 5, only 2 out of
-the 4 available CPU cores are used most of the time. This happens because the
-Linux kernel often makes poor choices which lead to the phone getting very hot
-which in turn causes cores to shut down.
+//
+Smartphone battery consumption remains a top concern of smartphone users and
+a critical constraint limiting the effectiveness of adoption of smartphone
+apps.
+//
+Due to leakage current, device temperature has a large impact on processor
+and overall smartphone energy efficiency.
+//
+The effect of temperature is exacerbated by the widespread deployment of
+multi-core smartphones.
+//
+Mobile multi-core processors can begin to overheat quickly--within a few
+seconds--causing cores to be shut down and work to be lost.
+//
+We are developing a new framework to manage device temperature at both short,
+medium, and long timescales, improving battery lifetime and increasing device
+energy efficiency by maintaining efficient operating temperatures.
 
-== More Cores or Higher Frequency
-Given that more cores *and* higher frequency is not thermally sustainable, we
-are working on identifying the power-performance tradeoffs of running workloads
-with more cores - each running at a lower frequency versus less cores - each
-running at a higher frequency. This understanding is critical to improving
-smartphone battery life as the CPU has been observed to draw up to 40%
-additional current at high temperatures.
+Based on data collected from the link:/projects/phonelab[PhoneLab smartphone
+testbed] we have identified several core problems and opportunities in
+smartphone thermal management.
+//
+First, poor interaction between core activation and CPU frequency selection
+decisions on Linux causes frequent thermal emergencies on Android devices.
+//
+When one or more cores reaches a certain temperature, it must be shut down
+and cool before it can be restarted.
+//
+Given the amount of cycles that are lost during the cooling period, it is
+more effective to preemptively lower the CPU frequency and avoid thermal
+emergencies altogether.
 
-== Instrumentation
-We have currently added instrumentation to the Linux kernel to log the following:
+Second, the fact that the device acts as a small heat sink creates an
+opportunity for medium-term thermal planning.
+//
+This is similar to the idea of
+http://web.eecs.umich.edu/~twenisch/papers/hpca12-sprint.pdf[computational
+sprinting] but at longer timescales--seconds rather than milliseconds--that
+create new challenges.
+//
+Note that on modern multi-core smartphones most CPU configurations will cause
+overheating--frequently within a few seconds.
+//
+So this form of computational "middle distance running" does not require
+running cores outside of their normal operating range or the presence of
+special materials providing thermal capacitance.
 
-- Temperature from on-chip thermal sensor
-- Processes that run (aggregated over 1 second intervals)
-- CPU frequency switch
-- CPU hotplug events
+Finally, the fact that mobile smartphones move through a variety of thermal
+environments creates an opportunity for long-term thermal scheduling of
+delay-tolerant tasks.
+//
+For example, app updates may be best to perform when the device is in a
+well-cooled environment rather than in a hot car or pocket.
+//
+Realizing a service to intelligently manage long-term thermal scheduling
+addressing the fact that most smartphones do not have an ambient temperature
+sensor.
