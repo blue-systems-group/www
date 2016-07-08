@@ -30,7 +30,7 @@ Learning webs incorporate the following design principles missing from many
 current online courses:
 
 * *Avoid single points of failure.*
-// 
+//
 Most online courses are full of single points of failure.
 //
 Small groups of instructors represent one single point of failure.
