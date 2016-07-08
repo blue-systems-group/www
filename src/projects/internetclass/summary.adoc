@@ -1,0 +1,90 @@
+---
+name: A Course on the Internet That's Like the Internet
+title: Using Learning Webs to Teach the Web
+started: 2016-01-01
+leads:
+- gjbunyea
+people:
+- challen
+---
+
+[.lead]
+//
+The Internet is transforming every aspect of our lives, including how we
+communicate, navigate, organize, work, play, and love.
+//
+And it will also transform how we learn and teach.
+//
+However, current online education
+platforms suffer design flaws that limit their effectiveness.
+//
+Specifically, online courses ignore many of the lessons of the Internet's
+spectacular success.
+//
+In Fall 2016, link:/[blue] will teach a new course on the internet designed
+to reflect some of the core features of today's internet.
+//
+We plan to realize a new approach to online learning called _learning webs_.
+
+Learning webs incorporate the following design principles missing from many
+current online courses:
+
+* *Avoid single points of failure.*
+// 
+Most online courses are full of single points of failure.
+//
+Small groups of instructors represent one single point of failure.
+//
+If a student fails to connect with the instructor that is teaching the
+course, the whole course is ineffective.
+//
+Individual lessons are another single point of failure.
+//
+If a student fails to grasp a concept after one explanation, there are
+usually few if any alternatives available--and usually those are provided by
+the same instructor.
+//
+_Learning webs engage large groups of instructors and experts that create a
+course together and avoid single points of failure._
+
+* *Modularity creates collaboration.*
+//
+Today's online courses are monolithic entities.
+//
+Built from large chunks of content and frequently trapped within
+closed-source systems, existing online courses are hard to modify or extend.
+//
+This prevents the formation of instructional communities and leads to a great
+deal of duplicated effort.
+//
+_Learning webs are designed to be modular--both in content and in
+structure--to encourage many different instructors to build similar courses
+using shared materials._
+
+* *Leverage the crowd.*
+//
+Because today's online courses are designed by small groups and difficult to
+extend, the miss opportunities to leverage the crowd: crowds of instructors,
+crowds of experts, or crowds of students.
+//
+_Learning webs democratize the process of creating courses and are
+specifically designed to leverage crowds of students, teachers, and
+experts._
+
+* *Innovate at the edge.*
+//
+Existing online learning platforms spend a lot of time building complex
+website that are supposed to be easy for non-technologists to use.
+//
+But the resulting products are frequently [.spelling_exception]#dumbed-down#
+to the point that they frustrate expert users and miss opportunities to
+engage those with website development skills or new ideas that could improve
+online content delivery.
+//
+_Learning webs are intended to enable innovation at the edge through a
+simplified online content delivery platform that is only intended to be easy
+for technologists to use._
+//
+But by appealing to instructors at the edge we hope to innovate much more
+rapidly, with the tradeoff of only providing a small number of
+technology-related courses.

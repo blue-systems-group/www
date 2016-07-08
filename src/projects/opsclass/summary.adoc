@@ -1,47 +1,55 @@
 ---
 name: Teaching Operating Systems Online
-title: The ops-class.org Instructional Operating Systems Framework
+title: The <code>ops-class.org</code> Instructional Operating Systems Framework
 started: 2012-01-01
+leads:
+- shaseley
 people:
 - challen
 ---
 
 [.lead]
+//
 Operating systems are the masterworks of computer systems--stable, mature,
 well-designed systems that have evolved for decades to respond to user needs
-and hardware capabilities. http://www.ops-class.org[ops-class.org] is an
-online framework based on the Harvard's
-http://www.eecs.harvard.edu/~dholland/os161/[OS/161 instruction operating
-system] designed to allow students anywhere to learn to design and program
-operating systems.
+and hardware capabilities.
+//
+http://www.ops-class.org[ops-class.org] is an online framework based on the
+Harvard's http://www.eecs.harvard.edu/~dholland/os161/[OS/161 instruction
+operating system] designed to allow students anywhere to learn to design and
+program operating systems.
 
 Currently http://www.ops-class.org[ops-class.org] is used by
-link:/people/gwa/[Geoffrey Challen] at the University at Buffalo to teach
-"CSE 421/521: Introduction to Operating Systems." Over the three years that
-the framework has been under development, it has succeeded in providing UB
-students with the ability to complete _the same assignments offered to
-Harvard students_ despite significantly-fewer human instructional resources.
+link:/people/gwa/[Geoffrey Challen] and the link:/[blue Systems Research
+Group] at the University at Buffalo (UB) to link:/courses/[teach] "CSE
+421/521: Introduction to Operating Systems."
+//
+The `ops-class` framework has successfully provided UB students with the
+ability to complete _the same assignments offered to Harvard students_
+despite significantly-fewer human instructional resources.
+//
 By automating and standardizing online grading,
 http://www.ops-class.org[ops-class.org] allows teaching assistants to reduce
 the time they spend grading and increase the time they spend helping students
 complete the assignments.
 
-Once the framework is complete we will be able to allow students anywhere to
-complete the automatically-graded portions of the OS/161 assignments for
-free. Eventually we also hope that http://www.ops-class.org[ops-class.org]
-will serve as a model for how to deliver computer science course content
-online. Unlike similar frameworks, such as
-[.spelling_exception]#http://www.edx.org[EdX]#,
-http://www.ops-class.org[ops-class.org] is targeted at users with a much
-greater comfort level at user computers to create and manage online content.
-
-For those interested, the following video provides an overview of the process
-of submitting and grading assignments using
-http://www.ops-class.org[ops-class.org] and hints at what could be possible
-if this approach is expanded:
-
-++++
-<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
-<iframe src="https://www.youtube.com/embed/TZetkXzXbMc" allowfullscreen></iframe>
-</div>
-++++
+In 2016, link:/people/shaseley[Scott Haseley] and link:/people/ychen78[Yihong
+Chen] significantly improve the existing automated grading infrastructure
+through the addition of a new declarative distributed testing tool called
+link:https://test161.ops-class.org[`test161`].
+//
+`test161` now allows students anywhere to complete and evaluate the
+automatically-graded portions of the OS/161 assignments for free on their own
+machines.
+//
+`test161` secures the remote testing process by embedding secrets into the
+testing suite at compile time.
+//
+This allows us to distribute almost all tests to students--avoiding the
+"security via obscurity" approach taken by many classes that use automated
+grading--while preventing students from reverse engineering graded
+evaluations.
+//
+`test161` also maintains leader boards and shows the progress of online
+grading interactively through a web interface built using
+https://www.meteor.com[Meteor] and https://facebook.github.io/react/[React].
