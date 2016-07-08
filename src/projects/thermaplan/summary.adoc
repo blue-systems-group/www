@@ -69,5 +69,5 @@ For example, app updates may be best to perform when the device is in a
 well-cooled environment rather than in a hot car or pocket.
 //
 Realizing a service to intelligently manage long-term thermal scheduling
-addressing the fact that most smartphones do not have an ambient temperature
-sensor.
+requires addressing the fact that most smartphones do not have an ambient
+temperature sensor.
