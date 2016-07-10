@@ -2,6 +2,10 @@ ops:
   number: "CSE 421/521"
   title: "Introduction to Operating Systems"
   slug: "UB_421"
+fys:
+  number: "CSE 199"
+  title: "How the Internet Works"
+  slug: "UB_199"
 acs:
   number: "CSE 622"
   title: "Advanced Computer Systems"
@@ -17,4 +21,8 @@ personalclouds:
 maybe:
   number: "CSE 720"
   title: "Using Uncertainty to Program Mobile Systems"
+  slug: "UB_720"
+qoe:
+  number: "CSE 720"
+  title: Improving Smartphone Quality of Experience
   slug: "UB_720"

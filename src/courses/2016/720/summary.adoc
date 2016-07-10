@@ -1,0 +1,42 @@
+---
+common: qoe
+started: 2016-08-29
+ends: 2016-12-19
+semester: Fall
+staff:
+- shaseley
+instructors:
+- challen
+---
+++++
+<a class="anchor" id="summary"></a>
+++++
+== Summary
+
+Current operating systems are already proficient at managing certain system
+resources, such as the CPU, memory, and disk.
+//
+But on interactive mobile devices, users care more about resources such as
+time, battery life, and money, that are unmanaged or poorly managed by today's
+smartphone platforms.
+//
+It is the degree to which mobile devices effectively manage these
+human-facing resources that determines a user's _quality of experience_
+(QoE), and it is QoE which should drive not just policy, but decisions on
+mobile devices.
+//
+To meet smartphone users' expectations, it is necessary to design systems
+that can accurately measure and understand QoE, and make decisions based on
+QoE.
+
+In this seminar we will both explore ways to quantify QoE and approaches to
+improving it.
+//
+We will read a series of papers related to QoE or tools that might help us
+understand or improve QoE.
+//
+Students will also work in teams on several projects related to our group's
+link:/projects/qoe[ongoing work in this area].
+//
+Our goal will be to begin projects which may lead to full-length publications
+in the spring.

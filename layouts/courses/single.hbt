@@ -53,9 +53,11 @@
             <div style="margin-top:5px;"><em>Volunteers:</em> {{ and_list volunteers }}</div>
             {{/if}}
           </div>
+					{{#if enrollment}}
           <div class="h4" style="margin-bottom:5px;">
             Enrollment: {{ enrollment }}
           </div>
+					{{/if}}
           <div class="h4">
             <ul class="list-inline dash-list">
               {{#if website }}

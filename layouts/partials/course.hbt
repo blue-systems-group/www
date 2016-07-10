@@ -10,9 +10,11 @@
     <span class="h4">
       {{ link this }}
     </span>
+		{{#if enrollment }}
     <div>
       Enrollment: {{ enrollment }}
     </div>
+		{{/if}}
     <div class="authors-ml">
       <em>Instructors:</em> {{ and_list instructors }}
       <br/>
