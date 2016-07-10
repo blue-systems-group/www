@@ -1,0 +1,74 @@
+---
+common: fys
+started: 2016-08-29
+ends: 2016-12-19
+semester: Fall
+instructors:
+- challen
+- hartloff
+- mhertz
+- jwinikus
+---
+++++
+<a class="anchor" id="summary"></a>
+++++
+== Summary
+
+The internet is changing every aspect of our lives, including how we
+communicate, learn, navigate, organize, work, play, and love.
+//
+The internet also represents a crowning achievement of computing: a single
+system uniting hardware and software, theory and implementation, standards
+and innovation, engineering and science, protests that topple governments and
+stupid cat videos.
+//
+This course provides an overview of how the internet works by describing
+everything required to answer a single search query.
+//
+Along with its technologies, we will delve into the internet’s past and
+future, policy challenges, and societal implications.
+//
+The course is targeted at a general audience, but because the internet
+reflects contributions from many areas of computer science and computer
+engineering, it also provides a good overview for potential majors.
+//
+Familiarity with the web and access to a personal computer are assumed, but
+no technical background is required.
+
+== Structure and Approach
+
+The course is broken into 15 concept units, with one scheduled per week.
+//
+Instead of being delivered in lecture, content is all delivered online
+through a content library containing a large number of short videos totaling
+about one hour of required video content per week for students to review
+outside of class.
+//
+Half of that will be assigned for the first meeting (Monday) and half for the
+second meeting (Wednesday).
+//
+Individual videos will be limited to 5 m in length, and so the 60 m of
+per-week video will be spread across at least 12 short videos.
+
+Initially all of the videos will be recorded by the instructor, but over time
+those initial explanations will be augmented with contributions from faculty,
+students and alumni.
+//
+Engaging faculty in the content helps provide students with an introduction
+to the Computer Science and Engineering department as well as allow experts
+to speak on topics they know best.
+//
+Engaging students in the process through an assignment helps ensure that the
+content library continues to grow and may provide better or alternative
+explanations.
+//
+Engaging alumni in the process will help connect students with both local and
+remote alums working in relevant areas.
+//
+Videos will also be included from external sources as appropriate.
+//
+Classroom time is reused for participation-graded group activities that
+reinforce that week’s material (Monday), for Q&A based on questions about the
+video content added and voted on by students online (Wednesday), and to allow
+students to complete graded weekly homework assignments (Friday recitation). 
+

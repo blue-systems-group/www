@@ -87,6 +87,11 @@
   website: "http://www.cse.buffalo.edu/~wendong/"
 - name: Jeff Good
   website: "http://www.acsu.buffalo.edu/~jcgood/"
+- name: Jesse Hartloff
+  email: hartloff@buffalo.edu
+  website: "http://www.cse.buffalo.edu/~hartloff/index.html"
+- name: Matthew Hertz
+  email: mhertz@buffalo.edu
 - name: Oliver Kennedy
   email: okennedy@buffalo.edu
   website: "http://odin.cse.buffalo.edu/people/oliver_kennedy.html"
@@ -105,6 +110,8 @@
 - name: Chunming Qiao
   email: qiao@buffalo.edu
   website: "http://www.cse.buffalo.edu/~qiao/"
+- name: Jennifer Winikus
+  email: jwinikus@buffalo.edu
 - name: Lukasz Ziarek
   email: lziarek@buffalo.edu
   website: "http://www.cse.buffalo.edu/~lziarek/"
