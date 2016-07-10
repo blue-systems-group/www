@@ -1,0 +1,76 @@
+---
+name: Validating Wireless Protocols 
+title: Wireless Protocol Validation Under Uncertainty
+started: 2015-06-01
+leads:
+- jinghaos
+people:
+- challen
+- ranveer@microsoft.com
+- Shuvendu.Lahiri@microsoft.com
+---
+
+[.lead]
+//
+Runtime validation of wireless protocol implementations cannot always employ
+direct instrumentation of the tested device.
+//
+It may not implement the required instrumentation, or the instrumentation may
+alter the it's behavior.
+//
+Wireless sniffers can monitor wireless traffic without instrumentation but
+introduce both new validation challenges and opportunities.
+//
+Losses caused by wireless propagation mean that sniffers cannot perfectly
+reconstruct the actual packet trace.
+//
+As a result, accurate validation requires distinguishing between
+specification deviations that represent errors from those caused by sniffer
+uncertainty.
+//
+At the same time, the sniffer provides new opportunities to manipulate the
+wireless traffic received by the device and perform more rigorous testing.
+//
+In collaboration with researchers at
+https://www.microsoft.com/en-us/research/[Microsoft Research] we are
+exploring ways to exploit sniffers to validate wireless protocols.
+
+We have begun by addressing the challenge of validation given the uncertainty
+and loss caused by the sniffer's incomplete view of the packet trace received
+by the device.
+//
+Sniffers introduce two kinds of errors.
+//
+They may miss packets that the device received, or receive packets that the
+device missed.
+//
+While cooperation between multiple sniffers can reduce overall error rates,
+even many sniffers working together cannot reproduce the device's packet
+trace with perfect certainty.
+
+Beginning with a state machine provided by the protocol designer that
+represents correct protocol behavior, we address sniffer uncertainty by
+producing an _augmented state machine_.
+//
+The augmented state machine adds transitions reflecting sniffer uncertainty.
+//
+Producing the augmented state machine is an automated process, provided the
+original state machine in a suitable format.
+
+Validating a wireless trace then reduces to determining whether it is
+accepted by the augmented state machine.
+//
+Because the sniffer introduces probabilistic transitions, the search space
+will expand exponentially and the search problem can be shown to be
+NP-complete.
+//
+However, in practice simple heuristics can limit the number of states that
+need to be considered and keep the search tractable.
+
+Our approach has proved successful in detecting both artificial errors
+introduced in existing protocol implementations and previously unknown errors
+in new protocol implementations.
+//
+As a next step we are working to use the sniffer to manipulate the live
+packet trace to help stress the tested device by introducing loss and packet
+errors.
