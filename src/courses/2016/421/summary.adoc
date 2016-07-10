@@ -7,7 +7,6 @@ instructors:
 - challen
 staff:
 - alijmabe
-- jerryant
 - zxu8
 volunteers:
 - bjrueda
@@ -26,6 +25,43 @@ syllabus: "https://www.ops-class.org/courses/buffalo/CSE421_Spring2016/"
 videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp-kbEcVR2W3vfx0Pdca0BD3"
 enrollment: 139
 ---
+:linkattrs:
+++++
+<a class="anchor" id="evaluations"></a>
+++++
+== Evaluations
+
+[cols="60,^40",options='header']
+|===
+
+| {nbsp}
+a| *421/521*
+
+| Enrollment | 114
+| Response Rate (%) | 94
+| Instructor Rating (out of 5)| 4.37
+| Course Rating (out of 5) | 3.97
+
+|===
+
+Full qualitative evaluation results are
+link:/courses/2016/421/UB_421_Spring_2016-Evaluations.pdf[here, role="nopdf"].
+//
+Note that this year we rolled out the new
+https://test161.ops-class.org[`test161`] OS/161 automated testing framework.
+//
+This had the result of making the assignments more challenging, particularly
+for the undergraduates enrolled in the course.
+//
+We plan to address this issue in future years.
+//
+However, due to ongoing curriculum revisions we anticipate that operating
+systems will no longer be a required course for undergraduates within a few
+years.
+//
+At that point the difficult level may prove appropriate for a self-selected
+group of students.
+
 ++++
 <a class="anchor" id="summary"></a>
 ++++

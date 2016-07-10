@@ -25,6 +25,34 @@ syllabus: "https://www.ops-class.org/courses/buffalo/CSE421_Spring2015.pdf"
 videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp8U4xVODdQtgJ945HeMwosQ"
 enrollment: 144
 ---
+:linkattrs:
+++++
+<a class="anchor" id="evaluations"></a>
+++++
+== Evaluations
+
+[cols="80,^20",options='header']
+|===
+
+| {nbsp}
+a| *421/521*
+
+| Enrollment | 133
+| Response Rate (%) | 94
+| Instructor Rating (out of 5)| 4.65
+| Course Rating (out of 5) | 4.24
+
+|===
+
+Full qualitative evaluation results are
+link:/courses/2015/421/UB_421_Spring_2015-Evaluations.pdf[here,
+role="nopdf"].
+//
+Note that beginning in 2014&ndash;2015, when the University at Buffalo
+adopted a new course evaluation system provided by
+http://www.campuslabs.com/[Campus Labs], results from 421 and 521 cohorts
+were no longer available separately.
+
 ++++
 <a class="anchor" id="summary"></a>
 ++++
