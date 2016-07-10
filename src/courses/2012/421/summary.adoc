@@ -34,8 +34,7 @@ a| *521*
 |===
 
 Full qualitative evaluation results are
-link:/courses/2012/421/UB_421_Spring_2012-Evaluations.pdf[here,
-role="nopdf"].
+link:/courses/2012/421/UB_421_Spring_2012-Evaluations.pdf[here, role="nopdf"].
 //
 During the first year that this class was taught the
 https://www.ops-class.org[`ops-class.org`] framework was under development,

@@ -18,6 +18,7 @@ syllabus: "https://www.ops-class.org/courses/buffalo/CSE421_Spring2014.pdf"
 videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp_Dugcm7mBsEahZS5Xr-zWe"
 enrollment: 161
 ---
+:linkattrs:
 ++++
 <a class="anchor" id="evaluations"></a>
 ++++
@@ -36,6 +37,9 @@ a| *521*
 | Course Rating (out of 5) | 3.82 | 4.74
 
 |===
+
+Full qualitative evaluation results are
+link:/courses/2014/421/UB_421_Spring_2014-Evaluations.pdf[here, role="nopdf"].
 
 ++++
 <a class="anchor" id="summary"></a>
