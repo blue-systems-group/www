@@ -15,14 +15,15 @@ communicate, navigate, organize, work, play, and love.
 //
 And it will also transform how we learn and teach.
 //
-However, current online education
-platforms suffer design flaws that limit their effectiveness.
+However, current online education platforms suffer design flaws that limit
+their effectiveness.
 //
 Specifically, online courses ignore many of the lessons of the Internet's
 spectacular success.
 //
-In Fall 2016, link:/[blue] will teach a new course on the internet designed
-to reflect some of the core features of today's internet.
+In Fall 2016, link:/[blue] will teach a link:/courses/ub-199-fall-2016/[new
+course on the internet] designed to reflect some of the core features of
+today's internet.
 //
 We plan to realize a new approach to online learning called _learning webs_.
 

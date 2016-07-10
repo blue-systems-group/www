@@ -70,5 +70,7 @@ Videos will also be included from external sources as appropriate.
 Classroom time is reused for participation-graded group activities that
 reinforce that week’s material (Monday), for Q&A based on questions about the
 video content added and voted on by students online (Wednesday), and to allow
-students to complete graded weekly homework assignments (Friday recitation). 
-
+students to complete graded weekly homework assignments (Friday recitation).
+//
+Please see the link:/projects/internetclass[`internet-class` project page]
+for more details and motivation for this new approach.
