@@ -10,8 +10,10 @@ staff:
 - fengshen
 - sonaliba
 enrollment: 99
+website: "https://www.ops-class.org/courses/buffalo/CSE421_Spring2012/"
 videos: "https://www.youtube.com/playlist?list=PLE6LEE8y2Jp8tllE40n3tHfWXqxFeyFuY"
 ---
+:linkattrs:
 ++++
 <a class="anchor" id="evaluations"></a>
 ++++
@@ -30,6 +32,16 @@ a| *521*
 | Course Rating (out of 5) | 4.0 | 4.0
 
 |===
+
+Full qualitative evaluation results are
+link:/courses/2012/421/UB_421_Spring_2012-Evaluations.pdf[here,
+role="nopdf"].
+//
+During the first year that this class was taught the
+https://www.ops-class.org[`ops-class.org`] framework was under development,
+and so autograding features were unavailable until the end of the semester.
+//
+Understandably, students did not appreciate this.
 
 ++++
 <a class="anchor" id="summary"></a>

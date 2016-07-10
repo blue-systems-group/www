@@ -67,6 +67,9 @@
               {{#if videos }}
               <li><a href="{{ videos }}">Videos</a></li>
               {{/if}}
+              {{#if evaluations }}
+              <li><a href="{{ evaluations }}">Evaluations</a></li>
+              {{/if}}
             </ul>
           </div>
         </section>

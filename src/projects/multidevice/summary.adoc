@@ -1,0 +1,72 @@
+---
+name: Understanding Use of Multiple Personal Devices
+title: "Using Wearables to Track and Understand Transitions Between Personal Devices"
+started: 2015-06-01
+leads:
+- alijmabe
+people:
+- challen
+---
+
+[.lead]
+//
+Many people today interact with multiple personal computing devices: one or
+more desktops, laptops, tablets, smartphones, and wearables.
+//
+Each of these devices offers different capabilities and form factors.
+//
+We are studying how users transition between multiple devices and choose
+devices to perform specific tasks.
+//
+We have found that a wearable device such as a smartwatch, positioned on the
+user's dominant hand, can accurately identify various input devices and
+modalities associated with different kinds of personal devices: keyboards v.
+touchscreens, mice v. trackpads, etc.
+//
+In most cases identifying several input features of a particular device is
+sufficient to distinguish it from the users' other personal devices.
+
+We are studying transitions between personal devices for several reasons.
+//
+First, we suspect that understanding these transitions will help improve the
+performance and design of the many cloud services that seek to unify the
+computing experience across multiple devices.
+//
+File sharing services like Dropbox, for example, may aggressively synchronize
+state between multiple devices even if they are not used concurrently by the
+user.
+//
+In this case, bandwidth and energy savings may result from delaying the
+updates until it is likely that the user will begin to use the device that
+updates are being sent to.
+
+Second, we are interested in determining how users choose the _right_ device
+for various computing tasks.
+//
+Anecdotal evidence indicates that choices between devices are complicated and
+interesting.
+//
+For example, multiple users have reported to us that they like to check email
+on their smartphone even if other devices are available.
+//
+Because it is more difficult to write length replies on a touchscreen
+keyboard, this helps them limit unnecessary responses to emails that are not
+time sensitive.
+//
+Eventually we would like to add app usage information to our device tracking
+dataset to help identify these kinds of behaviors.
+
+Finally, we anticipate ever closer integration between multiple personal
+devices in the future, eventually forming what we refer to as a
+link:/courses/ub-720-fall-2014/[personal cloud computer].
+//
+The goal of these systems will be to enable _seamless transfer of attention_
+where users can transition tasks from one device to another without any of
+the friction that accompanies those transitions today.
+//
+For example, a user should be able to seamlessly take a photo on their
+smartphone, edit it on their laptop, and then use it to start a email back on
+their smartphone.
+//
+We expect that tighter integration between multiple personal devices will
+require new operating system services and techniques.

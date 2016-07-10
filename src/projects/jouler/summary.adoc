@@ -5,7 +5,7 @@ started: 2014-01-15
 leads:
 - anudipam
 people:
-- ychen78
+- kylescho
 - challen
 papers:
 - mobicase2015-jouler
