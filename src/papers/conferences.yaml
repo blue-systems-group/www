@@ -11,7 +11,7 @@ gosmart:
 getmobile:
   2016:
     shortname: GetMobile
-    #edition: "GetMobile Mobile Computing and Communications Review, Volume 19 Issue 4"
+    edition: "GetMobile Mobile Computing and Communications Review, Volume 19 Issue 4"
     link: https://www.sigmobile.org/pubs/getmobile/
     date: 2016-03-22
 globecom:
@@ -143,6 +143,19 @@ mobicase:
     link: http://mobicase.org/2015/show/home
     date: 2015-11-13
     location: Berlin, Germany
+mobisys:
+  preface: Proceedings of the
+  name: International Conference on Mobile Systems, Applications and Services
+  2016:
+    number: 14th
+    shortname: MobiSys'16
+    link: https://www.sigmobile.org/mobisys/2016/
+    date: 2016-06-26
+    location: Singapore
+  core:
+    name: CORE 2014
+    rank: B
+    link: http://portal.core.edu.au/conf-ranks/45/
 netmob:
   preface: Proceedings of the
   name: Conference on the Analysis of Mobile Phone Datasets
