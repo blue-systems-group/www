@@ -1,0 +1,13 @@
+---
+name: Vighnesh Iyer
+role: Undergraduate
+joined:	06-27-2016
+github: https://github.com/viyer5
+spelling_exceptions:
+- Chuchu
+---
+[.lead]
+I am a Junior majoring in Computer Science at UB. My tryst with programming started less than a year ago. 
+My learning curve has been steep but extremely rewarding. Nick Back once stated, "...if you aren't, at any given time, scandalized by code you wrote five or three years ago, you're not learning anywhere near enough". Thankfully though, I experience this almost every alternate day.
+I had the opportunity of working with mobile programming and mobile systems in the summer of 2016 when I started working in the PhoneLab as a undergraduate developer. 
+In the Fall 2015 I worked as a junior web developer for the Behavorial Medicine Lab, University at Buffalo wherein I handled the front-end of the Revoluion Database System. I thoroughly enjoy the experience of solving problems using a computer which inspires me to not just be a code-monkey but a computer scientist.     
