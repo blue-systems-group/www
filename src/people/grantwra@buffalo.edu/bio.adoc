@@ -1,0 +1,21 @@
+---
+name: Grant Wrazen
+role: Undergraduate
+joined: 2016-05-30
+spelling_exceptions:
+- iPhone
+- wifi
+- pocketData
+- phoneLab
+---
+
+[.lead]
+I am a fourth year undergraduate student majoring in computer science here at the University at Buffalo. I'm interested in learning all that I can during my undergraduate studies with emphasis on machine learning and big data, though after taking Operating Systems and researching in [.spelling_exception]#phoneLab# it seems I'm becoming more inclined towards mobile systems.
+
+I have been interested in computers since my first high school tech class. This led me to run a small iPhone repair business for extra money in high school and start teaching myself basic coding skills. It was during this time that I found out what I love to do, programming! Since then I started to pursue an academic career in computer science in August 2013 and had opportunities to work on many fascinating projects since then.
+
+Whether it be for my personal enjoyment, with a group of friends, or for industry, every project I have worked on has taught me something new and exciting. I am currently working with link:https://blue.cse.buffalo.edu/[blue] and link:http://odin.cse.buffalo.edu/[ODIn lab] at UB on a few different research projects. One being the link:http://odin.cse.buffalo.edu/research/pocketdata/[pocketData] project, where we are benchmarking, analyzing and improving embedded databases on modern smart phones. The other being the link:https://blue.cse.buffalo.edu/projects/optiwifi/[OptiWifi] project where we are attempting to streamline the optimization of wifi user networks.
+
+I look forward to both learning and contributing all that I can to/from link:https://blue.cse.buffalo.edu/[blue]! 
+
+link:http://grantwra.github.io[grantwra.github.io]
