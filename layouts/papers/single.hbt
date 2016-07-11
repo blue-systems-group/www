@@ -58,7 +58,11 @@
               {{#if conference.link}}
               <a href="{{ conference.link }}">
                 {{/if}}
+								{{#if conference.edition}}
+								{{ conference.edition }}
+								{{ else }}
                 {{ conference.number}} {{ published.name }} ({{ conference.shortname }})
+								{{/if}}
                 {{#if conference.link}}
               </a>
               {{/if}}
