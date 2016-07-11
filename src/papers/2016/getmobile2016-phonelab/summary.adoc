@@ -1,0 +1,35 @@
+---
+name: "Why and How to Use PhoneLab"
+published: getmobile
+people:
+- jinghaos
+- edwinsan
+- challen
+projects:
+- phonelab
+funding:
+- 2011-cri-phonelab
+---
+== Abstract
+
+While smartphone app marketplaces have enabled large-scale app-level
+experimentation, medium-scale experimentation with the platform code
+implementing the app interface and providing core device services remains
+difficult for academic researchers.
+//
+But this is where many of the ideas currently being explored by the mobile
+systems community must be evaluated—including new networking protocols,
+security and privacy mechanisms, storage abstractions, and energy management
+strategies.
+//
+To enable these experiments, we built and are operating
+link:/projects/phonelab[PhoneLab], a 175-smartphone testbed where real users
+run experimental Android platform builds on their primary devices.
+//
+We are eager to make link:/projects/phonelab[PhoneLab] useful to the mobile
+systems community.
+//
+To aid in this effort, this article discusses why
+link:/projects/phonelab[PhoneLab] might be useful for your research and
+provides an overview of how to use the testbed, including examples drawn from
+our group’s current projects.

@@ -8,6 +8,12 @@ gosmart:
     date: 2013-10-21
     location: Sydney, Australia
     acceptance: 50
+getmobile:
+  2016:
+    shortname: GetMobile
+    #edition: "GetMobile Mobile Computing and Communications Review, Volume 19 Issue 4"
+    link: https://www.sigmobile.org/pubs/getmobile/
+    date: 2016-03-22
 globecom:
   preface: Proceedings of the
   name: Global Communications Conference, Exhibition, and Industry Forum
