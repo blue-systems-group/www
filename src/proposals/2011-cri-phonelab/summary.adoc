@@ -3,7 +3,7 @@ name: "CI-ADDO-NEW: PhoneLab: A Programmable Participatory Smartphone Testbed"
 link: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1205656"
 abstract: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1205656"
 started: 2012-06-01
-ends: 2016-06-01
+ends: 2016-12-01
 amount: 1322510
 source: NSF
 program: CRI

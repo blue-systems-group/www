@@ -9,7 +9,8 @@
   <div class="col-xs-12 col-sm-11">
     <span class="h4">
       {{ link this }}
-      {{#if inactive }} (Inactive){{/if}}
+      {{#if inactive }} (Expired){{/if}}
+			{{#if recommended}} (Recommended){{/if}}
     </span>
     <div class="authors-ml">
       <em>Authors:</em> {{ and_list faculty }} <br />

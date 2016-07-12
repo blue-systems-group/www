@@ -3,7 +3,7 @@ name: "CSR: Medium: Collaborative Research: Architecture and System Support for 
 link: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1409367"
 abstract: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1409367"
 started: 2014-09-01
-ends: 2016-09-01
+ends: 2017-09-01
 amount: 561766
 source: NSF
 program: CSR
