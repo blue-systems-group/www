@@ -6,8 +6,7 @@ semester: Fall
 instructors:
 - challen
 - hartloff
-- mhertz
-- jwinikus
+- ahughes6
 ---
 ++++
 <a class="anchor" id="summary"></a>
