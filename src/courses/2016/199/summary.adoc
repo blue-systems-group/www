@@ -7,6 +7,8 @@ instructors:
 - challen
 - hartloff
 - ahughes6
+- mhertz
+- jwinikus
 ---
 ++++
 <a class="anchor" id="summary"></a>
