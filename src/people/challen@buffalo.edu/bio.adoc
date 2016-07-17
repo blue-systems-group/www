@@ -13,12 +13,20 @@ spelling_exceptions:
 - Chuchu
 - Xyz
 - Ziz
+- Alphonce
+- EWSN
+- IPSN
+- SenSys
+- TMC
+- ToN
+- TOSN
+- TPDS
 ---
 
 [.lead]
 //
 I'm an Assistant Professor at the http://www.buffalo.edu[University at
-Buffalo], where I lead the link:/[blue Systems Research Group] and also direct
+Buffalo (UB)], where I lead the link:/[blue Systems Research Group] and also direct
 the http://www.phone-lab.org[PhoneLab].
 //
 My research interests are in systems and networking, mobile systems, and
@@ -93,7 +101,38 @@ I enjoy cooking and traveling and am a 3+ season bike commuter.
 
 == Research and Teaching
 
-link:/[This site] describes my group's link:/projects/[research] and
+link:/[This site] describes my group's link:/projects/[research projects] and
 link:/courses/[teaching] activities.
 //
 Please peruse to find out more.
+
+== Service
+
+I am active as a technical program committee member and reviewer for the top
+conferences and workshops in mobile systems
+(https://www.sigmobile.org/mobisys/[MobiSys] (2016, 2014),
+http://www.hotmobile.org/main/[HotMobile] (2016),
+http://mobicase.org/[MobiCASE] (2016)) and wireless sensor networks
+http://sensys.acm.org/[SenSys] (2016,2013,2012,2011),
+http://ipsn.acm.org/[IPSN] (2017,2015), and http://www.ewsn.org/[EWSN]
+(2013)).
+//
+I also regularly review submissions to journals including ACM Transactions on
+http://tosn.acm.org/[Transactions on Sensor Networks (TOSN)],
+http://www.ifp.illinois.edu/ton/submissions.html[IEEE/ACM Transactions on Networking (ToN)],
+http://www.computer.org/portal/web/tmc[IEEE Transactions on Mobile Computing
+(TMC)], and http://www.computer.org/portal/web/tpds[IEEE Transactions on
+Parallel and Distributed Systems (TPDS)].
+//
+In 2015 link:/posts/2015-05-20-why-im-editing-a-getmobile-colu/[I began
+editing a column] for http://www.sigmobile.org/pubs/getmobile/[GetMobile
+Magazine].
+
+At UB I am leading an overhaul of our undergraduate computer science
+curriculum.
+//
+http://www.cse.buffalo.edu/~hartloff/index.html[Jesse Hartloff] and I also
+proposed a new series of introductory courses that, with the help of
+http://www.cse.buffalo.edu/~alphonce/[Carl Alphonce] and
+http://www.cse.buffalo.edu/~lziarek/[Luke Ziarek], we are developing into a
+replacement for our current beginning programming sequence.
