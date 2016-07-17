@@ -14,49 +14,86 @@ spelling_exceptions:
 - Xyz
 - Ziz
 ---
+
 [.lead]
+//
 I'm an Assistant Professor at the http://www.buffalo.edu[University at
-Buffalo], where I lead the link:/[blue Systems Research Group] and also
-direct the http://www.phone-lab.org[PhoneLab]. My research interests are in
-systems and networking, mobile systems, and smartphones. I teach an
-introduction to computer operating systems and a graduate seminar covering a
+Buffalo], where I lead the link:/[blue Systems Research Group] and also direct
+the http://www.phone-lab.org[PhoneLab].
+//
+My research interests are in systems and networking, mobile systems, and
+smartphones.
+//
+I teach an https://www.ops-class.org[introduction to computer operating
+systems], a https://www.internet-class.org[new freshman course on the
+internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
 variety of contemporary topics in mobile systems.
 
-My interest in computer science was kindled when I took an introductory
-course on operating systems from http://www.eecs.harvard.edu/margo/[Margo
-Seltzer] in 2000. As a graduate student I worked on sensor networks and
-dreamed that motes would truly become ubiquitous. While I worked on sensor
-networks that dream came true, but while the sensor network community mired
-itself in the problems created by ad-hoc routing, smartphones realized the
-vision of a planetary-scale distributed system. I began working on these
-transformative devices after completing my dissertation and have not looked
-back since.
+My interest in computer science was kindled when I took an introductory course
+on operating systems from http://www.eecs.harvard.edu/margo/[Margo Seltzer] in
+2000.
+//
+As a graduate student I worked on sensor networks and dreamed that motes would
+truly become ubiquitous.
+//
+While I worked on sensor networks that dream came true, but while the sensor
+network community mired itself in the problems created by ad-hoc routing,
+smartphones realized the vision of a planetary-scale distributed system.
+//
+I began working on these transformative devices after completing my
+dissertation and have not looked back since.
 
-I joined the University at Buffalo in 2011 and established link:/[blue] in
-the same year. I enjoy faculty life and the challenge of meeting my
-commitments to teaching, research, and service. Maintaining the balance is
-frustrating at times, but ultimately extremely fulfilling. The chance to work
-closely with my students and help them learn is my greatest joy, whether that
-occurs in the lab, in the classroom, or beyond. I have been blessed with a
-great group of students--hard-working, talented, and a pleasure to be around.
+I joined the University at Buffalo in 2011 and established link:/[blue] in the
+same year.
+//
+I enjoy faculty life and the challenge of meeting my commitments to
+link:/courses/[teaching], link:/papers/[research], and service.
+//
+Maintaining the balance is frustrating at times, but ultimately extremely
+fulfilling.
+//
+The chance to work closely with my students and help them learn is my greatest
+joy, whether that occurs in the lab, in the classroom, or beyond.
+//
+I have been blessed with a link:/people/[great group of
+students]&mdash;hard-working, talented, and a pleasure to be around.
 
 I received my [.spelling_exception]#A.B.# in Physics in 2003 and a Ph.D. in
-Computer Science in 2010, both from http://www.harvard.edu[Harvard]. As a
-graduate student I studied with http://www.mdw.la[Matt Welsh] and worked on
-using wireless sensor networks to study active volcanos. We performed several
-deployments on Ecuadorean volcanos including
+Computer Science in 2010, both from http://www.harvard.edu[Harvard].
+//
+As a graduate student I studied with http://www.mdw.la[Matt Welsh] and worked
+on using wireless sensor networks to study active volcanos.
+//
+We performed several deployments on Ecuadorean volcanos including
 [.spelling_exception]#Tungurahua# (2004, 2007) and
-[.spelling_exception]#Reventador# (2004). Our field experiences generated
-several projects addressing challenges typical to using resource-constrained
-devices for scientific purposes. Lance used policy modules to enable-utility
-driven bulk data collection, and IDEA (Integrated Distributed Energy
-Awareness) harnessed distributed energy to maximize global network
-objectives. I also spent a brief stint at MIT as a postdoctoral associate
-funded by http://nms.csail.mit.edu/~hari/[Hari Balakrishnan].
+[.spelling_exception]#Reventador# (2004).
+//
+Our field experiences generated several projects addressing challenges typical
+to using resource-constrained devices for scientific purposes.
+//
+Lance used policy modules to enable-utility driven bulk data collection, and
+IDEA (Integrated Distributed Energy Awareness) harnessed distributed energy to
+maximize global network objectives.
+//
+I also spent a brief stint at MIT as a postdoctoral associate funded by
+http://nms.csail.mit.edu/~hari/[Hari Balakrishnan].
 
 My wife and I live in a small house in Buffalo's up-and-coming West Side,
-several blocks west of the intersection of Grant and Lafayette. We live with
-an adorable pair of animals: a cat named Xyz (pronounced "Ziz") and a dog
-named Chuchu. Before he was fired by university administrators, Chuchu had a
-steady job as the link:/[blue group]'s resident therapy dog and lunch
-stealer. I enjoy cooking and traveling and am a 3+ season bike commuter.
+several blocks west of the intersection of Grant and Lafayette.
+//
+We live with an adorable pair of animals: a cat named Xyz (pronounced "Ziz")
+and a dog named Chuchu.
+//
+Before he was
+http://www.buffalonews.com/20130308/off_main_street_the_offbeat_side_of_the_news.html[fired
+by university administrators], Chuchu had a steady job as our resident therapy
+dog and lunch stealer.
+//
+I enjoy cooking and traveling and am a 3+ season bike commuter.
+
+== Research and Teaching
+
+link:/[This site] describes my group's link:/papers/[research] and
+link:/courses/[teaching] activities.
+//
+Please peruse to find out more.
