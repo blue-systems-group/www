@@ -25,7 +25,7 @@ My research interests are in systems and networking, mobile systems, and
 smartphones.
 //
 I teach an https://www.ops-class.org[introduction to computer operating
-systems], a https://www.internet-class.org[new freshman course on the
+systems], a http://www.internet-class.org[new freshman course on the
 internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
 variety of contemporary topics in mobile systems.
 
