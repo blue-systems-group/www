@@ -93,7 +93,7 @@ I enjoy cooking and traveling and am a 3+ season bike commuter.
 
 == Research and Teaching
 
-link:/[This site] describes my group's link:/papers/[research] and
+link:/[This site] describes my group's link:/projects/[research] and
 link:/courses/[teaching] activities.
 //
 Please peruse to find out more.
