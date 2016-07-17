@@ -132,7 +132,7 @@ At UB I am leading an overhaul of our undergraduate computer science
 curriculum.
 //
 http://www.cse.buffalo.edu/~hartloff/index.html[Jesse Hartloff] and I also
-proposed a new series of introductory courses that, with the help of
-http://www.cse.buffalo.edu/~alphonce/[Carl Alphonce] and
+proposed a https://goo.gl/brdQOO[new series of introductory courses] that,
+with the help of http://www.cse.buffalo.edu/~alphonce/[Carl Alphonce] and
 http://www.cse.buffalo.edu/~lziarek/[Luke Ziarek], we are developing into a
 replacement for our current beginning programming sequence.
