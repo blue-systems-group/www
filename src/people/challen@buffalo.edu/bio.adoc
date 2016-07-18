@@ -21,6 +21,7 @@ spelling_exceptions:
 - ToN
 - TOSN
 - TPDS
+- Bloomberg
 ---
 
 [.lead]
@@ -36,6 +37,8 @@ I teach an https://www.ops-class.org[introduction to computer operating
 systems], a http://www.internet-class.org[new freshman course on the
 internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
 variety of contemporary topics in mobile systems.
+
+== Background
 
 My interest in computer science was kindled when I took an introductory course
 on operating systems from http://www.eecs.harvard.edu/margo/[Margo Seltzer] in
@@ -87,15 +90,20 @@ I also spent a brief stint at MIT as a postdoctoral associate funded by
 http://nms.csail.mit.edu/~hari/[Hari Balakrishnan].
 
 My wife and I live in a small house in Buffalo's up-and-coming West Side,
-several blocks west of the intersection of Grant and Lafayette.
+several blocks west of the intersection of Grant and Lafayette and a few
+blocks east of Niagara Street.
+//
+Our small home is perpetually under construction but has provided
+opportunities for me to learn how to install hardwood flooring and
+baseboards, do basic electrical wiring, and now hang doors.
 //
 We live with an adorable pair of animals: a cat named Xyz (pronounced "Ziz")
 and a dog named Chuchu.
 //
 Before he was
 http://www.buffalonews.com/20130308/off_main_street_the_offbeat_side_of_the_news.html[fired
-by university administrators], Chuchu had a steady job as our resident therapy
-dog and lunch stealer.
+by university administrators], Chuchu had a steady job as our resident
+therapy dog and lunch stealer.
 //
 I enjoy cooking and traveling and am a 3+ season bike commuter.
 
@@ -123,10 +131,15 @@ http://www.ifp.illinois.edu/ton/submissions.html[IEEE/ACM Transactions on Networ
 http://www.computer.org/portal/web/tmc[IEEE Transactions on Mobile Computing
 (TMC)], and http://www.computer.org/portal/web/tpds[IEEE Transactions on
 Parallel and Distributed Systems (TPDS)].
-//
+
 In 2015 link:/posts/2015-05-20-why-im-editing-a-getmobile-colu/[I began
 editing a column] for http://www.sigmobile.org/pubs/getmobile/[GetMobile
 Magazine].
+//
+The column attempts to connect past developments with future trends in mobile
+systems.
+//
+If you have any idea for a submission, please get in touch.
 
 At UB I am leading an overhaul of our undergraduate computer science
 curriculum.
@@ -136,3 +149,23 @@ proposed a https://goo.gl/brdQOO[new series of introductory courses] that,
 with the help of http://www.cse.buffalo.edu/~alphonce/[Carl Alphonce] and
 http://www.cse.buffalo.edu/~lziarek/[Luke Ziarek], we are developing into a
 replacement for our current beginning programming sequence.
+
+I am also involved in efforts to try and improve diversity within computer
+science.
+//
+With help from
+https://www.buffalo.edu/cas/math/about-us/our-alumni/our-alumni.host.html/content/shared/cas/math/modules/our-alumni/n-sanford.detail.html[Natasha
+Sanford] and later http://www.acsu.buffalo.edu/~gelarehm/[Gela Malek Pour],
+in 2014 I helped start a https://www.facebook.com/ubscientista/[UB chapter]
+of the http://www.scientistafoundation.com/[Scientista Foundation] which
+promotes female participation in STEM.
+//
+Our local chapter is focused on women in computer science and, with the help
+of generous support from http://www.bloomberg.com[Bloomberg], has held a
+series of successful events on campus bringing attention to this important
+issue.
+//
+I also organized donations to create a diversity in computer science mural,
+link:/people/challen@buffalo.edu/mural.jpg[this iconic photo] of
+https://en.wikipedia.org/wiki/Grace_Hopper[Grace Hopper] now adorns the wall
+outside our lab.
