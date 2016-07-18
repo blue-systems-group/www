@@ -1,8 +1,8 @@
 ---
 name: "CI-SUSTAIN: Collaborative Research: Sustaining Successful Smartphone
 Testbeds to Enable Diverse Mobile Experiments"
-# link: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1629894"
-# abstract: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1629894"
+link: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1629894"
+abstract: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1629894"
 started: 2016-09-01
 ends: 2017-09-01
 amount: 75000
