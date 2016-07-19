@@ -22,6 +22,7 @@ funding:
 spelling_exceptions:
 - WGZR
 - WIVB
+- CISE
 ---
 [.lead]
 The 2{nbsp}billion smartphones deployed worldwide represent the largest
