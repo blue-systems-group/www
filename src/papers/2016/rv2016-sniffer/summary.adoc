@@ -45,4 +45,3 @@ most likely mutated traces.
 //
 We have implemented our framework and show that it can accurately distinguish
 most implementation errors.
-
