@@ -22,6 +22,7 @@ funding:
 spelling_exceptions:
 - WGZR
 - WIVB
+- CISE
 ---
 [.lead]
 The 2{nbsp}billion smartphones deployed worldwide represent the largest
@@ -84,9 +85,21 @@ press release], and
 http://wivb.com/2015/11/26/ub-phone-lab-research-tries-to-spread-internet-access-to-developing-countries/[this
 more recent article on WIVB Channel 4 News].
 //
-And if you're curious about some of the projects we've been using PhoneLab to
-work on, the following video was recorded at the first annual PhoneLab
-participant meeting in May, 2014:
+A more recent http://www.buffalo.edu/news/releases/2016/07/018.html[press
+release] described an link:/proposals/2016-cri-phonelab/[additional grant] we
+received from the http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12810[CISE
+Research Infrastructure program] to continue operating PhoneLab for
+2016&ndash;2017.
+
+
+If you're curious about some of the projects we've been using PhoneLab to
+work on in the past, the following video was recorded at the first annual
+PhoneLab participant meeting in May, 2014.
+//
+Obviously it's a bit out of date at this point.
+//
+If you want a better sense of what we use PhoneLab for now, just peruse our
+link:/projects/[projects page].
 
 ++++
 <div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">

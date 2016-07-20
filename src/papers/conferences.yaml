@@ -165,6 +165,15 @@ netmob:
     link: http://perso.uclouvain.be/vincent.blondel/netmob/2013/
     date: 2013-05-01
     location: Cambridge, MA
+rv:
+  preface: Proceedings of the
+  name: International Conference on Runtime Verification
+  2016:
+    number: 16th
+    shortname: RV'16
+    link: https://rv2016.imag.fr/
+    date: 2016-09-23
+    location: Madrid, Spain
 sensemine:
   preface: Proceedings of the
   name: International Workshop on Sensing and Big Data Mining
