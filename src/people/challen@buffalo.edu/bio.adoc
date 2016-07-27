@@ -121,7 +121,7 @@ conferences and workshops in mobile systems
 (https://www.sigmobile.org/mobisys/[MobiSys] (2016, 2014),
 http://www.hotmobile.org/main/[HotMobile] (2016),
 http://mobicase.org/[MobiCASE] (2016)) and wireless sensor networks
-http://sensys.acm.org/[SenSys] (2016,2013,2012,2011),
+(http://sensys.acm.org/[SenSys] (2016,2013,2012,2011),
 http://ipsn.acm.org/[IPSN] (2017,2015), and http://www.ewsn.org/[EWSN]
 (2013)).
 //
