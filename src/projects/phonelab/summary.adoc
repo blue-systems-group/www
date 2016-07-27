@@ -8,6 +8,8 @@ people:
 - qiao
 - challen
 papers:
+- getmobile2016-phonelab
+- infocom2016-scans
 - mobicase2015-jouler
 - tpctc2015-pocketdata
 - hotmobile2015-numerator

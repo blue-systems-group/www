@@ -8,6 +8,8 @@ people:
 - challen
 - ranveer@microsoft.com
 - Shuvendu.Lahiri@microsoft.com
+papers:
+- rv2016-sniffer
 ---
 
 [.lead]
