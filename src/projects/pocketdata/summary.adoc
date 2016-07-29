@@ -12,6 +12,8 @@ people:
 external: http://odin.cse.buffalo.edu/research/pocketdata/
 papers:
 - tpctc2015-pocketdata
+proposals:
+- 2016-cri-pocketdata
 ---
 
 [.lead]
