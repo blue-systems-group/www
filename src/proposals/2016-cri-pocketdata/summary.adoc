@@ -26,7 +26,7 @@ experienced by mobile apps using embedded databases - minimizing energy
 consumption, latency, and disk utilization - are familiar ground for database
 researchers.  However, in spite of active research in the areas of smartphone
 query processing and embedded databases, the specific tradeoffs introduced by
-this new domain of pocket-scale data are far less well understood.  
+this new domain of pocket-scale data are far less well understood.
 
 Key challenges in this space include the lack of publicly available data
 regarding smartphone database usage patterns in the real world, concrete
