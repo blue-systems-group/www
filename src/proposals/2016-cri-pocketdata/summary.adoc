@@ -1,0 +1,66 @@
+---
+name: "CI-P: Enabling Pocket-Scale Data Management Research"
+#link: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1629894"
+#abstract: "http://www.nsf.gov/awardsearch/showAward.do?AwardNumber=1629894"
+recommended: true
+started: 2016-08-15
+ends: 2018-02-14
+amount: 100000
+source: NSF
+program: CRI
+rate: 12
+faculty:
+- okennedy
+- challen
+- lziarek
+projects:
+- pocketdata
+---
+== Abstract
+
+A common requirement of the 4 million apps running on the world's 2 billion
+smartphones is persisting structured data.  Embedded databases such as SQLite
+are heavily used for this purpose, with a single typical Android smartphone
+averaging more than two SQLite queries per second. The fundamental challenges
+experienced by mobile apps using embedded databases - minimizing energy
+consumption, latency, and disk utilization - are familiar ground for database
+researchers.  However, in spite of active research in the areas of smartphone
+query processing and embedded databases, the specific tradeoffs introduced by
+this new domain of pocket-scale data are far less well understood.  
+
+Key challenges in this space include the lack of publicly available data
+regarding smartphone database usage patterns in the real world, concrete
+high-level optimization targets, and tools and methodologies for reliably
+measuring database performance along axes relevant to smartphone apps.  We
+propose infrastructure support and community-building efforts that will both
+improve existing research on embedded databases, and help to encourage new
+and innovative research in the area.  This infrastructure support will take
+the form of real-world smartphone usage traces, a benchmarking suite for
+pocket-scale data, visualization tools, and instrumentation for mobile
+embedded databases.
+
+Keywords: *databases*; *smartphones*; *benchmarking*.
+
+=== Intellectual Merit
+
+The proposed infrastructure will be used by researchers from multiple
+academic and industrial institutions to support of new and existing research.
+Interest has already been expressed by researchers working on Adaptive Data
+Systems, Small Data Analytics, Gestural Query Processing, Data-Flow Analysis,
+Embedded Databases, Database Benchmarking, and others.
+
+=== Broader Impacts
+
+With 2 billion smartphones in the world, people are increasingly relying on
+smartphones to manage their lives. The proliferation of data-driven
+smartphone apps is driving a need to create more, better, faster, more
+user-friendly, and more power-aware techniques for managing their data. It is
+critical that we begin understand how smartphone apps interact with their
+data. Our proposal lays the groundwork for research on pocket-scale data
+management. We have interest from the Transaction Processing Council for our
+proposed benchmark, and even now several members of the database, systems,
+and programming language communities have expressed interest in the resources
+we propose to offer.  In addition to supporting research in a critical area,
+this proposal will support one graduate student during the planning phase and
+up to two graduate students in later phases, resulting in between one and two
+PhD Theses.
