@@ -1,0 +1,48 @@
+---
+name: "Algorithms for CPU and DRAM DVFS Under Inefficiency Constraint"
+published: iccd
+people:
+- rb639@drexel.edu
+- gurupras
+- challen
+- mark@ece.tufts.edu
+projects:
+- poweragility
+funding:
+- 2014-csr-poweragility
+---
+== Abstract
+
+Dynamic voltage and frequency scaling (DVFS) of
+both the core and DRAM provides opportunities to trade-off
+performance in order to save energy.
+//
+Previous approaches to core
+and DRAM power management using DVFS used performance,
+specifically acceptable performance loss, as a constraint.
+//
+We
+present energy management algorithms that coordinate core
+and DRAM frequency scaling under a specified energy budget.
+//
+Approaches that work under performance constraints, as we will
+show, are not directly applicable to systems operating under
+energy constraints, as it is difficult to calculate the correct
+performance bounds in real-time to stay under an energy budget.
+
+Setting arbitrary energy budgets for a diverse set of applications can be
+harmful to application performance.
+//
+We use the previously introduced concept of Inefficiency--the additional
+amount of energy above the minimum required energy that can be used to improve
+performance--to provide a dynamic energy constraint to our system.
+//
+We introduce new power management algorithms that search the power and
+performance space to find the best performing point under this constraint.
+//
+We demonstrate the efficacy of our algorithms using CPU DVFS and DRAM
+frequency scaling.
+//
+We show that our algorithms have 24% lower tuning cost and save up to 5%
+energy with a little performance loss compared to a state-of-the-art
+performance constrained system.

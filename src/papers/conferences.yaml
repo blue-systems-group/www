@@ -104,6 +104,15 @@ iiswc:
     date: 2015-10-04
     location: Atlanta, GA
     acceptance: 33
+iccd:
+  preface: Proceedings of the
+  name: IEEE International Conference on Computer Design
+  2016:
+    number: 34th
+    shortname: ICCD'16
+    link: http://www.iccd-conf.com/
+    date: 2016-10-03
+    location: Phoenix, AZ
 infocom:
   preface: Proceedings of the
   name: IEEE International Conference on Computer Communications
