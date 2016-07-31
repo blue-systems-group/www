@@ -107,6 +107,20 @@ therapy dog and lunch stealer.
 //
 I enjoy cooking and traveling and am a 3+ season bike commuter.
 
+== Statements
+
+My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and research,
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching], and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service] statements are all
+online and updated as of 7/28/2016.
+//
+I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
+on link:/projects/pocketparker/[PocketParker], our
+link:/papers/mobicase2015-jouler/[2015 MobiCASE paper] on
+link:/projects/jouler[Jouler], and our link:/papers/infocom2016-scans/[2016
+INFOCOM paper] on link:/projects/pocketsniffer/[crowdsourcing network
+monitoring] as three representative publications.
+
 == Research and Teaching
 
 link:/[This site] describes my group's link:/projects/[research projects] and

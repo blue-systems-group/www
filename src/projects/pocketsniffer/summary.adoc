@@ -12,6 +12,7 @@ people:
 - dimitrio
 - challen
 papers:
+- infocom2016-scans
 - hotwireless2015-sharing
 - hotnets2014-pocketsniffer
 ---

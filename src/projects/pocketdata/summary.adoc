@@ -12,6 +12,8 @@ people:
 external: http://odin.cse.buffalo.edu/research/pocketdata/
 papers:
 - tpctc2015-pocketdata
+proposals:
+- 2016-cri-pocketdata
 ---
 
 [.lead]
@@ -29,7 +31,7 @@ Embedded database engines lack benchmarks that reflect the differences
 between interactive workloads and the traditional throughput-driven workloads
 that are used to evaluate database servers supporting big data and web
 applications.
-// 
+//
 The link:/projects/pocketdata[PocketData] project is developing new
 benchmarks based on smartphone embedded database workloads that can drive
 innovative next-generation approaches to mobile structured data storage and
