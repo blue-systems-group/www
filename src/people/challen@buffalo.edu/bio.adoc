@@ -109,10 +109,11 @@ I enjoy cooking and traveling and am a 3+ season bike commuter.
 
 == Statements
 
-My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and research,
+My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
 link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching], and
-link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service] statements are all
-online and updated as of 7/28/2016.
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service]
+statements are all online and up-to-date.
 //
 I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
 on link:/projects/pocketparker/[PocketParker], our
