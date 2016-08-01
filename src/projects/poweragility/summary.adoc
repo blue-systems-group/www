@@ -10,6 +10,7 @@ people:
 - mark@ece.tufts.edu
 - challen
 papers:
+- iccd2016-inefficiency
 - iiswc2015-frontiers
 - hotmobile2014-poweragility
 - hotos2011-poweragility
