@@ -18,7 +18,7 @@ Runtime validation of wireless protocol implementations cannot always employ
 direct instrumentation of the tested device.
 //
 It may not implement the required instrumentation, or the instrumentation may
-alter the it's behavior.
+alter the its behavior.
 //
 Wireless sniffers can monitor wireless traffic without instrumentation but
 introduce both new validation challenges and opportunities.
