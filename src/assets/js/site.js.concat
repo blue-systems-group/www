@@ -3,7 +3,7 @@ files:
 - assets/js/jquery.min.js
 - assets/js/jquery.touchSwipe.min.js
 - assets/js/bootstrap.min.js
-- assets/js/ga.js
+- assets/js/analytics.js
 - assets/js/onload.js
 output: assets/js/site.js
 ---

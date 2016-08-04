@@ -25,7 +25,7 @@ clean:
 	@rm -rf .build build
 
 statics:
-	@wget http://google-analytics.com/ga.js -O src/assets/js/ga.js 2>/dev/null
+	@wget https://www.google-analytics.com/analytics.js -O src/assets/js/analytics.js 2>/dev/null
 	@wget http://connect.facebook.net/en_US/sdk.js -O src/assets/js/facebook.js 2>/dev/null
 	@wget https://platform.twitter.com/widgets.js -O src/assets/js/twitter.js 2>/dev/null
 
