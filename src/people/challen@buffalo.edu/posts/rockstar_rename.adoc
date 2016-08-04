@@ -167,7 +167,7 @@ src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKmAAAAJGM2NG
 <div class="col-xs-6 text-center">
 <h4><a href="https://en.wikipedia.org/wiki/Chris_Daughtry">Chris Daughtry</a></h4>
 <img
-src="http://yrbmagazine.com/wp-content/uploads/2012/06/Chris-Daughtry8441.jpg" alt="Chris Daughtry" class="img-responsive center-block">
+src="http://www.yrbmagazine.com/wp-content/uploads/2012/06/Chris-Daughtry8441.jpg" alt="Chris Daughtry" class="img-responsive center-block">
 </div>
 
 <div class="clearfix visible-xs-block"></div>

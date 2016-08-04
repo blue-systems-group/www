@@ -19,7 +19,7 @@ silent:
 	@:
 
 run:
-	./node_modules/http-server/bin/http-server build -p 8081
+	./node_modules/http-server/bin/http-server build -p 8080
 
 clean:
 	@rm -rf .build build
