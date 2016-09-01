@@ -7,6 +7,7 @@ staff:
 - shaseley
 instructors:
 - challen
+enrollment: 7
 ---
 ++++
 <a class="anchor" id="summary"></a>
