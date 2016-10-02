@@ -39,6 +39,16 @@
       Acceptance rate: {{ conference.acceptance }}%.
       {{/if}}
     {{/if}}
+		{{#if best_paper }}
+		<div>
+			<strong>Recipient of the Best Paper Award</strong>
+		</div>
+		{{/if}}
+		{{#if best_poster }}
+		<div>
+			<strong>Recipient of the Best Poster Award</strong>
+		</div>
+		{{/if}}
     <div>
       <ul class="list-inline dash-list">
         {{#if PDF }}

@@ -11,6 +11,7 @@ projects:
 funding:
 - 2013-reu-phonelab
 poster: true
+best_poster: true
 ---
 == Abstract
 

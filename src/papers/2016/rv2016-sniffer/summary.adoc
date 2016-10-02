@@ -13,6 +13,7 @@ funding:
 spelling_exceptions:
 - DUT
 git: https://github.com/blue-systems-group/papers.rv16-verification
+best_paper: true
 ---
 == Abstract
 
