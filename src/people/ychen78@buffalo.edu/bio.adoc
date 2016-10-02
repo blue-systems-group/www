@@ -4,7 +4,7 @@ role: PhD Student
 joined: 2014-10-14
 scholar: http://scholar.google.com/citations?user=FkD_nSQAAAAJ&hl=en
 alumni: true
-CV: http://resume.xcv58.com
+# CV: http://resume.xcv58.com
 ---
 [.lead]
 I'm a third year Ph.D. student.

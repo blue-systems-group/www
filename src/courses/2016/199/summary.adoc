@@ -12,6 +12,31 @@ instructors:
 staff:
 - gjbunyea
 - carlnues
+UTAs:
+- aishanib
+- mohitbha
+- iacaneda
+- jchen232
+- wesleycs
+- daviddob
+- mdrewitt
+- lethiraj
+- liamgens
+- rshanule
+- hvgirase
+- prjones4
+- vakaplin
+- heebakar
+- anguslam
+- lawreenl
+- ianngumi
+- brijeshr
+- rar36
+- kylescho
+- pdshah2
+- dcstarne
+- evanwall
+- grantwra
 website: "https://www.internet-class.org/"
 syllabus: "https://www.internet-class.org/courses/fys/syllabus/"
 videos: "https://www.youtube.com/channel/UCF-EPJcRpVWGzr-MwITe8AA"
@@ -86,7 +111,7 @@ for more details and motivation for this new approach.
 == Videos
 
 Course content is being prerecorded in five-minute videos made available to
-students on youtube.
+students on https://www.youtube.com[YouTube].
 
 === Lessons
 

@@ -21,6 +21,10 @@
       {{#if staff }}
       <em>Staff:</em> {{ and_list staff }}
       {{/if}}
+      {{#if UTAs }}
+      <br />
+      <em>Undergraduate Teaching Assistants:</em> {{ and_list UTAs }}
+      {{/if}}
       {{#if volunteers }}
       <br />
       <em>Volunteers:</em> {{ and_list volunteers }}

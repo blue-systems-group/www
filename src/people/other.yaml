@@ -26,7 +26,6 @@
 - name: Sonali Batra
   email: sonaliba@buffalo.edu
   old_group: true
-  website: "http://www.acsu.buffalo.edu/~sonaliba/"
 - name: Manoj Chandresekaran
   email: manojmyl@buffalo.edu
   old_group: true
@@ -126,9 +125,20 @@
 - name: Rakesh Balasubramaniam
   email: rbalasub@buffalo.edu
   website: "https://www.linkedin.com/in/ramyarao"
+- name: Aishani Bhalla
+  email: aishanib@buffalo.edu
+  website: "https://www.linkedin.com/in/aishanibhalla"
+- name: Mohit Bhatia
+  email: mohitbha@buffalo.edu
+  website: "http://www.acsu.buffalo.edu/~mohitbha/"
 - name: Fatih Bulut
   email: mbulut@buffalo.edu
   website: "http://scholar.google.com/citations?user=aUaOP48AAAAJ"
+- name: Isabelle Caneda
+  email: iacaneda@buffalo.edu
+  website: "https://www.linkedin.com/in/iacaneda"
+- name: Junjie Chen
+  email: jchen232@buffalo.edu
 - name: Zihe Chen
   email: zihechen@buffalo.edu
   website: "http://www.cse.buffalo.edu/~zihechen/"
@@ -136,27 +146,54 @@
   email: johncher@buffalo.edu
 - name: Dan Conway
   email: dconway@buffalo.edu
-- name: Doug Giordano
-  email: dmgiorda@buffalo.edu
+- name: David Dobmeier
+  email: daviddob@buffalo.edu
+  link: "https://www.linkedin.com/in/daviddobmeier"
+- name: Michael Drewitt
+  email: mdrewitt@buffalo.edu
+  website: "https://www.linkedin.com/in/michaeldrewitt"
 - name: Scott Florentino
   email: scottflo@buffalo.edu
+- name: Doug Giordano
+  email: dmgiorda@buffalo.edu
+- name: Liam Gensel
+  email: liamgens@buffalo.edu
+- name: Harshita Girase
+  email: hvgirase@buffalo.edu
+  website: "https://www.linkedin.com/in/harshitagirase"
 - name: Tong Guan
   email: tongguan@buffalo.edu
+- name: Liwen Gui
+  email: liwengui@buffalo.edu
   website: "http://www.cse.buffalo.edu/people/?u=tongguan"
 - name: Zhangyu Guan
   email: zguan2@buffalo.edu
+- name: Richard Hanulewicz
+  email: rshanule@buffalo.edu
+- name: Patrick Jones
+  email: prjones4@buffalo.edu
+- name: Valencia Kaplinsky
+  email: vakaplin@buffalo.edu
+  website: "https://www.linkedin.com/in/valencia-kaplinsky-8060a0112"
+- name: Heeba Kariapper
+  email: heebakar@buffalo.edu
 - name: Taeyeon Ki
   email: tki@buffalo.edu
   website: "http://www.cse.buffalo.edu/people/?u=tki"
+- name: Angus Lam
+  email: anguslam@buffalo.edu
+  website: "https://www.linkedin.com/in/angushtlam"
+- name: Lawreen Latif
+  email: lawreenl@buffalo.edu
 - name: Gela Malek Pour
   email: gelarehm@buffalo.edu
   website: "http://www.acsu.buffalo.edu/~gelarehm/"
 - name: James Mazur
   email: jamesmaz@buffalo.edu
+- name: Ian Ngumi
+  email: ianngumi@buffalo.edu
 - name: Gino Notto
   email: ginonott@buffalo.edu
-- name: Liwen Gui
-  email: liwengui@buffalo.edu
 - name: Mukta Puri
   email: mpuri2@buffalo.edu
 - name: Ramya Rao
@@ -165,11 +202,17 @@
 - name: Isaac Reath
   email: isaacrea@buffalo.edu
   website: "https://www.linkedin.com/in/isaac-reath-60304782"
+- name: Rachel Roberts
+  email: rar36@buffalo.edu
+  website: "https://www.linkedin.com/in/rachelannroberts"
 - name: Benjamin Rueda
   email: bjrueda@buffalo.edu
   website: "https://www.linkedin.com/in/benjamin-rueda-b5b186b2"
 - name: Natasha Sanford
   email: nsanford@buffalo.edu
+- name: Parth Shah
+  email: pdshah2@buffalo.edu
+  website: "https://www.wayup.com/profile/Parth-Shah/3766b/08be7/"
 - name: Feng Shen
   email: fengshen@buffalo.edu
 - name: Mark Simson
@@ -177,12 +220,18 @@
   website: "https://www.linkedin.com/in/marksimson"
 - name: Ryan Smith
   email: ryansmit@buffalo.edu
+- name: Dan Starner
+  email: dcstarne@buffalo.edu
+  website: "https://danstarner.me/"
 - name: Junfei Wang
   email: junfeiwa@buffalo.edu
 - name: Aditya Wagh
   email: aswagh@buffalo.edu
 - name: Mack Ward
   email: mward4@buffalo.edu
+- name: Evan Walley
+  email: evanwall@buffalo.edu
+  website: "http://www.acsu.buffalo.edu/~evanwall/"
 - name: Zhen Xu
   email: zxu8@buffalo.edu
   website: "http://www.cse.buffalo.edu/people/?u=zxu8"
@@ -204,7 +253,7 @@
   institution: Microsoft Research
 - name: Yih-Farn Chen
   email: chen@research.att.com
-  website: "http://www.research.att.com/people/Chen_Yih-farn_R"
+  # website: "http://www.research.att.com/people/Chen_Yih-farn_R"
   institution: AT&amp;T Labs Research
 - name: Mark Hempstead
   email: mark@ece.tufts.edu
@@ -260,3 +309,5 @@
 - name: David Werner
   email: daw77@drexel.edu
   institution: Drexel University
+
+# vim: ts=2:sw=2:et
