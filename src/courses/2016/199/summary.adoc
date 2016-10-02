@@ -9,6 +9,13 @@ instructors:
 - ahughes6
 - mhertz
 - jwinikus
+staff:
+- gjbunyea
+- carlnues
+website: "https://www.internet-class.org/"
+syllabus: "https://www.internet-class.org/courses/fys/syllabus/"
+videos: "https://www.youtube.com/channel/UCF-EPJcRpVWGzr-MwITe8AA"
+enrollment: 440
 ---
 ++++
 <a class="anchor" id="summary"></a>
@@ -75,3 +82,16 @@ students to complete graded weekly homework assignments (Friday recitation).
 //
 Please see the link:/projects/internetclass[`internet-class` project page]
 for more details and motivation for this new approach.
+
+== Videos
+
+Course content is being prerecorded in five-minute videos made available to
+students on youtube.
+
+=== Lessons
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://www.youtube.com/embed/videoseries?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8&amp;showinfo=1" allowfullscreen></iframe>
+</div>
+++++

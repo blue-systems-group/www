@@ -3,10 +3,10 @@ common: qoe
 started: 2016-08-29
 ends: 2016-12-19
 semester: Fall
-staff:
-- shaseley
 instructors:
 - challen
+- shaseley
+enrollment: 8
 ---
 ++++
 <a class="anchor" id="summary"></a>
