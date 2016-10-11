@@ -50,8 +50,11 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="/" style="padding:0px 10px 0px 0px;">
-							<img {{#if logo_flipped}}class="flipped"{{/if}} src="/assets/img/logos/blue-small.jpg"
-																											 alt="blue Logo" />
+							{{#if logo_flipped}}
+							<img class="flipped" src="/assets/img/logos/blue-small.jpg" alt="blue Logo" />
+							{{else}}
+							<img src="/assets/img/logos/blue-neon.jpg" alt="blue Logo" />
+							{{/if}}
 						</a>
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
