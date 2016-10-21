@@ -1,0 +1,202 @@
+---
+working: true
+---
+
+== How Not to Get Tenure
+
+[.snippet.lead]
+//
+At the extremes, there are two ways to approach tenure.
+//
+You can conform to the norms established for junior faculty, or you can be
+yourself.
+//
+I'm happy that I set my own course, and proud of the way that I divided by
+time between research, teaching, and service.
+//
+Unfortunately, that approach did not work at UB.
+//
+My department voted emphatically against my tenure case earlier this week,
+and so link:/[blue] will need to find a new home.
+
+=== What Are You Supposed to Do?
+
+Junior faculty get a lot of unsolicited advice about how to get tenure,
+mainly in the form of many different don'ts:
+
+. Don't teach too much--I heard that often at UB.
+
+. Don't teach too well when you are starting out, so you can create the
+illusion of a positive trend right before tenure--I heard that too.
+
+. Don't try to lead a project with multiple senior faculty--even if it's your
+project, and you're doing most of the work, better to let them take the
+credit.
+
+. Don't work on a project if it might not produce a bunch of publications
+quickly.
+
+. Don't take on leadership roles in or work to improve the department.
+
+. Don't speak out on issues that you care about, particularly if you might
+offend your senior colleagues.
+
+While this advice can be well-meaning, it is also normative.
+//
+Tenure represents the last chance for an institution to impress its values on
+its faculty.
+//
+And, particularly for academics that have spent their entire lives pleasing a
+school in one form or another, the prospect of not getting tenure is a strong
+motivator.
+//
+This is the last test that they'll ever have to pass, so why not just keep
+doing what the teacher wants for a few more years?
+//
+Plus, after you get tenure you can do anything you want--right?
+
+=== My Approach
+
+While I've always been good at school, I was also the kid who had to sweep
+the parking lot in detention in middle school.
+//
+I got kicked out of the National Honor Society in high school and hauled in
+front of Harvard's Administrative Board as a college freshman.
+//
+I proudly wore outrageously ugly orange plaid pants around at Harvard for the
+rest of my college career in the hopes that they would offend someone
+footnote:[This was not that effective.].
+//
+My PhD advisor threatened to fire me many times.
+//
+So I have a track record of having a hard time doing what I'm told just
+because a school told me to.
+
+When I started my academic position I promised myself that I would try to
+resist any urges to do things or not do things "to get tenure".
+//
+There were a bunch of reasons that I chose to be myself.
+//
+One was that I was unsure of whether I would be happy as a research academic.
+//
+This was my chance to find out, and if I was going to try it I wanted to do
+so in a way that reflected how I would do the job long-term.
+
+[.pullquote]#But a more important reason that I chose to push back against the
+institutional don'ts was that I wanted tenure to mean something.#
+//
+The burned-out post-tenure academic is a pretty well-established cliche, and
+one that I witnessed first hand.
+//
+The standard assumption is that junior faculty are burned out by all the work
+that tenure requires, but I think that there may be something deeper at play.
+//
+To the degree that junior faculty have to supress some of their own
+priorities to get tenure, tenure becomes less of a celebration of their
+accomplishments and more a symbol of their conformity.
+//
+If I was going to get tenure, I wanted it to be a validation of me and my
+approach.
+
+There's also a powerful and unfortunate myth surrounding "after tenure"
+transformation.
+//
+When junior faculty want to do something that they are not supposed to do,
+they are frequently told to wait until "after tenure".
+//
+The problem is, the tenure process changes you.
+//
+After spending five or six years having certain priorities suppressed, even
+with the time and energy after tenure, will you still care about that thing
+you promised yourself to do?
+//
+At least in experience, I can vouch that the attitude toward teaching
+instilled in junior faculty continues strongly at the senior faculty level.
+
+=== What Did I Do?
+
+So what did I do?
+//
+Well, not everything fell into the "should not" category.
+//
+I have a link:/people/[fantastic group of students] working on a variety of
+link:/projects/[important projects].
+//
+We wrote link:/papers/[a bunch of great papers], including what I consider to
+be groundbreaking work in several new areas.
+//
+I've been very successful in obtaining link:/proposals/[external funding] to
+support my group--around $3M to date--from a variety of sources, including
+the NSF and Google.
+//
+I have a CAREER award on the way, although I won't be accepting it at UB.
+//
+I've established myself in my scientific community and continue to serve on
+program committees for the top conferences in my research area.
+//
+With one exception, my eight external letters were supportive of my research
+program.
+
+At the same time, the "probably should not" category contains a lot of things
+that I'm extremely proud of.
+//
+I've continued
+link:/posts/2015-07-14-my-case-for-reverse-blind-review/[signing my program
+committee reviews], despite the fact that this may have pissed off an unknown
+number of unknown researchers footnote:[Maybe that's where that one negative
+external letter came from?]. (Junior faculty should not do things that might
+offend senior colleagues!)
+//
+I've gotten better at prioritizing my students' long-term development as
+scientists and scholars over the short-term goals of making that next paper
+deadline, and I can see them benefiting from this. (Just get the papers out!
+You can mentor students "after tenure".)
+//
+We built and operate a public https://www.phone-lab.org[smartphone platform
+testbed] used by researchers around the world.
+//
+(Junior faculty should not build infrastructure! And they should not lead
+projects involving senior faculty footnote:[That was actually a big mistake,
+but not for reasons that I'll share here.]!)
+
+I worked really hard to bring an exciting and rigorous
+https://www.ops-class.org[operating systems class] to UB. (Junior faculty
+should not teach large classes, or teach well early! And they should
+definitely not put course materials online or record their lectures--everyone
+knows that CS faculty don't know how to do those things!)
+//
+And then we worked hard again last spring to build
+https://test161.ops-class.org[new tools] to improve that class further.
+(Junior faculty should not improve their courses, particularly right before
+tenure!)
+
+To make matters worse, last year I willingly got involved in curriculum
+development. (Terrible, terrible!)
+//
+I led a complete overhaul of our department's undergraduate computer science
+curriculum, which was approved last month by a faculty vote footnote:[I've
+been so busy that I haven't had time to blog or brag about those changes...].
+//
+That overhaul includes https://goo.gl/7TxmZr[two new exciting introductory
+programming courses] that I spent a great deal of time designing, and then
+worked with a committee of colleagues to start to bring to fruition.
+//
+But overall the new curriculum represents and will require more committment
+of our instructional resources to undergraduate education. (No, no, no!
+Graduate students are way, way more important!)
+
+To make matters even worse, I also _volunteered_ to teach a new large course
+to freshman. (Shocking! Senior faculty in my deparment _never_ willingly
+teach freshman...)
+//
+So this semester I've been teaching an exciting
+https://www.internet-class.org[new course on the internet] to 440 freshman in
+a link:/courses/ub-199-fall-2016/[flipped-classroom format].
+//
+The class is going really, really well--but I'm not sure what will become of
+it now, or of the
+https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[hundreds
+of short YouTube videos] that we were planning to reuse next year.
+//
+(Don't you get--we want _fewer_ undergraduates, not more! Go out and sweep
+the parking lot!)
