@@ -71,7 +71,10 @@
         
         <hr class="underline">
 
-        <p><a href="https://docs.google.com/document/d/1jMVw8mwJkb4XUEr-7Gi7NrxXqNcholqt7PBDpdsza4w/edit?usp=sharing">Comment on mine, or add some of your
+        <p>
+					<a
+						href="https://docs.google.com/document/d/1jMVw8mwJkb4XUEr-7Gi7NrxXqNcholqt7PBDpdsza4w/edit?usp=sharing">Comment on mine,<br/> or add your own</a>
+				</p>
         
         <h4 style="margin-top:24px;">
           <a target="_blank" href="/posts/feed.xml">Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-left: 0.5em; height: 1em" /></a>

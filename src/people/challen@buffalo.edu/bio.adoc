@@ -27,8 +27,8 @@ spelling_exceptions:
 [.lead]
 //
 I'm an Assistant Professor at the http://www.buffalo.edu[University at
-Buffalo (UB)], where I lead the link:/[blue Systems Research Group] and also direct
-the http://www.phone-lab.org[PhoneLab].
+Buffalo (UB)], where I lead the link:/[blue Systems Research Group] and also
+direct the http://www.phone-lab.org[PhoneLab].
 //
 My research interests are in systems and networking, mobile systems, and
 smartphones.
@@ -37,6 +37,94 @@ I teach an https://www.ops-class.org[introduction to computer operating
 systems], a http://www.internet-class.org[new freshman course on the
 internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
 variety of contemporary topics in mobile systems.
+
+== Update
+
+I link:/posts/2016-10-22-the-best-way-to-not-get-tenure/[did not receive
+tenure at UB] and am looking for new opportunities.
+//
+*If you are in a department that is looking for faculty with a strong
+commitment to both teaching and research, please contact me.*
+//
+I will arrive with multiple link:/proposals/[grant-supported]
+link:/projects/[research projects]; several link:/people/[excellent PhD
+students]; link:/courses/[two popular, scalable, and effective undergraduate
+courses]; https://goo.gl/brdQOO[blueprints for an exciting new introductory
+programming series]; a commitment to undergraduate engagement; and an
+excellent track record of departmental and community service.
+
+My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching], and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service]
+statements are all online and up-to-date.
+//
+I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
+on link:/projects/pocketparker/[PocketParker], our
+link:/papers/infocom2016-scans/[2016 INFOCOM paper] on
+link:/projects/pocketsniffer/[crowdsourcing network monitoring], and our
+link:/papers/rv2016-sniffer/[2016 RV paper] on
+link:/projects/wirelessvalidation[wireless protocol validation] as three
+representative publications.
+
+== Research and Teaching
+
+link:/[This site] describes my group's link:/projects/[research projects] and
+link:/courses/[teaching] activities.
+//
+Please peruse to find out more.
+
+== Service
+
+I am active as a technical program committee member and reviewer for the top
+conferences and workshops in mobile systems
+(https://www.sigmobile.org/mobisys/[MobiSys] (2017, 2016, 2014),
+http://www.hotmobile.org/main/[HotMobile] (2016),
+http://mobicase.org/[MobiCASE] (2016)) and wireless sensor networks
+(http://sensys.acm.org/[SenSys] (2016,2013,2012,2011),
+http://ipsn.acm.org/[IPSN] (2017,2015), and http://www.ewsn.org/[EWSN]
+(2013)).
+//
+I also regularly review submissions to journals including ACM Transactions on
+http://tosn.acm.org/[Transactions on Sensor Networks (TOSN)],
+http://www.ifp.illinois.edu/ton/submissions.html[IEEE/ACM Transactions on Networking (ToN)],
+http://www.computer.org/portal/web/tmc[IEEE Transactions on Mobile Computing
+(TMC)], and http://www.computer.org/portal/web/tpds[IEEE Transactions on
+Parallel and Distributed Systems (TPDS)].
+
+In 2015 link:/posts/2015-05-20-why-im-editing-a-getmobile-colu/[I began
+editing a column] for http://www.sigmobile.org/pubs/getmobile/[GetMobile
+Magazine].
+//
+The column attempts to connect past developments with future trends in mobile
+systems.
+//
+If you have any idea for a submission, please get in touch.
+
+At UB I led an overhaul of our undergraduate computer science curriculum.
+//
+http://www.cse.buffalo.edu/~hartloff/index.html[Jesse Hartloff] and I also
+designed a https://goo.gl/brdQOO[new series of introductory courses].
+
+I am also involved in efforts to try and improve diversity within computer
+science.
+//
+With help from
+https://www.buffalo.edu/cas/math/about-us/our-alumni/our-alumni.host.html/content/shared/cas/math/modules/our-alumni/n-sanford.detail.html[Natasha
+Sanford] and later http://www.acsu.buffalo.edu/~gelarehm/[Gela Malek Pour],
+in 2014 I helped start a https://www.facebook.com/ubscientista/[UB chapter]
+of the http://www.scientistafoundation.com/[Scientista Foundation] which
+promotes female participation in STEM.
+//
+Our local chapter is focused on women in computer science and, with the help
+of generous support from http://www.bloomberg.com[Bloomberg], has held a
+series of successful events on campus bringing attention to this important
+issue.
+//
+I also organized donations to create a diversity in computer science mural,
+link:/people/challen@buffalo.edu/mural.jpg[this iconic photo] of
+https://en.wikipedia.org/wiki/Grace_Hopper[Grace Hopper] now adorns the wall
+outside our lab.
 
 == Background
 
@@ -107,80 +195,3 @@ therapy dog and lunch stealer.
 //
 I enjoy cooking and traveling and am a 3+ season bike commuter.
 
-== Statements
-
-My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
-link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
-link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching], and
-link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service]
-statements are all online and up-to-date.
-//
-I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
-on link:/projects/pocketparker/[PocketParker], our
-link:/papers/mobicase2015-jouler/[2015 MobiCASE paper] on
-link:/projects/jouler[Jouler], and our link:/papers/infocom2016-scans/[2016
-INFOCOM paper] on link:/projects/pocketsniffer/[crowdsourcing network
-monitoring] as three representative publications.
-
-== Research and Teaching
-
-link:/[This site] describes my group's link:/projects/[research projects] and
-link:/courses/[teaching] activities.
-//
-Please peruse to find out more.
-
-== Service
-
-I am active as a technical program committee member and reviewer for the top
-conferences and workshops in mobile systems
-(https://www.sigmobile.org/mobisys/[MobiSys] (2017, 2016, 2014),
-http://www.hotmobile.org/main/[HotMobile] (2016),
-http://mobicase.org/[MobiCASE] (2016)) and wireless sensor networks
-(http://sensys.acm.org/[SenSys] (2016,2013,2012,2011),
-http://ipsn.acm.org/[IPSN] (2017,2015), and http://www.ewsn.org/[EWSN]
-(2013)).
-//
-I also regularly review submissions to journals including ACM Transactions on
-http://tosn.acm.org/[Transactions on Sensor Networks (TOSN)],
-http://www.ifp.illinois.edu/ton/submissions.html[IEEE/ACM Transactions on Networking (ToN)],
-http://www.computer.org/portal/web/tmc[IEEE Transactions on Mobile Computing
-(TMC)], and http://www.computer.org/portal/web/tpds[IEEE Transactions on
-Parallel and Distributed Systems (TPDS)].
-
-In 2015 link:/posts/2015-05-20-why-im-editing-a-getmobile-colu/[I began
-editing a column] for http://www.sigmobile.org/pubs/getmobile/[GetMobile
-Magazine].
-//
-The column attempts to connect past developments with future trends in mobile
-systems.
-//
-If you have any idea for a submission, please get in touch.
-
-At UB I am leading an overhaul of our undergraduate computer science
-curriculum.
-//
-http://www.cse.buffalo.edu/~hartloff/index.html[Jesse Hartloff] and I also
-proposed a https://goo.gl/brdQOO[new series of introductory courses] that,
-with the help of http://www.cse.buffalo.edu/~alphonce/[Carl Alphonce] and
-http://www.cse.buffalo.edu/~lziarek/[Luke Ziarek], we are developing into a
-replacement for our current beginning programming sequence.
-
-I am also involved in efforts to try and improve diversity within computer
-science.
-//
-With help from
-https://www.buffalo.edu/cas/math/about-us/our-alumni/our-alumni.host.html/content/shared/cas/math/modules/our-alumni/n-sanford.detail.html[Natasha
-Sanford] and later http://www.acsu.buffalo.edu/~gelarehm/[Gela Malek Pour],
-in 2014 I helped start a https://www.facebook.com/ubscientista/[UB chapter]
-of the http://www.scientistafoundation.com/[Scientista Foundation] which
-promotes female participation in STEM.
-//
-Our local chapter is focused on women in computer science and, with the help
-of generous support from http://www.bloomberg.com[Bloomberg], has held a
-series of successful events on campus bringing attention to this important
-issue.
-//
-I also organized donations to create a diversity in computer science mural,
-link:/people/challen@buffalo.edu/mural.jpg[this iconic photo] of
-https://en.wikipedia.org/wiki/Grace_Hopper[Grace Hopper] now adorns the wall
-outside our lab.

@@ -1,54 +1,62 @@
 ---
-working: true
+spelling_exceptions:
+ - 3M
+ - ePortfolio
+ - yays
+ - nots
 ---
 
-== How Not to Get Tenure
+== The Best Way to Not Get Tenure
 
 [.snippet.lead]
 //
+--
+//
 At the extremes, there are two ways to approach tenure.
 //
-You can conform to the norms established for junior faculty, or you can be
-yourself.
+You can conform to the norms established for junior faculty.
+//
+Or you can be yourself.
 //
 I'm happy that I set my own course, and proud of the way that I divided by
 time between research, teaching, and service.
-//
-Unfortunately, that approach did not work at UB.
-//
-My department voted emphatically against my tenure case earlier this week,
-and so link:/[blue] will need to find a new home.
 
-=== What Are You Supposed to Do?
+Unfortunately, my approach did not work at UB.
+//
+Despite my many accomplishments and contributions, my department voted
+against my tenure case earlier this week.
+//
+And so link:/[blue] will need to find a new home.
+//
+--
+
+=== What Are You (Not) Supposed to Do?
 
 Junior faculty get a lot of unsolicited advice about how to get tenure,
-mainly in the form of many different don'ts:
-
-. Don't teach too much--I heard that often at UB.
-
-. Don't teach too well when you are starting out, so you can create the
+mainly in the form of many different don'ts.
+//
+Don't teach too much--I heard that often at UB.
+//
+Don't teach too well when you are starting out, so you can create the
 illusion of a positive trend right before tenure--I heard that too.
-
-. Don't try to lead a project with multiple senior faculty--even if it's your
-project, and you're doing most of the work, better to let them take the
-credit.
-
-. Don't work on a project if it might not produce a bunch of publications
+//
+Don't try to lead a project involving senior faculty.
+//
+Don't work on a project if it might not produce a bunch of publications
 quickly.
+//
+Don't take on leadership roles in or work to improve the department.
+//
+Don't speak out on issues that you care about--better not to argue with
+anyone.
 
-. Don't take on leadership roles in or work to improve the department.
-
-. Don't speak out on issues that you care about, particularly if you might
-offend your senior colleagues.
-
-While this advice can be well-meaning, it is also normative.
+This advice has a clear normative purpose.
 //
 Tenure represents the last chance for an institution to impress its values on
-its faculty.
+its faculty before it's stuck with them for life.
 //
 And, particularly for academics that have spent their entire lives pleasing a
-school in one form or another, the prospect of not getting tenure is a strong
-motivator.
+school in one way or another, the prospect of not getting tenure is scary.
 //
 This is the last test that they'll ever have to pass, so why not just keep
 doing what the teacher wants for a few more years?
@@ -57,61 +65,41 @@ Plus, after you get tenure you can do anything you want--right?
 
 === My Approach
 
-While I've always been good at school, I was also the kid who had to sweep
-the parking lot in detention in middle school.
+When I started my faculty position I promised myself that I would try to
+resist any urges to do or not do things to get tenure.
 //
-I got kicked out of the National Honor Society in high school and hauled in
-front of Harvard's Administrative Board as a college freshman.
+[.pullquote]#I chose to push back against the institutional norms because I
+wanted tenure to mean something.#
 //
-I proudly wore outrageously ugly orange plaid pants around at Harvard for the
-rest of my college career in the hopes that they would offend someone
-footnote:[This was not that effective.].
+The burned-out post-tenure academic is a
+http://www.theonion.com/article/newly-tenured-professor-now-inspired-to-work-harde-35169[well-established
+cliche], and one that I witnessed first hand.
 //
-My PhD advisor threatened to fire me many times.
+The standard assumption is that junior faculty are burned out by the work
+that tenure requires, but I think that there may be something deeper at work.
 //
-So I have a track record of having a hard time doing what I'm told just
-because a school told me to.
-
-When I started my academic position I promised myself that I would try to
-resist any urges to do things or not do things "to get tenure".
-//
-There were a bunch of reasons that I chose to be myself.
-//
-One was that I was unsure of whether I would be happy as a research academic.
-//
-This was my chance to find out, and if I was going to try it I wanted to do
-so in a way that reflected how I would do the job long-term.
-
-[.pullquote]#But a more important reason that I chose to push back against the
-institutional don'ts was that I wanted tenure to mean something.#
-//
-The burned-out post-tenure academic is a pretty well-established cliche, and
-one that I witnessed first hand.
-//
-The standard assumption is that junior faculty are burned out by all the work
-that tenure requires, but I think that there may be something deeper at play.
-//
-To the degree that junior faculty have to supress some of their own
-priorities to get tenure, tenure becomes less of a celebration of their
-accomplishments and more a symbol of their conformity.
+When junior faculty have to suppress their own priorities to get tenure,
+tenure becomes not of a celebration of their accomplishments but a symbol of
+their conformity.
 //
 If I was going to get tenure, I wanted it to be a validation of me and my
 approach.
 
-There's also a powerful and unfortunate myth surrounding "after tenure"
+There's also a powerful and unfortunate myth surrounding after tenure
 transformation.
 //
-When junior faculty want to do something that they are not supposed to do,
-they are frequently told to wait until "after tenure".
+When junior faculty want to do something that they think is important but are
+not supposed to do, they are frequently told to wait until after tenure.
 //
-The problem is, the tenure process changes you.
+But the tenure process changes you.
 //
-After spending five or six years having certain priorities suppressed, even
-with the time and energy after tenure, will you still care about that thing
-you promised yourself to do?
+After spending five or six years toeing the party line, will you still care
+about that thing you promised yourself you would get to after tenure?
 //
-At least in experience, I can vouch that the attitude toward teaching
-instilled in junior faculty continues strongly at the senior faculty level.
+At least in my experience, I can vouch that the behaviors instilled in junior
+faculty usually continue at the senior faculty level.
+//
+I tried to be the same person before tenure that I would have been after.
 
 === What Did I Do?
 
@@ -119,84 +107,271 @@ So what did I do?
 //
 Well, not everything fell into the "should not" category.
 //
-I have a link:/people/[fantastic group of students] working on a variety of
-link:/projects/[important projects].
+I assembled a link:/people/[fantastic group of students] working on a variety
+of link:/projects/[important projects].
 //
-We wrote link:/papers/[a bunch of great papers], including what I consider to
-be groundbreaking work in several new areas.
+We wrote link:/papers/[a bunch of great papers], including groundbreaking
+work in several new areas (link:/papers/rv2016-sniffer/[1],
+link:/papers/tpctc2015-pocketdata/[2], link:/papers/hotmobile2015-maybe/[3]).
+//
+I have multiple successful ongoing research collaborations, both inside and
+outside my department.
 //
 I've been very successful in obtaining link:/proposals/[external funding] to
-support my group--around $3M to date--from a variety of sources, including
-the NSF and Google.
+support my group--around $3M to date.
 //
 I have a CAREER award on the way, although I won't be accepting it at UB.
 //
-I've established myself in my scientific community and continue to serve on
-program committees for the top conferences in my research area.
+I've established myself in my scientific community and serve on program
+committees for the top conferences in my research area.
 //
 With one exception, my eight external letters were supportive of my research
 program.
+//
+Of course I wish we had published a few more top-tier papers.
+//
+But I think that my students have gotten stronger and stronger every year,
+and that this is now the best group I've ever worked with.
 
-At the same time, the "probably should not" category contains a lot of things
-that I'm extremely proud of.
+The "probably should not" category contains a lot of things that I'm really
+proud of.
 //
 I've continued
 link:/posts/2015-07-14-my-case-for-reverse-blind-review/[signing my program
 committee reviews], despite the fact that this may have pissed off an unknown
 number of unknown researchers footnote:[Maybe that's where that one negative
-external letter came from?]. (Junior faculty should not do things that might
-offend senior colleagues!)
+external letter came from?].
 //
 I've gotten better at prioritizing my students' long-term development as
-scientists and scholars over the short-term goals of making that next paper
-deadline, and I can see them benefiting from this. (Just get the papers out!
-You can mentor students "after tenure".)
+scholars over the short-term goals of making that next paper deadline.
+//
+I can see them benefiting from this.
 //
 We built and operate a public https://www.phone-lab.org[smartphone platform
 testbed] used by researchers around the world.
-//
-(Junior faculty should not build infrastructure! And they should not lead
-projects involving senior faculty footnote:[That was actually a big mistake,
-but not for reasons that I'll share here.]!)
 
+And there's the many high impact "definitely should nots".
+//
 I worked really hard to bring an exciting and rigorous
-https://www.ops-class.org[operating systems class] to UB. (Junior faculty
-should not teach large classes, or teach well early! And they should
-definitely not put course materials online or record their lectures--everyone
-knows that CS faculty don't know how to do those things!)
+https://www.ops-class.org[operating systems class] to UB.
 //
-And then we worked hard again last spring to build
-https://test161.ops-class.org[new tools] to improve that class further.
-(Junior faculty should not improve their courses, particularly right before
-tenure!)
-
+And then we worked last spring to build https://test161.ops-class.org[new
+tools] to improve it further.
+//
 To make matters worse, last year I willingly got involved in curriculum
-development. (Terrible, terrible!)
+development.
 //
-I led a complete overhaul of our department's undergraduate computer science
-curriculum, which was approved last month by a faculty vote footnote:[I've
-been so busy that I haven't had time to blog or brag about those changes...].
+I led a https://goo.gl/PUu2ZD[complete overhaul] of our department's
+undergraduate computer science curriculum footnote:[I've been so busy that I
+haven't had time to blog or brag about those changes...].
 //
-That overhaul includes https://goo.gl/7TxmZr[two new exciting introductory
-programming courses] that I spent a great deal of time designing, and then
-worked with a committee of colleagues to start to bring to fruition.
+It includes https://goo.gl/7TxmZr[two new exciting introductory programming
+courses] that I spent a great deal of time designing.
 //
-But overall the new curriculum represents and will require more committment
-of our instructional resources to undergraduate education. (No, no, no!
-Graduate students are way, way more important!)
-
-To make matters even worse, I also _volunteered_ to teach a new large course
-to freshman. (Shocking! Senior faculty in my deparment _never_ willingly
-teach freshman...)
+To make matters _even_ worse, I also _volunteered_ to teach a new large
+course to freshman.
 //
-So this semester I've been teaching an exciting
-https://www.internet-class.org[new course on the internet] to 440 freshman in
-a link:/courses/ub-199-fall-2016/[flipped-classroom format].
+This semester I'm teaching an exciting
+https://www.internet-class.org/courses/fys/syllabus/[new course on the
+internet] to 440 freshman in a
+link:/courses/ub-199-fall-2016/[flipped-classroom format].
 //
 The class is going really, really well--but I'm not sure what will become of
 it now, or of the
 https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[hundreds
 of short YouTube videos] that we were planning to reuse next year.
+
+=== Speaking Out
+
+[.pullquote]#But my biggest mistake was speaking out about issues that I
+cared about.#
 //
-(Don't you get--we want _fewer_ undergraduates, not more! Go out and sweep
-the parking lot!)
+Within the department I've pointed out problems with resource allocation,
+poor distribution of teaching load, lack of diversity among both our faculty
+and students, terrible graduate admissions systems, looking the other way
+regrading student plagiarism, and our neglect of our undergraduate programs
+and courses, among other things.
+//
+I've pushed for us to make course evaluations public, hire more female
+faculty, and improve diversity and retention in our introductory courses.
+
+I've also been critical of misguided policies at the school level.
+//
+Our department is not growing anywhere fast enough to keep up with rising
+enrollments, and is also being forced to teach a large MS program without
+enjoying a fair share of the proceeds.
+//
+UB also continues to enact research-unfriendly policies, including raising
+its already extremely-high overhead rates.
+//
+And don't even get me started on our efforts to encourage digital literacy.
+//
+They seem to be led by the history department and involve paying for
+expensive and terrible [.spelling_exception]#MySpace-esque# "ePortfolio"
+https://www.digication.com/[web portal software] that we now are being
+required to force students to use.
+
+Whenever I've been critical, I've volunteered to help, and in many cases
+devoted time and effort to solving the problems that I identified.
+//
+I will admit to not always starting a conversation in the most effective way,
+particularly early on in my career.
+//
+But with the help of a few good mentors, I've improved my balance between
+being provocative and constructive.
+
+=== In the End
+
+I knew that I had made a few enemies, but I was surprised that the final vote
+was so lopsided: 6 yays, 2 abstainers, and 8 nays.
+//
+Once I heard the tally I knew immediately that I should leave.
+//
+It's a process that I could have continued, with the possibility of appeal at
+many levels.
+//
+I might have even had a pretty good case, given that a colleague whose case
+was also being considered was voted through despite an equivalent or even
+slightly-weaker dossier.
+
+But I have no interest in fighting this decision.
+//
+To me, it sends a strong signal about what kind of department this is, and
+it's not a place that I want to continue to work.
+//
+I've cared deeply about my department.
+//
+I wanted it to grow, improve, and change in appropriate ways, and I've
+started to accomplish that.
+//
+And while I received strong support from many colleagues, I'm not interested
+in continuing in the face of that level of opposition.
+//
+They may think that getting rid of me will stop that transformation.
+//
+For the sake of our students, and the department as a whole, I hope that they
+are wrong.
+
+In the wake of the vote I've felt a mixture of sadness and disappointment,
+and touches of anger.
+//
+The saddest part is dismantling my lab and saying goodbye to students that I
+work with.
+//
+I've spent years slowly creating a vibrant, creative lab filled with new
+ideas and positive energy.
+//
+I love the fact that undergraduates have increasingly felt comfortable there,
+and that I've been able to provide a home for some really talented students.
+//
+I'll miss that--a lot.
+
+I'm disappointed that I won't be able to stick around and continue some of
+the projects I've started.
+//
+Our work on link:/projects/maybe[programming uncertainty] is still in its
+infancy and may continue somewhere else with support from my CAREER award.
+//
+I'll also continue to contribute to ongoing work on
+link:/projects/qoe[smartphone quality of experience],
+link:/projects/thermaplan[thermal] and link:/projects/jouler[energy
+management], link:/projects/pocketdata[storage optimization], and
+link:/projects/wirelessvalidation[wireless protocol validation].
+//
+My course on the internet is great and would get even better next year.
+//
+And I have blueprints for two fantastic new introductory programming courses
+that combine the flipped classroom model with exciting assignments and a
+broad overview of computer science as an intellectual enterprise.
+//
+Those courses will be really fun to develop and teach.
+//
+Maybe I'll have a chance to do that somewhere--just not here.
+
+And of course I'm angry with my colleagues.
+//
+I trusted that they would be able to put aside historical personal grievances
+and act in the best interest of the department.
+//
+I was wrong.
+
+I do not feel any embarrassment or shame--hence this post.
+//
+I've definitely made a lot of mistakes that I regret.
+//
+But I'm happy that most of my mistakes were in how I went about things,
+rather than the things I chose to do.
+//
+[.pullquote]#Reviewing my time at UB, I feel proud of what I've
+accomplished.#
+//
+Proud of the way that I've chosen to balance research, teaching, and service.
+//
+Proud that I've put my students first.
+//
+And _really_ proud of my students themselves--they are a fantastic and
+talented group of great people.
+//
+The best part of this job has always been working with them.
+
+=== Although Of Course You End Up Becoming Yourself
+
+I've learned a lot about myself over the past five years.
+//
+I like to hack--and I've gotten better at it.
+//
+I like to teach, and think that teaching computer science is really
+important.
+//
+I like to mentor students and help them explore new ideas and build exciting
+new computer systems.
+//
+I like building things myself and trying out new ideas, and as a computer
+scientist I think I have the best set of tools out there for solving almost
+any problem.
+//
+I like working closely with a team of talented people that really care about
+each other.
+//
+I'm still outspoken, but I've learned to prioritize making a difference over
+making my point.
+
+So what's next?
+//
+I don't know, and I'm kind of enjoying not knowing.
+//
+I will be applying to other academic departments and hoping to find one that
+appreciates my contributions.
+//
+I have faith that that place exists, and I'm looking forward to finding
+somewhere I fit in better.
+//
+I may teach high school, or launch a start up.
+//
+I've always like the idea of doing an http://826valencia.org/[826
+Valencia-like] outreach program for computer science.
+//
+If I studied up for the interviews I could probably get a job at a software
+company, although I'm not sure I'd love having a boss.
+//
+I may take the opportunity to reflect at length on my experience and some of
+the problems that modern research universities face, particularly in
+balancing research and education.
+//
+If I had to guess I would probably say I'd expect to continue teaching
+computer science in some form or another.
+//
+But I really haven't had an opening like this for a while to really consider
+the question.
+//
+So we'll see.
+
+All I really know for sure is that I won't be working here anymore.
+//
+Right now, that feels pretty OK.
+//
+Except for this part:
+
+++++
+<img class="img-responsive" alt="Going away photo." src="/people/challen@buffalo.edu/posts/away.jpg" />
+++++
