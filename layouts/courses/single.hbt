@@ -4,7 +4,7 @@
     {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
     {{#if previous_item}}data-previous="/{{ previous_item.path }}"{{/if}}>
   <div class="container">
-    
+
     <div class="row links hidden-xs hidden-sm">
       <div class="col-md-5 text-left">
         {{#if previous_item}}
@@ -80,7 +80,7 @@
             </ul>
           </div>
         </section>
-        
+
         {{{ contents }}}
 
       </div>
@@ -100,9 +100,9 @@
             </ul>
             {{#if staff}}
             <h4>Staff</h4>
-            
+
             <hr class="underline" />
-            
+
             <ul class="list-unstyled">
               {{#each staff }}
               <li>{{ link this }}</li>
@@ -111,9 +111,9 @@
             {{/if}}
             {{#if volunteers}}
             <h4>Volunteers</h4>
-            
+
             <hr class="underline" />
-            
+
             <ul class="list-unstyled">
               {{#each volunteers }}
               <li>{{ link this }}</li>
@@ -122,9 +122,9 @@
             {{/if}}
             {{#if UTAs}}
             <h4>UTAs</h4>
-            
+
             <hr class="underline" />
-            
+
             <ul class="list-unstyled">
               {{#each UTAs }}
               <li>{{ link this }}</li>
