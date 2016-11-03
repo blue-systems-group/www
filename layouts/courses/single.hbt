@@ -44,7 +44,7 @@
             {{semester}} {{year}}
             ({{format_date started "normal"}}&ndash;{{#if ends}}{{format_date ends "normal" }}{{/if}})
           </div>
-          <div class="h4 authors-ml">
+          <div class="h4 authors-ml hidden-md hidden-lg">
             <em>Instructors:</em> {{ and_list instructors }}
             {{#if staff}}
             <div style="margin-top:5px;"><em>Staff:</em> {{ and_list staff }}</div>
@@ -86,7 +86,8 @@
       </div>
 
       <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
-        <div class="fixed-md">
+        <div class="fixed-md"
+						 style="top: 103px; bottom: 0px; overflow-y: auto">
           <div>
             <h4>Instructors</h4>
 

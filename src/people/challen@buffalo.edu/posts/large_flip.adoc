@@ -1,5 +1,7 @@
 ---
 working: true
+spelling_exceptions:
+  - Legos
 ---
 
 == How to Flip a Large Class
@@ -43,7 +45,7 @@ meetings).
 //
 As a technologist, I also consider this approach a better match with what we
 can do with technology (monitoring online video viewing) and the things that
-we can't do with techonology (provide interactive help with homework).
+we can't do with technology (provide interactive help with homework).
 //
 (I have also recorded a https://www.youtube.com/watch?v=_i_BgT26iYM[short
 explanation of the flipped classroom model] using Legos borrowed from my
