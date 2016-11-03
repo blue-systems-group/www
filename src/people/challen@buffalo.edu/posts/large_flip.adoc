@@ -1,0 +1,78 @@
+---
+working: true
+---
+
+== How to Flip a Large Class
+
+[.snippet.lead]
+//
+--
+//
+This semester I've been rolling out a link:/courses/ub-199-fall-2016/[new
+course on the internet] in a
+https://en.wikipedia.org/wiki/Flipped_classroom[flipped classroom] format.
+//
+Despite nominally being a seminar, the course enrolls 440 students and meets
+for activities in two large groups, one with 99 students and another with
+341.
+//
+The course has been a lot of fun, and I've learned a lot along the way.
+//
+We've had to overcome many challenges--some of which I anticipated, and some
+of which caught me by surprise footnote:[Although you could argue--and I would
+agree--that all of them should have been easy to anticipate.].
+//
+Note that this post focuses on the infrastructure and management challenges
+of flipping a large course.
+//
+We're also doing something quite interesting with the video delivery, but
+I'll try to touch on that in a later post.
+//
+--
+
+=== What Is A/Our Flipped Classroom?
+
+To begin, just brief review for the uninitiated.
+//
+In a flipped classroom you move the lecturing out of class and the homework
+or course activities in to class.
+//
+The goal, as far as I see it, is to align the things that benefit from
+supervision (homework) with the hours that you can supervise students (class
+meetings).
+//
+As a technologist, I also consider this approach a better match with what we
+can do with technology (monitoring online video viewing) and the things that
+we can't do with techonology (provide interactive help with homework).
+//
+(I have also recorded a https://www.youtube.com/watch?v=_i_BgT26iYM[short
+explanation of the flipped classroom model] using Legos borrowed from my
+friend Marlon.)
+
+In _our_ flipped classroom, students watch around 20 5-minute videos covering
+various internet topics each week.
+//
+https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[Here's
+the entire list], currently at 238 videos over 12 weeks.
+//
+On Monday and Wednesday students attend a 50-minute meeting where they
+complete an activity in pairs or groups of four--we refer to these as
+_activity sections_ to distinguish them from lectures.
+//
+Course recitations are taught on Thursdays and Fridays and are taught by
+faculty--as required by the
+https://www.buffalo.edu/ubcurriculum/seminar.html[UB Seminar Program].
+//
+Grading is primarily based on participation.
+//
+Students receive credit for watching the short videos before the deadline and
+attending and participating in the activity sections.
+//
+They are also required to record several new video explanations for course
+concepts which are graded by the course staff.
+
+=== Step 1: Get a Room
+
+=== Step 2: Get Your Coding Hand Dirty
+
+=== Step 3: Get Great People

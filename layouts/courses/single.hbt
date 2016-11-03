@@ -49,6 +49,11 @@
             {{#if staff}}
             <div style="margin-top:5px;"><em>Staff:</em> {{ and_list staff }}</div>
             {{/if}}
+						{{#if UTAs }}
+						<div style="margin-top:5px;">
+							<em>Undergraduate Teaching Assistants:</em> {{ and_list UTAs }}
+						</div>
+						{{/if}}
             {{#if volunteers}}
             <div style="margin-top:5px;"><em>Volunteers:</em> {{ and_list volunteers }}</div>
             {{/if}}
@@ -110,6 +115,17 @@
             
             <ul class="list-unstyled">
               {{#each volunteers }}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+            {{/if}}
+            {{#if UTAs}}
+            <h4>UTAs</h4>
+            
+            <hr class="underline" />
+            
+            <ul class="list-unstyled">
+              {{#each UTAs }}
               <li>{{ link this }}</li>
               {{/each}}
             </ul>

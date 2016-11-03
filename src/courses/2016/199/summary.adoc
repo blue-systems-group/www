@@ -39,7 +39,7 @@ UTAs:
 - grantwra
 website: "https://www.internet-class.org/"
 syllabus: "https://www.internet-class.org/courses/fys/syllabus/"
-videos: "https://www.youtube.com/channel/UCF-EPJcRpVWGzr-MwITe8AA"
+videos: "https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8"
 enrollment: 440
 ---
 ++++
