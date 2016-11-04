@@ -23,12 +23,12 @@ The course has been a lot of fun, and I've learned a lot along the way.
 We've had to overcome many challenges--some of which I anticipated, and some
 of which caught me by surprise footnote:[Although you could argue--and I would
 agree--that all of them should have been easy to anticipate.].
-//
+
 Note that this post focuses on the infrastructure and management challenges
 of flipping a large course.
 //
 We're also doing something quite interesting with the video delivery, but
-I'll try to touch on that in a later post.
+I'll return to that in a later post.
 //
 --
 
@@ -36,8 +36,8 @@ I'll try to touch on that in a later post.
 
 To begin, just brief review for the uninitiated.
 //
-In a flipped classroom you move the lecturing out of class and the homework
-or course activities in to class.
+In a flipped classroom you flip the lecturing out of class and flip the
+homework or course activities in to class.
 //
 The goal, as far as I see it, is to align the things that benefit from
 supervision (homework) with the hours that you can supervise students (class
@@ -55,11 +55,12 @@ In _our_ flipped classroom, students watch around 20 5-minute videos covering
 various internet topics each week.
 //
 https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[Here's
-the entire list], currently at 238 videos over 12 weeks.
+the entire list], currently at 250 videos over 13 weeks.
 //
 On Monday and Wednesday students attend a 50-minute meeting where they
-complete an activity in pairs or groups of four--we refer to these as
-_activity sections_ to distinguish them from lectures.
+complete an activity in pairs or groups of four.
+//
+We refer to these as _activity sections_ to distinguish them from lectures.
 //
 Course recitations are taught on Thursdays and Fridays and are taught by
 faculty--as required by the
@@ -72,6 +73,33 @@ attending and participating in the activity sections.
 //
 They are also required to record several new video explanations for course
 concepts which are graded by the course staff.
+
+Why this class is called a seminar is a somewhat long story.
+//
+Here's the short version.
+//
+UB decided that all freshman should have a seminar taught by a faculty member
+to groups of 28 students.
+//
+Unfortunately, the only departments with enough faculty to teach these
+seminars are those with too many faculty and too few students.
+//
+In computer science, we have too many students and too few faculty.
+//
+Initially we had two options.
+//
+One was to find faculty volunteers to teach 16 new seminars.
+//
+I tried that.
+//
+It didn't work.
+//
+The second option was let our students take a seminar on subjects like "The
+Writing of Food Politics" footnote:[Which sounds interesting, or at least "I
+can't figure out what it is about by the title" interesting.].
+//
+Not that I have any problem with computer scientists having a broad-based
+liberal arts education, but that seemed like a missed opportunity.
 
 === Step 1: Get a Room
 
