@@ -2,6 +2,7 @@
 files:
 - assets/css/bootstrap.css
 - assets/css/highlight.css
+- assets/css/ekko-lightbox.css
 - assets/css/override.css
 output: assets/css/site.css
 ---

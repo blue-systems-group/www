@@ -81,14 +81,15 @@ Here's the short version.
 UB decided that all freshman should have a seminar taught by a faculty member
 to groups of 28 students.
 //
-Unfortunately, the only departments with enough faculty to teach these
-seminars are those with too many faculty and too few students.
+[.pullquote]#Unfortunately, the only departments with enough faculty to teach
+these new required seminars are ones with too many faculty and too few
+students.#
 //
 In computer science, we have too many students and too few faculty.
-//
+
 Initially we had two options.
 //
-One was to find faculty volunteers to teach 16 new seminars.
+One was to find faculty volunteers to teach 16 small seminars.
 //
 I tried that.
 //
@@ -101,8 +102,100 @@ can't figure out what it is about by the title" interesting.].
 Not that I have any problem with computer scientists having a broad-based
 liberal arts education, but that seemed like a missed opportunity.
 
+Luckily for us, several other departments convinced the seminar program to
+grandfather in their existing larger courses.
+//
+After some negotiations, we received permission to hold 100-student lectures
+as long as they were accompanied by a seminar-size recitation.
+//
+And that created an opportunity to rethink the seminar experience as a huge
+flipped classroom.
+
 === Step 1: Get a Room
+
+link:/people/gjbunyea[Greg] and I spent the months and weeks before the class
+launched anticipating and addressing lots of potential problems.
+//
+Some of them are described in more detail below.
+//
+But it wasn't until a few days before classes started that we discovered one
+of the biggest challenges to teaching a huge flipped class.
+//
+*All of the classrooms that we had been assigned were completely unsuited to
+group activities.*
+
+The course was originally planned as three 100-student sections taught at the
+same time in neighboring classrooms.
+//
+But when we visited those classrooms, we found seats bolted to tables,
+stadium seating, and narrow aisles.
+//
+[.pullquote]#Most current university classrooms are purpose-built for
+lecturing.#
+//
+I guess that's why they call them lecture halls...
+
+++++
+<div class="row" style="margin-top:10px; margin-bottom:10px;">
+  <div class="col-xs-offset-1 col-xs-10" style="border:1px solid grey; padding-top:10px;">
+    <div class="row">
+      <div class="col-xs-4">
+        <a href="/assets/img/posts/large_flip/lecture1.jpg" data-toggle="lightbox">
+          <img src="/assets/img/posts/large_flip/lecture1.jpg" alt="Lecture hall"
+               class="img-responsive">
+        </a>
+      </div>
+      <div class="col-xs-4">
+        <img src="/assets/img/posts/large_flip/lecture2.jpg" alt="Lecture hall"
+             class="img-responsive">
+      </div>
+      <div class="col-xs-4">
+        <img src="/assets/img/posts/large_flip/lecture3.jpg" alt="Lecture hall"
+             class="img-responsive">
+      </div>
+      <div class="col-xs-12">
+        <h4>Here's what they gave you...</h4>
+      </div>
+    </div>
+  </div>
+</div>
+++++
+
+Could we have used these classrooms?
+//
+Sure.
+//
+We could have limited the activity group size to two so that students could
+work side-by-side, the only configuration the rooms allowed.
+//
+Our teaching assistants could have hiked up and down the steep stairways and
+squeezed through narrow aisles to reach groups that needed help.
+//
+But that sounded terrible.
+//
+So we went to look for other solutions.
+
+And then--a miracle.
+//
+We found Bert's.
+//
+Bert's is an on-campus cafeteria.
+//
+I've noticed it for years, mainly because it has that lovely cafeteria smell
+that makes it impossible to miss as you walk by.
+//
+Bert's seats 500 students in two equal-sized areas, mostly in groups of four.
+//
+And at our seminar meeting times--9AM and 4PM--it is largely empty.
+//
+Technically, half of the cafeteria is closed at 4PM, which was good because
+we had 340 students we wanted to bring down at that time.
+
+// Lecturing is literally _physically embedded_ into today's campuses, in a way
+// that is extremely difficult to change.
 
 === Step 2: Get Your Coding Hand Dirty
 
-=== Step 3: Get Great People
+=== Step 3: Get Activities
+
+=== Step 4: Get Great People
