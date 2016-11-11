@@ -201,6 +201,90 @@ And at our seminar meeting times--9AM and 4PM--it is largely empty.
 Technically, half of the cafeteria is closed at 4PM, which was good because
 we had 340 students we wanted to bring down at that time.
 
+++++
+<div class="row" style="margin-top:10px; margin-bottom:10px;">
+  <div class="col-xs-offset-1 col-xs-10" style="border:1px solid grey; padding-top:10px;">
+    <div class="row">
+      <div class="col-xs-6">
+        <a href="/assets/img/posts/large_flip/berts1.jpg" data-toggle="lightbox"
+					 data-gallery="berts-rooms"
+					 data-footer="...but this is what you need.">
+          <img src="/assets/img/posts/large_flip/berts1.jpg" alt="Lecture hall"
+               class="img-responsive">
+        </a>
+      </div>
+      <div class="col-xs-6">
+        <a href="/assets/img/posts/large_flip/berts2.jpg" data-toggle="lightbox"
+					 data-gallery="berts-rooms"
+					 data-footer="...but this is what you need.">
+					<img src="/assets/img/posts/large_flip/berts2.jpg" alt="Lecture hall"
+							 class="img-responsive">
+				</a>
+      </div>
+		</div>
+    <div class="row" style="margin-top:10px;">
+      <div class="col-xs-6">
+        <a href="/assets/img/posts/large_flip/berts3.jpg" data-toggle="lightbox"
+					 data-gallery="berts-rooms"
+					 data-footer="...but this is what you need.">
+					<img src="/assets/img/posts/large_flip/berts3.jpg" alt="Lecture hall"
+							 class="img-responsive">
+				</a>
+      </div>
+      <div class="col-xs-6">
+        <a href="/assets/img/posts/large_flip/berts4.jpg" data-toggle="lightbox"
+					 data-gallery="berts-rooms"
+					 data-footer="...but this is what you need.">
+					<img src="/assets/img/posts/large_flip/berts4.jpg" alt="Lecture hall"
+							 class="img-responsive">
+				</a>
+      </div>
+      <div class="col-xs-12">
+        <h4 class="spelling_exception">...but this is what you need.</h4>
+      </div>
+    </div>
+  </div>
+</div>
+++++
+
+Getting permission to use Bert's was so easy it almost made me pinch myself:
+
+[quote]
+____
+Me: Can I bring 340 students down here at 4PM?
+
+Bert's Manager: Sure.
+
+Me: Really?
+
+Bert's Manager: Sure.
+
+Me: Do you really work at UB?
+
+Bert's Manager: Sure.
+____
+
+A few days later the same extremely agreeable manager allowed us to use part
+of Bert's at 9AM, when the cafeteria is open and serving breakfast.
+//
+We only have 99 students at that time, which doesn't interfere with
+early-morning diners.
+//
+And that was that.
+
+To guide students to where their group is located, we created an online
+https://www.internet-class.org/img/berts.png[seating chart].
+//
+Students are assigned to new tables each week via email.
+//
+When they arrive in class, they use this to locate their table or group.
+//
+The first few times we tried this, chaos ensued for around 10 minutes.
+//
+But after a few iterations, students got the hang of it.
+//
+At this point, they find their groups quickly and easily and get to work.
+
 // Lecturing is literally _physically embedded_ into today's campuses, in a way
 // that is extremely difficult to change.
 
