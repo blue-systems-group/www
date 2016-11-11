@@ -9,7 +9,9 @@ $(function() {
   });
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
 		event.preventDefault();
-		$(this).ekkoLightbox();
+		$(this).ekkoLightbox({
+      always_show_close: false
+    });
 	});
   function isMobile() {
     try {

@@ -2,6 +2,8 @@
   "/\\d+ GB/": true,
   "/\\d+ MB/": true,
   "/\\d+K/": true,
+	"/\\d+AM": true,
+	"/\\d+PM": true,
   "301B": true,
   "3D": true,
   "3G": true,

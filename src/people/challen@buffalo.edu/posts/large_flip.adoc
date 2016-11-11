@@ -140,18 +140,28 @@ I guess that's why they call them lecture halls...
   <div class="col-xs-offset-1 col-xs-10" style="border:1px solid grey; padding-top:10px;">
     <div class="row">
       <div class="col-xs-4">
-        <a href="/assets/img/posts/large_flip/lecture1.jpg" data-toggle="lightbox">
+        <a href="/assets/img/posts/large_flip/lecture1.jpg" data-toggle="lightbox"
+					 data-gallery="lecture-rooms"
+					 data-footer="This is what they gave you...">
           <img src="/assets/img/posts/large_flip/lecture1.jpg" alt="Lecture hall"
                class="img-responsive">
         </a>
       </div>
       <div class="col-xs-4">
-        <img src="/assets/img/posts/large_flip/lecture2.jpg" alt="Lecture hall"
-             class="img-responsive">
+        <a href="/assets/img/posts/large_flip/lecture2.jpg" data-toggle="lightbox"
+					 data-gallery="lecture-rooms"
+					 data-footer="This is what they gave you...">
+					<img src="/assets/img/posts/large_flip/lecture2.jpg" alt="Lecture hall"
+							 class="img-responsive">
+				</a>
       </div>
       <div class="col-xs-4">
-        <img src="/assets/img/posts/large_flip/lecture3.jpg" alt="Lecture hall"
-             class="img-responsive">
+        <a href="/assets/img/posts/large_flip/lecture3.jpg" data-toggle="lightbox"
+					 data-gallery="lecture-rooms"
+					 data-footer="This is what they gave you...">
+					<img src="/assets/img/posts/large_flip/lecture3.jpg" alt="Lecture hall"
+							 class="img-responsive">
+				</a>
       </div>
       <div class="col-xs-12">
         <h4>Here's what they gave you...</h4>
