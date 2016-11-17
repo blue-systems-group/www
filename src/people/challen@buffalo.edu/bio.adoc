@@ -23,11 +23,11 @@ spelling_exceptions:
 - TPDS
 - Bloomberg
 ---
+:linkattrs:
 
 [.lead]
 //
-I'm an Assistant Professor at the http://www.buffalo.edu[University at
-Buffalo (UB)], where I lead the link:/[blue Systems Research Group] and also
+I lead the link:/[blue Systems Research Group] and also
 direct the http://www.phone-lab.org[PhoneLab].
 //
 My research interests are in systems and networking, mobile systems, and
@@ -38,34 +38,31 @@ systems], a http://www.internet-class.org[new freshman course on the
 internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
 variety of contemporary topics in mobile systems.
 
-== Update
+== We're Moving!
 
 I link:/posts/2016-10-22-the-best-way-to-not-get-tenure/[did not receive
 tenure at UB] and am looking for new opportunities.
 //
-*If you are in a department that is looking for faculty with a strong
-commitment to both teaching and research, please contact me.*
+*If you are looking for faculty with a strong
+commitment to both teaching and research, please
+mailto:challen@buffalo.edu[contact me].*
 //
 I will arrive with multiple link:/proposals/[grant-supported]
-link:/projects/[research projects]; several link:/people/[excellent PhD
-students]; link:/courses/[two popular, scalable, and effective undergraduate
-courses]; https://goo.gl/brdQOO[blueprints for an exciting new introductory
-programming series]; a commitment to undergraduate engagement; and an
-excellent track record of department and community service.
-
-My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
-link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
-link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching], and
-link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service]
-statements are all online and up-to-date.
+link:/projects/[research projects];
 //
-I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
-on link:/projects/pocketparker/[PocketParker], our
-link:/papers/infocom2016-scans/[2016 INFOCOM paper] on
-link:/projects/pocketsniffer/[crowdsourcing network monitoring], and our
-link:/papers/rv2016-sniffer/[2016 RV paper] on
-link:/projects/wirelessvalidation[wireless protocol validation] as three
-representative publications.
+several link:/people/[excellent PhD students];
+//
+link:/courses/["two popular, scalable, and effective undergraduate courses"];
+//
+https://goo.gl/brdQOO[blueprints for an exciting new introductory programming
+series];
+//
+a commitment to undergraduate engagement;
+//
+and an link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[excellent
+track record of department and community service, role='nopdf'].
+//
+link:/future/[Click here to find out more.]
 
 == Research and Teaching
 

@@ -1,6 +1,6 @@
 {{> posts_header}}
 
-<div id="content" class="thin swipe"
+<div id="content" class="thin"
     {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
     {{#if previous_item}}data-previous="/{{ previous_item.path }}"{{/if}}>
 
