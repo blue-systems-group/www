@@ -7,3 +7,11 @@ description: >
 changefreq: weekly
 priority: 0.8
 ---
+
+[.lead]
+//
+For more information about our research activities and philosophy, please see
+our link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research
+statement].
+
+// vim: ts=2:sw=2:et

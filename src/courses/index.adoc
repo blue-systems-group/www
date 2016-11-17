@@ -23,8 +23,14 @@ submission. The course also benefits from the contributions of multiple
 volunteers each year--who we refer to as ninjas--who give back to the class
 by assisting the next generation of students.
 
-Beginning in Fall 2016 we will teach a link:/courses/ub-199-fall-2016[new
-course to freshman undergraduates on the internet].
+This fall we are teaching a link:/courses/ub-199-fall-2016[new course to
+freshman undergraduates on the internet] in a flipped format.
 //
-This will provide us with our first opportunity to experiment with
+This is providing us with our first opportunity to experiment with
 link:/projects/internetclass[learning webs].
+
+For more information about the group's teaching activities, please see our
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching
+statement].
+
+// vim: ts=2:sw=2:et

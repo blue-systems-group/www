@@ -16,7 +16,7 @@ presenters:
 - alijmabe
 - jerryant
 youtube: shJZqLjo88c
-git: http://blue.cse.buffalo.edu/gitlab/blue/papers.hotmobile2015-maybe
+git: https://blue.cse.buffalo.edu/gitlab/blue/papers.hotmobile2015-maybe
 projects:
 - maybe
 funding:

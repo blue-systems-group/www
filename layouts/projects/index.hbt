@@ -1,9 +1,10 @@
 {{> header}}
 <div id="content">
-  <div class="container">
+  <div class="container" style="margin-top:21px;">
 
     <div class="row">
       <div class="col-xs-12 col-sm-8">
+        {{{ contents }}}
         {{#each projects.active }}
         <a class="anchor" id="{{ this.slug }}"></a>
         <h3 class="noexternal">{{ link this }}</h3>
@@ -34,6 +35,9 @@
 
       <div class="hidden-xs col-sm-4 blue-sidebar big">
         <div id="sidebar" class="fixed">
+          <h4>
+						<a href="/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf">Research Statement</a>
+					</h4>
           <h3>Active</h3>
           <ul class="nav nav-stacked">
             {{#each projects.active }}
@@ -55,3 +59,7 @@
   </div>
 </div>
 {{> footer}}
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

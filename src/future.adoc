@@ -8,7 +8,6 @@ spelling_exceptions:
 - Chuchu
 - Xyz
 - Ziz
-- Alphonce
 - EWSN
 - IPSN
 - SenSys
@@ -20,38 +19,48 @@ spelling_exceptions:
 layout: future.hbt
 ---
 
-== We're Moving
+++++
+<div class="row">
+	 <div class="col-xs-12">
+		 <img src="/assets/img/group/4.jpg"
+		 			class="img-responsive img-rounded" alt="blue Systems Group Photo" />
+	 </div>
+</div>
+++++
+
+== We're Moving!
 
 [.lead]
 //
 I link:/posts/2016-10-22-the-best-way-to-not-get-tenure/[did not receive
 tenure at UB] and am looking for new opportunities.
 //
-*If you are in a department that is looking for faculty with a strong
-commitment to both teaching and research, please contact me.*
+*If you looking for faculty with a strong commitment to both teaching and
+research, please mailto:challen@buffalo.edu[contact me].*
 
 I will arrive with multiple link:/proposals/[grant-supported]
-link:/projects/[research projects]; a pending CAREER award; several
-link:/people/[excellent PhD students]; link:/courses/[two popular, scalable,
-and effective undergraduate courses]; https://goo.gl/brdQOO[blueprints for an
-exciting new introductory programming series]; a commitment to undergraduate
-engagement; and an excellent track record of department and community service.
-
+link:/projects/[research projects];
+//
+a link:/proposals/2016-career-maybe/[pending CAREER award];
+//
+several link:/people/[excellent PhD students];
+//
+link:/courses/[two popular, scalable, and effective undergraduate courses];
+//
+https://goo.gl/brdQOO[blueprints for an exciting new introductory programming
+series];
+//
+a commitment to undergraduate engagement;
+//
+and an excellent track record of department and community service.
+//
 My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
 link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
 link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching], and
 link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service]
-statements are all online and up-to-date.
-//
-I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
-on link:/projects/pocketparker/[PocketParker], our
-link:/papers/infocom2016-scans/[2016 INFOCOM paper] on
-link:/projects/pocketsniffer/[crowdsourcing network monitoring], and our
-link:/papers/rv2016-sniffer/[2016 RV paper] on
-link:/projects/wirelessvalidation[wireless protocol validation] as three
-representative publications.
+statements are all online and will be regularly updated.
 
-== Online Job Talk
+=== Online Job Talk
 
 [.lead]
 //
@@ -66,14 +75,14 @@ invite me to your campus, I will give the talk in appropriate formal attire!]:
 		 style="margin-top:10px; margin-bottom:10px;">
 <iframe width="560" height="315"
 				src="https://www.youtube.com/embed/videoseries?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9"
-				frameborder="0" allowfullscreen></iframe>
+				allowfullscreen></iframe>
 </div>
 
 <div class="embed-responsive embed-responsive-16by9"
 		 style="margin-top:10px; margin-bottom:10px;">
-<iframe src="https://docs.google.com/presentation/d/1Hwo2j7niWa0L3WysXutQs2nymCpvO3Y846iOGJPTiEo/embed?start=false&loop=false&delayms=0"
-				frameborder="0" width="960" height="569" allowfullscreen="true"
-				mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe width="960" height="569"
+        src="https://docs.google.com/presentation/d/1Hwo2j7niWa0L3WysXutQs2nymCpvO3Y846iOGJPTiEo/embed?start=false&loop=false&delayms=0"
+				allowfullscreen></iframe>
 </div>
 ++++
 
@@ -98,7 +107,7 @@ address uncertainty caused by hidden drivers],
 and https://youtu.be/3LpvqkWzA88?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[how
 well did the system work].
 //
-. link:/projects/wirelessverification[VeriFi]:
+. link:/projects/wirelessvalidation[VeriFi]:
 //
 https://youtu.be/BIHFhg2kW8g?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[Introduction
 to wireless protocol validation],
@@ -127,9 +136,59 @@ https://youtu.be/slTI3-FnzwE?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[`ops-class.
 and
 https://youtu.be/3Acp18w6lXw?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[`internet-class.org`].
 
+== Research
 
+I am lucky to supervise multiple excellent link:/people/[Ph.D. students].
+//
+I have multiple exciting ongoing research projects with collaborators at the
+University at Buffalo, Microsoft Research, and the University of Michigan.
+//
+Please peruse our link:/projects/[projects] and link:/papers/[papers] pages to
+find out more.
+//
+I am particularly excited about our work on link:/projects/maybe[programming
+uncertainty], link:/projects/wirelessvalidation[wireless protocol validation],
+link:/projects/thermaplan[smartphone thermal management], and
+link:/projects/qoe[smartphone quality-of-experience].
+//
+I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
+on link:/projects/pocketparker/[PocketParker], our
+link:/papers/infocom2016-scans/[2016 INFOCOM paper] on
+link:/projects/pocketsniffer/[crowdsourcing network monitoring], and our
+link:/papers/rv2016-sniffer/[2016 RV paper] on
+link:/projects/wirelessvalidation[wireless protocol validation] as three
+representative publications.
 
-== Research and Teaching
+== Teaching
+
+I teach multiple large and popular courses and have made a great deal of
+material available online.
+//
+Since joining UB I have taught a course on https://www.ops-class.org[computer
+operating systems] to undergraduate and graduate students.
+//
+The https://www.ops-class.org/asst/overview/[assignments] and infrastructure
+for this course originated at Harvard, but I have published
+https://www.ops-class.org/slides/[slides],
+https://www.ops-class.org/exams/[exams], and
+https://www.ops-class.org/slides/[videos] for the course online, and led the
+creation of https://test161.ops-class.org[new automated testing tools].
+
+This fall I am teaching a new course on the internet to 440 incoming freshman
+in a flipped format.
+//
+I have recorded
+https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[hundreds
+of short videos explaining key concepts], designed
+https://www.internet-class.org/courses/fys/syllabus/#_description[26 new
+in-class activities], and supervised 30 course staff.
+//
+Material for the course will eventually be available online at the
+https://www.internet-class.org/[`internet-class.org`] website.
+//
+Please review the
+https://www.internet-class.org/courses/fys/syllabus/[syllabus] to get a sense
+of how the course works in practice.
 
 link:/[This site] describes my group's link:/projects/[research projects] and
 link:/courses/[teaching] activities.
@@ -269,3 +328,4 @@ therapy dog and lunch stealer.
 //
 I enjoy cooking and traveling and am a 3+ season bike commuter.
 
+// vim: ts=2:sw=2:et

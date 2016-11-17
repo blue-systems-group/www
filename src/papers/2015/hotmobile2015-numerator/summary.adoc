@@ -7,7 +7,7 @@ people:
 presenters:
 - anudipam
 youtube: XCocN1OeaVs
-git: http://blue.cse.buffalo.edu/gitlab/blue/papers.hotmobile2015-numerator
+git: https://blue.cse.buffalo.edu/gitlab/blue/papers.hotmobile2015-numerator
 projects:
 - jouler
 funding:

@@ -13,7 +13,7 @@ projects:
 - pocketsniffer
 funding:
 - 2011-cri-phonelab
-git: http://blue.cse.buffalo.edu/gitlab/blue/papers.hotwireless2015-sharing
+git: https://blue.cse.buffalo.edu/gitlab/blue/papers.hotwireless2015-sharing
 ---
 == Abstract
 
