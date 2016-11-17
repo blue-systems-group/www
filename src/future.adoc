@@ -1,0 +1,271 @@
+---
+name: Geoffrey Challen
+email: challen@buffalo.edu
+scholar: http://scholar.google.com/citations?user=VS9wzBsAAAAJ&hl=en
+linkedin: https://www.linkedin.com/pub/geoffrey-challen/1a/b77/572
+github: https://github.com/blue-systems-group
+spelling_exceptions:
+- Chuchu
+- Xyz
+- Ziz
+- Alphonce
+- EWSN
+- IPSN
+- SenSys
+- TMC
+- ToN
+- TOSN
+- TPDS
+- Bloomberg
+layout: future.hbt
+---
+
+== We're Moving
+
+[.lead]
+//
+I link:/posts/2016-10-22-the-best-way-to-not-get-tenure/[did not receive
+tenure at UB] and am looking for new opportunities.
+//
+*If you are in a department that is looking for faculty with a strong
+commitment to both teaching and research, please contact me.*
+
+I will arrive with multiple link:/proposals/[grant-supported]
+link:/projects/[research projects]; a pending CAREER award; several
+link:/people/[excellent PhD students]; link:/courses/[two popular, scalable,
+and effective undergraduate courses]; https://goo.gl/brdQOO[blueprints for an
+exciting new introductory programming series]; a commitment to undergraduate
+engagement; and an excellent track record of department and community service.
+
+My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching], and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service]
+statements are all online and up-to-date.
+//
+I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
+on link:/projects/pocketparker/[PocketParker], our
+link:/papers/infocom2016-scans/[2016 INFOCOM paper] on
+link:/projects/pocketsniffer/[crowdsourcing network monitoring], and our
+link:/papers/rv2016-sniffer/[2016 RV paper] on
+link:/projects/wirelessvalidation[wireless protocol validation] as three
+representative publications.
+
+== Online Job Talk
+
+[.lead]
+//
+I have recorded an online job talk.
+//
+The slides are https://goo.gl/8Q9l9o[online], and you can view the videos
+https://goo.gl/yIms6j[on YouTube], or right here footnote:[Don't worry--if you
+invite me to your campus, I will give the talk in appropriate formal attire!]:
+
+++++
+<div class="embed-responsive embed-responsive-16by9"
+		 style="margin-top:10px; margin-bottom:10px;">
+<iframe width="560" height="315"
+				src="https://www.youtube.com/embed/videoseries?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9"
+				frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="embed-responsive embed-responsive-16by9"
+		 style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://docs.google.com/presentation/d/1Hwo2j7niWa0L3WysXutQs2nymCpvO3Y846iOGJPTiEo/embed?start=false&loop=false&delayms=0"
+				frameborder="0" width="960" height="569" allowfullscreen="true"
+				mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
+++++
+
+The talk covers three projects linked by the theme of _uncertainty_: our work
+on link:/projects/pocketparker[PocketParker],
+link:/projects/wirelessvalidation/[VeriFi], and link:/projects/maybe[`maybe`].
+//
+It also briefly discusses our work to link:/projects/internetclass[create
+adaptive online courses] in the context of
+https://www.internet-class.org/courses/fys/syllabus[`internet-class.org`].
+
+More specifically, the talk is broken down as follows:
+
+. link:/projects/pocketparker[PocketParker]:
+//
+https://youtu.be/EDsrUow2TYg?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[Introduction
+to the parking problem],
+//
+https://youtu.be/lWDTWXhPBIk?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[how we
+address uncertainty caused by hidden drivers],
+//
+and https://youtu.be/3LpvqkWzA88?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[how
+well did the system work].
+//
+. link:/projects/wirelessverification[VeriFi]:
+//
+https://youtu.be/BIHFhg2kW8g?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[Introduction
+to wireless protocol validation],
+//
+https://youtu.be/RxJx1h61a-o?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[how we
+address uncertainty caused by wireless communication],
+//
+and https://youtu.be/6ea2e036mB4?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[how
+well does the system work].
+//
+. link:/projects/maybe[`maybe`]:
+//
+https://youtu.be/XWEIo3D-Q3g?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[Introduction
+to the challenge of creating adaptive mobile systems],
+//
+https://youtu.be/9C_l2P6KE2Y?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[a new
+programming model that allows developers to express uncertainty],
+//
+and
+https://youtu.be/g1ap_7WuvWo?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[applications
+of the idea to adapting online courses].
+
+The talk also include bonus material covering
+https://youtu.be/b2t_D4DmwJE?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[PhoneLab],
+https://youtu.be/slTI3-FnzwE?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[`ops-class.org`],
+and
+https://youtu.be/3Acp18w6lXw?list=PLE6LEE8y2Jp-93G7d38ee91hufmUoByB9[`internet-class.org`].
+
+
+
+== Research and Teaching
+
+link:/[This site] describes my group's link:/projects/[research projects] and
+link:/courses/[teaching] activities.
+//
+Please peruse to find out more.
+
+== Service
+
+I am active as a technical program committee member and reviewer for the top
+conferences and workshops in mobile systems
+(https://www.sigmobile.org/mobisys/[MobiSys] (2017, 2016, 2014),
+http://www.hotmobile.org/main/[HotMobile] (2016),
+http://mobicase.org/[MobiCASE] (2016)) and wireless sensor networks
+(http://sensys.acm.org/[SenSys] (2016,2013,2012,2011),
+http://ipsn.acm.org/[IPSN] (2017,2015), and http://www.ewsn.org/[EWSN]
+(2013)).
+//
+I also regularly review submissions to journals including ACM Transactions on
+http://tosn.acm.org/[Transactions on Sensor Networks (TOSN)],
+http://www.ifp.illinois.edu/ton/submissions.html[IEEE/ACM Transactions on Networking (ToN)],
+http://www.computer.org/portal/web/tmc[IEEE Transactions on Mobile Computing
+(TMC)], and http://www.computer.org/portal/web/tpds[IEEE Transactions on
+Parallel and Distributed Systems (TPDS)].
+
+In 2015 link:/posts/2015-05-20-why-im-editing-a-getmobile-colu/[I began
+editing a column] for http://www.sigmobile.org/pubs/getmobile/[GetMobile
+Magazine].
+//
+The column attempts to connect past developments with future trends in mobile
+systems.
+//
+If you have any idea for a submission, please get in touch.
+
+At UB I led an overhaul of our undergraduate computer science curriculum.
+//
+http://www.cse.buffalo.edu/~hartloff/index.html[Jesse Hartloff] and I also
+designed a https://goo.gl/brdQOO[new series of introductory courses].
+
+I am also involved in efforts to try and improve diversity within computer
+science.
+//
+With help from
+https://www.buffalo.edu/cas/math/about-us/our-alumni/our-alumni.host.html/content/shared/cas/math/modules/our-alumni/n-sanford.detail.html[Natasha
+Sanford] and later http://www.acsu.buffalo.edu/~gelarehm/[Gela Malek Pour],
+in 2014 I helped start a https://www.facebook.com/ubscientista/[UB chapter]
+of the http://www.scientistafoundation.com/[Scientista Foundation] which
+promotes female participation in STEM.
+//
+Our local chapter is focused on women in computer science and, with the help
+of generous support from http://www.bloomberg.com[Bloomberg], has held a
+series of successful events on campus bringing attention to this important
+issue.
+//
+I also organized donations to create a diversity in computer science mural,
+link:/people/challen@buffalo.edu/mural.jpg[this iconic photo] of
+https://en.wikipedia.org/wiki/Grace_Hopper[Grace Hopper] now adorns the wall
+outside our lab.
+
+== Biography
+
+I'm currently an Assistant Professor at the http://www.buffalo.edu[University
+at Buffalo (UB)], where I lead the link:/[blue Systems Research Group] and
+also direct the http://www.phone-lab.org[PhoneLab].
+//
+My research interests are in systems and networking, mobile systems, and
+smartphones.
+//
+I teach an https://www.ops-class.org[introduction to computer operating
+systems], a http://www.internet-class.org[new freshman course on the
+internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
+variety of contemporary topics in mobile systems.
+
+My interest in computer science was kindled when I took an introductory course
+on operating systems from http://www.eecs.harvard.edu/margo/[Margo Seltzer] in
+2000.
+//
+As a graduate student I worked on sensor networks and dreamed that motes would
+truly become ubiquitous.
+//
+While I worked on sensor networks that dream came true, but while the sensor
+network community mired itself in the problems created by ad-hoc routing,
+smartphones realized the vision of a planetary-scale distributed system.
+//
+I began working on these transformative devices after completing my
+dissertation and have not looked back since.
+
+I joined the University at Buffalo in 2011 and established link:/[blue] in the
+same year.
+//
+I enjoy faculty life and the challenge of meeting my commitments to
+link:/courses/[teaching], link:/papers/[research], and service.
+//
+Maintaining the balance is frustrating at times, but ultimately extremely
+fulfilling.
+//
+The chance to work closely with my students and help them learn is my greatest
+joy, whether that occurs in the lab, in the classroom, or beyond.
+//
+I have been blessed with a link:/people/[great group of
+students]&mdash;hard-working, talented, and a pleasure to be around.
+
+I received my [.spelling_exception]#A.B.# in Physics in 2003 and a Ph.D. in
+Computer Science in 2010, both from http://www.harvard.edu[Harvard].
+//
+As a graduate student I studied with http://www.mdw.la[Matt Welsh] and worked
+on using wireless sensor networks to study active volcanos.
+//
+We performed several deployments on Ecuadorean volcanos including
+[.spelling_exception]#Tungurahua# (2004, 2007) and
+[.spelling_exception]#Reventador# (2004).
+//
+Our field experiences generated several projects addressing challenges typical
+to using resource-constrained devices for scientific purposes.
+//
+Lance used policy modules to enable-utility driven bulk data collection, and
+IDEA (Integrated Distributed Energy Awareness) harnessed distributed energy to
+maximize global network objectives.
+//
+I also spent a brief stint at MIT as a postdoctoral associate funded by
+http://nms.csail.mit.edu/~hari/[Hari Balakrishnan].
+
+My wife and I live in a small house in Buffalo's up-and-coming West Side,
+several blocks west of the intersection of Grant and Lafayette and a few
+blocks east of Niagara Street.
+//
+Our small home is perpetually under construction but has provided
+opportunities for me to learn how to install hardwood flooring and
+baseboards, do basic electrical wiring, and now hang doors.
+//
+We live with an adorable pair of animals: a cat named Xyz (pronounced "Ziz")
+and a dog named Chuchu.
+//
+Before he was
+https://web.archive.org/web/20151002100639/http://www.buffalonews.com/20130308/Off_Main_Street_The_offbeat_side_of_the_news.html[fired by university administrators],
+Chuchu had a steady job as our resident
+therapy dog and lunch stealer.
+//
+I enjoy cooking and traveling and am a 3+ season bike commuter.
+

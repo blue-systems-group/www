@@ -1,0 +1,119 @@
+---
+name: "CAREER: Harnessing Implementation Flexibility to Enable Runtime
+Adaptation"
+recommended: true
+started: 2017-09-01
+ends: 2022-09-01
+amount: 557481
+source: NSF
+program: CAREER
+faculty:
+- challen
+projects:
+- maybe
+---
+== Funding Note
+
+My CAREER award has been recommended for funding, but the NSF will delay
+awarding this grant until link:/future/[I find a new academic position].
+//
+Once the award is made, I will make the full proposal available online.
+//
+Also note that at this point the funding amount is what was requested, not
+necessarily what will be awarded.
+
+== Summary
+
+For today's apps, achieving good performance on billions of smartphones
+around the world requires adaptation.
+//
+Apps must adapt to a wide variety of device capabilities; a constantly
+changing network environment; limited energy resources; fluctuating
+availability and accuracy of sensor information; different patterns of
+interaction; and a diverse community of users.
+//
+These environmental differences can cause a successful approach on one device
+or user to fail for another device or user.
+//
+For example, different implementations of the same algorithm can produce
+different energy-performance tradeoffs due to variations in hardware
+capabilities or user inputs, or different caching strategies can outperform
+each other due to variations in network performance or user mobility.
+//
+And as increasing variation makes adaptation more important, it also makes it
+more difficult.
+//
+Today, manually designing effective adaptation policies that anticipate all
+potential sources of variation challenges even talented developers.
+//
+And no approaches exist to simplify the process of creating adaptive and
+effective apps.
+
+This proposal investigates a novel approach to building adaptive mobile
+systems by exposing and harnessing implementation flexibility.
+//
+Implementation flexibility refers to cases when multiple correct ways to
+accomplish something exist: such as multiple algorithm implementations,
+different intervals for repeating an operation, or different times at which a
+task can be performed.
+//
+Currently, developers must both develop these adaptation mechanisms and
+formulate adaptation policies.
+//
+In contrast, exposing implementation flexibility allows developers to write
+adaptable apps without providing adaptation policies.
+//
+Instead, pre- and post-deployment testing combined with machine learning and
+continued developer oversight develop automated adaptation policies that
+harness implementation flexibility to adapt to changing conditions.
+//
+All developers have to do is expose flexibility.
+//
+The proposed system finishes the job of creating and maintaining an adaptive
+and effective app.
+
+=== Intellectual Merit
+
+The project investigates a transformative new way of building adaptive apps
+and systems.
+//
+Realizing this approach requires addressing multiple challenges.
+//
+First, developers must be able to separate the inflexible portions of their
+code required for correctness from the flexible portions that can be adapted.
+//
+Next, representative automated testing is required to rapidly and efficiently
+investigate how to harness uncertainty developers have exposed.
+//
+Once testing is completed, flexibility must be harnessed by machine learning
+algorithms to build effective static and dynamic adaptation policies.
+//
+The proposal also investigates how to mine different implementation
+approaches from single developers, small groups, and crowds, providing
+flexibility that can be harnessed for adaptation.
+//
+A novel modern take on self-modifying code uses code annotations and
+modifications to express automated adaptation policies to developers.
+//
+Finally, the project explores the implications of anticipated discoveries
+about adaptation on the design of next-generation language features that
+promote flexibility to a first-class construct.
+
+=== Broader Impacts
+
+The integrated educational plan also harnesses implementation flexibility but
+uses it to develop courses that adapt to differences between students.
+//
+Beginning with the creation of a collaborative concept library of modules for
+teaching the basics of the internet, a new system will allow educators to
+express implementation flexibility in aspects of course implementation such
+as the ordering of concepts and the ordering of explanations for a single
+concept.
+//
+The effectiveness of the adaptation will be assessed using student outcomes.
+//
+By identifying the role of implementation flexibility in two very different
+settings, the project will establish a foundation for future efforts that
+harness flexibility to build other adaptive systems, while having an
+immediate impact on two important societal challenges: building mobile apps
+and teaching students online.

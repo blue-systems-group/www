@@ -11,6 +11,10 @@ NSF:
       shortname: CSR
       name: Computer Systems Research
       link: "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503306"
+    CAREER:
+      shortname: CAREER
+      name: Faculty Early Career Development Program
+      link: "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503214"
 Google:
   name: Google
   shortname: Google
