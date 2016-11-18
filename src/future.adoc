@@ -16,6 +16,7 @@ spelling_exceptions:
 - TOSN
 - TPDS
 - Bloomberg
+- 3M
 layout: future.hbt
 ---
 :linkattrs:
@@ -147,7 +148,7 @@ University at Buffalo, Microsoft Research, and the University of Michigan.
 //
 Please peruse our link:/projects/[projects] and link:/papers/[papers] pages to
 find out more.
-//
+
 I am particularly excited about our work on link:/projects/maybe[programming
 uncertainty], link:/projects/wirelessvalidation[wireless protocol validation],
 link:/projects/thermaplan[smartphone thermal management], and
@@ -161,11 +162,27 @@ link:/papers/rv2016-sniffer/[2016 RV paper] on
 link:/projects/wirelessvalidation[wireless protocol validation] as three
 representative publications.
 
+link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[Here is a link
+to my research statement] and
+link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[current CV].
+
+== Funding
+
+I have received almost link:/proposals/[3M in external funding] from the NSF
+and Google, most as PI.
+//
+My CAREER award has been recommended for funding, but the NSF will delay
+awarding this grant until I find a new academic position.
+//
+Please peruse our link:/proposals/[funding page] to find out more.
+
 == Teaching
 
 I teach multiple large and popular courses and have made a great deal of
 material available online.
 //
+Please peruse our link:/courses/[courses] page to find out more.
+
 Since joining UB I have taught a course on https://www.ops-class.org[computer
 operating systems] to undergraduate and graduate students.
 //
@@ -192,10 +209,8 @@ Please review the
 https://www.internet-class.org/courses/fys/syllabus/[syllabus] to get a sense
 of how the course works in practice.
 
-link:/[This site] describes my group's link:/projects/[research projects] and
-link:/courses/[teaching] activities.
-//
-Please peruse to find out more.
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[Here is a link
+to my teaching statement].
 
 == Service
 
@@ -249,6 +264,9 @@ link:/people/challen@buffalo.edu/mural.jpg[this iconic photo] of
 https://en.wikipedia.org/wiki/Grace_Hopper[Grace Hopper] now adorns the wall
 outside our lab.
 
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[Here is a link
+to my service statement].
+
 == Biography
 
 I lead the link:/[blue Systems Research Group] and also direct the
@@ -262,6 +280,6 @@ systems], a http://www.internet-class.org[new freshman course on the
 internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
 variety of contemporary topics in mobile systems.
 
-Please link:/people/gwa/#_background[click here] to find out more.
+Please link:/people/gwa/[click here] for a longer biography.
 
 // vim: ts=2:sw=2:et
