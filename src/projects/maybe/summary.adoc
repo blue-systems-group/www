@@ -12,6 +12,7 @@ people:
 papers:
 - hotmobile2015-maybe
 funding:
+- 2016-career-maybe
 - 2015-gra-maybe
 ---
 [.lead]
