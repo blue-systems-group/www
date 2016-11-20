@@ -313,6 +313,166 @@ will be the first thing I'll do.
 
 === Step 2: Get Your Coding Hand Dirty
 
+The physical plant isn't the only part of the university that is unprepared
+for the challenge of flipping a large class.
+//
+The electronic tools are not anywhere close to being up to the task either.
+//
+So for your sake I hope that you have a coding hand--and that it is
+http://idioms.thefreedictionary.com/get+hands+dirty[fairly dirty].
+//
+Because you're going to need it.
+
+Consider making class announcements.
+//
+With 340 students working in two separate large cafeteria rooms, it becomes
+impossible to use the beginning of class as an broadcast period.
+//
+There is no "front" of the room to deliver them from in the typical fashion.
+//
+And the act of mounting a table and shouting at the top of my lungs is
+something that I'm not interested in doing, and that is frowned upon by
+cafeteria staff.
+
+For that reason, email becomes a much more important way of communicating
+with students.
+//
+So let's say you want to send an email announcement to the entire class.
+//
+That would seem simple, right?
+//
+Wrong.
+
+At UB, if I want to send an email to the entire class here is one of several
+equally frustrating ways I'm supposed to do it.
+//
+First, I have to log in to a broken course management tool.
+//
+That log in has an obvious race condition and so it fails about 10% of the
+time.
+//
+But it does produce on of my favorite error messages of all time:
+
+++++
+<div class="row" style="margin-top:10px; margin-bottom:10px;">
+  <div class="col-xs-offset-1 col-xs-10" style="border:1px solid grey; padding-top:10px;">
+    <div class="row">
+      <div class="col-xs-12">
+        <a href="/assets/img/posts/large_flip/error.png" data-toggle="lightbox"
+					 data-gallery="lecture-rooms"
+					 data-footer="This is what they gave you...">
+          <img src="/assets/img/posts/large_flip/error.png" alt="HUB login error message"
+               class="img-responsive">
+        </a>
+      </div>
+      <div class="col-xs-12">
+        <h4>"Sorry, we are currently unable to log you in... Despite this
+				message, you are currently logged in(to)...". The mind reels.</h4>
+      </div>
+		</div>
+	</div>
+</div>
+++++
+
+Anyway--once you get past this, then you realize that the course management
+system has needlessly broken your class into four chunks that need to be
+emailed separately.
+//
+Then you have to remember that the system refers to email as "notifying"
+students for no particular reason.
+//
+Once you've fought your way through a few more slow, crashy, and completely
+mobile-unfriendly screens, you find yourself at a web form encouraging you to
+generate an email with the subject "<From the desk of Geoffrey Challen>".
+//
+And then you remember that you have to repeat the process three more times.
+//
+[.pullquote]#Imagine trying to do this five minutes before your activity is
+scheduled to start because you need to cancel class due to a outbreak of the
+flu.#
+//
+No thanks.
+
+But hey--I'm a computer scientist.
+//
+I'm familiar with cutting-edge software packages like
+https://www.gnu.org/software/mailman/[Mailman], which allows me to create and
+manage email lists.
+//
+All I need is a programmatic way to get an up-to-date list of all the email
+addresses for the students in my class.
+//
+That should be easy, right?
+
+Wrong again.
+//
+As far as I can tell, there is no API allowing faculty to retrieve updated
+information for students in their class.
+//
+And so not only can you not generate email lists for sending mass email
+messages, but good luck generating personalized emails or seating charts for
+exams, creating accounts allowing students access to class websites or
+forums, or completing any other task that _simply needs an up-to-date list of
+the current students in the class_.
+
+Luckily, I was familiar with these challenges from teaching other large
+courses.
+//
+I spent a few manually downloading spreadsheets with student information and
+using them to update various course resources.
+//
+But I finally broke down and did what any good computer scientist would do:
+wasted several days of my life to completely automate the process.
+//
+You don't want to know the details and I don't want to share them with you,
+but suffice to say that gory may not be a strong enough word.
+//
+That said, what pops out after several minutes of
+http://casperjs.org/[`casperjs`]-enabled web interface banging is a JSON
+document with student names, email addresses, other metadata--and even a
+photo encoded in `base64`.
+//
+Boo-yah.
+
+But that tool is only one part of a complex set of tools that I've had to
+develop this semester for doing flipped-classroom administration.
+//
+That toolchain now totals 28 JavaScript executables and around 2000
+non-commenting lines of code.
+//
+It includes individual script that perform the following tasks:
+
+. Update various Mailman mailing lists including ones that reach all
+students, students by their official class assignment, staff, and recitation
+instructors.
+//
+. Create accounts using https://auth0.com/[Auth0] for students allowing them
+to use the https://www.internet-class.org[main video delivery website] and
+the http://www.discourse.org/[Discourse]
+https://discourse.internet-class.org[class forum].
+//
+. Randomly assign students to new groups of two or four, with some
+demographic-based meddling. Also shuffle students into new pairs while
+leaving them at the same table.
+//
+. Generate customized emails before each activity informing students of their
+group assignment and providing the activity description.
+//
+. Parse and correct the attendance records--which contain a lot of
+mistakes--and calculate that component of each student's grade.
+//
+. Access the video delivery database to record how many videos a student
+watched before their deadlines and calculate that component of their grade.
+//
+. Integrate with the HotCRP system that we are using to review videos and
+calculate that component of each student's grade.
+//
+. Combine all grading components to generate custom grade emails and export
+the data into formats allowing me to set midterm grades.
+//
+. Assign undergraduate teaching assistants to table groups in ways that
+respect the geometry of our flipped classroom.
+
 === Step 3: Get Activities
 
 === Step 4: Get Great People
