@@ -6,7 +6,7 @@ spelling_exceptions:
 ---
 == Two Days at Google
 
-[.snippet.lead]
+[.lead]
 I was fortunate to spend last Thursday and Friday at Google participating in
 the
 https://sites.google.com/site/googuniversityrelationsevents/home/workshops/mobile-workshop-2015[Google

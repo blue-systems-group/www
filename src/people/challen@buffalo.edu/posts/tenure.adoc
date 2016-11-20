@@ -8,9 +8,11 @@ spelling_exceptions:
 
 == The Best Way to Not Get Tenure
 
-[.snippet.lead]
+[.snippet]
 //
 --
+
+[.lead]
 //
 At the extremes, there are two ways to approach tenure.
 //
@@ -21,6 +23,8 @@ Or you can be yourself.
 I'm happy that I set my own course, and proud of the way that I divided by
 time between research, teaching, and service.
 
+[.lead]
+//
 Unfortunately, my approach did not work at UB.
 //
 Despite my many accomplishments and contributions, my department voted
@@ -28,6 +32,7 @@ against my tenure case earlier this week.
 //
 And so link:/[blue] will need to find a new home.
 //
+[.readmore]#Click here for the full story.#
 --
 
 === What Are You (Not) Supposed to Do?
