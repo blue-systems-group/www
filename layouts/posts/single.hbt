@@ -6,29 +6,6 @@
 
   <div class="container">
 
-    <div class="row links hidden-xs hidden-sm">
-      <div class="col-md-5 text-left">
-        {{#if previous_item}}
-        <div class="h6" style="line-height:1.0;">
-          <a href="/{{ previous_item.path }}">
-            <span class="glyphicon glyphicon-step-backward"></span>
-            {{{ previous_item.title }}}
-          </a>
-        </div>
-        {{/if}}
-      </div>
-      <div class="col-md-5 col-md-push-2 text-right">
-        {{#if next_item}}
-        <div class="h6" style="line-height:1.0;">
-          <a href="/{{ next_item.path }}">
-            {{{ next_item.title }}}
-            <span class="glyphicon glyphicon-step-forward"></span>
-          </a>
-        </div>
-        {{/if}}
-      </div>
-    </div>
-
     <div class="row">
       <div class="col-sm-12 col-md-9">
 
@@ -65,7 +42,19 @@
 
           <ul class="list-unstyled">
             {{#each visible_posts }}
-            <li style="margin-bottom:10px; line-height:1.1em;"><a href="/{{ this.path }}">{{ this.title }}</a></li>
+            {{#ne ../path this.path }}
+            <li style="margin-bottom:10px; line-height:1.1em;">
+              <a href="/{{ this.path }}">
+                {{#eq ../previous_item.path this.path}}
+                <span class="glyphicon glyphicon-step-backward"></span>
+                {{/eq}}
+                {{ this.title }}
+                {{#eq ../next_item.path this.path}}
+                <span class="glyphicon glyphicon-step-forward"></span>
+                {{/eq}}
+              </a>
+            </li>
+            {{/ne}}
             {{/each}}
           </ul>
           <h4>Future Post Ideas</h4>

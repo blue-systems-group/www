@@ -1,7 +1,9 @@
 ---
 working: true
 spelling_exceptions:
+  - Auth0
   - Legos
+  - HotCRP
 ---
 
 == How to Flip a Large Class
@@ -141,27 +143,27 @@ I guess that's why they call them lecture halls...
     <div class="row">
       <div class="col-xs-4">
         <a href="/assets/img/posts/large_flip/lecture1.jpg" data-toggle="lightbox"
-					 data-gallery="lecture-rooms"
-					 data-footer="This is what they gave you...">
+           data-gallery="lecture-rooms"
+           data-footer="This is what they gave you...">
           <img src="/assets/img/posts/large_flip/lecture1.jpg" alt="Lecture hall"
                class="img-responsive">
         </a>
       </div>
       <div class="col-xs-4">
         <a href="/assets/img/posts/large_flip/lecture2.jpg" data-toggle="lightbox"
-					 data-gallery="lecture-rooms"
-					 data-footer="This is what they gave you...">
-					<img src="/assets/img/posts/large_flip/lecture2.jpg" alt="Lecture hall"
-							 class="img-responsive">
-				</a>
+           data-gallery="lecture-rooms"
+           data-footer="This is what they gave you...">
+          <img src="/assets/img/posts/large_flip/lecture2.jpg" alt="Lecture hall"
+               class="img-responsive">
+        </a>
       </div>
       <div class="col-xs-4">
         <a href="/assets/img/posts/large_flip/lecture3.jpg" data-toggle="lightbox"
-					 data-gallery="lecture-rooms"
-					 data-footer="This is what they gave you...">
-					<img src="/assets/img/posts/large_flip/lecture3.jpg" alt="Lecture hall"
-							 class="img-responsive">
-				</a>
+           data-gallery="lecture-rooms"
+           data-footer="This is what they gave you...">
+          <img src="/assets/img/posts/large_flip/lecture3.jpg" alt="Lecture hall"
+               class="img-responsive">
+        </a>
       </div>
       <div class="col-xs-12">
         <h4>Here's what they gave you...</h4>
@@ -208,37 +210,37 @@ we had 340 students we wanted to bring down at that time.
     <div class="row">
       <div class="col-xs-6">
         <a href="/assets/img/posts/large_flip/berts1.jpg" data-toggle="lightbox"
-					 data-gallery="berts-rooms"
-					 data-footer="...but this is what you need.">
+           data-gallery="berts-rooms"
+           data-footer="...but this is what you need.">
           <img src="/assets/img/posts/large_flip/berts1.jpg" alt="Lecture hall"
                class="img-responsive">
         </a>
       </div>
       <div class="col-xs-6">
         <a href="/assets/img/posts/large_flip/berts2.jpg" data-toggle="lightbox"
-					 data-gallery="berts-rooms"
-					 data-footer="...but this is what you need.">
-					<img src="/assets/img/posts/large_flip/berts2.jpg" alt="Lecture hall"
-							 class="img-responsive">
-				</a>
+           data-gallery="berts-rooms"
+           data-footer="...but this is what you need.">
+          <img src="/assets/img/posts/large_flip/berts2.jpg" alt="Lecture hall"
+               class="img-responsive">
+        </a>
       </div>
-		</div>
+    </div>
     <div class="row" style="margin-top:10px;">
       <div class="col-xs-6">
         <a href="/assets/img/posts/large_flip/berts3.jpg" data-toggle="lightbox"
-					 data-gallery="berts-rooms"
-					 data-footer="...but this is what you need.">
-					<img src="/assets/img/posts/large_flip/berts3.jpg" alt="Lecture hall"
-							 class="img-responsive">
-				</a>
+           data-gallery="berts-rooms"
+           data-footer="...but this is what you need.">
+          <img src="/assets/img/posts/large_flip/berts3.jpg" alt="Lecture hall"
+               class="img-responsive">
+        </a>
       </div>
       <div class="col-xs-6">
         <a href="/assets/img/posts/large_flip/berts4.jpg" data-toggle="lightbox"
-					 data-gallery="berts-rooms"
-					 data-footer="...but this is what you need.">
-					<img src="/assets/img/posts/large_flip/berts4.jpg" alt="Lecture hall"
-							 class="img-responsive">
-				</a>
+           data-gallery="berts-rooms"
+           data-footer="...but this is what you need.">
+          <img src="/assets/img/posts/large_flip/berts4.jpg" alt="Lecture hall"
+               class="img-responsive">
+        </a>
       </div>
       <div class="col-xs-12">
         <h4 class="spelling_exception">...but this is what you need.</h4>
@@ -359,18 +361,18 @@ But it does produce on of my favorite error messages of all time:
     <div class="row">
       <div class="col-xs-12">
         <a href="/assets/img/posts/large_flip/error.png" data-toggle="lightbox"
-					 data-gallery="lecture-rooms"
-					 data-footer="This is what they gave you...">
+           data-gallery="lecture-rooms"
+           data-footer="This is what they gave you...">
           <img src="/assets/img/posts/large_flip/error.png" alt="HUB login error message"
                class="img-responsive">
         </a>
       </div>
       <div class="col-xs-12">
         <h4>"Sorry, we are currently unable to log you in... Despite this
-				message, you are currently logged in(to)...". The mind reels.</h4>
+        message, you are currently logged in(to)...". The mind reels.</h4>
       </div>
-		</div>
-	</div>
+    </div>
+  </div>
 </div>
 ++++
 
@@ -381,9 +383,10 @@ emailed separately.
 Then you have to remember that the system refers to email as "notifying"
 students for no particular reason.
 //
-Once you've fought your way through a few more slow, crashy, and completely
-mobile-unfriendly screens, you find yourself at a web form encouraging you to
-generate an email with the subject "<From the desk of Geoffrey Challen>".
+Once you've fought your way through a few more slow,
+[.spelling_exception]#crashy#, and completely mobile-unfriendly screens, you
+find yourself at a web form encouraging you to generate an email with the
+subject "<From the desk of Geoffrey Challen>".
 //
 And then you remember that you have to repeat the process three more times.
 //
@@ -432,7 +435,7 @@ http://casperjs.org/[`casperjs`]-enabled web interface banging is a JSON
 document with student names, email addresses, other metadata--and even a
 photo encoded in `base64`.
 //
-Boo-yah.
+[.spelling_exception]#Boo-yah.#
 
 But that tool is only one part of a complex set of tools that I've had to
 develop this semester for doing flipped-classroom administration.
@@ -476,3 +479,5 @@ respect the geometry of our flipped classroom.
 === Step 3: Get Activities
 
 === Step 4: Get Great People
+
+// vim: ts=2:sw=2:et
