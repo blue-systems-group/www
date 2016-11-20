@@ -1,84 +1,91 @@
 {{> posts_header}}
 
 <div id="content">
-  <div class="container">
-    <div class="hidden-xs row text-right" style="margin-top:-5px">
-      <a target="_blank" href="/posts/feed.xml">
-        Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-left: 0.5em; height: 1em" />
-      </a>
-    </div>
+	<div class="container">
 
-    <div class="row">
-      <div class="col-sm-12 col-md-9">
+		<div class="row">
+			<div class="col-sm-12 col-md-9">
 
-        <div id="posts-index">
-          {{#each visible_posts}}
-          <a class="anchor" id="{{ this.slug }}"></a>
-          <div class="posts row">
-            <div class="col-xs-12">
-              <div class="text-center-xs post-title">
-                <div class="h3">
-                  {{ link this }}
-                </div>
-              </div>
-              <div class="post-author spelling_exception">
-                <span class="blog-people">{{ and_list people }}</span>
-                //
-                <span class="blog-created">{{ format_date created "name" false }}</span>
-                //
-                <a href="https://twitter.com/share"
-                  data-url="{{ full_url }}"
-                  data-text="{{ title }}"
-                  data-hashtags="bluesystemsgroup">
-                  <img alt="Share on Twitter" src="/assets/img/icons/twitter-bird-16x16.png" />
-                </a>
-                //
-                <a href="http://www.facebook.com/share.php?u={{ full_url }}">
-                  <img alt="Share on Facebook" src="/assets/img/icons/facebook.gif" />
-                </a>
-                //
-                <a class="nodecoration" href="/{{ path }}">
-                   <span class="fb-comments-count"
-                         data-href="{{ full_url }}"></span>
-                  <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
-                </a>
-              </div>
-              <div class="paragraph {{ this.snippet_classes }}">
-              {{{ this.snippet }}}
-              {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
-              </div>
-            </div>
-          </div>
-          {{/each}}
-        </div>
+				<div id="posts-index">
+					{{#each visible_posts}}
+					<a class="anchor" id="{{ this.slug }}"></a>
+					<div class="posts row">
+						<div class="col-xs-12">
+							<div class="text-center-xs post-title">
+								<div class="h3">
+									{{ link this }}
+								</div>
+							</div>
+							<div class="post-author spelling_exception">
+								<span class="blog-people">{{ and_list people }}</span>
+								//
+								<span class="blog-created">{{ format_date created "name" false }}</span>
+								//
+								<a href="https://twitter.com/share"
+									data-url="{{ full_url }}"
+									data-text="{{ title }}"
+									data-hashtags="bluesystemsgroup">
+									<img alt="Share on Twitter" src="/assets/img/icons/twitter-bird-16x16.png" />
+								</a>
+								//
+								<a href="http://www.facebook.com/share.php?u={{ full_url }}">
+									<img alt="Share on Facebook" src="/assets/img/icons/facebook.gif" />
+								</a>
+								//
+								<a class="nodecoration" href="/{{ path }}">
+									 <span class="fb-comments-count"
+												 data-href="{{ full_url }}"></span>
+									<span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+								</a>
+							</div>
+							<div class="paragraph {{ this.snippet_classes }}">
+							{{{ this.snippet }}}
+							{{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
+							</div>
+						</div>
+					</div>
+					{{/each}}
+				</div>
 
-        <div class="hidden-sm hidden-md hidden-lg row text-center">
-          <h3>
-            <a href="/posts/feed.xml">Subscribe
-              <img alt="Subscribe to posts" src="/assets/img/icons/rss-14x14.png" style="height: 1em" /></a>
-          </h3>
-        </div>
+				<div class="hidden-sm hidden-md hidden-lg row text-center">
+					<h3>
+						<a href="/posts/feed.xml">Subscribe
+							<img alt="Subscribe to posts" src="/assets/img/icons/rss-14x14.png" style="height: 1em" /></a>
+					</h3>
+				</div>
 
-      </div>
-      <div class="hidden-xs hidden-sm col-md-3 text-right blue-sidebar">
-        <h4>Recent Posts</h4>
-        
-        <hr class="underline">
-        
-        <ul class="list-unstyled">
-          {{#each visible_posts }}
-          <li style="margin-bottom:10px; line-height:1.1em;"><a href="/{{ this.path }}">{{ this.title }}</a></li>
-          {{/each}}
-        </ul>
-        <h4>Future Post Ideas</h4>
-        
-        <hr class="underline">
+			</div>
+			<div class="hidden-xs hidden-sm col-md-3 text-right blue-sidebar">
+				<div class="fixed-md-3">
+					<h4>
+					<a target="_blank" href="/posts/feed.xml">
+						<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-right: 0.5em; height: 1em" />
+						Subscribe
+					</a>
+					</h4>
+					<h4>Recent Posts</h4>
 
-        <p><a href="https://docs.google.com/document/d/1jMVw8mwJkb4XUEr-7Gi7NrxXqNcholqt7PBDpdsza4w/edit?usp=sharing">Comment on mine, or add some of your
-          own."</a></p>
-      </div>
-    </div>
-  </div>
+					<hr class="underline">
+
+					<ul class="list-unstyled">
+						{{#each visible_posts }}
+						<li style="margin-bottom:10px; line-height:1.1em;"><a href="/{{ this.path }}">{{ this.title }}</a></li>
+						{{/each}}
+					</ul>
+					<h4>Future Post Ideas</h4>
+
+					<hr class="underline">
+
+					<p><a href="https://docs.google.com/document/d/1jMVw8mwJkb4XUEr-7Gi7NrxXqNcholqt7PBDpdsza4w/edit?usp=sharing">Comment on mine, or add some of your
+						own."</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 
 {{> footer}}
+
+<!--
+	vim: ts=2:sw=2:et:ft=html
+-->

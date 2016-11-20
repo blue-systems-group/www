@@ -38,14 +38,14 @@
           <h4>
 						<a href="/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf">Research Statement</a>
 					</h4>
-          <h3>Active</h3>
+          <h4>Active</h4>
           <ul class="nav nav-stacked">
             {{#each projects.active }}
             <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
             {{/each}}
           </ul>
           {{#if projects.inactive}}
-          <h3>Complete</h3>
+          <h4>Complete</h4>
           <ul class="nav nav-stacked">
             {{#each projects.inactive }}
             <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
