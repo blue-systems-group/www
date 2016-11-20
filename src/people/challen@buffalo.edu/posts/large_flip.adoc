@@ -47,12 +47,12 @@ As a technologist, I also consider this approach a better match with what we
 can do with technology (monitoring online video viewing) and the things that
 we can't do with technology (provide interactive help with homework).
 //
-(I have also recorded a https://www.youtube.com/watch?v=_i_BgT26iYM[short
+I have also recorded a https://www.youtube.com/watch?v=_i_BgT26iYM[short
 explanation of the flipped classroom model] using Legos borrowed from my
-friend Marlon.)
+friend Marlon.
 
-In _our_ flipped classroom, students watch around 20 5-minute videos covering
-various internet topics each week.
+In _our_ flipped classroom, each week students watch around 20 5-minute
+videos covering various topics related to how the internet works.
 //
 https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[Here's
 the entire list], currently at 250 videos over 13 weeks.
@@ -71,7 +71,7 @@ Grading is primarily based on participation.
 Students receive credit for watching the short videos before the deadline and
 attending and participating in the activity sections.
 //
-They are also required to record several new video explanations for course
+They are also required to record three new video explanations for course
 concepts which are graded by the course staff.
 
 Why this class is called a seminar is a somewhat long story.
@@ -178,8 +178,9 @@ Sure.
 We could have limited the activity group size to two so that students could
 work side-by-side, the only configuration the rooms allowed.
 //
-Our teaching assistants could have hiked up and down the steep stairways and
-squeezed through narrow aisles to reach groups that needed help.
+Our teaching assistants could have developed huge calves from hiking up and
+down the steep stairways and thin waists from squeezing through narrow aisles
+to reach groups that needed help.
 //
 But that sounded terrible.
 //
@@ -194,7 +195,7 @@ Bert's is an on-campus cafeteria.
 I've noticed it for years, mainly because it has that lovely cafeteria smell
 that makes it impossible to miss as you walk by.
 //
-Bert's seats 500 students in two equal-sized areas, mostly in groups of four.
+Bert's seats 500 students in two equal-sized rooms, mostly at tables of four.
 //
 And at our seminar meeting times--9AM and 4PM--it is largely empty.
 //
@@ -283,10 +284,32 @@ The first few times we tried this, chaos ensued for around 10 minutes.
 //
 But after a few iterations, students got the hang of it.
 //
-At this point, they find their groups quickly and easily and get to work.
+At this point, they find their groups quickly and get to work.
+//
+Our fantastic undergraduate teaching assistant circulate constantly among 12
+or 16 students--3 or 4 groups--to keep them on task and answer any questions.
 
-// Lecturing is literally _physically embedded_ into today's campuses, in a way
-// that is extremely difficult to change.
+There's something incredibly exciting about having hundreds of like-minded
+students packing the same space and working in close proximity.
+//
+But the way it came about was a fortunate accident, and it really opened my
+eyes to something that should have been obvious to me but what not.
+//
+[.pullquote]#The lecture model is literally _physically embedded_ into
+today's campuses.#
+//
+That makes running large activity-based or flipped classes extremely
+challenging.
+//
+I've heard that some universities are tearing out lecture halls and trying to
+reuse the space, but you can imagine how hard that would be.
+
+Until campuses are physically redesigned to meet the needs of activity-based
+classes, finding a suitable room will be a major challenge.
+//
+Next time I teach this class--which
+link:/posts/2016-10-22-the-best-way-to-not-get-tenure[will not be at UB]--it
+will be the first thing I'll do.
 
 === Step 2: Get Your Coding Hand Dirty
 
