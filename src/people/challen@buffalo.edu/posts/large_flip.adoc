@@ -430,6 +430,9 @@ wasted several days of my life to completely automate the process.
 You don't want to know the details and I don't want to share them with you,
 but suffice to say that gory may not be a strong enough word.
 //
+Particularly when trying to interpret pre-CSS HTML--tables inside of tables
+inside of other tables.
+//
 That said, what pops out after several minutes of
 http://casperjs.org/[`casperjs`]-enabled web interface banging is a JSON
 document with student names, email addresses, other metadata--and even a
@@ -437,7 +440,7 @@ photo encoded in `base64`.
 //
 [.spelling_exception]#Boo-yah.#
 
-But that tool is only one part of a complex set of tools that I've had to
+But that tool is only one part of a complete set of tools that I've had to
 develop this semester for doing flipped-classroom administration.
 //
 That toolchain now totals 28 JavaScript executables and around 2000
@@ -452,7 +455,9 @@ instructors.
 . Create accounts using https://auth0.com/[Auth0] for students allowing them
 to use the https://www.internet-class.org[main video delivery website] and
 the http://www.discourse.org/[Discourse]
-https://discourse.internet-class.org[class forum].
+https://discourse.internet-class.org[class forum]. No--I do not want to
+figure out my university's authentication system and get permission to use
+it. I just want something that works, and Auth0 does.
 //
 . Randomly assign students to new groups of two or four, with some
 demographic-based meddling. Also shuffle students into new pairs while
@@ -467,14 +472,27 @@ mistakes--and calculate that component of each student's grade.
 . Access the video delivery database to record how many videos a student
 watched before their deadlines and calculate that component of their grade.
 //
-. Integrate with the HotCRP system that we are using to review videos and
-calculate that component of each student's grade.
+. Integrate with the https://hotcrp.com/[HotCRP] system that we are using to
+review videos and calculate that component of each student's grade.
 //
 . Combine all grading components to generate custom grade emails and export
 the data into formats allowing me to set midterm grades.
 //
 . Assign undergraduate teaching assistants to table groups in ways that
 respect the geometry of our flipped classroom.
+
+I don't want to toot my own horn here, but I don't think that I have to go
+too far out on a limb to say that most if not all history faculty could not
+have built these tools.
+//
+I'm not sure that some of my own computer science colleagues could--or would
+have bothered.
+//
+So not only do large flipped classrooms create physical infrastructure
+challenges, they also create technological infrastructure ones as well.
+//
+I was fortunate to have the skills required to address these challenges, as
+well as some experience with similar tools from previous courses.
 
 === Step 3: Get Activities
 
