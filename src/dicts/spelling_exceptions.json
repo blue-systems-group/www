@@ -37,6 +37,7 @@
   "CSR": [
     "proposals/**"
   ],
+	"CSS": true,
 	"dataset": true,
   "Dropbox": true,
   "/datasets?/": true,
