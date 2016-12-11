@@ -6,6 +6,7 @@ description: >
   Research group is currently working on.
 changefreq: weekly
 priority: 0.8
+noh1: true
 ---
 
 [.lead]

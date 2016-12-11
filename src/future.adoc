@@ -1,9 +1,5 @@
 ---
-name: Geoffrey Challen
-email: challen@buffalo.edu
-scholar: http://scholar.google.com/citations?user=VS9wzBsAAAAJ&hl=en
-linkedin: https://www.linkedin.com/pub/geoffrey-challen/1a/b77/572
-github: https://github.com/blue-systems-group
+# title: "We're Moving!"
 spelling_exceptions:
 - Chuchu
 - Xyz
@@ -20,17 +16,6 @@ spelling_exceptions:
 layout: future.hbt
 ---
 :linkattrs:
-
-++++
-<div class="row">
-   <div class="col-xs-12">
-     <img src="/assets/img/group/4.jpg"
-          class="img-responsive img-rounded" alt="blue Systems Group Photo" />
-   </div>
-</div>
-++++
-
-== We're Moving!
 
 [.lead]
 //

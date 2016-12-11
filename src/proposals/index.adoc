@@ -7,6 +7,7 @@ description: >
   that we have been lucky enough to be provided.
 changefreq: weekly
 priority: 0.5
+noh1: true
 ---
 [.lead]
 *link:/[blue] depends on public funding to continue our research and
@@ -22,3 +23,5 @@ content provided to reviewers, but do not include the proposal budget and
 other supporting documents (facilities statement, investigator biographies,
 etc.) We also hope that other young faculty members may find these documents
 helpful as examples of funded proposals.
+
+// vim: ts=2:et:ft=asciidoc

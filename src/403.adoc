@@ -1,5 +1,5 @@
 ---
-title: Access Denied
+title: "403: Access Denied"
 layout: index.hbt
 description: >
   You are not allowed to access this page. Sorry.
@@ -7,8 +7,6 @@ changefreq: yearly
 priority: 0.1
 logo_flipped: true
 ---
-== 403: Access Denied
-
 [.lead]
 See our upside down logo? That's a distress signal! You aren't allowed to
 access this page. link:/[Try another...]

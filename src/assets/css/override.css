@@ -1,5 +1,5 @@
 body {
-  padding-top: 60px;
+  padding-top: 85px;
   position: relative;
 }
 .lead {
@@ -12,11 +12,21 @@ p {
 	letter-spacing: -0.063px;
 	-webkit-font-smoothing: antialiased;
 }
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+	margin-bottom: 0px;
+}
 .navbar {
   border-top-style: none;
   border-left-style: none;
   border-right-style: none;
   border-radius: 0px;
+}
+div.links {
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.links .h5 {
+	margin-top:0px;
 }
 div#content > img {
   max-width: 100%;
@@ -26,18 +36,46 @@ div#content {
   padding-bottom: 20px;
 }
 #sidebar {
-  top: 80px;
+  top: 100px;
   bottom: 0;
   overflow-y: auto;
   background-color: white;
   z-index: 1;
 }
-.blue-sidebar {
-  font-size: 0.9em;
+#low-sidebar {
+	top: 110px;
+	bottom: 0;
+  overflow-y: auto;
+  background-color: white;
+  z-index: 1;
 }
-.blue-sidebar.big {
-  font-size: 1em;
+.side-headings h1, .side-headings .h1, .side-headings h2, .side-headings .h2,
+.side-headings h3, .side-headings .h3, .side-headings h4, .side-headings .h4,
+.side-headings h5, .side-headings .h5 {
+	font-family: Georgia, Cambria, "Times New Roman", Times, serif;
 }
+.side-headings h1, .side-headings .h1 {
+	font-size: 28px;
+	line-height: 35px;
+	font-weight: bolder;
+	margin: 14px auto;
+}
+.side-headings h2, .side-headings .h2 {
+	font-size: 22px;
+	line-height: 27px;
+	margin: 10px auto;
+}
+.side-headings h3, .side-headings .h3 {
+	font-size: 18px;
+	line-height: 22px;
+	margin: 10px auto;
+}
+.side-headings h4, .side-headings .h4 {
+	font-size: 14px;
+	line-height: 17px;
+	margin: 8px auto;
+}
+
 .blue-sidebar .nav>li>a {
   color: #222;
   border-left: 2px solid transparent;
@@ -58,12 +96,6 @@ div#content {
 .blue-sidebar .nav>li>a:hover {
   border-left-color: #222;
   color: #222;
-}
-#sidebar > h3:first-of-type {
-  margin-top: 0px;
-}
-h2, .h2, h3, .h3, h4, .h4 {
-	margin-bottom: 0px;
 }
 a.anchor {
   display: block;
@@ -269,6 +301,7 @@ div#content.thin {
 }
 .navbar {
   margin-bottom: 0px;
+	font-size: 18px;
 }
 hr.underline {
   margin-top:0px;
