@@ -1,10 +1,16 @@
 body {
   padding-top: 60px;
   position: relative;
-  color: #333;
 }
 .lead {
-  font-size: 20px;
+  font-size: 24px;
+}
+p {
+	font-style: normal;
+	font-weight: normal;
+	text-rendering: optimizeLegibility;
+	letter-spacing: -0.063px;
+	-webkit-font-smoothing: antialiased;
 }
 .navbar {
   border-top-style: none;
@@ -55,6 +61,9 @@ div#content {
 }
 #sidebar > h3:first-of-type {
   margin-top: 0px;
+}
+h2, .h2, h3, .h3, h4, .h4 {
+	margin-bottom: 0px;
 }
 a.anchor {
   display: block;
@@ -122,6 +131,10 @@ a.external:after {
     position: fixed;
 		width: 212px;
   }
+  .fixed-md-4 {
+    position: fixed;
+		width: 323px;
+  }
   #person {
     min-height: 500px;
   }
@@ -145,7 +158,7 @@ a.external:after {
   padding: 10px 0px;
 }
 #navbar li {
-  font-size: 1.15em;
+  font-size: 1em;
   height: 60px;
 }
 .tableblock td {
@@ -206,6 +219,9 @@ li.menu-selected a {
 .default-popover + .popover > .popover-arrow {
   border-bottom-color: LightGrey;
 }
+.popover-content {
+	font-size: 85%;
+}
 .nonopaque {
   background-color: white;
   z-index: 1;
@@ -258,17 +274,9 @@ hr.underline {
   margin-top:0px;
   margin-bottom:5px;
 }
-div.h2.top {
-  margin-top:10.5px;
-  margin-bottom:10.5px;
-}
-section.top > h2:first-of-type {
-  margin-top:10.5px;
-  margin-bottom:10.5px;
-}
 #post_contents h2:first-of-type {
-  margin-top:10.5px;
-  margin-bottom:10.5px;
+  margin-top:5px;
+  margin-bottom:5px;
 }
 #posts-index div.h3:first-of-type {
   margin-top:10.5px;

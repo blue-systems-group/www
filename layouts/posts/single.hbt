@@ -7,7 +7,7 @@
   <div class="container">
 
     <div class="row">
-      <div class="col-sm-12 col-md-9">
+      <div class="col-sm-12 col-md-8">
 
         <div id="post_contents">
           {{{ contents }}}
@@ -34,11 +34,9 @@
         <div class="fb-comments" data-href="{{ full_url }}" data-numposts="5"></div>
       </div>
 
-      <div class="hidden-xs hidden-sm col-md-3 blue-sidebar text-right">
-        <div class="fixed-md-3">
+      <div class="hidden-xs hidden-sm col-md-offset-1 col-md-3 blue-sidebar text-right">
+        <div class="fixed-md-3 small">
           <h4>Recent Posts</h4>
-
-          <hr class="underline">
 
           <ul class="list-unstyled">
             {{#each visible_posts }}
@@ -58,8 +56,6 @@
             {{/each}}
           </ul>
           <h4>Future Post Ideas</h4>
-
-          <hr class="underline">
 
           <p>
           <a
