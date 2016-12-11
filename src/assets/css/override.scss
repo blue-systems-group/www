@@ -1,40 +1,54 @@
 body {
-  padding-top: 85px;
+  padding-top: 60px;
   position: relative;
-}
-.lead {
-  font-size: 24px;
-}
-p {
-	font-style: normal;
-	font-weight: normal;
 	text-rendering: optimizeLegibility;
-	letter-spacing: -0.063px;
 	-webkit-font-smoothing: antialiased;
 }
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
-	margin-bottom: 0px;
-}
-.navbar {
+nav {
+	margin-bottom: 0px !important;
+	font-size: 0.9em;
+
   border-top-style: none;
   border-left-style: none;
   border-right-style: none;
   border-radius: 0px;
+
+	li {
+		height: 60px;
+	}
 }
-div.links {
-	margin-top: 3px;
-	margin-bottom: 3px;
+.lead {
+	font-size: 1.2em;
+	line-height: 1.4;
 }
-.links .h5 {
-	margin-top:0px;
+p {
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: -0.063px;
+	&.pad-and-border {
+		padding: 10px;
+		border: 1px solid #191995;
+	}
 }
-div#content > img {
-  max-width: 100%;
-  height: auto;
+
+#content {
+	padding-top: 25px;
+	&.index {
+		padding-top: 10px;
+	}
+	padding-bottom: 20px;
+
+	img {
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
 }
-div#content {
-  padding-bottom: 20px;
+h1, .h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
+
 #sidebar {
   top: 100px;
   bottom: 0;
@@ -189,10 +203,6 @@ a.external:after {
 .imageblock .title {
   padding: 10px 0px;
 }
-#navbar li {
-  font-size: 1em;
-  height: 60px;
-}
 .tableblock td {
   padding: 0px 5px;
 }
@@ -298,10 +308,6 @@ div#content {
 }
 div#content.thin {
   margin-top: 5px;
-}
-.navbar {
-  margin-bottom: 0px;
-	font-size: 18px;
 }
 hr.underline {
   margin-top:0px;

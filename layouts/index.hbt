@@ -1,8 +1,7 @@
 {{> header}}
 
-<div id="content">
+<div id="content" class="index">
   <div class="container">
-		<h1>{{{ title }}}</h1>
     {{{ contents }}}
   </div>
 </div>

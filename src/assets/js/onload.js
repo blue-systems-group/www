@@ -1,4 +1,10 @@
 $(function() {
+  // Turn on scrollspy
+  if ($('.blue-sidebar').length > 0) {
+    $('body').scrollspy({ target: '.blue-sidebar', offset: 60 });
+  }
+
+  // Enable popovers
   $('[data-toggle="popover"]').popover();
   $('body').on('click', function (e) {
     $('[data-toggle="popover"]').each(function () {
@@ -7,36 +13,14 @@ $(function() {
       }
     });
   });
+  
+  // Enable LightBox
 	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
 		event.preventDefault();
 		$(this).ekkoLightbox({
       always_show_close: false
     });
 	});
-  function isMobile() {
-    try {
-      document.createEvent("TouchEvent");
-      return true;
-    } catch (e) {
-      return false;
-    }
-  }
-  if (isMobile()) {
-    $('#content.swipe').swipe({
-      swipeLeft: function() {
-        if ($("#content").data('next')) {
-          window.location.replace($("#content").data('next'));
-        }
-      },
-      swipeRight: function () {
-        if ($("#content").data('previous')) {
-          window.location.replace($("#content").data('previous'));
-        }
-      },
-      threshold: 150,
-      allowPageScroll: "auto"
-    });
-  }
 
   // Load Google Analytics
   $.getScript("/assets/js/analytics.js", function () {

@@ -1,0 +1,12 @@
+{{> header}}
+
+<div id="content" class="single">
+  <div class="container">
+		{{#unless title_h1 }}
+		<h1>{{{ title }}}</h1>
+		{{/unless}}
+    {{{ contents }}}
+  </div>
+</div>
+
+{{> footer}}

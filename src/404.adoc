@@ -1,14 +1,14 @@
 ---
-title: Page Not Found
-layout: index.hbt
-description: >
+title: "404: Page Not Found"
+layout: single.hbt
+description:
   We could not find the page you are looking for.
 changefreq: yearly
 priority: 0.1
 logo_flipped: true
 ---
-== 404: Page Not Found
 
 [.lead]
+//
 See our upside down logo? That's distress signal! We couldn't find this page!
 link:/[Try another...]

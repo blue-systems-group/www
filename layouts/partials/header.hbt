@@ -37,8 +37,7 @@
 
   </head>
 
-  <body data-spy="scroll" data-target=".blue-sidebar" data-offset="60">
-
+  <body>
     <div class="container">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
