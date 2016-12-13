@@ -43,11 +43,16 @@ p {
 		height: auto;
 		margin-bottom: 10px;
 	}
+	.row.person {
+		margin-bottom: 20px;
+	}
 }
-h1, .h1 {
+
+.h1, .h2, .h3 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
 
 #sidebar {
   top: 100px;
