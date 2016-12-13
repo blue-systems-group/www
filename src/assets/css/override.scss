@@ -43,12 +43,18 @@ p {
 		height: auto;
 		margin-bottom: 10px;
 	}
-	.row.person {
+	img.person {
+		margin-top: 10px;
+	}
+	.row.padded {
 		margin-bottom: 20px;
+	}
+	.no-bottom-margin {
+		margin-bottom: 0px !important;
 	}
 }
 
-.h1, .h2, .h3 {
+.h1, .h2, .h3, .h4, .h5 {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
