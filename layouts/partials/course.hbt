@@ -1,50 +1,119 @@
-<div class="row" style="margin-bottom:20px;">
-  <div class="col-xs-12 col-sm-1 text-center" style="margin-bottom:10px;">
-    {{#if @new_year}}
-    <span class="h4">
-      {{year}}
-    </span>
-    {{/if}}
-  </div>
-  <div class="col-xs-12 col-sm-11">
-    <span class="h4">
-      {{ link this }}
-    </span>
-		{{#if enrollment }}
-    <div>
-      Enrollment: {{ enrollment }}
-    </div>
-		{{/if}}
-    <div class="authors-ml">
-      <em>Instructors:</em> {{ and_list instructors }}
-      <br/>
-      {{#if staff }}
-      <em>Staff:</em> {{ and_list staff }}
-      {{/if}}
-      {{#if UTAs }}
-      <br />
-      <em>Undergraduate Teaching Assistants:</em> {{ and_list UTAs }}
-      {{/if}}
-      {{#if volunteers }}
-      <br />
-      <em>Volunteers:</em> {{ and_list volunteers }}
-      {{/if}}
-    </div>
-    <div>
-      <ul class="list-inline dash-list">
-        {{#if website }}
-        <li><a href="{{ website }}">Website</a></li>
-        {{/if}}
-        {{#if syllabus }}
-        <li><a href="{{ syllabus }}">Syllabus</a></li>
-        {{/if}}
-        {{#if videos }}
-        <li><a href="{{ videos }}">Videos</a></li>
-        {{/if}}
-        {{#if evaluations }}
-        <li><a href="{{ evaluations }}">Evaluations</a></li>
-        {{/if}}
-      </ul>
-    </div>
+{{#if @new_year}}
+<div class="row year">
+  <div class="col-xs-12 col-sm-2 text-center">
+    {{ year }}
   </div>
 </div>
+{{/if}}
+<div class="row padded">
+  <div class="hidden-xs col-sm-2">
+    {{#if thumbnail}}
+    <a href="/{{ path }}">
+      <img class="img-responsive" src="{{ thumbnail }}" />
+    </a>
+    {{/if}}
+  </div>
+  <div class="col-xs-12 col-sm-10">
+    <div class="list-title">{{ link this }}</div>
+
+    <div class="row authors">
+
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg item">
+        <span class="h5 label">Instructors:</span> {{ and_list instructors }}
+      </div>
+      <div class="hidden-xs">
+        <div class="col-sm-3 h5 label">Instructors:</div>
+        <div class="col-sm-9">{{ and_list instructors }}</div>
+      </div>
+
+      {{#if info }} 
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg item">
+        <span class="h5 label">Info:</span>
+        <ul class="list-inline comma-list">
+          {{#if website }}
+          <li><a href="{{ website }}">Website</a></li>
+          {{/if}}
+          {{#if syllabus }}
+          <li><a href="{{ syllabus }}">Syllabus</a></li>
+          {{/if}}
+          {{#if videos }}
+          <li><a href="{{ videos }}">Videos</a></li>
+          {{/if}}
+          {{#if evaluations }}
+          <li><a href="{{ evaluations }}">Evaluations</a></li>
+          {{/if}}
+        </ul>
+      </div>
+      <div class="hidden-xs">
+        <div class="col-sm-3 h5 label">Info:</div>
+        <div class="col-sm-9">
+          <ul class="list-inline dash-list">
+            {{#if website }}
+            <li><a href="{{ website }}">Website</a></li>
+            {{/if}}
+            {{#if syllabus }}
+            <li><a href="{{ syllabus }}">Syllabus</a></li>
+            {{/if}}
+            {{#if videos }}
+            <li><a href="{{ videos }}">Videos</a></li>
+            {{/if}}
+            {{#if evaluations }}
+            <li><a href="{{ evaluations }}">Evaluations</a></li>
+            {{/if}}
+          </ul>
+        </div>
+      </div>
+      {{/if}}
+
+      {{#if staff }}
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg item">
+        <span class="h5 label">Staff:</span> {{ and_list staff }}
+      </div>
+      <div class="hidden-xs">
+        <div class="col-sm-3 h5 label">Staff:</div>
+        <div class="col-sm-9">{{ and_list staff }}</div>
+      </div>
+      {{/if}}
+
+      {{#if UTAs }}
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg item">
+        <span class="h5 label" data-toggle="popover"
+              data-content="Undergraduate Teaching Assistants">UTAs:</span>
+        <span class="small">{{ and_list UTAs }}</span>
+      </div>
+      <div class="hidden-xs">
+        <div class="col-sm-3 h5 label">
+          <span data-toggle="tooltip" data-content="Undergraduate Teaching Assistants">UTAs:</span>
+        </div>
+        <div class="col-sm-9">{{ and_list UTAs }}</div>
+      </div>
+      {{/if}}
+
+      {{#if volunteers }}
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg item">
+        <span class="h5 label">Volunteers:</span> {{ and_list volunteers }}
+      </div>
+      <div class="hidden-xs">
+        <div class="col-sm-3 h5 label">Volunteers:</div>
+        <div class="col-sm-9">{{ and_list volunteers }}</div>
+      </div>
+      {{/if}}
+
+      {{#if enrollment }}
+      <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
+        <span class="h5 label">Enrollment:</span> {{ enrollment }}
+      </div>
+      <div class="hidden-xs">
+        <div class="col-sm-3 h5 label">Enrollment:</div>
+        <div class="col-sm-9">{{ enrollment }}</div>
+      </div>
+      {{/if}}
+
+    </div>
+    
+  </div>
+</div>
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

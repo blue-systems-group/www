@@ -1,5 +1,5 @@
 {{> header}}
-<div id="content">
+<div id="content" class="index">
   <div class="container">
     <div class="hidden-xs row text-right small">
       <a href="/posts/feed.xml">

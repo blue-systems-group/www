@@ -67,19 +67,19 @@ a.anchor {
 	.no-bottom-margin {
 		margin-bottom: 0px !important;
 	}
-	.paper-year {
+	.year {
 		font-size: 1.1em;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		border-bottom: 1px solid #eeeeee;
 		margin-bottom: 10px;
 	}
-	.paper-title {
+	.list-title {
 		font-size: 1.3em;
 		line-height: 1.4;
 		margin-bottom: 10px;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	}
-	.paper-authors {
+	.authors {
 		font-size: 1em;
 		line-height: 1.4;
 		margin-bottom: 10px;
@@ -88,6 +88,12 @@ a.anchor {
 		font-size: 0.9em;
 		line-height: 1.3;
 		margin-bottom: 10px;
+	}
+	.label {
+		line-height: 1.4;
+	}
+	.item {
+		padding-bottom: 10px;
 	}
 }
 
@@ -179,6 +185,24 @@ ul.dash-list {
 .dash-list > li:last-of-type:after {
   content: none;
 }
+ul.comma-list {
+  margin-left: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  line-height: 1.3;
+  display: inline;
+}
+.comma-list > li {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+}
+.comma-list > li:after {
+  content:  ", ";
+}
+.comma-list > li:last-of-type:after {
+  content: none;
+}
 a.external:after {
   font-family: "Glyphicons Halflings";
   font-size: 0.7em;
@@ -201,6 +225,9 @@ a.external:after {
   max-width: 100%;
   height: auto;
 }
+.label {
+	text-align: left;
+}
 @media (min-width: 768px) {
   .fixed-sm {
     position: fixed;
@@ -208,6 +235,9 @@ a.external:after {
   .text-center-xs {
     text-align: inherit;
   }
+	.label {
+		text-align: right;
+	}
 }
 
 @media (min-width: 992px) {

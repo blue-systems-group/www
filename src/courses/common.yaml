@@ -2,10 +2,12 @@ ops:
   number: "CSE 421/521"
   title: "Introduction to Operating Systems"
   slug: "UB_421"
+  logo: "ops-class.jpg"
 fys:
   number: "CSE 199"
   title: "How the Internet Works"
   slug: "UB_199"
+  logo: "internet-class.png"
 acs:
   number: "CSE 622"
   title: "Advanced Computer Systems"

@@ -7,22 +7,24 @@ description: >
 changefreq: weekly
 priority: 0.6
 ---
+
 [.lead]
-*Teaching is an integral part of link:/[blue's] mission.* We enjoy the chance
-to introduce students to the elegance of computer systems as well as the
-opportunity to work with more experienced students as they continue to
-develop their abilities.
+//
+*Teaching is an integral part of link:/[blue's] mission.*
+//
+We enjoy the chance to introduce students to the elegance of computer systems,
+and the opportunity to work with experienced students as they learn more.
 
-We regularly teach an introduction to operating systems for advanced
-undergraduates and beginning graduate students and a small seminar designed
-for Ph.D. students that explores rotating contemporary topics in modern
-mobile systems. Our undergraduate operating systems course uses the
-link:/projects/opsclass[ops-class.org instructional operating systems
-framework] our group has built to automate testing and simplify assignment
-submission. The course also benefits from the contributions of multiple
-volunteers each year--who we refer to as ninjas--who give back to the class
-by assisting the next generation of students.
-
+We regularly teach an introduction to operating systems and a seminar
+exploring rotating topics in modern mobile systems.
+//
+Our undergraduate operating systems course uses the
+link:/projects/opsclass[ops-class.org website and tools] our group has built
+to automate testing and simplify assignment submission.
+//
+The course also benefits from the contributions of volunteers (or "ninjas")
+who give back to the class by assisting the next generation of students.
+//
 This fall we are teaching a link:/courses/ub-199-fall-2016[new course to
 freshman undergraduates on the internet] in a flipped format.
 //

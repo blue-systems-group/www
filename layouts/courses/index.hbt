@@ -1,20 +1,18 @@
 {{> header}}
-<div id="content">
-  <div class="container" style="margin-top:21px;">
-
+<div id="content" class="single">
+  <div class="container">
     <div class="row">
-
       <div class="col-xs-12 col-sm-10">
         {{{ contents }}}
-
-        <hr />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12">
         {{#list_with_years courses}}
         {{> course }}
         {{/list_with_years}}
       </div>
-
     </div>
-
   </div>
 </div>
 {{> footer}}

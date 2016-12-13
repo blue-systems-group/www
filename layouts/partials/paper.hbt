@@ -1,5 +1,5 @@
 {{#if @new_year}}
-<div class="row paper-year">
+<div class="row year">
   <div class="col-xs-12 col-sm-2 text-center">
     {{ year }}
   </div>
@@ -8,18 +8,19 @@
 <div class="row padded">
   <div class="hidden-xs col-sm-2">
     {{#if thumbnail}}
-    <a href="/{{ this.path }}">
+    <a href="/{{ path }}">
       <img class="img-responsive" src="{{ thumbnail }}" />
-    </a>{{/if}}
+    </a>
+    {{/if}}
   </div>
-  <div class="col-xs-12 col-sm-10 paper">
-    <div class="paper-title">
+  <div class="col-xs-12 col-sm-10">
+    <div class="list-title">
       {{ link this }}
       {{#if invited}}(Invited){{/if}}
       {{#if poster}}(Poster){{/if}}
       {{#if thesis}}(Thesis){{/if}}
     </div>
-    <div class="paper-authors">
+    <div class="authors">
     {{ and_list people }}
     </div>
     <div class="paper-conference">
