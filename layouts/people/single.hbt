@@ -1,11 +1,7 @@
 {{> header}}
 
-<div id="content" class="thin"
-    {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
-    {{#if previous_item}}data-previous="/{{ previous_item.path }}"{{/if}}>
-
+<div id="content" class="single">
   <div class="container">
-
     <div class="row">
       <div class="hidden-md hidden-lg col-xs-12" style="margin-bottom:10px;">
         <div class="text-center">

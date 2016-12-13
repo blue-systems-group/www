@@ -1,11 +1,10 @@
 {{#if projects.list}}
-<hr />
 <a class="anchor" id="projects"></a>
-<h3><a href="/projects/">Projects</a></h3>
+<div class="h3"><a href="/projects/">Projects</a></div>
 <div class="row">
   {{#if projects.leads}}
   <div class="col-sm-12 col-md-6">
-    <h4>Leading</h4>
+    <div class="h4">Leading</div>
     <ul class="list-unstyled">
       {{#each projects.leads }}
       <li>{{ link this }}</li>
@@ -15,7 +14,7 @@
   {{/if}}
   {{#if projects.active}}
   <div class="col-sm-12 col-md-6">
-    <h4>Active</h4>
+    <div class="h4">Active</div>
     <ul class="list-unstyled">
       {{#each projects.active }}
       <li>{{ link this }}</li>
@@ -23,10 +22,9 @@
     </ul>
   </div>
   {{/if}}
-  <div class="clearfix visible-md visible-lg"></div>
   {{#if projects.inactive}}
   <div class="col-sm-12 col-md-6">
-    <h4>Completed</h4>
+    <div class="h4">Completed</div>
     <ul class="list-unstyled">
       {{#each projects.inactive }}
       <li>{{ link this }}</li>
@@ -36,19 +34,23 @@
   {{/if}}
 </div>
 {{/if}}
+
 {{#if list_papers }}
-<hr />
 <a class="anchor" id="papers"></a>
 <h3><a href="/papers/">Papers</a></h3>
 {{#list_with_years papers}}
 {{> paper }}
 {{/list_with_years}}
 {{/if}}
+
 {{#if list_courses }}
-<hr />
 <a class="anchor" id="courses"></a>
 <h3><a href="/courses/">Teaching</a></h3>
 {{#list_with_years courses }}
 {{> course }}
 {{/list_with_years}}
 {{/if}}
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

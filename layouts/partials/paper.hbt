@@ -1,55 +1,54 @@
-<div class="row" style="margin-bottom:20px;">
-  <div class="col-xs-12 col-sm-1 text-center" style="margin-bottom:10px;">
-    {{#if @new_year}}
-    <span class="h4">
-      {{year}}
-    </span>
-    {{/if}}
+{{#if @new_year}}
+<div class="row paper-year">
+  <div class="col-xs-12 col-sm-2 text-center">
+    {{ year }}
   </div>
-  <div class="col-xs-12 col-sm-11">
-    <span class="h4">
+</div>
+{{/if}}
+<div class="row padded">
+  <div class="hidden-xs col-sm-2">
+    {{#if thumbnail}}<img class="img-responsive" src="{{ thumbnail }}" />{{/if}}
+  </div>
+  <div class="col-xs-12 col-sm-10 paper">
+    <div class="paper-title">
       {{ link this }}
       {{#if invited}}(Invited){{/if}}
       {{#if poster}}(Poster){{/if}}
       {{#if thesis}}(Thesis){{/if}}
-      <br/>
-    </span>
+    </div>
+    <div class="paper-authors">
     {{ and_list people }}
-    {{#if conference }}
-      <div>
-        {{#if toappear}}To appear in{{/if}}
-        <i>
-          {{ published.preface }}
-          {{#if conference.link}}<a href="{{ conference.link }}">{{/if}}
-						{{#if conference.edition}}{{ conference.edition }}{{ else }}{{ conference.number}} {{ published.name }} ({{ conference.shortname }}){{/if}}{{#if conference.link}}</a>{{/if}}
-        </i>
-      </div>
-    {{/if}}
-    {{#if thesis }}
-      <div>
-        Defended {{ format_date date "normal" }}
-      </div>
-    {{/if}}
+    </div>
+    <div class="paper-conference">
+      {{#if conference }}
+          {{#if toappear}}To appear in{{/if}}
+          <i>
+            {{ published.preface }}
+            {{#if conference.link}}<a href="{{ conference.link }}">{{/if}}
+              {{#if conference.edition}}{{ conference.edition }}{{ else }}{{
+              conference.number}} {{ published.name }} ({{
+              conference.shortname }}){{/if}}{{#if conference.link}}</a>{{/if}}.
+          </i>
+      {{/if}}
+      {{#if thesis }}Defended {{ format_date date "normal" }}.{{/if}}
     {{#if conference_metadata }}
       {{#if published.core }}
-      <a href="{{ published.core.link}}"> {{ published.core.name }}</a>:
-      {{published.core.rank}}.
+      <a href="{{ published.core.link}}"> {{ published.core.name }}: {{published.core.rank}}</a>.
       {{/if}}
       {{#if conference.acceptance }}
       Acceptance rate: {{ conference.acceptance }}%.
       {{/if}}
     {{/if}}
 		{{#if best_paper }}
-		<div>
+      <br />
 			<strong>Recipient of the Best Paper Award</strong>
-		</div>
 		{{/if}}
 		{{#if best_poster }}
-		<div>
+      <br />
 			<strong>Recipient of the Best Poster Award</strong>
-		</div>
 		{{/if}}
-    <div>
+    </div>
+    <div class="paper-links">
       <ul class="list-inline dash-list">
         {{#if PDF }}
         <li><a href="{{ PDF }}">{{#if poster}}View{{else}}Read{{/if}}</a></li>
@@ -70,3 +69,7 @@
     </div>
   </div>
 </div>
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

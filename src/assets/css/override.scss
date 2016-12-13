@@ -67,6 +67,28 @@ a.anchor {
 	.no-bottom-margin {
 		margin-bottom: 0px !important;
 	}
+	.paper-year {
+		font-size: 1.1em;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		border-bottom: 1px solid #eeeeee;
+		margin-bottom: 10px;
+	}
+	.paper-title {
+		font-size: 1.3em;
+		line-height: 1.4;
+		margin-bottom: 10px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+	.paper-authors {
+		font-size: 1em;
+		line-height: 1.4;
+		margin-bottom: 10px;
+	}
+	.paper-conference {
+		font-size: 0.9em;
+		line-height: 1.3;
+		margin-bottom: 10px;
+	}
 }
 
 .blue-sidebar {
@@ -325,12 +347,6 @@ div.posts .post-author {
   li.menu-selected {
     border-bottom: 2px solid #191995;
   }
-}
-div#content {
-  margin-top: 10px;
-}
-div#content.thin {
-  margin-top: 5px;
 }
 hr.underline {
   margin-top:0px;
