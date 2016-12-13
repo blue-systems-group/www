@@ -4,6 +4,7 @@ body {
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
+
 nav {
 	margin-bottom: 0px !important;
 	font-size: 0.9em;
@@ -17,10 +18,12 @@ nav {
 		height: 60px;
 	}
 }
+
 .lead {
 	font-size: 1.2em;
 	line-height: 1.4;
 }
+
 p {
 	font-style: normal;
 	font-weight: normal;
@@ -29,6 +32,18 @@ p {
 		padding: 10px;
 		border: 1px solid #191995;
 	}
+}
+
+.h1, .h2, .h3, .h4, .h5 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
 }
 
 #content {
@@ -54,11 +69,31 @@ p {
 	}
 }
 
-.h1, .h2, .h3, .h4, .h5 {
-	margin-top: 0px;
-	margin-bottom: 0px;
+.blue-sidebar {
+	.nav {
+		& > li > a {
+			color: #222;
+			border-left: 2px solid transparent;
+			padding: 5px 10px;
+		}
+		& > .active > a,
+		& > li > a:hover,
+		& > li > a:focus {
+			text-decoration: none;
+			text-shadow: 1px 0px 0px;
+			background-color: transparent;
+		}
+		& > .active > a,
+		& > li > a:focus {
+			color: #191995 !important;
+			border-left-color: #191995 !important;
+		}
+		& > li > a:hover {
+			border-left-color: #222;
+			color: #222;
+		}	
+	}
 }
-
 
 #sidebar {
   top: 100px;
@@ -101,33 +136,6 @@ p {
 	margin: 8px auto;
 }
 
-.blue-sidebar .nav>li>a {
-  color: #222;
-  border-left: 2px solid transparent;
-  padding: 5px 10px;
-}
-.blue-sidebar .nav>.active>a,
-.blue-sidebar .nav>li>a:hover,
-.blue-sidebar .nav>li>a:focus {
-  text-decoration: none;
-  text-shadow: 1px 0px 0px;
-  background-color: transparent;
-}
-.blue-sidebar .nav>.active>a,
-.blue-sidebar .nav>li>a:focus {
-  color: #191995 !important;
-  border-left-color: #191995 !important;
-}
-.blue-sidebar .nav>li>a:hover {
-  border-left-color: #222;
-  color: #222;
-}
-a.anchor {
-  display: block;
-  position: relative;
-  top: -70px;
-  visibility: hidden;
-}
 a.footnote {
   top: -60px;
 }
@@ -183,6 +191,10 @@ a.external:after {
 @media (min-width: 992px) {
   .fixed-md {
     position: fixed;
+  }
+  .fixed-md-2 {
+    position: fixed;
+		width: 132px;
   }
   .fixed-md-3 {
     position: fixed;

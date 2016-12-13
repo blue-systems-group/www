@@ -1,14 +1,14 @@
 {{> header}}
 
 <div id="content" class="index people">
-	<div class="container">
+  <div class="container">
     <div class="row">
-      <div class="col-sm-12 col-md-10">
+      <div class="col-sm-12 col-md-9">
 
         {{#each people.group}}
         <a class="anchor" id="{{ this.slug }}"></a>
-				<div class="row padded">
-					<div class="col-xs-12 col-sm-3 col-sm-push-9">
+        <div class="row padded">
+          <div class="col-xs-12 col-sm-4 col-sm-push-8">
             <div class="row">
               <div class="col-xs-8 col-xs-offset-2 col-sm-12 col-sm-offset-0">
                 <a href="/{{ this.path }}">
@@ -17,27 +17,27 @@
               </div>
             </div>
           </div>
-					<div class="col-xs-12 col-sm-9 col-sm-pull-3">
+          <div class="col-xs-12 col-sm-8 col-sm-pull-4">
             <div class="text-center-xs h3">{{ link this }}</div>
-						<p class="paragraph">
-              {{{ this.snippet }}}
-              {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
+            <p class="paragraph">
+            {{{ this.snippet }}}
+            {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
             </p>
           </div>
         </div>
         {{/each}}
+        
+        <hr />
 
         <a class="anchor" id="alumni"></a>
         <div class="row">
-          <div class="col-xs-12 text-center-xs">
-            <h2>Alumni</h2>
-          </div>
+          <div class="col-xs-12 text-center-xs h2">Alumni</div>
         </div>
 
         {{#each people.long_alumni}}
         <a class="anchor" id="{{ this.slug }}"></a>
-				<div class="row padded">
-					<div class="col-xs-12 col-sm-3 col-sm-push-9">
+        <div class="row padded">
+          <div class="col-xs-12 col-sm-4 col-sm-push-8">
             <div class="row">
               <div class="col-xs-6 col-xs-offset-3 col-sm-12 col-sm-offset-0">
                 <a href="/{{ this.path }}">
@@ -46,61 +46,64 @@
               </div>
             </div>
           </div>
-					<div class="col-xs-12 col-sm-9 col-sm-pull-3">
+          <div class="col-xs-12 col-sm-8 col-sm-pull-4">
             <div class="text-center-xs h3">{{ link this }}</div>
-						<p class="paragraph">
-              {{{ this.snippet }}}
-              {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
+            <p class="paragraph">
+            {{{ this.snippet }}}
+            {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
             </p>
           </div>
         </div>
         {{/each}}
 
-        <div class="col-xs-12 col-sm-6">
-					<ul class="list-unstyled no-bottom-margin">
-            {{#each people.short_alumni.first}}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
-        </div>
-        <div class="col-xs-12 col-sm-6">
-          <ul class="list-unstyled">
-            {{#each people.short_alumni.second}}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
-        </div>
-
-        <a class="anchor" id="external"></a>
-				<div class="row">
-          <div class="col-xs-12 text-center-xs">
-            <h2>Collaborators</h2>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-unstyled no-bottom-margin">
+              {{#each people.short_alumni.first}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6">
+            <ul class="list-unstyled">
+              {{#each people.short_alumni.second}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
           </div>
         </div>
-        <div class="small col-xs-12 col-sm-6 nopad">
-					<ul class="list-unstyled no-bottom-margin">
-            {{#each people.collaborators.first}}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
-        </div>
-        <div class="small col-xs-12 col-sm-6">
-          <ul class="list-unstyled">
-            {{#each people.collaborators.second}}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
-        </div>
+        
+        <hr />
 
+        <a class="anchor" id="collaborators"></a>
+        <div class="row">
+          <div class="col-xs-12 text-center-xs h2">Collaborators</div>
+
+          <div class="small col-xs-12 col-sm-6 nopad">
+            <ul class="list-unstyled no-bottom-margin">
+              {{#each people.collaborators.first}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+          <div class="small col-xs-12 col-sm-6">
+            <ul class="list-unstyled">
+              {{#each people.collaborators.second}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+        </div>
       </div>
-      <div class="hidden-xs hidden-sm col-md-2 blue-sidebar big">
-        <ul id="sidebar" class="nav nav-stacked fixed">
+
+      <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
+        <ul id="sidebar" class="nav nav-stacked fixed-md fixed-md-3 small">
           {{#each people.group }}
           <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
           {{/each}}
           <li><hr /></li>
           <li><a href="#alumni">Alumni</a></li>
-          <li><a href="#external">Collaborators</a></li>
+          <li><a href="#collaborators">Collaborators</a></li>
         </ul>
       </div>
     </div>
