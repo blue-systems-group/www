@@ -3,12 +3,9 @@
 <div id="content" class="single">
   <div class="container">
     <div class="row">
-      <div class="hidden-md hidden-lg col-xs-12" style="margin-bottom:10px;">
+      <div class="hidden-md hidden-lg col-xs-12">
         <div class="text-center">
-          <img class="img-responsive"
-          src="{{ photo }}"
-          alt="Photo of {{ name }}"
-          style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px;">
+          <img class="img-responsive profile" src="{{ photo }}" alt="Photo of {{ name }}">
           <section class="side-headings">
             <h1>{{name}}</h1>
             <h2>{{role}}</h2>
@@ -48,10 +45,7 @@
       <div class="hidden-xs hidden-sm col-md-4 blue-sidebar">
         <div id="sidebar" class="fixed-md fixed-md-4">
           <div class="text-center">
-            <img class="img-responsive"
-            src="{{ photo }}"
-            alt="Photo of {{ name }}"
-            style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px;">
+            <img class="img-responsive profile" src="{{ photo }}" alt="Photo of {{ name }}">
             <section class="side-headings">
               <h1>{{name}}</h1>
               <h2>{{role}}</h2>
@@ -79,22 +73,6 @@
                   {{/if}}
                 </ul>
               </div>
-              <div class="h4">
-                {{#if previous_item}}
-                <div>
-                  <a href="/{{ previous_item.path }}">
-                    <span class="glyphicon glyphicon-step-backward"></span>
-                    {{{ previous_item.name }}}
-                  </a>
-                </div>
-                {{/if}}
-                {{#if next_item}}
-                <div>
-                  <a href="/{{ next_item.path }}">{{{ next_item.name }}}<span class="glyphicon glyphicon-step-forward"></span>
-                  </a>
-                </div>
-                {{/if}}
-              </div>
             </section>
           </div>
         </div>
@@ -102,6 +80,27 @@
     </div>
   </div>
 </div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6">
+        {{#if previous_item}}
+        <a href="/{{ previous_item.path }}">
+          <span class="glyphicon glyphicon-step-backward"></span>
+          {{{ previous_item.name }}}
+        </a>
+        {{/if}}
+      </div>
+      <div class="col-xs-12 col-sm-6 text-right">
+        {{#if next_item}}
+          <a href="/{{ next_item.path }}">{{{ next_item.name }}}<span class="glyphicon glyphicon-step-forward"></span>
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</footer>
 
 {{> footer}}
 

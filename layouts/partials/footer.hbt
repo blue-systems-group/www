@@ -1,20 +1,17 @@
-		<div class="container">
-			<div class="row" style="margin-top: 10px; margin-bottom: 20px;">
-				<div class="col-xs-12">
-					<hr />
-				</div>
-				<div class="small col-xs-12 col-md-4 text-center">
-					Built by the
-					<a href="https://github.com/blue-systems-group/www" target="_blank">metalsmith-blue</a>
-					research group website
-					<a href="http://www.metalsmith.io/" target="_blank">Metalsmith</a>
-					pipeline.
-				</div>
-				<div class="small col-xs-12 col-md-4 text-center">
-					Created {{ format_date created "normal" false }} <br />
-					Updated {{ format_date updated "normal" false }}
-				</div>
-			</div>
+<div class="container">
+	<div class="row">
+		<div class="small col-xs-12 col-md-4 text-center">
+			Built by the
+			<a href="https://github.com/blue-systems-group/www" target="_blank">metalsmith-blue</a>
+			research group website
+			<a href="http://www.metalsmith.io/" target="_blank">Metalsmith</a>
+			pipeline.
 		</div>
-	</body>
+		<div class="small col-xs-12 col-md-4 text-center">
+			Created {{ format_date created "normal" false }} <br />
+			Updated {{ format_date updated "normal" false }}
+		</div>
+	</div>
+</div>
+</body>
 </html>
