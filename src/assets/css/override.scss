@@ -78,6 +78,7 @@ a.anchor {
 		margin-bottom: 10px;
 	}
 	.title {
+		font-weight: 500;
 		font-size: 1.3em;
 		line-height: 1.4;
 		margin-bottom: 10px;
@@ -98,6 +99,12 @@ a.anchor {
 	}
 	.item {
 		padding-bottom: 10px;
+	}
+	h2 {
+		font-size: 1.3em;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		line-height: 1.4;
 	}
 }
 footer {

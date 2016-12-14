@@ -58,7 +58,7 @@
            {{/if}}
         </div>
 
-        <div>
+        <div class="item">
           <ul class="list-inline dash-list">
             {{#if this.PDF }}
             <li><a href="{{ this.PDF }}">{{#if poster}}View{{else}}Read{{/if}}</a></li>
@@ -76,7 +76,25 @@
         </div>
 
         {{{ contents }}}
-
+        
+        <div class="hidden-md hidden-lg">
+          {{#if projects}}
+          <div class="h3"><a href="/projects/">Projects</a></div>
+          <ul>
+            {{#each projects }}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
+          {{/if}}
+          {{#if funding}}
+          <div class="h3"><a href="/proposals/">Funded By</a></div>
+          <ul>
+            {{#each funding }}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
+          {{/if}}
+        </div>
       </div>
 
       <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
