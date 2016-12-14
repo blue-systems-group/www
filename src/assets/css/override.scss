@@ -202,31 +202,31 @@ div.footer-padding {
 			}
 		}
 	}
-	.side-headings {
-		h1, .h1, h2, h2, h3, .h3, h4, .h4, h5, .h5 {
-			font-family: Georgia, Cambria, "Times New Roman", Times, serif;
-		}
-		 h1,  .h1 {
-			font-size: 28px;
-			line-height: 35px;
-			font-weight: bolder;
-			margin: 14px auto;
-		}
-		 h2,  .h2 {
-			font-size: 22px;
-			line-height: 27px;
-			margin: 10px auto;
-		}
-		 h3,  .h3 {
-			font-size: 18px;
-			line-height: 22px;
-			margin: 10px auto;
-		}
-		 h4,  .h4 {
-			font-size: 14px;
-			line-height: 17px;
-			margin: 8px auto;
-		}
+}
+.side-headings {
+	h1, .h1, h2, h2, h3, .h3, h4, .h4, h5, .h5 {
+		font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+	}
+	h1,  .h1 {
+		font-size: 28px;
+		line-height: 35px;
+		font-weight: bolder;
+		margin: 14px auto;
+	}
+	h2,  .h2 {
+		font-size: 22px;
+		line-height: 27px;
+		margin: 10px auto;
+	}
+	h3,  .h3 {
+		font-size: 18px;
+		line-height: 22px;
+		margin: 10px auto;
+	}
+	h4,  .h4 {
+		font-size: 14px;
+		line-height: 17px;
+		margin: 8px auto;
 	}
 }
 
