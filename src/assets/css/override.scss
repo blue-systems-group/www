@@ -65,6 +65,12 @@ a.anchor {
 		border-bottom: 4px solid #191995;
 		margin: 0 auto;
 	}
+	img.sponsor {
+		max-height: 100px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.row.padded {
 		margin-bottom: 20px;
 	}
@@ -107,7 +113,13 @@ a.anchor {
 		line-height: 1.4;
 	}
 }
+@media (min-width: 992px) {
+	footer {
+		display: block !important;
+	}
+}
 footer {
+	display: none;
 	position: fixed;
 	bottom: 0;
 	width: 100%;

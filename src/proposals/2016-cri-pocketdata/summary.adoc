@@ -15,6 +15,8 @@ faculty:
 - lziarek
 projects:
 - pocketdata
+papers:
+- tpctc2015-pocketdata
 ---
 == Abstract
 

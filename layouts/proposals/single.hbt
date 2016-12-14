@@ -1,130 +1,135 @@
 {{> header}}
 
-<div id="content" class="thin"
-    {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
-    {{#if previous_item}}data-previous="/{{ previous_item.path }}"{{/if}}>
-
+<div id="content" class="single">
   <div class="container">
-    
-    <div class="row links hidden-xs hidden-sm">
-      <div class="col-md-5 text-left">
-        {{#if previous_item}}
-        <div class="h6" style="line-height:1.0;">
-          <a href="/{{ previous_item.path }}">
-            <span class="glyphicon glyphicon-step-backward"></span>
-            {{{ previous_item.name }}}
-          </a>
-        </div>
-        {{/if}}
-      </div>
-      <div class="col-md-5 col-md-push-2 text-right">
-        {{#if next_item}}
-        <div class="h6" style="line-height:1.0;">
-          <a href="/{{ next_item.path }}">
-            {{{ next_item.name }}}
-            <span class="glyphicon glyphicon-step-forward"></span>
-          </a>
-        </div>
-        {{/if}}
-      </div>
-    </div>
-
     <div class="row">
       <div class="col-sm-12 col-md-9">
-        <section class="top">
-          <h2>
-            {{#if PDF}}
-            <a class="nopdf" href="{{PDF}}">
-              {{/if}}
-              {{{name}}} {{#if active}}{{else}}(Complete){{/if}}
-              {{#if PDF}}
-            </a>
+        <div class="title">
+          {{#if PDF}}<a class="nopdf" href="{{PDF}}">{{/if}}{{{name}}}
+            {{#if active}}{{else}}(Complete){{/if}}
+            {{#if PDF}}</a>{{/if}}
+        </div>
+
+        <div class="authors">{{ and_list faculty }}</div>
+
+        <div class="paper-conference">
+          {{#if ends }}
+          {{format_date started "proposal"}}&ndash;{{format_date ends "proposal" }}
+          {{else}}
+          Awarded {{format_date started "proposal"}}
+          {{/if}}
+        </div>
+
+        <div class="paper-conference">
+          {{ pretty_amount }} from the 
+          <i>
+            {{#if source.link}}<a href="{{ source.link }}">{{/if}}
+              {{ source.name }}{{#if source.link}}</a>{{/if}}&nbsp;
+            {{#if program.link}}<a href="{{ program.link }}">{{/if}}
+              {{ program.name }}{{#if program.link}} Program</a>{{/if}}
+          </i>
+        </div>
+
+        <div class="item">
+          <ul class="list-inline dash-list">
+            {{#if PDF }}
+            <li><a href="{{ PDF }}">Proposal</a></li>
             {{/if}}
-          </h2>
-          <a class="anchor" id="people"></a>
-          <div class="h4 authors-ml">
-            <em>Authors:</em> {{ and_list faculty }} <br />
-            {{#if students}}
-              {{#if active}}<em>Supports:</em>{{ else }}<em>Supported:</em>{{/if}} {{ and_list students }}
+            {{#if abstract }}
+            <li><a href="{{ abstract }}">Abstract</a></li>
             {{/if}}
-          </div>
-          <div class="h4">
-            {{#if ends }}
-            {{format_date started "proposal"}}&ndash;{{format_date ends "proposal" }}
-            {{else}}
-            Awarded {{format_date started "proposal"}}
-            {{/if}}
-          </div>
-          <div class="h4" style="margin-bottom:5px;">
-            {{ pretty_amount }} from the 
-            <i>
-              {{#if source.link}}<a href="{{ source.link }}">{{/if}}
-                {{ source.name }}{{#if source.link}}</a>{{/if}}&nbsp;
-              {{#if program.link}}<a href="{{ program.link }}">{{/if}}
-                {{ program.name }}{{#if program.link}} Program</a>{{/if}}
-            </i>
-          </div>
-          <div class="h4">
-            <ul class="list-inline dash-list">
-              {{#if PDF }}
-              <li><a href="{{ PDF }}">Proposal</a></li>
-              {{/if}}
-              {{#if abstract }}
-              <li><a href="{{ abstract }}">Abstract</a></li>
-              {{/if}}
-            </ul>
-          </div>
-        </section>
-        
+          </ul>
+        </div>
+
         {{{ contents }}}
 
         {{> projectsandpapers }}
-
-      </div>
-
-      <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
-        <div class="fixed-md">
-          <a href="{{ source.link }}"><img src="{{ logo }}" alt="Sponsor Logo"
-             style="margin-top:21px; width: 166px;" /></a>
-          <div>
-            <ul class="list-unstyled" style="margin-top:20px;">
-              <li>Source: {{ link source }}</li>
-              <li>Amount: {{ pretty_amount }}</li>
-              <li>Program: {{ link program }}</li>
-              {{#if ends }}
-              <li>Dates: {{format_date started "proposal"}}&ndash;{{format_date
-              ends "proposal" }}</li>
-              {{/if}}
-            </ul>
-          </div>
-          <div class="h5">
-            <ul class="list-inline dash-list">
-              {{#if projects.list }}
-              <li><a href="#projects">Projects</a></li>
-              {{/if}}
-              {{#if list_papers }}
-              <li><a href="#papers">Papers</a></li>
-              {{/if }}
-            </ul>
-          </div>
-          <div class="h5">
-            <ul class="list-inline dash-list">
-              {{#if PDF }}
-              <li><a href="{{ PDF }}">Proposal</a></li>
-              {{/if}}
-              {{#if abstract }}
-              <li><a href="{{ abstract }}">Abstract</a></li>
-              {{/if}}
-            </ul>
-          </div>
+          
+        {{#if students}}
+        <div class="item">
+          <div class="h3">{{#if active}}Supports{{else}}Supported{{/if}}</div>
+          <ul class="tight {{ single students 'list-unstyled' ''}}">
+            {{#each students }}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
         </div>
+        {{/if}}
       </div>
-      <div class="row hidden-md hidden-lg text-center">
-        <a href="{{ source.link }}"><img src="{{ logo }}" alt="Sponsor Logo"
-           style="margin-top:21px; width: 166px;" /></a>
-        </a>
+
+      <div class="col-sm-12 col-md-3 blue-sidebar">
+        <div id="sidebar" class="fixed-md fixed-md-3 side-listing">
+          <div class="hidden-xs hidden-sm">
+            <a href="{{ source.link }}">
+              <img class="sponsor" src="{{ logo }}" alt="Sponsor Logo">
+            </a>
+          </div>
+
+          {{#if faculty}}
+          <div class="hidden-xs hidden-sm item">
+            <div class="h3">Faculty</div>
+            <ul class="tight {{ single faculty 'list-unstyled' ''}}">
+              {{#each faculty }}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+          {{/if}}
+
+          <div class="hidden-xs hidden-sm item">
+            <div class="h3">Info</div>
+            <ul class="tight list-unstyled">
+              <li>Amount: {{ pretty_amount }}</li>
+              <li>Dates: {{format_date started "proposal"}}&ndash;{{format_date ends "proposal" }}</li>
+            </ul>
+          </div>
+          
+          {{#if has_links }}
+          <div class="hidden-xs hidden-sm item">
+            <div class="h3">Links</div>
+            <ul class="tight list-unstyled">
+              {{#if abstract }}<li><a href="{{ abstract }}">Abstract</a></li>{{/if}}
+              {{#if PDF }}<li><a href="{{ PDF }}">Proposal</a></li>{{/if}}
+            </ul>
+          </div>
+          {{/if}}
+        </div>
       </div>
     </div>
   </div>
 </div>
-{{> footer}}
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
+        {{#if previous_item}}
+        <a href="/{{ previous_item.path }}">
+          <div class="glyphicon glyphicon-step-backward backward"></div>
+          {{{ previous_item.name }}}
+        </a>
+        {{/if}}
+      </div>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-5 text-right">
+        {{#if next_item}}
+        <a href="/{{ next_item.path }}">
+          <div class="glyphicon glyphicon-step-forward forward"></div>
+          {{{ next_item.name }}}
+        </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-9">
+      {{> footer}}
+    </div>
+  </div>
+</div>
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

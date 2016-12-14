@@ -7,16 +7,18 @@
 
         <div class="title">
           {{#if syllabus}}<a class="nopdf" href="{{syllabus}}">{{/if}}
-            {{ common.number }} : {{ common.title }}{{#if syllabus}}</a>{{/if}}
+            {{ common.number }}: {{ common.title }}{{#if syllabus}}</a>{{/if}}
         </div>
 
         <div class="authors">
-          {{ and_list instructors }}
+          {{ and_list instructors }}{{#if staff}}&mdash;with <a href="#staff">lots of help</a>{{/if}}
         </div>
 
         <div class="paper-conference">
             {{semester}} {{year}}
             ({{format_date started "normal"}}&ndash;{{#if ends}}{{format_date ends "normal" }}{{/if}})
+            <br />
+            Enrollment: {{ enrollment }}
         </div>
 
         <div class="item">
@@ -37,6 +39,40 @@
         </div>
 
         {{{ contents }}}
+          
+        {{#if staff}}
+        <a class="anchor" id="staff"></a>
+        <div class="item">
+          <div class="h3">Staff</a></div>
+          <ul class="tight {{ single staff 'list-unstyled' ''}}">
+            {{#each staff }}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/if}}
+
+        {{#if UTAs}}
+        <div class="item">
+          <div class="h3">UTAs</a></div>
+          <ul class="tight {{ single UTAs 'list-unstyled' ''}}">
+            {{#each UTAs }}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/if}}
+
+        {{#if volunteers}}
+        <div class="item">
+          <div class="h3">Volunteers</a></div>
+          <ul class="tight {{ single volunteers 'list-unstyled' ''}}">
+            {{#each volunteers }}
+            <li>{{ link this }}</li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/if}}
 
       </div>
 
@@ -59,40 +95,26 @@
             </ul>
           </div>
           {{/if}}
+
+          <div class="hidden-xs hidden-sm item">
+            <div class="h3">Info</div>
+            <ul class="tight list-unstyled">
+              <li>Semester: {{ semester }} {{ year }}</li>
+              <li>Enrollment: {{ enrollment }}</li>
+            </ul>
+          </div>
           
-          {{#if staff}}
-          <div class="item">
-            <div class="h3">Staff</a></div>
-            <ul class="tight {{ single staff 'list-unstyled' ''}}">
-              {{#each staff }}
-              <li>{{ link this }}</li>
-              {{/each}}
+          {{#if has_links }}
+          <div class="hidden-xs hidden-sm item">
+            <div class="h3">Links</div>
+            <ul class="tight list-unstyled">
+              {{#if website }}<li><a href="{{ website }}">Website</a></li>{{/if}}
+              {{#if syllabus }}<li><a href="{{ syllabus }}">Syllabus</a></li>{{/if}}
+              {{#if videos }}<li><a href="{{ videos }}">Videos</a></li>{{/if}}
+              {{#if evaluations }}<li><a href="{{ evaluations }}">Evaluations</a></li>{{/if}}
             </ul>
           </div>
           {{/if}}
-          
-          {{#if UTAs}}
-          <div class="item">
-            <div class="h3">UTAs</a></div>
-            <ul class="tight {{ single UTAs 'list-unstyled' ''}}">
-              {{#each UTAs }}
-              <li>{{ link this }}</li>
-              {{/each}}
-            </ul>
-          </div>
-          {{/if}}
-          
-          {{#if volunteers}}
-          <div class="item">
-            <div class="h3">Volunteers</a></div>
-            <ul class="tight {{ single volunteers 'list-unstyled' ''}}">
-              {{#each volunteers }}
-              <li>{{ link this }}</li>
-              {{/each}}
-            </ul>
-          </div>
-          {{/if}}
-            
         </div>
       </div>
     </div>
