@@ -12,7 +12,7 @@
     {{/if}}
   </div>
   <div class="col-xs-12 col-sm-10">
-		<div class="list-title">
+		<div class="title">
       {{ link this }}
       {{#if inactive }} (Expired){{/if}}
 			{{#if recommended}} (Recommended){{/if}}

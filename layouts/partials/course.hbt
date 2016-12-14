@@ -12,7 +12,7 @@
     {{/if}}
   </div>
   <div class="col-xs-12 col-sm-10">
-    <div class="list-title">{{ link this }}</div>
+    <div class="title">{{ link this }}</div>
 
     <div class="row authors">
 

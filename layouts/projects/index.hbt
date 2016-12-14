@@ -7,7 +7,7 @@
 
         {{#each projects.active }}
         <a class="anchor" id="{{ this.slug }}"></a>
-        <div class="list-title">{{ link this }}</div>
+        <div class="title">{{ link this }}</div>
         <p>
         {{{ this.snippet }}}
         {{#if this.external }}
@@ -27,7 +27,7 @@
 
         {{#each projects.inactive }}
         <a class="anchor" id="{{ this.slug }}"></a>
-        <div class="list-title">{{ link this }}</div>
+        <div class="title">{{ link this }}</div>
         <p>
         {{{ this.snippet }}}
         {{#if this.has_more }}<a href="/{{ this.path}}">Read more...</a>{{/if}}
