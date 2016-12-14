@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-8 col-sm-pull-4">
-            <div class="text-center-xs h3">{{ link this }}</div>
+            <div class="text-center-xs list-title">{{ link this }}</div>
             <p>
             {{{ this.snippet }}}
             {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
@@ -47,8 +47,8 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-8 col-sm-pull-4">
-            <div class="text-center-xs h3">{{ link this }}</div>
-            <p class="paragraph">
+            <div class="text-center-xs list-title">{{ link this }}</div>
+            <p>
             {{{ this.snippet }}}
             {{#if this.has_more}}<a href="/{{ this.path}}">Read more...</a>{{/if}}
             </p>
