@@ -9,19 +9,28 @@ changefreq: weekly
 priority: 0.5
 noh1: true
 ---
+
 [.lead]
+//
 *link:/[blue] depends on public funding to continue our research and
-educational missions.* We are grateful to American taxpayers for their
-financial support, and also thankful for the support we have received from
-http://www.google.com[Google] and the excellent working relationship we have
-with http://www.sprint.com[Sprint].
+educational missions.*
+//
+We are grateful to American taxpayers for their financial support.
+//
+We are also thankful support we have received from
+http://www.google.com[Google] and the excellent relationship we have with
+http://www.sprint.com[Sprint].
 
 We strive to be responsible stewards of the public trust that has been placed
-in us. As part of this goal, we have chosen to make details of our funded
-grant proposals available below. Proposal PDFs contain all the science
-content provided to reviewers, but do not include the proposal budget and
-other supporting documents (facilities statement, investigator biographies,
-etc.) We also hope that other young faculty members may find these documents
-helpful as examples of funded proposals.
+in us.
+//
+As part of this goal, we have chosen to make details of our funded grant
+proposals available below.
+//
+Proposal PDFs contain all the science content provided to reviewers, but omit
+budgets and other supporting documents.
+//
+We also hope that other faculty members may find these documents helpful as
+examples of funded proposals.
 
 // vim: ts=2:et:ft=asciidoc

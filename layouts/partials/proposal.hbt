@@ -1,43 +1,43 @@
-<div class="row" style="margin-bottom:20px;">
-  <div class="col-xs-12 col-sm-1 text-center" style="margin-bottom:10px;">
-    {{#if @new_year}}
-    <span class="h4">
-      {{year}}
-    </span>
+{{#if @new_year}}
+<div class="row year">
+  <div class="col-xs-12 col-sm-2 text-center">
+    {{ year }}
+  </div>
+</div>
+{{/if}}
+<div class="row padded">
+  <div class="hidden-xs col-sm-2">
+    {{#if thumbnail}}
+    <a href="/{{ path }}"><img class="img-responsive" src="{{ thumbnail }}" /></a>
     {{/if}}
   </div>
-  <div class="col-xs-12 col-sm-11">
-    <span class="h4">
+  <div class="col-xs-12 col-sm-10">
+		<div class="list-title">
       {{ link this }}
       {{#if inactive }} (Expired){{/if}}
 			{{#if recommended}} (Recommended){{/if}}
-    </span>
-    <div class="authors-ml">
-      <em>Authors:</em> {{ and_list faculty }} <br />
-      {{#if students}}
-        {{#if active}}<em>Supports:</em>{{ else }}<em>Supported:</em>{{/if}} {{ and_list students }}
+		</div>
+    <div class="authors">
+      {{ and_list faculty }}{{#if students}}. {{#if active}}Supports{{ else }}Supported{{/if}} {{ and_list students }}.
       {{/if}}
     </div>
-    <div>
+    <div class="authors">
       {{#if ends}}
       {{format_date started "proposal"}}&ndash;{{format_date ends "proposal" }}
       {{ else }}
       Awarded {{format_date started "proposal"}}
       {{/if}}
     </div>
-    <div>
+    <div class="paper-conference">
       {{ pretty_amount }} from the 
       <i>
         {{#if source.link}}<a href="{{ source.link }}">{{/if}}
           {{ source.name }}{{#if source.link}}</a>{{/if}}&nbsp;
         {{#if program.link}}<a href="{{ program.link }}">{{/if}}
-          {{ program.name }}{{#if program.link}} Program</a>{{/if}}
-      </i>
+          {{ program.name }}{{#if program.link}} Program</a>{{/if}}.
+      </i>{{#if rate }} Funding rate: {{ rate }}%.{{/if}}
     </div>
-    {{#if rate }}
-    Funding rate: {{ rate }}%.
-    {{/if}}
-    <div>
+    <div class="paper-links">
       <ul class="list-inline dash-list">
         {{#if abstract }}
         <li><a href="{{ abstract }}">Abstract</a></li>
@@ -49,3 +49,7 @@
     </div>
   </div>
 </div>
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

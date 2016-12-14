@@ -8,9 +8,7 @@
 <div class="row padded">
   <div class="hidden-xs col-sm-2">
     {{#if thumbnail}}
-    <a href="/{{ path }}">
-      <img class="img-responsive" src="{{ thumbnail }}" />
-    </a>
+    <a href="/{{ path }}"><img class="img-responsive" src="{{ thumbnail }}" /></a>
     {{/if}}
   </div>
   <div class="col-xs-12 col-sm-10">
