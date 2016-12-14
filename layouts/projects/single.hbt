@@ -1,87 +1,93 @@
 {{> header}}
 
-<div id="content" class="thin"
-    {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
-    {{#if previous_item}}data-previous="/{{ previous_item.path }}"{{/if}}>
-
+<div id="content" class="single">
   <div class="container">
-    
-    <div class="row links hidden-xs hidden-sm">
-      <div class="col-md-5 text-left" style="padding-right:20px;">
-        {{#if previous_item}}
-        <div class="h6" style="line-height:1.0;">
-          <a href="/{{ previous_item.path }}">
-            <span class="glyphicon glyphicon-step-backward"></span>
-            {{{ previous_item.name }}}
-          </a>
-        </div>
-        {{/if}}
-      </div>
-      <div class="col-md-5 col-md-push-2 text-right" style="padding-left:20px;">
-        {{#if next_item}}
-        <div class="h6" style="line-height:1.0;">
-          <a href="/{{ next_item.path }}">
-            {{{ next_item.name }}}
-            <span class="glyphicon glyphicon-step-forward"></span>
-          </a>
-        </div>
-        {{/if}}
-      </div>
-    </div>
-
     <div class="row">
       <div class="col-sm-12 col-md-9">
-        <section class="top">
-          <h2>{{{title}}} {{#if active}}{{else}}(Complete){{/if}}</h2>
-        </section>
-        
+        <div class="title">{{{title}}} {{#if active}}{{else}}(Complete){{/if}}</div>
         {{{ contents }}}
-
       </div>
 
       <div class="col-sm-12 col-md-3 blue-sidebar">
-        <div class="fixed-md">
-          {{#if people}}
-          <h4><a href="/people/">People</a></h4>
-          
-          <hr class="underline">
+        <div id="sidebar" class="fixed-md fixed-md-3 side-listing">
 
-          <ul class="list-unstyled">
-            {{#each leads}}
-            <li>{{ link this }} (Lead)</li>
-            {{/each}}
-            {{#each people}}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
+          {{#if list_people}}
+          <div class="item">
+            <div class="h3"><a href="/people/">People</a></div>
+            <ul class="tight{{#unless multiple_people}} list-unstyled{{/unless}}">
+              {{#each leads}}
+              <li>{{ link this }} (Lead)</li>
+              {{/each}}
+              {{#each people}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
           {{/if}}
 
           {{#if papers}}
-          <h4><a href="/papers/">Publications</a></h4>
-
-          <hr class="underline">
-
-          <ul class="list-unstyled">
-            {{#each papers}}
-            <li><a href="/{{path}}">{{ conference.shortname }}</a></li>
-            {{/each}}
-          </ul>
+          <div class="item">
+            <div class="h3"><a href="/papers/">Papers</a></div>
+            <ul class="tight {{ single papers 'list-unstyled' ''}}">
+              {{#each papers}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
           {{/if}}
           
+          {{#if courses}}
+          <div class="item">
+            <div class="h3"><a href="/courses/">Courses</a></div>
+            <ul class="tight {{ single courses 'list-unstyled' ''}}">
+              {{#each courses}}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+          {{/if}}
+
           {{#if funding}}
-          <h4><a href="/papers/">Funding</a></h4>
-
-          <hr class="underline">
-
-          <ul class="list-unstyled">
-            {{#each funding}}
-            <li><a href="/{{path}}">{{ source.shortname }} ({{ year }})</a></li>
-            {{/each}}
-          </ul>
+          <div class="item">
+            <div class="h3"><a href="/proposals/">Funding</a></div>
+            <ul class="tight {{ single funding 'list-unstyled' ''}}">
+              {{#each funding}}
+              <li><a href="/{{path}}">{{ source.shortname }} ({{ year }})</a></li>
+              {{/each}}
+            </ul>
+          </div>
           {{/if}}
         </div>
       </div>
     </div>
   </div>
 </div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
+        {{#if previous_item}}
+        <a href="/{{ previous_item.path }}">
+          <div class="glyphicon glyphicon-step-backward backward"></div>
+          {{{ previous_item.name }}}
+        </a>
+        {{/if}}
+      </div>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-5 text-right">
+        {{#if next_item}}
+          <a href="/{{ next_item.path }}">
+          <div class="glyphicon glyphicon-step-forward forward"></div>
+          {{{ next_item.name }}}
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</footer>
+
 {{> footer}}
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

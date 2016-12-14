@@ -5,7 +5,17 @@ started: 2012-01-01
 leads:
 - shaseley
 people:
+- ychen78
+- gurupras
+- jinghaos
 - challen
+courses:
+- UB_421_Spring_2017
+- UB_421_Spring_2016
+- UB_421_Spring_2015
+- UB_421_Spring_2014
+- UB_421_Spring_2013
+- UB_421_Spring_2012
 ---
 
 [.lead]

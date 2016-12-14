@@ -11,6 +11,8 @@ people:
 - challen
 spelling_exceptions:
 - hotplug
+funding:
+- 2014-csr-poweragility
 ---
 
 [.lead]

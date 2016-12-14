@@ -77,31 +77,13 @@
 
         {{{ contents }}}
         
-        <div class="hidden-md hidden-lg">
-          {{#if projects}}
-          <div class="h3"><a href="/projects/">Projects</a></div>
-          <ul>
-            {{#each projects }}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
-          {{/if}}
-          {{#if funding}}
-          <div class="h3"><a href="/proposals/">Funded By</a></div>
-          <ul>
-            {{#each funding }}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
-          {{/if}}
-        </div>
       </div>
 
-      <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
+      <div class="col-sm-12 col-md-3 blue-sidebar">
         <div id="sidebar" class="fixed-md fixed-md-3 side-listing">
           
           {{#if people}}
-          <div class="item">
+          <div class="hidden-xs hidden-sm item">
             <div class="h3"><a href="/people/">People</a></div>
             <ul class="tight {{ single people 'list-unstyled' ''}}">
               {{#each people}}

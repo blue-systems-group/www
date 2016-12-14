@@ -174,18 +174,20 @@ div.footer-padding {
 		}
 		padding-bottom: 10px;
 	}
-	.side-listing {
-		div.h3 {
-			font-size: 1.2em;
-			line-height: 1.2;
-			padding-bottom: 5px;
-			padding-left: 20px;
-			margin-bottom: 5px;
-			border-bottom: 1px solid #eeeeee;
-		}
-		font-size: 16px;
-		ul.tight {
-			padding-left: 20px;
+	@media (min-width: 992px) {
+		.side-listing {
+			div.h3 {
+				font-size: 1.2em;
+				line-height: 1.2;
+				padding-bottom: 5px;
+				padding-left: 20px;
+				margin-bottom: 5px;
+				border-bottom: 1px solid #eeeeee;
+			}
+			font-size: 16px;
+			ul.tight {
+				padding-left: 20px;
+			}
 		}
 	}
 	.side-headings {

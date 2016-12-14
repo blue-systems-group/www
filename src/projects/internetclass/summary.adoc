@@ -6,6 +6,8 @@ leads:
 - gjbunyea
 people:
 - challen
+courses:
+- UB_199_Fall_2016
 ---
 
 [.lead]
