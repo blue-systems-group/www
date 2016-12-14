@@ -150,10 +150,10 @@ div.footer-padding {
 }
 
 .blue-sidebar {
+	.padded {
+		padding-left: 12px;
+	}
 	.nav {
-		& .padded {
-			padding-left: 12px;
-		}
 		hr {
 			margin-top: 10px;
 			margin-bottom: 10px;
