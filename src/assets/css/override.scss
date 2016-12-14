@@ -112,6 +112,13 @@ a.anchor {
 		margin-bottom: 10px;
 		line-height: 1.4;
 	}
+	h3 {
+		font-size: 1.1em;
+		font-weight: bold;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		line-height: 1.2;
+	}
 }
 @media (min-width: 992px) {
 	footer {
@@ -425,10 +432,11 @@ div.posts .post-author {
   padding: 0 0 0 10px;
   margin: 0 0 10px 10px;
   width: 200px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   line-height: 1.2em;
   text-align: right;
   border-left: 3px solid DarkGrey;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #twitter-widget-0 {
   vertical-align: bottom;

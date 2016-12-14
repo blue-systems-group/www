@@ -6,6 +6,7 @@ description:
 changefreq: yearly
 priority: 0.1
 logo_flipped: true
+doGithub: true
 ---
 
 [.lead]

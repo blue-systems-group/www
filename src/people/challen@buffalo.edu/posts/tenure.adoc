@@ -20,7 +20,7 @@ You can conform to the norms established for junior faculty.
 //
 Or you can be yourself.
 //
-I'm happy that I set my own course, and proud of the way that I divided by
+I'm happy that I set my own course, and proud of the way that I divided my
 time between research, teaching, and service.
 
 [.lead]
@@ -32,7 +32,7 @@ against my tenure case earlier this week.
 //
 And so link:/[blue] will need to find a new home.
 //
-[.readmore]#Click here for the full story.#
+[.readmore.remove]#Click here for the full story.#
 --
 
 === What Are You (Not) Supposed to Do?

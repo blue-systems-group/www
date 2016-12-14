@@ -21,7 +21,7 @@
               <img class="img-responsive"
                    src="/people/challen@buffalo.edu/photo.jpg"
                    alt="Photo of Geoffrey Challen"
-                   style="border-bottom: 4px solid #191995; margin: 0 auto; height: 293px; width: 293px;">
+                   style="border-bottom: 4px solid #191995; margin: 0 auto; height: 233px; width: 233px;">
             </a>
             <section class="side-headings">
               <h1><a href="/people/gwa/">Geoffrey Challen</a></h1>
@@ -81,7 +81,16 @@
   </div>
 </div>
 
-{{> footer}}
+<div class="container">
+	<div class="row">
+    <div class="col-xs-12 col-md-8">
+      {{> footer}}
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
 
 <!--
   vim: ts=2:sw=2:et:ft=html

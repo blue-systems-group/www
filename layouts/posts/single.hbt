@@ -1,23 +1,17 @@
 {{> posts_header}}
 
-<div id="content" class="thin"
-    {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
-    {{#if previous_item}}data-previous="/{{ previous_item.path }}"{{/if}}>
-
+<div id="content" class="single">
   <div class="container">
-
     <div class="row">
-      <div class="col-sm-12 col-md-8">
+      <div class="col-sm-12 col-md-9">
+        <div class="title">{{{ title }}}</div>
+        {{{ contents }}}
 
-        <div id="post_contents">
-          {{{ contents }}}
-        </div>
-
-        <div class="h4 spelling_exception text-center" style="margin-top:20px;">
+        <div class="h4 spelling_exception text-center">
           Posted by {{ and_list people }} on {{format_date created "blog" false}}.
           {{#if modified }}<br>Updated on {{format_date updated "blog" false}}.{{/if}}
         </div>
-        <div class="text-center" style="margin-bottom:20px;">
+        <div class="text-center">
           <div style="display:inline-block; margin-right: 20px;">
             <a href="/posts/feed.xml">Subscribe <img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="height: 1em" /></a>
           </div>
@@ -26,7 +20,7 @@
             </a>
           </div>
           <div style="display:inline-block; padding-top: 2px;">
-          <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button_count"></div>
+            <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button_count"></div>
           </div>
           <div style="clear: both;"></div>
         </div>
@@ -34,39 +28,72 @@
         <div class="fb-comments" data-href="{{ full_url }}" data-numposts="5"></div>
       </div>
 
-      <div class="hidden-xs hidden-sm col-md-offset-1 col-md-3 blue-sidebar text-right">
-        <div class="fixed-md-3 small">
-          <h4>Recent Posts</h4>
+      <div class="hidden-xs hidden-sm col-md-3 text-right blue-sidebar">
+        <div id="sidebar" class="high fixed-md fixed-md-3 side-listing">
+          <div class="item">
+            <a target="_blank" href="/posts/feed.xml">
+              <img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-right: 0.5em; height: 1em" />Subscribe
+            </a>
+          </div>
 
-          <ul class="list-unstyled">
-            {{#each visible_posts }}
-            {{#ne ../path this.path }}
-            <li style="margin-bottom:10px; line-height:1.1em;">
-              <a href="/{{ this.path }}">
-                {{#eq ../previous_item.path this.path}}
-                <span class="glyphicon glyphicon-step-backward"></span>
-                {{/eq}}
-                {{ this.title }}
-                {{#eq ../next_item.path this.path}}
-                <span class="glyphicon glyphicon-step-forward"></span>
-                {{/eq}}
-              </a>
-            </li>
-            {{/ne}}
-            {{/each}}
-          </ul>
-          <h4>Future Post Ideas</h4>
+          <div class="item">
+            <div class="h3">Recent</div>
+            <ul class="tight list-unstyled">
+              {{#each visible_posts }}
+              {{#ne ../path this.path }}
+              <li style="margin-bottom:10px; line-height:1.1em;">
+                <a href="/{{ this.path }}">
+                  {{ this.title }}
+                </a>
+              </li>
+              {{/ne}}
+              {{/each}}
+            </ul>
+          </div>
 
-          <p>
-          <a
-         href="https://docs.google.com/document/d/1jMVw8mwJkb4XUEr-7Gi7NrxXqNcholqt7PBDpdsza4w/edit?usp=sharing">Comment on mine,<br/> or add your own</a>
-          </p>
-
-          <h4 style="margin-top:24px;">
-            <a target="_blank" href="/posts/feed.xml">Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-left: 0.5em; height: 1em" /></a>
-          </h4>
+          <div class="item">
+            <ul class="tight list-unstyled">
+              <li>
+                <a href="https://docs.google.com/document/d/1jMVw8mwJkb4XUEr-7Gi7NrxXqNcholqt7PBDpdsza4w/edit?usp=sharing">
+                  <div class="h3">Future</div>
+                  Comment on mine, or suggest one
+                </a>
+                <li>
+            </ul>
+          </div>
         </div>
       </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
+        {{#if previous_item}}
+        <a href="/{{ previous_item.path }}">
+          <div class="glyphicon glyphicon-step-backward backward"></div>
+          {{{ previous_item.title }}}
+        </a>
+        {{/if}}
+      </div>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-5 text-right">
+        {{#if next_item}}
+          <a href="/{{ next_item.path }}">
+          <div class="glyphicon glyphicon-step-forward forward"></div>
+          {{{ next_item.title }}}
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="container">
+	<div class="row">
+    <div class="col-xs-12 col-md-8">
+      {{> footer}}
     </div>
   </div>
 </div>

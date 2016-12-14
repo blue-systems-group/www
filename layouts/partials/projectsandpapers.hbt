@@ -37,7 +37,7 @@
 
 {{#if list_papers }}
 <a class="anchor" id="papers"></a>
-<h3><a href="/papers/">Papers</a></h3>
+<div class="h3"><a href="/papers/">Papers</a></div>
 {{#list_with_years papers}}
 {{> paper }}
 {{/list_with_years}}
@@ -45,7 +45,7 @@
 
 {{#if list_courses }}
 <a class="anchor" id="courses"></a>
-<h3><a href="/courses/">Teaching</a></h3>
+<div class="h3"><a href="/courses/">Teaching</a></div>
 {{#list_with_years courses }}
 {{> course }}
 {{/list_with_years}}
