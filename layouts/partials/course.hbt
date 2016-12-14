@@ -75,13 +75,16 @@
 
       {{#if UTAs }}
       <div class="col-xs-12 hidden-sm hidden-md hidden-lg item">
-        <span class="h5 label" data-toggle="popover"
-              data-content="Undergraduate Teaching Assistants">UTAs:</span>
+        <span class="h5 label">
+          UTAs:<span class="badge footnote default-tooltip" data-toggle="popover" data-content="Undergraduate Teaching Assistants">?</span>
+        </span>
         <span class="small">{{ and_list UTAs }}</span>
       </div>
       <div class="hidden-xs">
         <div class="col-sm-3 h5 label">
-          <span data-toggle="tooltip" data-content="Undergraduate Teaching Assistants">UTAs:</span>
+          <span class="h5 label">
+            UTAs:<span class="badge footnote default-tooltip" data-toggle="popover" data-content="Undergraduate Teaching Assistants">?</span>
+          </span>
         </div>
         <div class="col-sm-9">{{ and_list UTAs }}</div>
       </div>
