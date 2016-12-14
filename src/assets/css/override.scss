@@ -99,10 +99,17 @@ a.anchor {
 
 .blue-sidebar {
 	.nav {
+		& .padded {
+			padding-left: 12px;
+		}
+		hr {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
 		& > li > a {
 			color: #222;
 			border-left: 2px solid transparent;
-			padding: 5px 10px;
+			padding: 2px 10px;
 		}
 		& > .active > a,
 		& > li > a:hover,
@@ -122,21 +129,20 @@ a.anchor {
 		}	
 	}
 }
-
 #sidebar {
-  top: 100px;
   bottom: 0;
   overflow-y: auto;
   background-color: white;
   z-index: 1;
+	top: 100px;
+	&.high {
+		top: 80px;
+	}
+	&.low {
+		top: 110px;
+	}
 }
-#low-sidebar {
-	top: 110px;
-	bottom: 0;
-  overflow-y: auto;
-  background-color: white;
-  z-index: 1;
-}
+
 .side-headings h1, .side-headings .h1, .side-headings h2, .side-headings .h2,
 .side-headings h3, .side-headings .h3, .side-headings h4, .side-headings .h4,
 .side-headings h5, .side-headings .h5 {
