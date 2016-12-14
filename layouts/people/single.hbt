@@ -84,17 +84,19 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-xs-12 col-sm-6">
+      <div class="col-xs-12 col-sm-5">
         {{#if previous_item}}
         <a href="/{{ previous_item.path }}">
-          <span class="glyphicon glyphicon-step-backward"></span>
+          <div class="glyphicon glyphicon-step-backward backward"></div>
           {{{ previous_item.name }}}
         </a>
         {{/if}}
       </div>
-      <div class="col-xs-12 col-sm-6 text-right">
+      <div class="col-xs-12 col-sm-offset-2 col-sm-5 text-right">
         {{#if next_item}}
-          <a href="/{{ next_item.path }}">{{{ next_item.name }}}<span class="glyphicon glyphicon-step-forward"></span>
+          <a href="/{{ next_item.path }}">
+          <div class="glyphicon glyphicon-step-forward forward"></div>
+          {{{ next_item.name }}}
           </a>
         {{/if}}
       </div>

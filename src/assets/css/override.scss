@@ -110,6 +110,14 @@ footer {
 	background-color: white;
 	border-top: 1px solid #191995;
 	z-index: 1;
+	.backward {
+		float: left;
+		margin-top: 4px;
+	}
+	.forward {
+		float: right;
+		margin-top: 4px;
+	}
 }
 div.footer-padding {
 	min-height: 30px;
@@ -146,19 +154,33 @@ div.footer-padding {
 			color: #222;
 		}	
 	}
-}
-#sidebar {
-  bottom: 0;
-  overflow-y: auto;
-  background-color: white;
-	top: 100px;
-	&.high {
-		top: 80px;
+	& > #sidebar {
+		bottom: 0;
+		overflow-y: auto;
+		background-color: white;
+		top: 90px;
+		&.high {
+			top: 80px;
+		}
+		&.low {
+			top: 110px;
+		}
+		padding-bottom: 10px;
 	}
-	&.low {
-		top: 110px;
+	div.h3 {
+		font-size: 1.2em;
+		line-height: 1.2;
+		padding-bottom: 5px;
+		padding-left: 20px;
+		margin-bottom: 5px;
+		border-bottom: 1px solid #eeeeee;
 	}
-	padding-bottom: 10px;
+	.side-listing {
+		font-size: 16px;
+		ul.tight {
+			padding-left: 20px;
+		}
+	}
 }
 
 .side-headings h1, .side-headings .h1, .side-headings h2, .side-headings .h2,

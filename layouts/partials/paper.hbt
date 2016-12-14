@@ -23,31 +23,31 @@
     </div>
     <div class="paper-conference">
       {{#if conference }}
-          {{#if toappear}}To appear in{{/if}}
-          <i>
-            {{ published.preface }}
-            {{#if conference.link}}<a href="{{ conference.link }}">{{/if}}
-              {{#if conference.edition}}{{ conference.edition }}{{ else }}{{
-              conference.number}} {{ published.name }} ({{ conference.shortname }}){{/if}}{{#if conference.link}}</a>{{/if}}
-          </i>
+      {{#if toappear}}To appear in{{/if}}
+      <i>
+        {{ published.preface }}
+        {{#if conference.link}}<a href="{{ conference.link }}">{{/if}}
+          {{#if conference.edition}}{{ conference.edition }}{{ else }}{{
+          conference.number}} {{ published.name }} ({{ conference.shortname }}){{/if}}{{#if conference.link}}</a>{{/if}}
+      </i>
       {{/if}}
       {{#if thesis }}Defended {{ format_date date "normal" }}{{/if}}
-    {{#if conference_metadata }}
+      {{#if conference_metadata }}
       {{#if published.core }}
       <a href="{{ published.core.link}}"> {{ published.core.name }}: {{published.core.rank}}</a>.
       {{/if}}
       {{#if conference.acceptance }}
       Acceptance rate: {{ conference.acceptance }}%.
       {{/if}}
-    {{/if}}
-		{{#if best_paper }}
+      {{/if}}
+      {{#if best_paper }}
       <br />
-			<strong>Recipient of the Best Paper Award</strong>
-		{{/if}}
-		{{#if best_poster }}
+      <strong>Recipient of the Best Paper Award</strong>
+      {{/if}}
+      {{#if best_poster }}
       <br />
-			<strong>Recipient of the Best Poster Award</strong>
-		{{/if}}
+      <strong>Recipient of the Best Poster Award</strong>
+      {{/if}}
     </div>
 
     <div>
