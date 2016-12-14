@@ -38,13 +38,15 @@
 
       <div class="hidden-xs hidden-sm col-md-4 blue-sidebar">
         <div id="sidebar" class="high nav nav-stacked fixed-md fixed-md-4 small">
-          {{#each projects.active }}
-          <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
-          {{/each}}
-          {{#if projects.inactive}}
-          <li><hr /></li>
-          <li><a href="#complete">Completed Projects</a></li>
-          {{/if}}
+          <ul>
+            {{#each projects.active }}
+            <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
+            {{/each}}
+            {{#if projects.inactive}}
+            <li><hr /></li>
+            <li><a href="#complete">Completed Projects</a></li>
+            {{/if}}
+          </ul>
           <a class="padded" href="/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf">
             Research Statement
           </a>

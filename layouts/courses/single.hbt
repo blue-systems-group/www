@@ -81,7 +81,7 @@
 
           {{#if thumbnail}}
           <div class="hidden-xs hidden-sm">
-            <img class="img-responsive" src="{{ thumbnail }}" />
+            <img class="img-responsive" src="{{ thumbnail }}" alt="Course logo"/>
           </div>
           {{/if}}
 
