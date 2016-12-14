@@ -1,11 +1,6 @@
 {{> header}}
 <div id="content" class="index">
   <div class="container">
-    <div class="hidden-xs row text-right small">
-      <a href="/posts/feed.xml">
-        Subscribe<img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to papers"
-                      style="margin-left: 0.5em; height: 1em; margin-bottom: 5px;" /></a>
-    </div>
     <div class="row">
       <div class="col-xs-12">
         {{#list_with_years papers}}
@@ -15,7 +10,14 @@
     </div>
   </div>
 </div>
-{{> footer}}
+
+<div class="container">
+	<div class="row">
+    <div class="col-xs-12">
+      {{> footer}}
+    </div>
+  </div>
+</div>
 
 <!--
   vim: ts=2:sw=2:et:ft=html

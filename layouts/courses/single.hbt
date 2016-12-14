@@ -1,141 +1,135 @@
 {{> header}}
 
-<div id="content" class="thin"
-    {{#if next_item}}data-next="/{{ next_item.path }}"{{/if}}
-    {{#if previous_item}}data-previous="/{{ previous_item.path }}"{{/if}}>
+<div id="content" class="single">
   <div class="container">
-
-    <div class="row links hidden-xs hidden-sm">
-      <div class="col-md-5 text-left">
-        {{#if previous_item}}
-        <div class="h6" style="line-height:1.0;">
-          <a href="/{{ previous_item.path }}">
-            <span class="glyphicon glyphicon-step-backward"></span>
-            {{ previous_item.common.title }} ({{ previous_item.semester}} {{ previous_item.year}})
-          </a>
-        </div>
-        {{/if}}
-      </div>
-      <div class="col-md-5 col-md-push-2 text-right">
-        {{#if next_item}}
-        <div class="h6" style="line-height:1.0;">
-          <a href="/{{ next_item.path }}">
-            {{ next_item.common.title }} ({{ next_item.semester}} {{ next_item.year}})
-            <span class="glyphicon glyphicon-step-forward"></span>
-          </a>
-        </div>
-        {{/if}}
-      </div>
-    </div>
-
     <div class="row">
       <div class="col-sm-12 col-md-9">
-        <section class="top">
-          <h2>
-            {{#if syllabus}}
-            <a class="nopdf" href="{{syllabus}}">
-              {{/if}}
-              {{ common.number }} : {{ common.title }}
-              {{#if syllabus}}
-            </a>
-            {{/if}}
-          </h2>
-          <div class="h4">
+
+        <div class="title">
+          {{#if syllabus}}<a class="nopdf" href="{{syllabus}}">{{/if}}
+            {{ common.number }} : {{ common.title }}{{#if syllabus}}</a>{{/if}}
+        </div>
+
+        <div class="authors">
+          {{ and_list instructors }}
+        </div>
+
+        <div class="paper-conference">
             {{semester}} {{year}}
             ({{format_date started "normal"}}&ndash;{{#if ends}}{{format_date ends "normal" }}{{/if}})
-          </div>
-          <div class="h4 authors-ml hidden-md hidden-lg">
-            <em>Instructors:</em> {{ and_list instructors }}
-            {{#if staff}}
-            <div style="margin-top:5px;"><em>Staff:</em> {{ and_list staff }}</div>
+        </div>
+
+        <div class="item">
+          <ul class="list-inline dash-list">
+            {{#if website }}
+            <li><a href="{{ website }}">Website</a></li>
             {{/if}}
-						{{#if UTAs }}
-						<div style="margin-top:5px;">
-							<em>Undergraduate Teaching Assistants:</em> {{ and_list UTAs }}
-						</div>
-						{{/if}}
-            {{#if volunteers}}
-            <div style="margin-top:5px;"><em>Volunteers:</em> {{ and_list volunteers }}</div>
+            {{#if syllabus }}
+            <li><a href="{{ syllabus }}">Syllabus</a></li>
             {{/if}}
-          </div>
-					{{#if enrollment}}
-          <div class="h4" style="margin-bottom:5px;">
-            Enrollment: {{ enrollment }}
-          </div>
-					{{/if}}
-          <div class="h4">
-            <ul class="list-inline dash-list">
-              {{#if website }}
-              <li><a href="{{ website }}">Website</a></li>
-              {{/if}}
-              {{#if syllabus }}
-              <li><a href="{{ syllabus }}">Syllabus</a></li>
-              {{/if}}
-              {{#if videos }}
-              <li><a href="{{ videos }}">Videos</a></li>
-              {{/if}}
-              {{#if evaluations }}
-              <li><a href="{{ evaluations }}">Evaluations</a></li>
-              {{/if}}
-            </ul>
-          </div>
-        </section>
+            {{#if videos }}
+            <li><a href="{{ videos }}">Videos</a></li>
+            {{/if}}
+            {{#if evaluations }}
+            <li><a href="{{ evaluations }}">Evaluations</a></li>
+            {{/if}}
+          </ul>
+        </div>
 
         {{{ contents }}}
 
       </div>
 
-      <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
-        <div class="fixed-md"
-						 style="top: 103px; bottom: 0px; overflow-y: auto">
-          <div>
-            <h4>Instructors</h4>
+      <div class="col-sm-12 col-md-3 blue-sidebar">
+        <div id="sidebar" class="fixed-md fixed-md-3 side-listing">
 
-            <hr class="underline" />
+          {{#if thumbnail}}
+          <div class="hidden-xs hidden-sm">
+            <img class="img-responsive" src="{{ thumbnail }}" />
+          </div>
+          {{/if}}
 
-            <ul class="list-unstyled">
-              {{#each instructors }}
+          {{#if instructors}}
+          <div class="hidden-xs hidden-sm item">
+            <div class="h3">Instructors</div>
+            <ul class="tight {{ single instructors 'list-unstyled' ''}}">
+              {{#each instructors}}
               <li>{{ link this }}</li>
               {{/each}}
             </ul>
-            {{#if staff}}
-            <h4>Staff</h4>
-
-            <hr class="underline" />
-
-            <ul class="list-unstyled">
+          </div>
+          {{/if}}
+          
+          {{#if staff}}
+          <div class="item">
+            <div class="h3">Staff</a></div>
+            <ul class="tight {{ single staff 'list-unstyled' ''}}">
               {{#each staff }}
               <li>{{ link this }}</li>
               {{/each}}
             </ul>
-            {{/if}}
-            {{#if volunteers}}
-            <h4>Volunteers</h4>
-
-            <hr class="underline" />
-
-            <ul class="list-unstyled">
-              {{#each volunteers }}
-              <li>{{ link this }}</li>
-              {{/each}}
-            </ul>
-            {{/if}}
-            {{#if UTAs}}
-            <h4>UTAs</h4>
-
-            <hr class="underline" />
-
-            <ul class="list-unstyled">
+          </div>
+          {{/if}}
+          
+          {{#if UTAs}}
+          <div class="item">
+            <div class="h3">UTAs</a></div>
+            <ul class="tight {{ single UTAs 'list-unstyled' ''}}">
               {{#each UTAs }}
               <li>{{ link this }}</li>
               {{/each}}
             </ul>
-            {{/if}}
           </div>
+          {{/if}}
+          
+          {{#if volunteers}}
+          <div class="item">
+            <div class="h3">Volunteers</a></div>
+            <ul class="tight {{ single volunteers 'list-unstyled' ''}}">
+              {{#each volunteers }}
+              <li>{{ link this }}</li>
+              {{/each}}
+            </ul>
+          </div>
+          {{/if}}
+            
         </div>
       </div>
     </div>
   </div>
 </div>
 
-{{> footer}}
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-5">
+        {{#if previous_item}}
+        <a href="/{{ previous_item.path }}">
+          <div class="glyphicon glyphicon-step-backward backward"></div>
+          {{{ previous_item.name }}}
+        </a>
+        {{/if}}
+      </div>
+      <div class="col-xs-12 col-sm-offset-2 col-sm-5 text-right">
+        {{#if next_item}}
+          <a href="/{{ next_item.path }}">
+          <div class="glyphicon glyphicon-step-forward forward"></div>
+          {{{ next_item.name }}}
+          </a>
+        {{/if}}
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="container">
+	<div class="row">
+    <div class="col-xs-12 col-md-9">
+      {{> footer}}
+    </div>
+  </div>
+</div>
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

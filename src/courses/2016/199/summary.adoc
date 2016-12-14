@@ -5,13 +5,13 @@ ends: 2016-12-19
 semester: Fall
 instructors:
 - challen
+staff:
+- gjbunyea
+- carlnues
 - hartloff
 - ahughes6
 - mhertz
 - jwinikus
-staff:
-- gjbunyea
-- carlnues
 UTAs:
 - aishanib
 - mohitbha
