@@ -46,7 +46,10 @@
         {{{ contents }}}
 
         <a class="anchor" id="comments"></a>
-        <div class="fb-comments" data-href="{{ full_url }}" data-numposts="5"></div>
+        <div class="fb-comments"
+             data-href="{{ full_url }}"
+             data-mobile="true"
+             data-numposts="5"></div>
       </div>
 
       <div class="hidden-xs hidden-sm col-md-3 text-right blue-sidebar">
