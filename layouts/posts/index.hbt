@@ -13,13 +13,12 @@
             <li>{{ and_list people }}</li>
             <li>{{ format_date created "name" false }}</li>
             <li>
-              <a href="https://twitter.com/share?text={{ title }}&url={{ full_url }}&hashtags=blueresearchgroup"
-                 class="nodecoration">
+              <a href="https://twitter.com/share?url={{ correct_url }}" class="nodecoration">
                 <img class="social" alt="Share on Twitter" src="/assets/img/icons/twitter/bird.png" />
               </a>
             </li>
             <li>
-              <a class="nodecoration" href="http://www.facebook.com/share.php?u={{ full_url }}">
+              <a class="nodecoration" href="http://www.facebook.com/share.php?u={{ correct_url }}">
                 <img class="social" alt="Share on Facebook" src="/assets/img/icons/facebook/icon.png" />
               </a>
             </li>
