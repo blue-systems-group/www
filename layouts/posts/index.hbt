@@ -1,4 +1,4 @@
-{{> posts_header}}
+{{> header}}
 
 <div id="content" class="single">
   <div class="container">
@@ -13,24 +13,14 @@
             <li>{{ and_list people }}</li>
             <li>{{ format_date created "name" false }}</li>
             <li>
-              <a href="https://twitter.com/share"
-                 data-url="{{ full_url }}"
-                 data-text="{{ title }}"
-                 data-hashtags="bluesystemsgroup">
-                <img alt="Share on Twitter" style="height:20px;"
-                     src="/assets/img/icons/twitter-bird-16x16.png" />
+              <a href="https://twitter.com/share?text={{ title }}&url={{ full_url }}&hashtags=blueresearchgroup"
+                 class="nodecoration">
+                <img class="social" alt="Share on Twitter" src="/assets/img/icons/twitter/bird.png" />
               </a>
             </li>
             <li>
-              <a href="http://www.facebook.com/share.php?u={{ full_url }}">
-                <img alt="Share on Facebook" style="height:20px;"
-                     src="/assets/img/icons/facebook.gif" />
-              </a>
-            </li>
-            <li>
-              <a class="nodecoration" href="/{{ path }}">
-                <span class="fb-comments-count" data-href="{{ full_url }}"></span>
-                <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+              <a class="nodecoration" href="http://www.facebook.com/share.php?u={{ full_url }}">
+                <img class="social" alt="Share on Facebook" src="/assets/img/icons/facebook/icon.png" />
               </a>
             </li>
           </ul>
@@ -43,11 +33,12 @@
 
         {{/each}}
 
-        <div class="hidden-sm hidden-md hidden-lg row text-center">
-          <h3>
-            <a href="/posts/feed.xml">Subscribe
-              <img alt="Subscribe to posts" src="/assets/img/icons/rss-14x14.png" style="height: 1em" /></a>
-          </h3>
+        <div class="hidden-md hidden-lg row text-center">
+          <h2>
+            <a href="/posts/feed.xml" target="_blank">
+              Subscribe <img alt="Subscribe to posts" src="/assets/img/icons/rss-14x14.png" style="height:1em; margin-bottom: 0px;">
+            </a>
+          </h2>
         </div>
 
       </div>
@@ -55,7 +46,7 @@
         <div id="sidebar" class="high fixed-md fixed-md-3 side-listing">
           <div class="item">
             <a target="_blank" href="/posts/feed.xml">
-              <img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-right: 0.5em; height: 1em" />Subscribe
+              <img class="social" src="/assets/img/icons/subscribe.png" alt="Subscribe to posts">
             </a>
           </div>
 

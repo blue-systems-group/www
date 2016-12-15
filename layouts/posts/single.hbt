@@ -19,26 +19,23 @@
             {{/if}}
           </ul>
           <div class="hidden-md hidden-lg">
-            <ul class="list-inline">
-              <li style="width: 60px;">
+            <ul class="list-inline dash-list">
+              <li>
                 <a target="_blank" href="/posts/feed.xml">
-                  <img src="/assets/img/icons/subscribe.png" alt="Subscribe to posts"
-                                                             style="margin-bottom:0px;">
+                  <img class="social" src="/assets/img/icons/subscribe.png" alt="Subscribe to posts">
                 </a>
               </li>
-              <li>//</li>
-              <li style="width: 70px;">
-                <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button"></div>
+              <li>
+                <a href="https://twitter.com/share?text={{ title }}&url={{ full_url }}&hashtags=blueresearchgroup"
+                   class="nodecoration">
+                  <img class="social" alt="Share on Twitter" src="/assets/img/icons/twitter/bird.png" />
+                </a>
               </li>
-              <li>//</li>
-              <li style="width: 70px;">
-                <a href="https://twitter.com/share"
-                   class="noexternal twitter-share-button"
-                   data-url="{{ full_url }}"
-                   data-text="{{ title }}"
-                   data-hashtags="bluesystemsgroup"></a>
+              <li>
+                <a class="nodecoration" href="http://www.facebook.com/share.php?u={{ full_url }}">
+                  <img class="social" alt="Share on Facebook" src="/assets/img/icons/facebook/icon.png" />
+                </a>
               </li>
-              <li>//</li>
               <li><a href="#comments">Comment <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
                 </a>
               </li>
@@ -59,15 +56,19 @@
             <ul class="tight list-unstyled">
               <li>
                 <a target="_blank" href="/posts/feed.xml">
-                  <img src="/assets/img/icons/subscribe.png" alt="Subscribe to posts" style="margin-bottom:0px;">
+                  <img class="social" src="/assets/img/icons/subscribe.png" alt="Subscribe to posts">
                 </a>
               </li>
+              <li>
+                <a href="https://twitter.com/share?text={{ title }}&url={{ full_url }}&hashtags=blueresearchgroup"
+                   class="nodecoration">
+                  <img class="social" alt="Share on Twitter" src="/assets/img/icons/twitter/tweet.png" />
+                </a>
               </li>
-              <li style="margin-top:5px; height: 26px;">
-                <a href="https://twitter.com/share" class="noexternal twitter-share-button" data-url="{{ full_url }}" data-text="{{ title }}" data-hashtags="bluesystemsgroup"></a>
-              </li>
-              <li style="margin-top:-5px; height: 26px;">
-                <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button"></div>
+              <li>
+                <a class="nodecoration" href="http://www.facebook.com/share.php?u={{ full_url }}">
+                  <img class="social" alt="Share on Facebook" src="/assets/img/icons/facebook/share.png" />
+                </a>
               </li>
               <li style="height: 26px;">
                 <a href="#comments">
