@@ -15,7 +15,7 @@
       </div>
 
       <div class="hidden-xs hidden-sm col-md-4 blue-sidebar">
-        <div class="fixed-md fixed-md-4">
+        <div class="fixed-md-4">
           <div class="text-center">
             <a href="/people/gwa/">
               <img class="img-responsive"

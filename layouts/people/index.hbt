@@ -97,7 +97,7 @@
       </div>
 
       <div class="hidden-xs hidden-sm col-md-3 blue-sidebar">
-        <ul id="sidebar" class="high nav nav-stacked fixed-md fixed-md-3 small">
+        <ul id="sidebar" class="high nav nav-stacked fixed-md-3 small">
           {{#each people.group }}
           <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
           {{/each}}

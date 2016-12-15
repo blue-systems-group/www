@@ -9,7 +9,7 @@
       </div>
 
       <div class="col-sm-12 col-md-3 blue-sidebar">
-        <div id="sidebar" class="fixed-md fixed-md-3 side-listing">
+        <div id="sidebar" class="fixed-md-3 side-listing">
 
           {{#if list_people}}
           <div class="item">

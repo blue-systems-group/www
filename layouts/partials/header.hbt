@@ -49,7 +49,7 @@
           </button>
           <a class="navbar-brand" href="/" style="padding:0px 10px 0px 0px;">
             {{#if logo_flipped}}
-            <img class="flipped" src="/assets/img/logos/blue-small.jpg" alt="blue Logo" />
+            <img src="/assets/img/logos/blue-small-flipped.jpg" alt="blue Logo" />
             {{else}}
             <img src="/assets/img/logos/blue-neon.jpg" alt="blue Logo" />
             {{/if}}

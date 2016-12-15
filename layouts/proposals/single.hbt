@@ -58,7 +58,7 @@
       </div>
 
       <div class="col-sm-12 col-md-3 blue-sidebar">
-        <div id="sidebar" class="fixed-md fixed-md-3 side-listing">
+        <div id="sidebar" class="fixed-md-3 side-listing">
           <div class="hidden-xs hidden-sm">
             <a href="{{ source.link }}">
               <img class="sponsor" src="{{ logo }}" alt="Sponsor Logo">

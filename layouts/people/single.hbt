@@ -43,7 +43,7 @@
       </div>
 
       <div class="hidden-xs hidden-sm col-md-4 blue-sidebar">
-        <div id="sidebar" class="fixed-md fixed-md-4">
+        <div id="sidebar" class="fixed-md-4">
           <div class="text-center">
             <img class="img-responsive profile" src="{{ photo }}" alt="Photo of {{ name }}">
             <section class="side-headings">

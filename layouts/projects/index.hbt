@@ -37,7 +37,7 @@
       </div>
 
       <div class="hidden-xs hidden-sm col-md-4 blue-sidebar">
-        <div id="sidebar" class="high fixed-md fixed-md-4 small">
+        <div id="sidebar" class="high fixed-md-4 small">
           <ul class="nav nav-stacked">
             {{#each projects.active }}
             <li><a href="#{{ this.slug }}">{{ this.name }}</a></li>
