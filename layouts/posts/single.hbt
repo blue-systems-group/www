@@ -5,36 +5,66 @@
     <div class="row">
       <div class="col-sm-12 col-md-9">
         <h1 class="tighttop">{{{ title }}}</h1>
+        
+        <div class="authors">
+          <ul class="list-inline dash-list">
+            <li>{{ and_list people }}</li>
+            <li>Posted {{ format_date created "name" false }}</li>
+            {{#if modified }}
+            <li>Edited {{ format_date updated "name" false }}</li>
+          </ul>
+          <div class="hidden-md hidden-lg">
+            <ul class="list-inline dash-list">
+              {{/if}}
+              <li>
+                <a href="https://twitter.com/share"
+                   class="twitter-share-button"
+                   data-url="{{ full_url }}"
+                   data-text="{{ title }}"
+                   data-hashtags="bluesystemsgroup">Tweet</a>
+              </li>
+              <li>
+                <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button"></div>
+                </a>
+              </li>
+              <li>
+                <a class="nodecoration" href="#comments">
+                  <span class="fb-comments-count"
+                        data-href="{{ full_url }}"></span>
+                  <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
 
         {{{ contents }}}
-
-        <div class="h4 spelling_exception text-center">
-          Posted by {{ and_list people }} on {{format_date created "blog" false}}.
-          {{#if modified }}<br>Updated on {{format_date updated "blog" false}}.{{/if}}
-        </div>
-        <div class="text-center">
-          <div style="display:inline-block; margin-right: 20px;">
-            <a href="/posts/feed.xml">Subscribe <img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="height: 1em" /></a>
-          </div>
-          <div style="display:inline-block; margin-right: 20px;">
-            <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ full_url }}" data-text="{{ title }}" data-hashtags="bluesystemsgroup">Tweet</a>
-            </a>
-          </div>
-          <div style="display:inline-block; padding-top: 2px;">
-            <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button_count"></div>
-          </div>
-          <div style="clear: both;"></div>
-        </div>
-
+        
+        <a class="anchor" name="comments"></a>
         <div class="fb-comments" data-href="{{ full_url }}" data-numposts="5"></div>
       </div>
 
       <div class="hidden-xs hidden-sm col-md-3 text-right blue-sidebar">
-        <div id="sidebar" class="high fixed-md-3 side-listing">
+        <div id="sidebar" class="fixed-md-3 side-listing">
           <div class="item">
-            <a target="_blank" href="/posts/feed.xml">
-              <img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-right: 0.5em; height: 1em" />Subscribe
-            </a>
+            <div class="h3">Links</div>
+            <ul class="tight list-unstyled">
+              <a target="_blank" href="/posts/feed.xml">
+                <img src="/assets/img/icons/subscribe.png" alt="Subscribe to posts" style="margin-bottom:0px;">
+              </a>
+              </li>
+              <li style="margin-top:10px;">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ full_url }}" data-text="{{ title }}" data-hashtags="bluesystemsgroup">Tweet</a>
+                </a>
+              </li>
+              <li>
+                <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button"></div>
+              </li>
+              <li>
+                <a class="nodecoration" href="#comments">
+                  Comment <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+                </a>
+              </li>
           </div>
 
           <div class="item">

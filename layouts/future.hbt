@@ -18,10 +18,10 @@
         <div class="fixed-md-4">
           <div class="text-center">
             <a href="/people/gwa/">
-              <img class="img-responsive"
+              <img class="img-responsive block-center"
                    src="/people/challen@buffalo.edu/photo.jpg"
                    alt="Photo of Geoffrey Challen"
-                   style="border-bottom: 4px solid #191995; margin: 0 auto; height: 233px; width: 233px;">
+                   style="border-bottom: 4px solid #191995; height: 233px; width: 233px;">
             </a>
             <section class="side-headings">
               <h1><a href="/people/gwa/">Geoffrey Challen</a></h1>
