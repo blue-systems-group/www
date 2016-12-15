@@ -45,6 +45,11 @@ h1 {
 		margin-top: 10px;
 	}
 }
+.h1 {
+	&.tighttop {
+		margin-top: 10px;
+	}
+}
 
 a {
 	&.anchor {
