@@ -7,7 +7,7 @@ alumni: true
 I work as the link:/projects/phonelab/[PhoneLab] administrator. I help
 participants with any issues they may have with given smartphones. I interact
 with Sprint to handle the logistics of our account and assist with PhoneLab
-development. 
+development.
 
 I got B.S. degree in Computer Engineering from California State University,
 Fresno. I worked for IBM as an engineer and technical sales professional for

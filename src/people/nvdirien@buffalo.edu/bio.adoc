@@ -19,7 +19,7 @@ I joined link:http://mort11.org/[MORT], my high school's
 link:http://www.usfirst.org/roboticsprograms/frc[FIRST Robotics Competition]
 team, which exposed me to Java and robotics. During my senior year, I led the
 programming team for MORT where I taught students Java and developed our
-[.spelling_exception]#tele-operational# and autonomous processes. 
+[.spelling_exception]#tele-operational# and autonomous processes.
 
 I joined the University at Buffalo in 2011, and instantly started working in
 Dr. Jason Corso's group, which introduced me to academic research and helped

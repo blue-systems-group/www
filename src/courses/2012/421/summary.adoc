@@ -1,5 +1,5 @@
 ---
-common: ops 
+common: ops
 started: 2012-01-17
 ends: 2012-05-10
 semester: Spring

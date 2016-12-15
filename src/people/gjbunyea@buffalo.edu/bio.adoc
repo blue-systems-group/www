@@ -16,6 +16,6 @@ I'm a Junior at http://www.buffalo.edu/[the University at Buffalo] studying Comp
 
 My interest in computer science started, like many, with video games. Growing up my brother and I made good use of our Nintendo 64 and PlayStation. Eventually I took a course in Flash Animation through a local art center which lead me from user to creator. When I found my way into programming I took my creating to another, deeper level.
 
-Currently working on a Bachelor of Arts in Computer Science, I was given the opportunity to develop link:/projects/internetclass/[CSE 199: How the Internet Works], a seminar about the internet's history, development, applications and effects on society. I'm excited to work alongside CSE Faculty and about 20 other teaching assistants in the fall. 
+Currently working on a Bachelor of Arts in Computer Science, I was given the opportunity to develop link:/projects/internetclass/[CSE 199: How the Internet Works], a seminar about the internet's history, development, applications and effects on society. I'm excited to work alongside CSE Faculty and about 20 other teaching assistants in the fall.
 
-Outside of the classroom I'm learning to play bass and being an adult. 
+Outside of the classroom I'm learning to play bass and being an adult.

@@ -18,4 +18,4 @@ undergraduate developer. In the Fall 2015 I worked as a junior web developer
 for the Behavioral Medicine Lab, University at Buffalo wherein I handled the
 front-end of the Revolution Database System. I thoroughly enjoy the experience
 of solving problems using a computer which inspires me to not just be a
-code-monkey but a computer scientist.     
+code-monkey but a computer scientist.

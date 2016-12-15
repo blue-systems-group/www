@@ -36,4 +36,4 @@ motes, discarded devices have many advantages: price, performance,
 connectivity, interfaces, and ease of programming. While the main question is
 whether their energy consumption is low enough to enable harvesting solutions
 to allow continuous operation, we present preliminary results indicating that
-this may be possible. 
+this may be possible.

@@ -30,4 +30,4 @@ recorded SQLite activity on 11 Android smartphones during one month of
 typical usage. Our analysis shows that Android SQLite usage produce queries
 and access patterns quite different from canonical server workloads. We argue
 that evaluating smartphone embedded database will require a new benchmarking
-suite, and we use our results to outline some of its characteristics. 
+suite, and we use our results to outline some of its characteristics.

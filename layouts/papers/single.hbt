@@ -76,12 +76,12 @@
         </div>
 
         {{{ contents }}}
-        
+
       </div>
 
       <div class="col-sm-12 col-md-3 blue-sidebar">
         <div id="sidebar" class="fixed-md-3 side-listing">
-          
+
           {{#if people}}
           <div class="hidden-xs hidden-sm item">
             <div class="h3"><a href="/people/">People</a></div>

@@ -7,7 +7,7 @@ scholar: http://scholar.google.com/citations?user=EIZKxj0AAAAJ&hl
 ---
 [.lead]
 I am  a 5th year Ph.D. student. My research interests lie broadly in
-mobile computing and wireless networking. 
+mobile computing and wireless networking.
 
 I started my PhD. in 2010 after completing my MS in Computer Science here at
 the University at Buffalo. I'm co-advised by Prof. Chunming Qiao and Prof.

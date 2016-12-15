@@ -16,6 +16,6 @@ I have been interested in computers since my first high school tech class. This 
 
 Whether it be for my personal enjoyment, with a group of friends, or for industry, every project I have worked on has taught me something new and exciting. I am currently working with link:https://blue.cse.buffalo.edu/[blue] and link:http://odin.cse.buffalo.edu/[ODIn lab] at UB on a few different research projects. One being the link:http://odin.cse.buffalo.edu/research/pocketdata/[pocketData] project, where we are benchmarking, analyzing and improving embedded databases on modern smart phones. The other being the link:https://blue.cse.buffalo.edu/projects/optiwifi/[OptiWifi] project where we are attempting to streamline the optimization of wifi user networks.
 
-I look forward to both learning and contributing all that I can to/from link:https://blue.cse.buffalo.edu/[blue]! 
+I look forward to both learning and contributing all that I can to/from link:https://blue.cse.buffalo.edu/[blue]!
 
 link:http://grantwra.github.io[grantwra.github.io]

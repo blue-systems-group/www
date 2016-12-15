@@ -27,4 +27,4 @@ consisting of 191 participants using Nexus S 4G smartphones, PhoneLab aims to
 provide a combination of unique features desirable for smartphone
 experimentation. This abstract briefly introduces PhoneLab and presents some
 of the early results of a usage measurement study conducted with 115
-participants. 
+participants.

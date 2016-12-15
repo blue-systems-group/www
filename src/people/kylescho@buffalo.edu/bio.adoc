@@ -36,4 +36,4 @@ depending on how they want their energy managed.  We also, through hacking
 the https://source.android.com/[Android Open Source Project], have created
 new ways to conserve energy that you couldn’t do on a factory Android device.
 This research is perfect for me because with my degree I’d like to get into
-working in an energy-related field or something to do mobile devices.  
+working in an energy-related field or something to do mobile devices.

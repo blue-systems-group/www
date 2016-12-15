@@ -32,4 +32,4 @@ in October, 2013, and continue to expand in 2014. To demonstrate the power of
 PhoneLab, we present three selected results from a usage characterization
 experiment run on 115 phones for 21 days. We use each result to motivate a
 future PhoneLab experiment, demonstrating how PhoneLab will enable mobile
-systems research. 
+systems research.

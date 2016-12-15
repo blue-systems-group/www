@@ -6,24 +6,24 @@ joined: 2012-01-23
 scholar: https://scholar.google.com/citations?user=Q4tYfpgAAAAJ
 ---
 [.lead]
-I am a 4th year Ph.D. student at University at Buffalo. My current research work is in link:/projects/jouler[Flexible 
-Smartphone Energy Management] where we explore flexible framework and  innovative policies to smartly manage 
+I am a 4th year Ph.D. student at University at Buffalo. My current research work is in link:/projects/jouler[Flexible
+Smartphone Energy Management] where we explore flexible framework and  innovative policies to smartly manage
 energy in smartphones. I am interested in all aspects of mobile computing and also in systems security.
 
 
-To be truthful, it was not a quirk of fate that I find myself interested in Computer Science. 
+To be truthful, it was not a quirk of fate that I find myself interested in Computer Science.
 Since school days, as early as 4th-5th grade, Computer Science has always been one of my favorite
-subjects. So after school it was not hard to decide that I want to pursue 
-higher studies in Computer Science. But that's the easy part. During my undergrad years in West Bengal 
-University of Technology (in India), I was completely sure that I am only interested in Network and Information 
-Security and accordingly worked on few related projects. I finished my B.Tech in 2009. It was only after 
+subjects. So after school it was not hard to decide that I want to pursue
+higher studies in Computer Science. But that's the easy part. During my undergrad years in West Bengal
+University of Technology (in India), I was completely sure that I am only interested in Network and Information
+Security and accordingly worked on few related projects. I finished my B.Tech in 2009. It was only after
 coming to University at Buffalo on Fall 2010
 that I was exposed to other interesting research fields in computer science. It was like being left unsupervised in a
 candy store for an year or so. Soon I zeroed my interest on mobile computing, to be specific on smartphones.
-After finishing my Masters in Science, I joined the blue group under the mentorship of Geoffrey Challen 
+After finishing my Masters in Science, I joined the blue group under the mentorship of Geoffrey Challen
 to continue my doctoral studies in Spring 2012.
 
 Other than research, I have  a few more interests that I try to indulge in. I
 absolutely love traveling, dancing and eating. The top 3 things in my bucket
 list named "Before 2018 December" are: backpacking for 2 months across South
-America, private pilot license, and certified sky diver. 
+America, private pilot license, and certified sky diver.

@@ -21,7 +21,7 @@
         </div>
 
         <div class="paper-conference">
-          {{ pretty_amount }} from the 
+          {{ pretty_amount }} from the
           <i>
             {{#if source.link}}<a href="{{ source.link }}">{{/if}}
               {{ source.name }}{{#if source.link}}</a>{{/if}}&nbsp;
@@ -44,7 +44,7 @@
         {{{ contents }}}
 
         {{> projectsandpapers }}
-          
+
         {{#if students}}
         <div class="item">
           <div class="h3">{{#if active}}Supports{{else}}Supported{{/if}}</div>
@@ -83,7 +83,7 @@
               <li>Dates: {{format_date started "proposal"}}&ndash;{{format_date ends "proposal" }}</li>
             </ul>
           </div>
-          
+
           {{#if has_links }}
           <div class="hidden-xs hidden-sm item">
             <div class="h3">Links</div>

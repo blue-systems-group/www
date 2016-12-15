@@ -29,7 +29,7 @@
       {{/if}}
     </div>
     <div class="paper-conference">
-      {{ pretty_amount }} from the 
+      {{ pretty_amount }} from the
       <i>
         {{#if source.link}}<a href="{{ source.link }}">{{/if}}
           {{ source.name }}{{#if source.link}}</a>{{/if}}&nbsp;

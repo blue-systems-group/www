@@ -23,7 +23,7 @@
             </li>
             <li>
               <a href="http://www.facebook.com/share.php?u={{ full_url }}">
-                <img alt="Share on Facebook" style="height:20px;" 
+                <img alt="Share on Facebook" style="height:20px;"
                      src="/assets/img/icons/facebook.gif" />
               </a>
             </li>
@@ -59,7 +59,7 @@
               <img src="/assets/img/icons/rss-14x14.png" alt="Subscribe to posts" style="margin-right: 0.5em; height: 1em" />Subscribe
             </a>
           </div>
-          
+
           <div class="item">
             <div class="h3">Recent</div>
             <ul class="tight list-unstyled">
@@ -68,7 +68,7 @@
               {{/each}}
             </ul>
           </div>
-          
+
           <div class="item">
             <ul class="tight list-unstyled">
               <li>

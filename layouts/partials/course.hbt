@@ -24,7 +24,7 @@
         <div class="col-sm-9">{{ and_list instructors }}</div>
       </div>
 
-      {{#if info }} 
+      {{#if info }}
       <div class="col-xs-12 hidden-sm hidden-md hidden-lg item">
         <span class="h5 label">Info:</span>
         <ul class="list-inline comma-list">
@@ -111,7 +111,7 @@
       {{/if}}
 
     </div>
-    
+
   </div>
 </div>
 

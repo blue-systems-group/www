@@ -10,7 +10,7 @@ joined: 2014-11-15
 I am a third year computer engineering student from Hamburg, NY. As a member
 of link:/[blue], I am exploring the practical implications of replacing
 persistent storage with cloud storage in smartphones, from file-system
-integration with the network to application-level programming practices. 
+integration with the network to application-level programming practices.
 
 My passion for distributed systems engineering extends beyond smartphones. I
 have led the design and implementation of the software system for the UB
@@ -18,7 +18,7 @@ have led the design and implementation of the software system for the UB
 due to be launched to low earth orbit by both NASA and the US Air Force in
 2017. This 2-node distributed spacecraft network will demonstrate the ability
 for such a network to augment the United State's ability to monitor space
-objects. 
+objects.
 
 The parallels between distributed systems made up of smartphones and those
 made up of spacecraft are very interesting to me. In the future I would like

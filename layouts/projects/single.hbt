@@ -35,7 +35,7 @@
             </ul>
           </div>
           {{/if}}
-          
+
           {{#if courses}}
           <div class="item">
             <div class="h3"><a href="/courses/">Courses</a></div>

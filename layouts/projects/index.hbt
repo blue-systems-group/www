@@ -19,7 +19,7 @@
 
         {{#if projects.inactive}}
         <hr />
-        
+
         <a class="anchor" id="complete"></a>
         <div class="row">
           <div class="col-xs-12 text-center-xs h2">Complete</div>

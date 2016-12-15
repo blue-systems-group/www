@@ -1,5 +1,5 @@
 ---
-name: Validating Wireless Protocols 
+name: Validating Wireless Protocols
 title: Wireless Protocol Validation Under Uncertainty
 started: 2015-06-01
 leads:
