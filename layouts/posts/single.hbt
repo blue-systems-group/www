@@ -4,7 +4,8 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-9">
-        <div class="title">{{{ title }}}</div>
+        <h1 class="tighttop">{{{ title }}}</h1>
+
         {{{ contents }}}
 
         <div class="h4 spelling_exception text-center">

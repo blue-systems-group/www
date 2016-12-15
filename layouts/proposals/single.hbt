@@ -4,11 +4,11 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-9">
-        <div class="title">
+        <h1 class="tighttop">
           {{#if PDF}}<a class="nopdf" href="{{PDF}}">{{/if}}{{{name}}}
             {{#if active}}{{else}}(Complete){{/if}}
             {{#if PDF}}</a>{{/if}}
-        </div>
+        </h1>
 
         <div class="authors">{{ and_list faculty }}</div>
 

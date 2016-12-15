@@ -27,8 +27,6 @@
         </div>
         {{/each}}
         
-        <hr />
-
         <a class="anchor" id="alumni"></a>
         <div class="row">
           <div class="col-xs-12 text-center-xs h2">Alumni</div>
@@ -73,8 +71,6 @@
           </div>
         </div>
         
-        <hr />
-
         <a class="anchor" id="collaborators"></a>
         <div class="row">
           <div class="col-xs-12 text-center-xs h2">Collaborators</div>

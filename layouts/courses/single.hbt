@@ -5,10 +5,10 @@
     <div class="row">
       <div class="col-sm-12 col-md-9">
 
-        <div class="title">
+        <h1 class="tighttop">
           {{#if syllabus}}<a class="nopdf" href="{{syllabus}}">{{/if}}
             {{ common.number }}: {{ common.title }}{{#if syllabus}}</a>{{/if}}
-        </div>
+        </h1>
 
         <div class="authors">
           {{ and_list instructors }}{{#if staff}}&mdash;with <a href="#staff">lots of help</a>{{/if}}
@@ -39,40 +39,48 @@
         </div>
 
         {{{ contents }}}
-          
-        {{#if staff}}
-        <a class="anchor" id="staff"></a>
-        <div class="item">
-          <div class="h3">Staff</a></div>
-          <ul class="tight {{ single staff 'list-unstyled' ''}}">
-            {{#each staff }}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
-        </div>
-        {{/if}}
+        
+        <div class="row">
+          {{#if staff}}
+          <div class="col-xs-12 col-sm-6">
+            <a class="anchor" id="staff"></a>
+            <div class="item">
+              <div class="h3">Staff</a></div>
+              <ul class="tight {{ single staff 'list-unstyled' ''}}">
+                {{#each staff }}
+                <li>{{ link this }}</li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+          {{/if}}
 
-        {{#if UTAs}}
-        <div class="item">
-          <div class="h3">UTAs</a></div>
-          <ul class="tight {{ single UTAs 'list-unstyled' ''}}">
-            {{#each UTAs }}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
-        </div>
-        {{/if}}
+          {{#if UTAs}}
+          <div class="col-xs-12 col-sm-6">
+            <div class="item">
+              <div class="h3">UTAs</a></div>
+              <ul class="tight {{ single UTAs 'list-unstyled' ''}}">
+                {{#each UTAs }}
+                <li>{{ link this }}</li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+          {{/if}}
 
-        {{#if volunteers}}
-        <div class="item">
-          <div class="h3">Volunteers</a></div>
-          <ul class="tight {{ single volunteers 'list-unstyled' ''}}">
-            {{#each volunteers }}
-            <li>{{ link this }}</li>
-            {{/each}}
-          </ul>
+          {{#if volunteers}}
+          <div class="col-xs-12 col-sm-6">
+            <div class="item">
+              <div class="h3">Volunteers</a></div>
+              <ul class="tight {{ single volunteers 'list-unstyled' ''}}">
+                {{#each volunteers }}
+                <li>{{ link this }}</li>
+                {{/each}}
+              </ul>
+            </div>
+          </div>
+          {{/if}}
         </div>
-        {{/if}}
 
       </div>
 

@@ -40,6 +40,12 @@ td {
   padding: 5px;
 }
 
+h1 {
+	&.tighttop {
+		margin-top: 10px;
+	}
+}
+
 a {
 	&.anchor {
 		display: block;
@@ -66,6 +72,10 @@ a {
 
 code {
 	padding: inherit;
+}
+	
+.lead {
+	font-size: 1.25em;
 }
 
 #content {
@@ -205,6 +215,7 @@ div.footer-padding {
 				padding-bottom: 5px;
 				padding-left: 20px;
 				margin-bottom: 5px;
+				margin-top: 0px;
 				border-bottom: 1px solid #eeeeee;
 			}
 			font-size: 16px;

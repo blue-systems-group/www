@@ -4,7 +4,7 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-12 col-md-9">
-        <div class="title">{{{title}}} {{#if active}}{{else}}(Complete){{/if}}</div>
+        <h1 class="tighttop">{{{title}}} {{#if active}}{{else}}(Complete){{/if}}</h1>
         {{{ contents }}}
       </div>
 
