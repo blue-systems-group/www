@@ -1,5 +1,6 @@
 ---
 created: 2015-07-14T12:51:48.993Z
+url_base: http://blue.cse.buffalo.edu
 ---
 
 == My Case for Reverse-Blind Reviewing
