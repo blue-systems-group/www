@@ -1,5 +1,5 @@
 ---
-url_base: "http://blue.cse.buffalo.edu"
+full_url: http://blue.cse.buffalo.edu/posts/2016-10-22-the-best-way-to-not-get-tenure
 spelling_exceptions:
  - 3M
  - ePortfolio

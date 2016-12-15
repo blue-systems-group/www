@@ -29,8 +29,7 @@
             </li>
             <li>
               <a class="nodecoration" href="/{{ path }}">
-                <span class="fb-comments-count"
-                      data-href="{{ full_url }}"></span>
+                <span class="fb-comments-count" data-href="{{ full_url }}"></span>
                 <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
               </a>
             </li>

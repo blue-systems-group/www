@@ -1,6 +1,6 @@
 ---
+full_url: http://blue.cse.buffalo.edu/posts/2015-05-20-why-im-editing-a-getmobile-colu
 created: 2015-05-20T22:30:54.719Z
-url_base: "http://blue.cse.buffalo.edu"
 ---
 == Why I'm Editing a GetMobile Column
 

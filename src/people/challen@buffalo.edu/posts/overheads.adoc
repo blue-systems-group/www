@@ -1,5 +1,5 @@
 ---
-url_base: "http://blue.cse.buffalo.edu"
+full_url: http://blue.cse.buffalo.edu/posts/2016-02-11-lies-damned-lies-and-universit
 spelling_exceptions:
 - Ummm
 ---

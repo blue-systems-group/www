@@ -1,5 +1,5 @@
 ---
-url_base: "http://blue.cse.buffalo.edu"
+full_url: http://blue.cse.buffalo.edu/posts/2016-02-11-two-days-at-google
 spelling_exceptions:
 - Andreas
 - Soli

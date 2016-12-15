@@ -1,6 +1,6 @@
 ---
+full_url: http://blue.cse.buffalo.edu/posts/2015-06-23-lets-rename-the-sigmobile-rocks
 created: 2015-06-23T20:12:53.310Z
-url_base: "http://blue.cse.buffalo.edu"
 ---
 
 == Let's Rename the SIGMOBILE Rockstar Award
