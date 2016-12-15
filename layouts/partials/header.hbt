@@ -7,6 +7,12 @@
 
     <title>blue | A Systems Research Group</title>
     <meta name="description" lang="en-us" content="{{ description }}">
+    
+    <meta property="og:url" content="http://www.your-domain.com/your-page.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Your Website Title" />
+    <meta property="og:description" content="{{ description }}" />
+    <meta property="og:image" content="https://www.bluegroup.systems/assets/img/logos/blue-small.jpg">
 
     <link rel="stylesheet" type="text/css" href="/assets/css/site.css">
 

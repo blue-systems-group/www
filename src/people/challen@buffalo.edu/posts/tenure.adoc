@@ -1,5 +1,5 @@
 ---
-url_base: http://blue.cse.buffalo.edu
+url_base: "http://blue.cse.buffalo.edu"
 spelling_exceptions:
  - 3M
  - ePortfolio

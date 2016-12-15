@@ -1,6 +1,6 @@
 ---
 created: 2015-05-13T21:33:20.845Z
-url_base: http://blue.cse.buffalo.edu
+url_base: "http://blue.cse.buffalo.edu"
 ---
 
 == The Professorial Pivot
