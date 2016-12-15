@@ -6,32 +6,36 @@
       <div class="col-sm-12 col-md-9">
         <h1 class="tighttop">{{{ title }}}</h1>
         
-        <div class="authors">
+        <div class="authors" style="margin-bottom:20px;">
           <ul class="list-inline dash-list">
             <li>{{ and_list people }}</li>
             <li>Posted {{ format_date created "name" false }}</li>
             {{#if modified }}
             <li>Edited {{ format_date updated "name" false }}</li>
+            {{/if}}
           </ul>
           <div class="hidden-md hidden-lg">
-            <ul class="list-inline dash-list">
-              {{/if}}
-              <li>
-                <a href="https://twitter.com/share"
-                   class="twitter-share-button"
-                   data-url="{{ full_url }}"
-                   data-text="{{ title }}"
-                   data-hashtags="bluesystemsgroup">Tweet</a>
-              </li>
-              <li>
-                <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button"></div>
+            <ul class="list-inline">
+              <li style="width: 60px;">
+                <a target="_blank" href="/posts/feed.xml">
+                  <img src="/assets/img/icons/subscribe.png" alt="Subscribe to posts"
+                                                             style="margin-bottom:0px;">
                 </a>
               </li>
-              <li>
-                <a class="nodecoration" href="#comments">
-                  <span class="fb-comments-count"
-                        data-href="{{ full_url }}"></span>
-                  <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
+              <li>//</li>
+              <li style="width: 70px;">
+                <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button"></div>
+              </li>
+              <li>//</li>
+              <li style="width: 70px;">
+                <a href="https://twitter.com/share"
+                   class="noexternal twitter-share-button"
+                   data-url="{{ full_url }}"
+                   data-text="{{ title }}"
+                   data-hashtags="bluesystemsgroup"></a>
+              </li>
+              <li>//</li>
+              <li><a href="#comments">Comment <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
                 </a>
               </li>
             </ul>
@@ -49,19 +53,20 @@
           <div class="item">
             <div class="h3">Links</div>
             <ul class="tight list-unstyled">
-              <a target="_blank" href="/posts/feed.xml">
-                <img src="/assets/img/icons/subscribe.png" alt="Subscribe to posts" style="margin-bottom:0px;">
-              </a>
-              </li>
-              <li style="margin-top:10px;">
-                <a href="https://twitter.com/share" class="twitter-share-button" data-url="{{ full_url }}" data-text="{{ title }}" data-hashtags="bluesystemsgroup">Tweet</a>
+              <li>
+                <a target="_blank" href="/posts/feed.xml">
+                  <img src="/assets/img/icons/subscribe.png" alt="Subscribe to posts" style="margin-bottom:0px;">
                 </a>
               </li>
-              <li>
+              </li>
+              <li style="margin-top:5px; height: 26px;">
+                <a href="https://twitter.com/share" class="noexternal twitter-share-button" data-url="{{ full_url }}" data-text="{{ title }}" data-hashtags="bluesystemsgroup"></a>
+              </li>
+              <li style="margin-top:-5px; height: 26px;">
                 <div class="fb-share-button" data-href="{{ full_url }}" data-layout="button"></div>
               </li>
-              <li>
-                <a class="nodecoration" href="#comments">
+              <li style="height: 26px;">
+                <a href="#comments">
                   Comment <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>
                 </a>
               </li>
