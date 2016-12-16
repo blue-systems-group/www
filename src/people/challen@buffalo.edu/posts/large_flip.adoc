@@ -39,7 +39,7 @@ I'll return to that in a later post.
 To begin, just brief review for the uninitiated.
 //
 In a flipped classroom you flip the lecturing out of class and flip the
-homework or course activities in to class.
+homework or course activities into class.
 //
 The goal, as far as I see it, is to align the things that benefit from
 supervision (homework) with the hours that you can supervise students (class
@@ -295,7 +295,7 @@ There's something incredibly exciting about having hundreds of like-minded
 students packing the same space and working in close proximity.
 //
 But the way it came about was a fortunate accident, and it really opened my
-eyes to something that should have been obvious to me but what not.
+eyes to something that should have been obvious to me.
 //
 [.pullquote]#The lecture model is literally _physically embedded_ into
 today's campuses.#
@@ -309,8 +309,8 @@ reuse the space, but you can imagine how hard that would be.
 Until campuses are physically redesigned to meet the needs of activity-based
 classes, finding a suitable room will be a major challenge.
 //
-Next time I teach this class--which
-link:/posts/2016-10-22-the-best-way-to-not-get-tenure[will not be at UB]--it
+Next time I teach this class—which
+link:/posts/2016-10-22-the-best-way-to-not-get-tenure[ will not be at UB]—it
 will be the first thing I'll do.
 
 === Step 2: Get Your Coding Hand Dirty
@@ -321,7 +321,7 @@ for the challenge of flipping a large class.
 The electronic tools are not anywhere close to being up to the task either.
 //
 So for your sake I hope that you have a coding hand--and that it is
-http://idioms.thefreedictionary.com/get+hands+dirty[fairly dirty].
+http://idioms.thefreedictionary.com/get+hands+dirty[ fairly dirty].
 //
 Because you're going to need it.
 
@@ -345,15 +345,14 @@ That would seem simple, right?
 //
 Wrong.
 
-At UB, if I want to send an email to the entire class here is one of several
-equally frustrating ways I'm supposed to do it.
+At UB, sending a class email involves several frustrating processes I'm supposed to go through.
 //
 First, I have to log in to a broken course management tool.
 //
 That log in has an obvious race condition and so it fails about 10% of the
 time.
 //
-But it does produce on of my favorite error messages of all time:
+But it does produce one of my favorite error messages of all time:
 
 ++++
 <div class="row" style="margin-top:10px; margin-bottom:10px;">
@@ -391,7 +390,7 @@ subject "<From the desk of Geoffrey Challen>".
 And then you remember that you have to repeat the process three more times.
 //
 [.pullquote]#Imagine trying to do this five minutes before your activity is
-scheduled to start because you need to cancel class due to a outbreak of the
+scheduled to start because you need to cancel class due to an outbreak of the
 flu.#
 //
 No thanks.
@@ -421,7 +420,7 @@ the current students in the class_.
 Luckily, I was familiar with these challenges from teaching other large
 courses.
 //
-I spent a few manually downloading spreadsheets with student information and
+I spent a few days manually downloading spreadsheets with student information and
 using them to update various course resources.
 //
 But I finally broke down and did what any good computer scientist would do:
