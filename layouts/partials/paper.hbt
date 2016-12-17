@@ -27,11 +27,10 @@
       <i>
         {{ published.preface }}
         {{#if conference.link}}<a href="{{ conference.link }}">{{/if}}
-          {{#if conference.edition}}{{ conference.edition }}{{ else }}{{
-          conference.number}} {{ published.name }} ({{ conference.shortname }}){{/if}}{{#if conference.link}}</a>{{/if}}
+          {{#if conference.edition}}{{ conference.edition }}{{ else }}{{ conference.number}} {{ published.name }} ({{ conference.shortname }}){{/if}}{{#if conference.link}}</a>{{/if}}.
       </i>
       {{/if}}
-      {{#if thesis }}Defended {{ format_date date "normal" }}{{/if}}
+      {{#if thesis }}Defended {{ format_date date "normal" }}.{{/if}}
       {{#if conference_metadata }}
       {{#if published.core }}
       <a href="{{ published.core.link}}"> {{ published.core.name }}: {{published.core.rank}}</a>.

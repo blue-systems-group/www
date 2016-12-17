@@ -1,0 +1,49 @@
+---
+name: "Separated by Birth: Hidden Differences Between Seemingly-Identical Smartphone CPUs"
+published: hotmobile
+people:
+- gurupras
+- rb639@drexel.edu
+- shaseley
+- mark@ece.tufts.edu
+- challen
+projects:
+- poweragility
+funding:
+- 2014-csr-poweragility
+---
+== Abstract
+
+Smartphone consumers, app developers, and even mobile systems researchers
+operate under the assumption that performance differences between identical
+smartphones should be small.
+//
+Consumers pick a model to purchase and don’t consider that the specific
+device they leave the store with may vary quite dramatically from the
+identical models it sat next to on the shelf.
+//
+App rating systems typically collect the model from reviewers, but not more
+detailed information--again, assuming that all instances of a particular
+model perform similarly.
+//
+Even mobile systems researchers will conduct studies using small numbers of
+devices that fail to account or control for inherent differences between
+identical phones.
+
+Unfortunately seemingly-identical smartphones can in fact have very different
+performance characteristics.
+//
+Note that we are not referring to differences in battery or Flash performance
+caused over time by wear.
+//
+Inherent differences would separate two brand-new phones still in the
+original packaging. Our experiments show up to 20% performance and energy
+consumption differences between otherwise identical devices.
+//
+These differences result from process variation in the manufacture of
+smartphone CPUs, which causes some CPUs to perform much more poorly than
+others.
+//
+This paper explains the causes of this variation, measures its impacts, and
+discusses implications for smartphone researchers, software developers, and
+consumers.

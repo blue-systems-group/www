@@ -46,9 +46,15 @@ hotmobile:
     shortname: HotMobile'15
     link: http://www.hotmobile.org/2015/
     date: 2015-02-12
-    blah: 28
     acceptance: 28
     location: Santa Fe, NM
+  2017:
+    number: 18th
+    shortname: HotMobile'17
+    link: http://www.hotmobile.org/2015/
+    date: 2017-02-21
+    acceptance: 36
+    location: Sonoma, CA
 hotnets:
   preface: Proceedings of the
   name: ACM Workshop on Hot Topics in Networks
