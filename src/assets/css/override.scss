@@ -330,6 +330,9 @@ ul.comma-list {
 	footer {
 		display: block !important;
 	}
+	.pulledquote {
+		display: block !important;
+	}
 }
 @media (min-width: 992px) {
   .fixed-md-2 {
@@ -402,12 +405,12 @@ table {
 	font-size: 85%;
 }
 .pulledquote {
-  display: block;
+  display: none;
   float: right;
-  padding: 0 0 0 10px;
+  padding: 0 0 0 5px;
   margin: 0 0 10px 10px;
   width: 200px;
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 1.2em;
   text-align: right;
   border-left: 3px solid DarkGrey;

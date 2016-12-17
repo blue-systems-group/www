@@ -6,61 +6,69 @@ spelling_exceptions:
   - HotCRP
 ---
 
-== How to Flip a Large Class
+== Flipping a Large Class: Part 1
 
-[.snippet.lead]
+[.snippet]
 //
 --
 //
-This semester I've been rolling out a link:/courses/ub-199-fall-2016/[new
+[.lead]
+//
+This semester I designed and deployed a link:/courses/ub-199-fall-2016/[new
 course on the internet] in a
-https://en.wikipedia.org/wiki/Flipped_classroom[flipped classroom] format.
+https://en.wikipedia.org/wiki/Flipped_classroom[flipped] format.
 //
-Despite nominally being a seminar, the course enrolls 440 students and meets
-for activities in two large groups, one with 99 students and another with
-341.
+Despite nominally being a seminar, the course enrolled 440 students and met
+in two large groups.
 //
-The course has been a lot of fun, and I've learned a lot along the way.
+We've had to overcome many challenges.
 //
-We've had to overcome many challenges--some of which I anticipated, and some
-of which caught me by surprise footnote:[Although you could argue--and I would
+Some I anticipated.
+//
+Others caught me by surprise footnote:[Although you could argue--and I would
 agree--that all of them should have been easy to anticipate.].
-
-Note that this post focuses on the infrastructure and management challenges
-of flipping a large course.
 //
-We're also doing something quite interesting with the video delivery, but
-I'll return to that in a later post.
+Overall the course was a lot of fun.
+//
+Here's my attempt to share a bit of what we learned along the way.
+
+This is the first part of a planned three-part series.
+//
+Part one focuses on the infrastructure and management challenges of flipping
+a large course.
+//
+Part two will discuss activity design and deployment.
+//
+Part three will describe the video delivery system we built.
 //
 --
 
 === What Is A/Our Flipped Classroom?
 
-To begin, just brief review for the uninitiated.
+To begin, just brief overview of the flipped classroom model for the
+uninitiated.
 //
-In a flipped classroom you flip the lecturing out of class and flip the
-homework or course activities into class.
+In a flipped classroom you flip the lecturing _out of_ class and flip the
+homework or course activities _into_ class.
 //
-The goal, as far as I see it, is to align the things that benefit from
-supervision (homework) with the hours that you can supervise students (class
-meetings).
+The goal, as I understand it, is to align the things that benefit from
+supervision (assignments) with the hours that you supervise students (class).
 //
-As a technologist, I also consider this approach a better match with what we
-can do with technology (monitoring online video viewing) and the things that
-we can't do with technology (provide interactive help with homework).
+I also consider this approach a better match to what technology can do
+reasonably well (monitor video viewing) and can't do yet (provide interactive
+help).
 //
-I have also recorded a https://www.youtube.com/watch?v=_i_BgT26iYM[short
-explanation of the flipped classroom model] using Legos borrowed from my
-friend Marlon.
+I recorded a https://www.youtube.com/watch?v=_i_BgT26iYM[short explanation of
+the flipped classroom model] using Legos borrowed from my friend Marlon.
 
-In _our_ flipped classroom, each week students watch around 20 5-minute
-videos covering various topics related to how the internet works.
+In _our_ flipped classroom, students watch around 20 5-minute mini-lectures
+each week covering various topics related to how the internet works.
 //
 https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[Here's
-the entire list], currently at 250 videos over 13 weeks.
+the entire playlist], which ended up totaling 292 videos over 15 weeks.
 //
 On Monday and Wednesday students attend a 50-minute meeting where they
-complete an activity in pairs or groups of four.
+complete an activity in groups of two or four.
 //
 We refer to these as _activity sections_ to distinguish them from lectures.
 //
@@ -73,42 +81,53 @@ Grading is primarily based on participation.
 Students receive credit for watching the short videos before the deadline and
 attending and participating in the activity sections.
 //
-They are also required to record three new video explanations for course
-concepts which are graded by the course staff.
+They are also required to record three new video explanations of course
+concepts as assignments.
 
-Why this class is called a seminar is a somewhat long story.
+Why this 440-student class is allowed to abuse the label "seminar" is a long
+story.
 //
 Here's the short version.
 //
-UB decided that all freshman should have a seminar taught by a faculty member
-to groups of 28 students.
+UB decided that all freshman should have a 28-student seminar taught by a
+faculty member.
 //
 [.pullquote]#Unfortunately, the only departments with enough faculty to teach
 these new required seminars are ones with too many faculty and too few
 students.#
 //
-In computer science, we have too many students and too few faculty.
+UB refers to this, euphemistically, as "spare instructional capacity."
 
-Initially we had two options.
+In computer science, we have the opposite problem: too many students and too
+few faculty.
 //
-One was to find faculty volunteers to teach 16 small seminars.
+So initially we had two options.
+//
+One was to find faculty volunteers to teach the 16 small seminars we would
+have had to offer to accommodate all incoming freshman.
 //
 I tried that.
 //
 It didn't work.
 //
-The second option was let our students take a seminar on subjects like "The
+The second option was let our students take seminars on subjects like "The
 Writing of Food Politics" footnote:[Which sounds interesting, or at least "I
 can't figure out what it is about by the title" interesting.].
 //
 Not that I have any problem with computer scientists having a broad-based
 liberal arts education, but that seemed like a missed opportunity.
+//
+Particularly given that our department doesn't have a "Wow, CS is cool!"
+course in the first year.
 
 Luckily for us, several other departments convinced the seminar program to
-grandfather in their existing larger courses.
+grandfather in existing large required courses.
 //
-After some negotiations, we received permission to hold 100-student lectures
-as long as they were accompanied by a seminar-size recitation.
+After some negotiations we received permission to hold 100-student lectures
+as long as they were accompanied by a seminar-size recitation
+//
+footnote:[The observant will note that that's not quite what we did, but at
+some point people stop paying attention.].
 //
 And that created an opportunity to rethink the seminar experience as a huge
 flipped classroom.
@@ -118,13 +137,11 @@ flipped classroom.
 link:/people/gjbunyea[Greg] and I spent the months and weeks before the class
 launched anticipating and addressing lots of potential problems.
 //
-Some of them are described in more detail below.
-//
-But it wasn't until a few days before classes started that we discovered one
+But it wasn't until a few days before class started that we encountered one
 of the biggest challenges to teaching a huge flipped class.
 //
-*All of the classrooms that we had been assigned were completely unsuited to
-group activities.*
+*All the classrooms we were assigned were completely unsuited to group
+activities.*
 
 The course was originally planned as three 100-student sections taught at the
 same time in neighboring classrooms.
@@ -166,7 +183,7 @@ I guess that's why they call them lecture halls...
         </a>
       </div>
       <div class="col-xs-12">
-        <h4>Here's what they gave you...</h4>
+        <h5>Here's what they gave you...</h5>
       </div>
     </div>
   </div>
@@ -195,7 +212,7 @@ We found Bert's.
 Bert's is an on-campus cafeteria.
 //
 I've noticed it for years, mainly because it has that lovely cafeteria smell
-that makes it impossible to miss as you walk by.
+that you can't miss as you walk by.
 //
 Bert's seats 500 students in two equal-sized rooms, mostly at tables of four.
 //
@@ -243,7 +260,7 @@ we had 340 students we wanted to bring down at that time.
         </a>
       </div>
       <div class="col-xs-12">
-        <h4 class="spelling_exception">...but this is what you need.</h4>
+        <h5 class="spelling_exception">...but this is what you need.</h5>
       </div>
     </div>
   </div>
@@ -267,8 +284,8 @@ Me: Do you really work at UB?
 Bert's Manager: Sure.
 ____
 
-A few days later the same extremely agreeable manager allowed us to use part
-of Bert's at 9AM, when the cafeteria is open and serving breakfast.
+A few days later the same agreeable manager allowed us to use half of Bert's
+at 9AM, when it's open and serving breakfast.
 //
 We only have 99 students at that time, which doesn't interfere with
 early-morning diners.
@@ -278,18 +295,19 @@ And that was that.
 To guide students to where their group is located, we created an online
 https://www.internet-class.org/img/berts.png[seating chart].
 //
-Students are assigned to new tables each week via email.
+Students are assigned to new groups each week via email.
 //
-When they arrive in class, they use this to locate their table or group.
+When they arrive in class, they use this to locate their table.
 //
-The first few times we tried this, chaos ensued for around 10 minutes.
+The first few times we tried this, class started with 10 minutes of pure
+chaos.
 //
 But after a few iterations, students got the hang of it.
 //
-At this point, they find their groups quickly and get to work.
+Past that point, they find their groups quickly and get started.
 //
 Our fantastic undergraduate teaching assistant circulate constantly among 12
-or 16 students--3 or 4 groups--to keep them on task and answer any questions.
+or 16 students to keep them on task and answer questions.
 
 There's something incredibly exciting about having hundreds of like-minded
 students packing the same space and working in close proximity.
@@ -332,9 +350,10 @@ impossible to use the beginning of class as an broadcast period.
 //
 There is no "front" of the room to deliver them from in the typical fashion.
 //
-And the act of mounting a table and shouting at the top of my lungs is
-something that I'm not interested in doing, and that is frowned upon by
-cafeteria staff.
+Mounting a table and shouting at the top of my lungs is something that I'm
+not interested in doing
+//
+footnote:[It's also frowned on by the cafeteria staff.].
 
 For that reason, email becomes a much more important way of communicating
 with students.
@@ -345,61 +364,44 @@ That would seem simple, right?
 //
 Wrong.
 
-At UB, sending a class email involves several frustrating processes I'm supposed to go through.
+At UB, sending a class email not a simple task.
 //
 First, I have to log in to a broken course management tool.
 //
 That log in has an obvious race condition and so it fails about 10% of the
 time.
 //
-But it does produce one of my favorite error messages of all time:
-
-++++
-<div class="row" style="margin-top:10px; margin-bottom:10px;">
-  <div class="col-xs-offset-1 col-xs-10" style="border:1px solid grey; padding-top:10px;">
-    <div class="row">
-      <div class="col-xs-12">
-        <a href="/assets/img/posts/large_flip/error.png" data-toggle="lightbox"
-           data-gallery="lecture-rooms"
-           data-footer="This is what they gave you...">
-          <img src="/assets/img/posts/large_flip/error.png" alt="HUB login error message"
-               class="img-responsive">
-        </a>
-      </div>
-      <div class="col-xs-12">
-        <h4>"Sorry, we are currently unable to log you in... Despite this
-        message, you are currently logged in(to)...". The mind reels.</h4>
-      </div>
-    </div>
-  </div>
-</div>
-++++
-
-Anyway--once you get past this, then you realize that the course management
-system has needlessly broken your class into four chunks that need to be
-emailed separately.
+Then you realize that the course management system has needlessly broken your
+class into four chunks that need to be emailed separately.
 //
 Then you have to remember that the system refers to email as "notifying"
 students for no particular reason.
 //
-Once you've fought your way through a few more slow,
-[.spelling_exception]#crashy#, and completely mobile-unfriendly screens, you
-find yourself at a web form encouraging you to generate an email with the
-subject "<From the desk of Geoffrey Challen>".
+Next, fight your way through a few more slow, [.spelling_exception]#crashy#,
+and completely mobile-unfriendly screens.
 //
-And then you remember that you have to repeat the process three more times.
+Now you find a web form encouraging you to generate an email with the subject
+"<From the desk of Geoffrey Challen>".
 //
-[.pullquote]#Imagine trying to do this five minutes before your activity is
-scheduled to start because you need to cancel class due to an outbreak of the
-flu.#
+Yes--those brackets are in the original.
+//
+Now, repeat the whole process three more times.
+//
+[.pullquote]#Imagine trying to do this five minutes before a class you need
+to cancel due to a power outage.#
 //
 No thanks.
 
 But hey--I'm a computer scientist.
 //
 I'm familiar with cutting-edge software packages like
-https://www.gnu.org/software/mailman/[Mailman], which allows me to create and
-manage email lists.
+https://www.gnu.org/software/mailman/[Mailman]
+//
+footnote:[Yes, you detected sarcasm!
+//
+But in my opinion Mailman is as underappreciated as it is crufty.],
+//
+which allows me to create and manage email lists.
 //
 All I need is a programmatic way to get an up-to-date list of all the email
 addresses for the students in my class.
@@ -420,24 +422,18 @@ the current students in the class_.
 Luckily, I was familiar with these challenges from teaching other large
 courses.
 //
-I spent a few days manually downloading spreadsheets with student information and
-using them to update various course resources.
+I manually downloaded spreadsheets with student information a few times and
+used them to start the process of updating various course resources.
 //
 But I finally broke down and did what any good computer scientist would do:
-wasted several days of my life to completely automate the process.
+wasted several days completely automating the process.
 //
 You don't want to know the details and I don't want to share them with you,
 but suffice to say that gory may not be a strong enough word.
 //
-Particularly when trying to interpret pre-CSS HTML--tables inside of tables
-inside of other tables.
-//
-That said, what pops out after several minutes of
-http://casperjs.org/[`casperjs`]-enabled web interface banging is a JSON
-document with student names, email addresses, other metadata--and even a
-photo encoded in `base64`.
-//
-[.spelling_exception]#Boo-yah.#
+But after several minutes of http://casperjs.org/[`casperjs`]-enabled web
+interface banging, I have a JSON document with student names, email
+addresses, other metadata--even `base64` encoded photos.
 
 But that tool is only one part of a complete set of tools that I've had to
 develop this semester for doing flipped-classroom administration.
@@ -458,15 +454,16 @@ https://discourse.internet-class.org[class forum]. No--I do not want to
 figure out my university's authentication system and get permission to use
 it. I just want something that works, and Auth0 does.
 //
-. Randomly assign students to new groups of two or four, with some
-demographic-based meddling. Also shuffle students into new pairs while
-leaving them at the same table.
+. Randomly assign students to groups with some demographic-based meddling.
 //
-. Generate customized emails before each activity informing students of their
-group assignment and providing the activity description.
+. Assign undergraduate teaching assistants to table groups in ways that
+respect the geometry of our flipped classroom.
 //
-. Parse and correct the attendance records--which contain a lot of
-mistakes--and calculate that component of each student's grade.
+. Generate customized emails informing students of their group assignment and
+providing the activity description.
+//
+. Parse and correct the human-entered attendance records--which contain a lot
+of mistakes--and calculate that component of each student's grade.
 //
 . Access the video delivery database to record how many videos a student
 watched before their deadlines and calculate that component of their grade.
@@ -476,13 +473,11 @@ review videos and calculate that component of each student's grade.
 //
 . Combine all grading components to generate custom grade emails and export
 the data into formats allowing me to set midterm grades.
-//
-. Assign undergraduate teaching assistants to table groups in ways that
-respect the geometry of our flipped classroom.
 
-I don't want to toot my own horn here, but I don't think that I have to go
-too far out on a limb to say that most if not all history faculty could not
-have built these tools.
+I don't want to toot my own horn here.
+//
+But I don't think it's going too far out on a limb to say that most if not
+all history faculty could not have built these tools.
 //
 I'm not sure that some of my own computer science colleagues could--or would
 have bothered.
@@ -493,8 +488,6 @@ challenges, they also create technological infrastructure ones as well.
 I was fortunate to have the skills required to address these challenges, as
 well as some experience with similar tools from previous courses.
 
-=== Step 3: Get Activities
-
-=== Step 4: Get Great People
+=== Next Time
 
 // vim: ts=2:sw=2:et
