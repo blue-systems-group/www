@@ -43,7 +43,7 @@
         </div>
 
         {{{ contents }}}
-        
+
         <div class="row hidden-sm hidden-md hidden-lg text-center">
           <div class="col-xs-12">
             {{#if previous_item}}
