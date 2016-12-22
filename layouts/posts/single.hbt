@@ -82,7 +82,7 @@
           <div class="item">
             <div class="h3">Recent</div>
             <ul class="tight list-unstyled">
-              {{#each visible_posts }}
+              {{#each recent_posts }}
               {{#ne ../path this.path }}
               <li style="margin-bottom:10px; line-height:1.1em;">
                 <a href="/{{ this.path }}">

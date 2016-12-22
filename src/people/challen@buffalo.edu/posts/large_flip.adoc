@@ -21,12 +21,10 @@ https://en.wikipedia.org/wiki/Flipped_classroom[flipped] format.
 Despite nominally being a seminar, the course enrolled 440 students and met
 in two large groups.
 //
-We've had to overcome many challenges.
-//
-Some I anticipated.
-//
-Others caught me by surprise footnote:[Although you could argue--and I would
-agree--that all of them should have been easy to anticipate.].
+To pull this off, we had to overcome many challenges--some that were
+anticipated, others that caught us by surprise footnote:[Although you could
+argue--and I would agree--that all of them should have been easy to
+anticipate.].
 //
 Overall the course was a lot of fun.
 //
@@ -61,7 +59,7 @@ help).
 I recorded a https://www.youtube.com/watch?v=_i_BgT26iYM[short explanation of
 the flipped classroom model] using Legos borrowed from my friend Marlon.
 
-In _our_ flipped classroom, students watch around 20 5-minute mini-lectures
+In _our_ flipped classroom, students watch around 20 5-minute lessons
 each week covering various topics related to how the internet works.
 //
 https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[Here's
@@ -481,7 +479,7 @@ all history faculty could not have built these tools.
 //
 I'm not sure that some of my own computer science colleagues could--or would
 have bothered.
-//
+
 So not only do large flipped classrooms create physical infrastructure
 challenges, they also create technological infrastructure ones as well.
 //
@@ -489,5 +487,34 @@ I was fortunate to have the skills required to address these challenges, as
 well as some experience with similar tools from previous courses.
 
 === Next Time
+
+We were really luck that Bert's worked out for us this semester.
+//
+Had the class been held at a time when the cafeteria was busy, we would have
+been out of luck.
+//
+Next time I'd find a good space first--probably Bert's again at UB, since
+there just aren't many options--and schedule the course around its
+availability.
+
+Hopefully flipped and activity-based courses will become more common.
+//
+But until then, I don't anticipate the tools we needed being part of standard
+deployed course management software.
+//
+Remember--at this point even emailing all of the students in the class is
+painful, a mode of communication that becomes increasingly important in a
+flipped class.
+//
+Luckily now I have a lot of these tools built.
+//
+If you're starting from scratch I'd suggest thinking about how you are going
+to handle some of these management challenges.
+//
+That probably starts with determining how to integrate with the tools you
+_do_ have.
+
+In the next installment of this series of posts I'll discuss the challenge of
+formulating, deploying, and supervising two dozen new course activities.
 
 // vim: ts=2:sw=2:et

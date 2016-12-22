@@ -50,7 +50,7 @@
           </div>
 
           <div class="item">
-            <div class="h3">Recent</div>
+            <div class="h3">Index</div>
             <ul class="tight list-unstyled">
               {{#each visible_posts }}
               <li style="margin-bottom:10px; line-height:1.1em;"><a href="/{{ this.path }}">{{ this.title }}</a></li>
