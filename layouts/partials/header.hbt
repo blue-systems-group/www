@@ -12,8 +12,8 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Your Website Title" />
     <meta property="og:description" content="{{ description }}" />
-    <meta property="og:image" content="https://www.bluegroup.systems/assets/img/logos/blue.jpg">
-    <meta property="fb:admins" content="geoffrey.challen" />
+    <meta property="og:image" content="https://www.bluegroup.systems/assets/img/logos/blue-square.jpg">
+    <meta property="fb:admins" content="5469" />
 
     <link rel="stylesheet" type="text/css" href="/assets/css/site.css">
 
