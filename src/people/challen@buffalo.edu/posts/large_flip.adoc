@@ -1,9 +1,9 @@
 ---
-working: true
 spelling_exceptions:
   - Auth0
   - Legos
   - HotCRP
+created: 2016-12-22T13:53:30.711Z
 ---
 
 == Flipping a Large Class: Part 1
@@ -39,6 +39,7 @@ Part two will discuss activity design and deployment.
 //
 Part three will describe the video delivery system we built.
 //
+[.readmore.remove]#Read more...#
 --
 
 === What Is A/Our Flipped Classroom?
@@ -58,6 +59,12 @@ help).
 //
 I recorded a https://www.youtube.com/watch?v=_i_BgT26iYM[short explanation of
 the flipped classroom model] using Legos borrowed from my friend Marlon.
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://www.youtube.com/embed/_i_BgT26iYM" allowfullscreen></iframe>
+</div>
+++++
 
 In _our_ flipped classroom, students watch around 20 5-minute lessons
 each week covering various topics related to how the internet works.
@@ -129,6 +136,15 @@ some point people stop paying attention.].
 //
 And that created an opportunity to rethink the seminar experience as a huge
 flipped classroom.
+//
+Here's https://youtu.be/3Acp18w6lXw[a short video summarizing how the class
+works].
+
+++++
+<div class="embed-responsive embed-responsive-16by9" style="margin-top:10px; margin-bottom:10px;">
+<iframe src="https://www.youtube.com/embed/3Acp18w6lXw" allowfullscreen></iframe>
+</div>
+++++
 
 === Step 1: Get a Room
 
