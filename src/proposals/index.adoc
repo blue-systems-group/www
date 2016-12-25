@@ -7,7 +7,6 @@ description: >
   that we have been lucky enough to be provided.
 changefreq: weekly
 priority: 0.5
-noh1: true
 ---
 
 [.lead]

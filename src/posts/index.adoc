@@ -3,7 +3,7 @@ layout: posts/index.hbt
 description: >
   Here the blue Systems Research Group shares its thoughts on issues related
   to systems research and education.
-noh1: true
+posts_index: true
 ---
 
 // vim: ts=2:et:ft=asciidoc
