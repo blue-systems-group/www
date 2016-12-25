@@ -206,6 +206,15 @@ div.footer-padding {
 			border-left-color: #222;
 			color: #222;
 		}	
+		&.posts {
+			& > li {
+				margin-bottom: 5px;
+				line-height: 1.1;
+			}
+			& > li > a {
+				padding-right: 0px;
+			}
+		}
 	}
 	& > #sidebar {
 		bottom: 0;
