@@ -31,11 +31,8 @@ enrollment: 139
 ++++
 == Evaluations
 
-[cols="60,^40",options='header']
+[cols="60,^40"]
 |===
-
-| {nbsp}
-a| *421/521*
 
 | Enrollment | 114
 | Response Rate (%) | 94

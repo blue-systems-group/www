@@ -533,4 +533,34 @@ _do_ have.
 In the next installment of this series of posts I'll discuss the challenge of
 formulating, deploying, and supervising two dozen new course activities.
 
+=== Post-Evaluation Update
+
+I received the link:/courses/2016/199/UB_199_Fall_2016-Evaluations.pdf[course
+evaluations] for CSE 199 today (12/27/2016).
+//
+I'll discuss aspects of the evaluations in future posts.
+//
+But I was surprised at how negatively students seemed to react to meeting in
+Bert's cafeteria.
+//
+The pointed out that it was crowded (always true), dirty (sometimes true),
+lacked power outlets (always true), had poor Wifi (always true, but only
+sometimes a problem), and was hard to get in and out of (always true).
+//
+There were some that seemed to find it unprofessional or unseemly that we
+were meeting "in a cafeteria", rather than in some more official setting.
+
+Obviously I didn't expect students to understand the problems with the other
+options.
+//
+Had we met in a lecture hall I suspect that the evaluations would have
+contained a different set of room-appropriate complaints.
+//
+But to me this underscores the need for universities to provide better spaces
+for holding large activity-based classes.
+//
+Bert's is far from ideal, for all of reasons that students identified.
+//
+It's also probably pretty close to the best you can do at UB right now.
+
 // vim: ts=2:sw=2:et

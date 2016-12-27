@@ -42,9 +42,39 @@ syllabus: "https://www.internet-class.org/courses/fys/syllabus/"
 videos: "https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8"
 enrollment: 440
 ---
-++++
-<a class="anchor" id="summary"></a>
-++++
+:linkattrs:
+
+== Retrospective
+
+We're preparing a series of link:/posts/[blog posts] about the challenge of
+flipping a large course like this one:
+
+. link:/posts/2016-12-22-flipping-a-large-class-part-1/[Part 1: Logistics]
+. Part 2: Activities (Planned)
+. Part 3: Online Videos (Planned)
+
+== Evaluations
+
+[cols="60,^40"]
+|===
+
+| Enrollment | 440
+| Response Rate (%) | 95
+| Instructor Rating (out of 5)| 3.53
+| Course Rating (out of 5) | 3.08
+
+|===
+
+Full quantitative and qualitative evaluation results are
+link:/courses/2016/199/UB_199_Fall_2016-Evaluations.pdf[here, role="nopdf"].
+//
+Given that this was the first time that the course was offered and the video
+content, activities, approach, and staff were all new, we were fairly
+satisfied with these results.
+//
+The course will definitely improve the next time it is offered, thanks in
+part to the excellent feedback provided by this year's students.
+
 == Summary
 
 The internet is changing every aspect of our lives, including how we
