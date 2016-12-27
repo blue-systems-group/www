@@ -40,6 +40,7 @@ Part two will discuss activity design and deployment.
 Part three will describe the video delivery system we built.
 //
 [.readmore.remove]#Read more...#
+//
 --
 
 === What Is A/Our Flipped Classroom?

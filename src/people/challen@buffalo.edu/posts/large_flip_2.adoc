@@ -1,0 +1,139 @@
+---
+working: true
+---
+
+== Flipping a Large Class: Part 2
+
+[.snippet]
+//
+--
+//
+[.lead]
+//
+For me, the most daunting part of flipping a large class was designing
+activities.
+//
+Whatever else you may say about lecturing, it is a _great_ way to kill time.
+//
+When you flip a class, all of those hours that you could have easily filled
+lecturing, now have to be spent doing something else--but what?
+//
+Below I attempt to share what we learned developing and deploying 24 new
+activities as part of our new link:/courses/ub-199-fall-2016[course on the
+internet].
+
+This is the second part of a planned three-part series footnote:[Although it
+may sprawl past that...].
+//
+link:/posts/2016-12-22-flipping-a-large-class-part-1/[Part one] focused on
+the logistical challenges of flipping a large class. 
+//
+Part three will describe the video delivery system we built.
+//
+[.readmore.remove]#Read more...#
+//
+--
+
+=== Background
+
+If you didn't read link:/posts/2016-12-22-flipping-a-large-class-part-1/[part
+one of this series], it may be worth it before continuing.
+//
+Or at least skim the
+link:/posts/2016-12-22-flipping-a-large-class-part-1/#what_is_a_our_flipped_classroom[overview
+of our flipped classroom approach].
+//
+As a brief review, students in our link:/courses/ub-199-fall-2016[new course
+on the internet] were required to watch around 20 5-minute video lessons
+outside of class each week.
+//
+During two hours of scheduled meeting time, students worked on activities in
+groups of two or four, supervised by the course staff.
+//
+We referred to these meetings as _activity sections_ to distinguish them from
+lectures.
+//
+Attendance was taken at the activity sections and participation was a fairly
+large portion of students' grades.
+//
+So students tended to show up.
+
+=== Killing Time
+
+The attraction of the flipped classroom model is that you don't waste class
+time on one-to-many content delivery.
+//
+Once you get to a certain class size, there's really not much of a difference
+between students sitting in a cavernous lecture hall and sitting at home in
+front of YouTube footnote:[Hopefully in their bathrobes!].
+
+Consider the following back-of-the-envelope calculation.
+//
+Assume I can engage 10 different students in some way during each hour-long
+lecture--typically by asking them a question.
+//
+That's a pretty good result even for a lecturer that is pretty talented at
+classroom management.
+//
+Then in a 15-week 3-hours-per-week 100-student class, I'll get to each
+student about 4 times per semester--or once _every four weeks_.
+//
+That's just not that much interaction.
+//
+And double the class to 200 students--like my OS class next term--and you're
+down to _twice a semester_.
+//
+So you're just not losing that much in the way of interaction by moving
+lectures online
+//
+footnote:[And yes--I'm assuming you can use technology to replace other
+features of lecturing, like allowing students to ask questions and the
+instructor to gauge the progress of the class.].
+
+So lecture content delivery seems better done online.
+//
+[.pullquote]#But then: what do you do _in class_?#
+//
+For me, this has been a major stumbling block when considering flipping
+classes in the past.
+//
+Consider the process of transitioning a traditional lecture-based course to a
+flipped approach.
+//
+Typically, not only do you need to record new video content, but you also
+have to plan activities
+//
+footnote:[Of course, you don't have to plan activities.
+//
+There might be cases where it would be better to simply move lectures online
+and not meet in large groups at all--preserving other components of the
+class, of course.
+//
+But try convincing students and their parents that this is worth their
+hard-earned tuition dollars.]
+//
+to fill the now-empty class time.
+//
+So it's a double whammy of extra work.
+
+The truth is, I've actually wanted to try flipping my OS class for years.
+//
+And I actually have years of lecture videos already recorded.
+//
+But the activity preparation part has always scared me off.
+//
+[.pullquote]#If I need to fill an hour of class time, I am much more
+comfortable standing at the front of a large room running my mouth# than
+prepping and supervising a new in-class activity.
+//
+Based on what goes on at most universities, I'm not alone.
+//
+Part of this is due to how research-focused Ph.D. students are trained.
+//
+Lecturing is a lot like giving oral research presentations, which Ph.D.
+students are both trained to do and trained to care about.
+//
+Desinging in class activities or homework assignments is not something we are
+trained to do or do well--not even accidentally.
+
+// vim: ts=2:sw=2:et
