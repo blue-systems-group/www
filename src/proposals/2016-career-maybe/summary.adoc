@@ -4,7 +4,7 @@ Adaptation"
 recommended: true
 started: 2017-09-01
 ends: 2022-09-01
-amount: 557481
+amount: 537481
 source: NSF
 program: CAREER
 faculty:
