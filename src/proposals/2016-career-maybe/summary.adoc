@@ -14,13 +14,10 @@ projects:
 ---
 == Funding Note
 
-My CAREER award has been recommended for funding, but the NSF will delay
-awarding this grant until link:/future/[I find a new academic position].
+My CAREER award will be awarded to UB.
 //
-Once the award is made, I will make the full proposal available online.
-//
-Also note that at this point the funding amount is what was requested, not
-necessarily what will be awarded.
+But I will be able to move the entire award with me to my link:/future/[new
+academic position.]
 
 == Summary
 
