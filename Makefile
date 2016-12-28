@@ -27,4 +27,10 @@ clean:
 fixphotos:
 	@find . -name "photo.jpg" | xargs -n 1 -P 4 -I PHOTO convert PHOTO -resize 293x293^ -gravity center -extent 293x293^ -strip +set date:create +set date:modify PHOTO
 
-.PHONY: run clean silent build
+fixthumbnails:
+	@for f in `find src -name "paper.pdf" -o -name "poster.pdf" -o -name "external.pdf"` ; do convert -thumbnail x300 -background white -alpha remove "$f"[0] "${f%.pdf}.png" ; done
+
+findspace:
+	find src -type f -exec egrep -Il " +$$" {} \;
+
+.PHONY: run clean silent build fixphotos fixthumbnails findspace
