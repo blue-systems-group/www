@@ -26,7 +26,7 @@ This is the second part of a planned three-part series footnote:[Although it
 may sprawl past that...].
 //
 link:/posts/2016-12-22-flipping-a-large-class-part-1/[Part one] focused on
-the logistical challenges of flipping a large class. 
+the logistical challenges of flipping a large class.
 //
 Part three will describe the video delivery system we built.
 //
@@ -133,7 +133,7 @@ Part of this is due to how research-focused Ph.D. students are trained.
 Lecturing is a lot like giving oral research presentations, which Ph.D.
 students are both trained to do and trained to care about.
 //
-Desinging in class activities or homework assignments is not something we are
-trained to do or do well--not even accidentally.
+Designing in-class activities or homework assignments is not something we are
+trained to do well--not even accidentally.
 
 // vim: ts=2:sw=2:et
