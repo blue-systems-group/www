@@ -76,6 +76,7 @@ Please peruse to find out more.
 I am active as a technical program committee member and reviewer for the top
 conferences and workshops in mobile systems
 (https://www.sigmobile.org/mobisys/[MobiSys] (2017, 2016, 2014),
+https://www.sigmobile.org/mobicom/[MobiCom] (2017),
 http://www.hotmobile.org/main/[HotMobile] (2016),
 http://mobicase.org/[MobiCASE] (2016)) and wireless sensor networks
 (http://sensys.acm.org/[SenSys] (2016,2013,2012,2011),
