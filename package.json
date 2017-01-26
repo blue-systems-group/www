@@ -14,7 +14,7 @@
   },
   "main": "lib/index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec --slow 2000"
+		"test": "node ./lib/index.js . --check --quiet"
   },
   "bugs": {
     "url": "https://github.com/blue-systems-group/code.metalsmith-blue/issues"

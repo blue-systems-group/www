@@ -5,8 +5,23 @@ joined: 2015-02-1
 scholar: https://scholar.google.co.in/citations?user=ISItfAwAAAAJ&hl=en&authuser=1
 linkedin: https://www.linkedin.com/in/brijeshrakholia
 ---
+
 [.lead]
-I am a fourth-year computer science undergraduate working in link:/[blue] through the link:/proposals/2013-reu-phonelab/[PhoneLab REU]. My interests are inclined towards operating systems and web. I am also a Teaching Assistant for https://internet-class.org[How Internet Works] and http://www.cse.buffalo.edu/~jzola/courses/2016/Fall/CSE250[Data Structures in C++].
+//
+I am a fourth-year computer science undergraduate working in link:/[blue]
+through the
+//
+link:/proposals/2013-reu-phonelab/[PhoneLab REU].
+//
+My interests are inclined towards operating systems and web.
+//
+I am also a Teaching Assistant for
+//
+https://www.internet-class.org[How Internet Works]
+//
+and
+//
+http://catalog.buffalo.edu/courses/?abbr=CSE&num=250[Data Structures in C++].
 
 I became curious about computers when I first joined my high school's
 robotics team--The [.spelling_exception]#GalaxyRoboTechs#! We used to

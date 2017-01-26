@@ -162,7 +162,7 @@ src="http://www.xpn.org/media/k2/items/cache/2fc863fc8d940a5d8d41465cb8e0596c_XL
 <div class="col-xs-6 text-center">
 <h4><a href="http://research.microsoft.com/en-us/people/sagarwal/">Sharad Agarwal</a></h4>
 <img
-src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAKmAAAAJGM2NGExZWJkLTExODctNGJmMC05YTQzLTkwYjM3YzU0OWMzZA.jpg" alt="Sharad Agarwal" class="img-responsive center-block">
+src="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/avatar_user__1467844017-180x180.jpg" alt="Sharad Agarwal" class="img-responsive center-block">
 </div>
 
 <div class="col-xs-6 text-center">
