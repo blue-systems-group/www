@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+LOCKFILE=$DIR/../deploy.lock
+LOCKFD=99
+
+_lock() {
+  flock -$1 $LOCKFD;
+}
+_no_more_locking() {
+  _lock u;
+  _lock xn && rm -f $LOCKFILE && popd;
+}
+_prepare_locking() {
+  eval "exec $LOCKFD>\"$LOCKFILE\"";
+  trap _no_more_locking EXIT;
+}
+exlock_now() {
+  _lock xn;
+}
+
+_prepare_locking
+exlock_now || exit 0
+
+pushd $DIR/../
+
+git fetch origin
+if ! [ -z "$1" ]; then
+  git -c advice.detachedHead=false checkout $1
+else
+  true
+  # git -c advice.detachedHead=false checkout origin/master
+fi
+git clean -df
+
+echo "Building blue.cse.buffalo.edu..."
+
+npm install
+if node ./lib/index.js . --check --deploy; then
+  rsync -crlpgoDi --delete .build/* /mnt/ramdisk/blue.cse.buffalo.edu/www/ | while read unused filename; do
+    curl --request PURGE 'http://127.0.0.1/$filename' > /dev/null 2> /dev/null
+    echo "Updated $filename"
+  done
+  echo "Success. Thanks for updating the website."
+else
+  echo "Failed. Please try again."
+  exit 1
+fi
+
+# vim: ts=2:sw=2:et

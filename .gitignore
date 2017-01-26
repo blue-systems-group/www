@@ -1,5 +1,6 @@
 *.swo
 *.swp
+/deploy.lock
 /npm-debug.log
 /node_modules/
 /build
