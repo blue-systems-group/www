@@ -3,5 +3,10 @@ node_js:
   - "6.9.4"
 dist: trusty
 sudo: false
+notifications:
+  webhooks:
+    urls:
+      - https://blue.cse.buffalo.edu/notifications
+    on_start: always
 
 # vim: ts=2:sw=2:et
