@@ -27,8 +27,10 @@ exlock_now() {
   git fetch origin
   if ! [ -z "$1" ]; then
     git reset --hard $1
-    cp $2 .build.json
-    rm -f $2
+    if [ -z "$2"]; then
+      cp $2 .build.json
+      rm -f $2
+    fi
   else
     rm -f .build.json
   fi
