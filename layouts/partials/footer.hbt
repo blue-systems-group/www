@@ -10,8 +10,10 @@
 	</div>
 	{{#if github_links}}
 	<div class="small col-xs-12 col-md-4 text-center">
-		<a href="{{ github_links.commits }}">File History</a> <br />
-		<a href="{{ github_links.blob}}">View on Github</a>
+		<a href="{{ github_links.commit }}">Current Commit (<code>{{ github_links.commit_id }}<code>)</a>
+		<br />
+		<a href="{{ github_links.commits }}">History</a> //
+		<a href="{{ github_links.blob}}">View</a>
 	</div>
 	{{/if}}
 </div>
