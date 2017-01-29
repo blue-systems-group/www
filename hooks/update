@@ -32,7 +32,7 @@ fi
 git clean -df
 
 npm install --loglevel warn
-if node ./lib/index.js . --check --deploy; then
+if node ./lib/index.js . --check --deploy --quiet; then
   sudo mkdir -p /mnt/ramdisk/www.bluegroup.systems/
   sudo chown challen:challen /mnt/ramdisk/www.bluegroup.systems/
   rsync -crlpgoDq --delete .build/* /mnt/ramdisk/www.bluegroup.systems/
