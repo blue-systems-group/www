@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-set -o verbose > /dev/null 2>&1
-
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 LOCKFILE=$DIR/../deploy.lock
 LOCKFD=99
@@ -21,8 +19,8 @@ exlock_now() {
   _lock xn
 }
 
-RESULT=0
 {
+  set -o verbose > /dev/null 2>&1
   _prepare_locking
   exlock_now || exit 0
 
@@ -43,11 +41,11 @@ RESULT=0
     sudo touch /mnt/ramdisk/nginx/pagespeed_cache/cache.flush
     rm -rf .build
   else
-    RESULT=1
+    FAILED=1
   fi
 } > $DIR/.build.output 2> $DIR/.build.output
 
-if $RESULT; then
+if [ -z "$RESULT" ]; then
   echo "Build succeeded"
 else
   echo "Build failed"
