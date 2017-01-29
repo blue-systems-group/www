@@ -19,7 +19,6 @@ exlock_now() {
   _lock xn
 }
 
-set -o verbose > /dev/null 2>&1
 {
   _prepare_locking
   exlock_now || exit 0
@@ -44,7 +43,6 @@ set -o verbose > /dev/null 2>&1
     FAILED=1
   fi
 } > $DIR/.build.output 2> $DIR/.build.output
-unset -o verbose > /dev/null 2>&1
 
 if [ ! -z "$RESULT" ]; then
   echo "Build failed"
