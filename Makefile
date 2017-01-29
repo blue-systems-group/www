@@ -3,7 +3,7 @@ all: build | silent
 build: node_modules
 	@node ./lib/index.js . $(CHECK) $(DEPLOY)
 	@while [ -n "$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
-	@rsync -rlpgoDc --delete .build/ build 2>/dev/null
+	@rsync -rlpgoDc --delete .build/ build
 	@rm -rf .build
 
 install: node_modules
