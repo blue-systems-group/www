@@ -44,7 +44,7 @@
     "metalsmith-drafts": "0.0.1",
     "metalsmith-filemetadata": "^1.0.0",
     "metalsmith-filepath": "^1.0.1",
-    "metalsmith-formatcheck": "^0.2.2",
+    "metalsmith-formatcheck": "^0.2.4",
     "metalsmith-highlight": "^1.0.4",
     "metalsmith-if": "^0.1.1",
     "metalsmith-in-place": "^2.0.1",
