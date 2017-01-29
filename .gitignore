@@ -5,11 +5,6 @@
 /node_modules/
 /build
 /.build
-/src/links_failed.json
-/src/spelling_failed.json
-/src/format_failed.json
-/src/.*
 .DS_Store
 /.build.json
 /.build.output
-/.install
