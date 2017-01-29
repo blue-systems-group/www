@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-LOCKFILE=$DIR/../deploy.lock
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/../"
+LOCKFILE=$DIR/deploy.lock
 LOCKFD=99
 
 _lock() {
@@ -23,7 +23,7 @@ exlock_now() {
   _prepare_locking
   exlock_now || exit 0
 
-  pushd $DIR/../ > /dev/null 2>&1
+  pushd $DIR > /dev/null 2>&1
   rm -f $DIR/.build.output $DIR/.build.json
   git fetch origin
   if ! [ -z "$1" ]; then
