@@ -1,59 +1,44 @@
 #!/usr/bin/env bash
 
-LOCKFILE="/home/git/www/blue.cse.buffalo.edu/deploy.lock"
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+LOCKFILE=$DIR/../deploy.lock
 LOCKFD=99
 
-_lock()							{ flock -$1 $LOCKFD; }
-_no_more_locking()	{ _lock u; _lock xn && rm -f $LOCKFILE; }
-_prepare_locking()	{ eval "exec $LOCKFD>\"$LOCKFILE\""; trap _no_more_locking EXIT; }
+_lock() {
+  flock -$1 $LOCKFD;
+}
+_no_more_locking() {
+  _lock u;
+  _lock xn && rm -f $LOCKFILE && popd;
+}
+_prepare_locking() {
+  eval "exec $LOCKFD>\"$LOCKFILE\"";
+  trap _no_more_locking EXIT;
+}
+exlock_now() {
+  _lock xn;
+}
 
 _prepare_locking
-
-exlock_now()				{ _lock xn; }
-
-if ! [ -z "$1" ] && ! [ "refs/heads/master" == "$1" ]; then
-	exit 0
-fi
-
 exlock_now || exit 0
 
-export HOME="/home/git/"
-WORKING_DIR=$HOME/www/blue.cse.buffalo.edu/
-PATCH_FILE=/tmp/blue-patch
+pushd $DIR/../
 
-if ! [ -z "$3" ]; then
-	git diff --binary $2 $3 > $PATCH_FILE
-	unset GIT_DIR
-	cd $WORKING_DIR
-	git clean -df > /dev/null
-	git fetch origin > /dev/null
-	git reset --hard $2 > /dev/null
-	if [ -f $PATCH_FILE ]; then
-		git apply $PATCH_FILE > /dev/null >> /dev/null
-		rm -f $PATCH_FILE
-	else
-		echo "Warning: patch file is empty"
-	fi
-else
-	cd $WORKING_DIR
-	git clean -df > /dev/null
-	git fetch origin > /dev/null
-	git reset --hard origin/master > /dev/null
+git fetch origin
+if ! [ -z "$1" ]; then
+  git -c advice.detachedHead=false checkout $1
 fi
-
-echo "Building blue.cse.buffalo.edu..."
-
-NVM_DIR="/home/git/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+git clean -df
 
 npm install
 if node ./lib/index.js . --check --deploy; then
-	rsync -crlpgoDi --delete .build/* /mnt/ramdisk/blue.cse.buffalo.edu/www/ | while read unused filename; do
-		curl --request PURGE 'http://127.0.0.1/$filename' > /dev/null 2> /dev/null
-		echo "Updated $filename"
-	done
-	echo "Success. Thanks for updating the website."
+  sudo mkdir -p /mnt/ramdisk/www.bluegroup.systems/
+  rsync -crlpgoDi --delete .build/* /mnt/ramdisk/blue.cse.buffalo.edu/
+  sudo touch /mnt/ramdisk/nginx/pagespeed_cache/cache.flush
 else
-	echo "Failed. Please try again."
-	exit 1
+  echo "Build failed"
+  exit 1
 fi
+
+# vim: ts=2:sw=2:et
