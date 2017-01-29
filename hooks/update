@@ -9,7 +9,7 @@ _lock() {
 }
 _no_more_locking() {
   _lock u
-  _lock xn && rm -f $LOCKFILE && popd
+  _lock xn && rm -f $LOCKFILE && popd > /dev/null 2>&1
 }
 _prepare_locking() {
   eval "exec $LOCKFD>\"$LOCKFILE\""
@@ -23,7 +23,7 @@ exlock_now() {
   _prepare_locking
   exlock_now || exit 0
 
-  pushd $DIR/../
+  pushd $DIR/../ > /dev/null 2>&1
   rm -f $DIR/.build.output $DIR/.build.json
   git fetch origin
   if ! [ -z "$1" ]; then
@@ -42,7 +42,7 @@ exlock_now() {
   else
     FAILED=1
   fi
-} > $DIR/.build.output 2> $DIR/.build.output
+} >> $DIR/.build.output 2>>&1
 
 if [ ! -z "$RESULT" ]; then
   echo "Build failed"
