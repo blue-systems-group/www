@@ -10,3 +10,5 @@
 /src/format_failed.json
 /src/.*
 .DS_Store
+/.build.json
+/.build.output

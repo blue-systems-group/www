@@ -1,46 +1,57 @@
 #!/usr/bin/env bash
 
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+set -o verbose > /dev/null 2>&1
 
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 LOCKFILE=$DIR/../deploy.lock
 LOCKFD=99
 
 _lock() {
-  flock -$1 $LOCKFD;
+  flock -$1 $LOCKFD
 }
 _no_more_locking() {
-  _lock u;
-  _lock xn && rm -f $LOCKFILE && popd;
+  _lock u
+  _lock xn && rm -f $LOCKFILE && popd
 }
 _prepare_locking() {
-  eval "exec $LOCKFD>\"$LOCKFILE\"";
-  trap _no_more_locking EXIT;
+  eval "exec $LOCKFD>\"$LOCKFILE\""
+  trap _no_more_locking EXIT
 }
 exlock_now() {
-  _lock xn;
+  _lock xn
 }
 
-_prepare_locking
-exlock_now || exit 0
+RESULT=0
+{
+  _prepare_locking
+  exlock_now || exit 0
 
-pushd $DIR/../
+  pushd $DIR/../
+  rm -f $DIR/.build.output $DIR/.build.json
+  git fetch origin
+  if ! [ -z "$1" ]; then
+    git -c advice.detachedHead=false checkout $1
+    cp $2 .build.json
+  fi
+  git clean -df
 
-git fetch origin
-if ! [ -z "$1" ]; then
-  git -c advice.detachedHead=false checkout $1
-fi
-git clean -df
+  npm install --loglevel=warn --progress=false
+  if node ./lib/index.js . --check --deploy --quiet; then
+    sudo mkdir -p /mnt/ramdisk/www.bluegroup.systems/
+    sudo chown challen:challen /mnt/ramdisk/www.bluegroup.systems/
+    rsync -crlpgoDq --delete .build/* /mnt/ramdisk/www.bluegroup.systems/
+    sudo touch /mnt/ramdisk/nginx/pagespeed_cache/cache.flush
+    rm -rf .build
+  else
+    RESULT=1
+  fi
+} > $DIR/.build.output 2> $DIR/.build.output
 
-npm install --loglevel=warn --progress=false
-if node ./lib/index.js . --check --deploy --quiet; then
-  sudo mkdir -p /mnt/ramdisk/www.bluegroup.systems/
-  sudo chown challen:challen /mnt/ramdisk/www.bluegroup.systems/
-  rsync -crlpgoDq --delete .build/* /mnt/ramdisk/www.bluegroup.systems/
-  sudo touch /mnt/ramdisk/nginx/pagespeed_cache/cache.flush
-  rm -rf .build
+if $RESULT; then
+  echo "Build succeeded"
 else
   echo "Build failed"
   exit 1
 fi
 
-# vim: ts=2:sw=2:et
+# vim: ts=2:sw=2:et:tw=0
