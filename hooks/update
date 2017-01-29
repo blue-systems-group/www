@@ -24,7 +24,6 @@ exlock_now() {
   exlock_now || exit 0
 
   pushd $DIR > /dev/null 2>&1
-  rm -f $DIR/.build.output $DIR/.build.json
   git fetch origin
   if ! [ -z "$1" ]; then
     git -c advice.detachedHead=false checkout $1
@@ -42,7 +41,7 @@ exlock_now() {
   else
     FAILED=1
   fi
-} >> $DIR/.build.output 2>&1
+} > $DIR/.build.output 2>&1
 
 if [ ! -z "$RESULT" ]; then
   echo "Build failed"
