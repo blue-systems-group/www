@@ -26,7 +26,7 @@ exlock_now() {
   pushd $DIR > /dev/null 2>&1
   git fetch origin
   if ! [ -z "$1" ]; then
-    git -c advice.detachedHead=false checkout $1
+    git reset --hard $1
     cp $2 .build.json
   fi
   git clean -df
