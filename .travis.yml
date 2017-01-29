@@ -6,7 +6,9 @@ sudo: false
 notifications:
   webhooks:
     urls:
-      - https://blue.cse.buffalo.edu/notifications
+      - https://www.bluegroup.systems/notifications
     on_start: always
+    on_success: never
+    on_failure: never
 
 # vim: ts=2:sw=2:et
