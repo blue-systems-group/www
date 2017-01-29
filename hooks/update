@@ -28,6 +28,8 @@ exlock_now() {
   if ! [ -z "$1" ]; then
     git reset --hard $1
     cp $2 .build.json
+  else
+    rm -f .build.json
   fi
   git clean -df
 
