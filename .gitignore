@@ -9,3 +9,4 @@
 /.build.json
 /.build.output
 /.crash.log
+/src/*_failed.json
