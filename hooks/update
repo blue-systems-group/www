@@ -27,7 +27,7 @@ exlock_now() {
   git fetch origin
   if ! [ -z "$1" ]; then
     git reset --hard $1
-    if [ -z "$2"]; then
+    if [ -z "$2" ]; then
       cp $2 .build.json
       rm -f $2
     fi
@@ -46,7 +46,7 @@ exlock_now() {
   fi
 } > $DIR/.build.output 2>&1
 
-if [ ! -z "$RESULT" ]; then
+if [ ! -z "$FAILED" ]; then
   echo "Build failed"
   exit 1
 fi
