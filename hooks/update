@@ -31,7 +31,7 @@ if ! [ -z "$1" ]; then
 fi
 git clean -df
 
-npm install --loglevel warn
+npm install --loglevel=warn --progress=false
 if node ./lib/index.js . --check --deploy --quiet; then
   sudo mkdir -p /mnt/ramdisk/www.bluegroup.systems/
   sudo chown challen:challen /mnt/ramdisk/www.bluegroup.systems/
