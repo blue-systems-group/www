@@ -37,6 +37,7 @@ if node ./lib/index.js . --check --deploy --quiet; then
   sudo chown challen:challen /mnt/ramdisk/www.bluegroup.systems/
   rsync -crlpgoDq --delete .build/* /mnt/ramdisk/www.bluegroup.systems/
   sudo touch /mnt/ramdisk/nginx/pagespeed_cache/cache.flush
+  rm -rf .build
 else
   echo "Build failed"
   exit 1
