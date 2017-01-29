@@ -34,6 +34,7 @@ git clean -df
 npm install
 if node ./lib/index.js . --check --deploy; then
   sudo mkdir -p /mnt/ramdisk/www.bluegroup.systems/
+  sudo chown challen:challen /mnt/ramdisk/www.bluegroup.systems/
   rsync -crlpgoDi --delete .build/* /mnt/ramdisk/www.bluegroup.systems/
   sudo touch /mnt/ramdisk/nginx/pagespeed_cache/cache.flush
 else
