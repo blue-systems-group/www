@@ -8,3 +8,4 @@
 .DS_Store
 /.build.json
 /.build.output
+/.crash.log
