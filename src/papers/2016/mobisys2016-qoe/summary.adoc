@@ -10,6 +10,8 @@ projects:
 funding:
 - 2014-csr-poweragility
 poster: true
+spelling_exceptions:
+  - QoE-centric
 ---
 == Abstract
 

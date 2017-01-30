@@ -1,6 +1,8 @@
 ---
 full_url: http://blue.cse.buffalo.edu/posts/2015-08-01-to-become-more-diverse-cs-progr
 created: 2015-08-01T16:06:23.697Z
+spelling_exceptions:
+  - 90s
 ---
 
 == To Become More Diverse, CS Programs Must Grow

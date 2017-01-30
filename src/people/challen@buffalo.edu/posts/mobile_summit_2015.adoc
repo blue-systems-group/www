@@ -16,7 +16,7 @@ away impressed both with the work that Googlers are doing and with the
 obvious contributions the research community has made to these new mobile
 technologies. In more than a few cases, talented Googlers are doing the other
 99% of the work required to bring promising ideas contributed by the research
-community to fruition. [.readmore]#Here's a writeup that hopefully conveys my
+community to fruition. [.readmore]#Here's a write-up that hopefully conveys my
 excitement without violating the NDA that I didn't sign...#
 
 http://www.mdw.la[Matt Welsh] organized the workshop. Over a day and a half

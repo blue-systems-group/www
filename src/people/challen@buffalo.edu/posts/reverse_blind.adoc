@@ -1,6 +1,8 @@
 ---
 full_url: http://blue.cse.buffalo.edu/posts/2015-07-14-my-case-for-reverse-blind-review
 created: 2015-07-14T12:51:48.993Z
+spelling_exceptions:
+  - well-intentioned
 ---
 
 == My Case for Reverse-Blind Reviewing
