@@ -41,7 +41,7 @@ enrollment: 144
 
 |===
 
-Full qualitative evaluation results are
+Full evaluation results are available
 link:/courses/2015/421/UB_421_Spring_2015-Evaluations.pdf[here,
 role="nopdf"].
 //
