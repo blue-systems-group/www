@@ -2,13 +2,13 @@ all: build | silent
 
 build: node_modules
 	@node ./lib/index.js . $(CHECK) $(DEPLOY)
-	@while [ -n "$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
+	@while [ -n "$$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
 	@rsync -rlpgoDc --delete .build/ build
 	@rm -rf .build
 
 install: node_modules
-	node ./lib/index.js . --check --deploy --quiet
-	while [ -n "$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
+	@node ./lib/index.js . --check --deploy --quiet
+	@while [ -n "$$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
 
 deploy: DEPLOY = --deploy
 deploy: check build
@@ -17,7 +17,7 @@ check: CHECK = --check
 check: build
 
 node_modules: package.json
-	@npm install
+	@npm install --progress=false
 
 silent:
 	@:
@@ -33,6 +33,9 @@ fixphotos:
 
 fixthumbnails:
 	for f in `find src -name "paper.pdf" -o -name "poster.pdf" -o -name "external.pdf"` ; do convert -thumbnail x300 -background white -alpha remove "$$f"[0] "$${f%.pdf}.png" ; done
+
+statics:
+	@wget https://www.google-analytics.com/analytics.js -O src/assets/js/analytics.js 2>/dev/null
 
 findspace:
 	find src -type f -exec egrep -Il " +$$" {} \;
