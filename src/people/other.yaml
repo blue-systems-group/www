@@ -125,6 +125,9 @@
 - name: Rakesh Balasubramaniam
   email: rbalasub@buffalo.edu
   website: "https://www.linkedin.com/in/ramyarao"
+- name: Steve Bass
+  email: scbass@buffalo.edu
+  website: "https://www.linkedin.com/in/bassman5001"
 - name: Aishani Bhalla
   email: aishanib@buffalo.edu
   website: "https://www.linkedin.com/in/aishanibhalla"
@@ -134,6 +137,8 @@
 - name: Fatih Bulut
   email: mbulut@buffalo.edu
   website: "http://scholar.google.com/citations?user=aUaOP48AAAAJ"
+- name: William Burgin
+  email: waburgin@buffalo.edu
 - name: Isabelle Caneda
   email: iacaneda@buffalo.edu
   website: "https://www.linkedin.com/in/iacaneda"
@@ -144,6 +149,9 @@
   website: "http://www.cse.buffalo.edu/~zihechen/"
 - name: John Cherry
   email: johncher@buffalo.edu
+- name: Adhish Chugh
+  email: adhishch@buffalo.edu
+  website: "https://www.linkedin.com/in/adhishchugh"
 - name: Dan Conway
   email: dconway@buffalo.edu
 - name: David Dobmeier
@@ -152,6 +160,12 @@
 - name: Michael Drewitt
   email: mdrewitt@buffalo.edu
   website: "https://www.linkedin.com/in/michaeldrewitt"
+- name: James Droste
+  email: jamesdro@buffalo.edu
+  website: https://james.droste.im/
+- name: Timothy Eilinger
+  email: tjeiling@buffalo.edu
+  website: "https://www.linkedin.com/in/timothy-eilinger-ii-a658bab9"
 - name: Scott Florentino
   email: scottflo@buffalo.edu
 - name: Doug Giordano
@@ -190,6 +204,9 @@
   website: "https://www.linkedin.com/in/gelarehm"
 - name: James Mazur
   email: jamesmaz@buffalo.edu
+- name: Matthew McGovern
+  email: mgmcgove@buffalo.edu
+  website: "https://www.linkedin.com/in/matthew-mcgovern-410168107"
 - name: Ian Ngumi
   email: ianngumi@buffalo.edu
 - name: Gino Notto
@@ -208,6 +225,9 @@
 - name: Benjamin Rueda
   email: bjrueda@buffalo.edu
   website: "https://www.linkedin.com/in/benjamin-rueda-b5b186b2"
+- name: Robert Rymarkczyk
+  email: rtr3@buffalo.edu
+  website: "https://www.linkedin.com/in/robert-rymarczyk-752b9a107"
 - name: Natasha Sanford
   email: nsanford@buffalo.edu
 - name: Parth Shah
@@ -232,12 +252,18 @@
 - name: Evan Walley
   email: evanwall@buffalo.edu
   website: "http://www.acsu.buffalo.edu/~evanwall/"
+- name: Zack Wieand
+  email: zmwieand@buffalo.edu
+  website: "https://www.acsu.buffalo.edu/~zmwieand/DMS221-Project1/"
 - name: Zhen Xu
   email: zxu8@buffalo.edu
   website: "http://www.cse.buffalo.edu/people/?u=zxu8"
 - name: Misa Yasumiishi
   email: misayasu@buffalo.edu
   website: "https://www.linkedin.com/in/misay"
+- name: Vicky Zheng
+  email: vickyzhe@buffalo.edu
+  website: "https://www.linkedin.com/in/vzheng"
 - name: Yousuf Zubairi
   email: yousufzu@buffalo.edu
   website: "https://www.facebook.com/public/Yousuf-Zubairi"
