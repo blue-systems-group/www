@@ -9,11 +9,13 @@
 		Updated {{ format_date updated "normal" false }}
 	</div>
 	<div class="small col-xs-12 col-md-4 text-center">
-		<a href="{{ github_links.commit }}">Current Commit (<code>{{ github_links.commit_id }}</code>)</a>
-		<br />
+		<a href="{{ github_links.commit }}">Commit <code>{{ github_links.commit_id }}</code></a>
 		{{#if github_links}}
+		//
 		<a href="{{ github_links.commits }}">History</a> //
 		<a href="{{ github_links.blob}}">View</a>
 		{{/if}}
+		<br />
+		Built {{ format_date date "full" false }}
 	</div>
 </div>
