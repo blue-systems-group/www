@@ -1,6 +1,7 @@
 ---
-name: "CAREER: Harnessing Implementation Flexibility to Enable Runtime
-Adaptation"
+name: "CAREER: Harnessing Implementation Flexibility to Enable Runtime Adaptation"
+link: "https://nsf.gov/awardsearch/showAward?AWD_ID=1652397"
+abstract: "https://nsf.gov/awardsearch/showAward?AWD_ID=1652397"
 started: 2017-09-01
 ends: 2022-09-01
 amount: 537481

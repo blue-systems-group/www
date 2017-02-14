@@ -1,6 +1,5 @@
 ---
-name: "CI-P: Planning for a Community Infrastructure to Enable Pocket-Scale
-Data Management Research"
+name: "CI-P: Planning for a Community Infrastructure to Enable Pocket-Scale Data Management Research"
 link: "https://nsf.gov/awardsearch/showAward?AWD_ID=1629791"
 abstract: "https://nsf.gov/awardsearch/showAward?AWD_ID=1629791"
 started: 2016-08-15
