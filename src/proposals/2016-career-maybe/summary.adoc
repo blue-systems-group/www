@@ -1,7 +1,6 @@
 ---
 name: "CAREER: Harnessing Implementation Flexibility to Enable Runtime
 Adaptation"
-recommended: true
 started: 2017-09-01
 ends: 2022-09-01
 amount: 537481

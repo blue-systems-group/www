@@ -6,11 +6,11 @@ NSF:
     CRI:
       shortname: CRI
       name: CISE Research Infrastructure
-      link: "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12810"
+      link: "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12810"
     CSR:
       shortname: CSR
       name: Computer Systems Research
-      link: "http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503306"
+      link: "https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=503306"
     CAREER:
       shortname: CAREER
       name: Faculty Early Career Development Program
@@ -23,4 +23,4 @@ Google:
     GRA:
       shortname: GRA
       name: "Faculty Research Awards"
-      link: "http://research.google.com/university/relations/research_awards.html"
+      link: "https://research.google.com/university/relations/research_awards.html"

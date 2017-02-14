@@ -89,7 +89,7 @@ more recent article on WIVB Channel 4 News].
 //
 A more recent http://www.buffalo.edu/news/releases/2016/07/018.html[press
 release] described an link:/proposals/2016-cri-phonelab/[additional grant] we
-received from the http://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12810[CISE
+received from the https://www.nsf.gov/funding/pgm_summ.jsp?pims_id=12810[CISE
 Research Infrastructure program] to continue operating PhoneLab for
 2016&ndash;2017.
 
