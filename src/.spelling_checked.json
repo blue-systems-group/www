@@ -40,7 +40,7 @@
         "courses/ub-421-spring-2015/index.html": "dfa28c0dd7fbddd4d8a223dc5427e414",
         "courses/ub-720-fall-2015/index.html": "58ce352e48c1af4e2258fdf61a8199ad",
         "courses/ub-421-spring-2016/index.html": "cbcdd91d94a796ea023a0aa7deb967da",
-        "papers/index.html": "e624ae9818ad1995b64f880404448914",
+        "papers/index.html": "a4966a396f969b193a34d0ae042e8dc4",
         "papers/hotos2011-poweragility/index.html": "104aa839dd1b617e8112600ecbf47313",
         "papers/gosmart2013-hvac/index.html": "ce13ac23ecbbd1e09fb6ed83f5b698c4",
         "papers/netmob2013-phonelab/index.html": "6714350b823d584efa6ee9cf7bf67936",
@@ -71,13 +71,13 @@
         "people/brijeshr/index.html": "7b494383b23e725b5b3537ccb74f5c87",
         "people/carlnues/index.html": "833c4b0a5d54a122f70345f87ee84ce3",
         "people/edwinsan/index.html": "0556820a79ef9b22b81ed72c9c5457c0",
-        "people/gurupras/index.html": "167e2a3544b01447cbaa4d88436b252e",
+        "people/gurupras/index.html": "9be833443d6d945341c79b0a51b29155",
         "people/jinghaos/index.html": "d656cd22dc5d844ebd8d90695544a122",
         "people/kylescho/index.html": "9c2e91ac05a837cba8866aa89cbbb142",
         "people/maulikda/index.html": "ffde1f81e0e22cd593f674abd1fccebf",
         "people/mrferris/index.html": "ade7df84e45c34396c4704a3c54d054c",
         "people/nvdirien/index.html": "6afaf543d3807d1fa883b0cb2b9186ad",
-        "people/shaseley/index.html": "42a1332d36d532dd22b783468a886783",
+        "people/shaseley/index.html": "f1436185b5a03ea89a24d8141504bc93",
         "people/sriramsh/index.html": "4134e2936f79ec19af43140960751152",
         "people/wesleycs/index.html": "6ceb423a2340cb2001c5ce3e5601b3a1",
         "people/ychen78/index.html": "6fc6714bf5def0090ff68ddf1ecd1866",
@@ -174,7 +174,7 @@
         "posts/2016-12-09-universities-war-against-the-in/index.html": "46409af15ea7ad7464b56a3785950b12",
         "posts/2016-12-14-how-to-flip-a-large-class/index.html": "4bb65a715623aa580704fd0d5fea49a6",
         "posts/2016-12-15-how-to-flip-a-large-class/index.html": "66d9b9fe4818b62e012f4c2d5a7caa6f",
-        "papers/hotmobile2017-cpubins/index.html": "6cee8225aa7d96f393f0dc9c397b2b31",
+        "papers/hotmobile2017-cpubins/index.html": "e4df044b22cba3c686aecd324bc0fc68",
         "posts/2016-12-17-how-to-flip-a-large-class/index.html": "73ff6b8fb1a87eb413c5e3603ebbd896",
         "posts/2016-12-17-flipping-a-large-class-part-1/index.html": "b4ba66570591281aadd02a48951892ab",
         "posts/2016-12-22-flipping-a-large-class-part-1/index.html": "8a189a97fe12c73324262444d65a6d14",
@@ -185,7 +185,8 @@
         "posts/2017-02-02-flipping-a-large-class-part-2/index.html": "dd62eeab406da049b9b0b19271b2342c",
         "posts/2017-02-09-flipping-a-large-class-part-2/index.html": "ad20b06aa7661d109527ebccc78752ac",
         "posts/2017-02-08-flipping-a-large-class-part-2/index.html": "0e76ee5432b0ad828efbfca4a459f39c",
-        "posts/2017-02-14-flipping-a-large-class-part-2/index.html": "58598787efecaae5d297df9e86078de1"
+        "posts/2017-02-14-flipping-a-large-class-part-2/index.html": "58598787efecaae5d297df9e86078de1",
+        "posts/2017-02-22-flipping-a-large-class-part-2/index.html": "77f69f1b5b9106f2d2ae56e501958f6d"
     },
     "exceptions": {
         "index.html": "c3beb5226a6e6486acd49ea9ddae34d1935d361e",
@@ -371,6 +372,7 @@
         "posts/2017-02-02-flipping-a-large-class-part-2/index.html": "c3beb5226a6e6486acd49ea9ddae34d1935d361e",
         "posts/2017-02-09-flipping-a-large-class-part-2/index.html": "c3beb5226a6e6486acd49ea9ddae34d1935d361e",
         "posts/2017-02-08-flipping-a-large-class-part-2/index.html": "c3beb5226a6e6486acd49ea9ddae34d1935d361e",
-        "posts/2017-02-14-flipping-a-large-class-part-2/index.html": "c3beb5226a6e6486acd49ea9ddae34d1935d361e"
+        "posts/2017-02-14-flipping-a-large-class-part-2/index.html": "c3beb5226a6e6486acd49ea9ddae34d1935d361e",
+        "posts/2017-02-22-flipping-a-large-class-part-2/index.html": "c3beb5226a6e6486acd49ea9ddae34d1935d361e"
     }
 }

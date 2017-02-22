@@ -19,14 +19,17 @@ When you flip a class, all of those hours that you could have easily filled
 lecturing, now have to be spent doing something else--but what?
 //
 Below I attempt to share what we learned developing and deploying 24 new
-activities as part of our new link:/courses/ub-199-fall-2016[course on the
-internet].
-
-This is the second part of a planned three-part series footnote:[Although it
-may sprawl past that...].
+activities as part of our new
 //
-link:/posts/2016-12-22-flipping-a-large-class-part-1/[Part one] focused on
-the logistical challenges of flipping a large class.
+link:/courses/ub-199-fall-2016[course on the internet].
+
+This is the second part of a planned three-part series
+//
+footnote:[Although it may sprawl past that...].
+//
+link:/posts/2016-12-22-flipping-a-large-class-part-1/[Part one]
+//
+focused on the logistical challenges of flipping a large class.
 //
 Part three will describe the video delivery system we built.
 //
@@ -36,12 +39,19 @@ Part three will describe the video delivery system we built.
 
 === Background
 
-If you didn't read link:/posts/2016-12-22-flipping-a-large-class-part-1/[part
-one of this series], it may be worth it before continuing.
+If you didn't read
+//
+link:/posts/2016-12-22-flipping-a-large-class-part-1/
+//
+[part one of this series],
+//
+it may be worth it before continuing.
 //
 Or at least skim the
-link:/posts/2016-12-22-flipping-a-large-class-part-1/#what_is_a_our_flipped_classroom[overview
-of our flipped classroom approach].
+//
+link:/posts/2016-12-22-flipping-a-large-class-part-1/#what_is_a_our_flipped_classroom
+//
+[overview of our flipped classroom approach].
 //
 As a brief review, students in our link:/courses/ub-199-fall-2016[new course
 on the internet] were required to watch around 20 5-minute video lessons
@@ -63,9 +73,8 @@ So students tended to show up.
 The attraction of the flipped classroom model is that you don't waste class
 time on one-to-many content delivery.
 //
-Once you get to a certain class size, there's really not much of a difference
-between students sitting in a cavernous lecture hall and sitting at home in
-front of YouTube footnote:[Hopefully in their bathrobes!].
+Once you pass a certain class size, there's not much difference
+between students sitting in lecture hall versus at home in front of YouTube footnote:[Hopefully in their bathrobes!].
 
 Consider the following back-of-the-envelope calculation.
 //

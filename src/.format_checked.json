@@ -62,7 +62,7 @@
     "courses/ub-421-spring-2017/index.html": "2e41893a99b82a86db00c4252069090f",
     "papers/netmob2013-phonelab/index.html": "6714350b823d584efa6ee9cf7bf67936",
     "papers/gosmart2013-hvac/index.html": "88bfcd0a4735fee61cef62430696f0c4",
-    "papers/index.html": "e624ae9818ad1995b64f880404448914",
+    "papers/index.html": "a4966a396f969b193a34d0ae042e8dc4",
     "papers/sensemine2013-phonelab/index.html": "be7d68f2ef94b83ca13eb6d4815c7f01",
     "papers/hotnets2014-pocketsniffer/index.html": "ce96b434592fc5d1672f4ae9453a5e42",
     "papers/hotplanet2014-pocketmocker/index.html": "83817a478dd558cc8a421699c7c6f254",
@@ -78,7 +78,7 @@
     "papers/hotwireless2015-sharing/index.html": "9d64dc396c77925ea5617d0191a7c929",
     "papers/iiswc2015-frontiers/index.html": "2907920885a833497fe79f9b7d886744",
     "papers/mobicase2015-jouler/index.html": "fba786b362a4f01849e8de526205acca",
-    "papers/hotmobile2017-cpubins/index.html": "1306e48e5d11fe434e82cc1054376d3d",
+    "papers/hotmobile2017-cpubins/index.html": "5e4e5717443bda45640a9613fb9f6446",
     "papers/tpctc2015-pocketdata/index.html": "8b8116510d7fc8d31b7f0b27d2d12789",
     "papers/getmobile2016-phonelab/index.html": "3eed2560255924be6e6fe50fc39ce7f2",
     "papers/iccd2016-inefficiency/index.html": "43056eaa4e73ec744568146ada785022",
@@ -94,8 +94,8 @@
     "people/jinghaos/index.html": "d656cd22dc5d844ebd8d90695544a122",
     "people/lethiraj/index.html": "53dde702058bcd4607b74e46ee587d1a",
     "people/kylescho/index.html": "9c2e91ac05a837cba8866aa89cbbb142",
-    "people/gurupras/index.html": "167e2a3544b01447cbaa4d88436b252e",
-    "people/shaseley/index.html": "42a1332d36d532dd22b783468a886783",
+    "people/gurupras/index.html": "9be833443d6d945341c79b0a51b29155",
+    "people/shaseley/index.html": "f1436185b5a03ea89a24d8141504bc93",
     "people/brijeshr/index.html": "70b9c99f6425b177ecf4f04ea49cc33e",
     "people/gwa/index.html": "8ec84c9e813457a63b0b8cd215d8ebb4",
     "people/wesleycs/index.html": "6ceb423a2340cb2001c5ce3e5601b3a1",
@@ -113,5 +113,6 @@
     "posts/2017-02-02-flipping-a-large-class-part-2/index.html": "dd62eeab406da049b9b0b19271b2342c",
     "posts/2017-02-09-flipping-a-large-class-part-2/index.html": "ad20b06aa7661d109527ebccc78752ac",
     "posts/2017-02-08-flipping-a-large-class-part-2/index.html": "0e76ee5432b0ad828efbfca4a459f39c",
-    "posts/2017-02-14-flipping-a-large-class-part-2/index.html": "58598787efecaae5d297df9e86078de1"
+    "posts/2017-02-14-flipping-a-large-class-part-2/index.html": "58598787efecaae5d297df9e86078de1",
+    "posts/2017-02-22-flipping-a-large-class-part-2/index.html": "77f69f1b5b9106f2d2ae56e501958f6d"
 }
