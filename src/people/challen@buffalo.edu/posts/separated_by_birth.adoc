@@ -1,0 +1,108 @@
+---
+working: true
+---
+
+== One Reason Your Smartphone Might Be Slow and Battery Hungry
+
+[.snippet]
+//
+--
+//
+[.lead]
+//
+It's time for a smartphone upgrade... an exciting moment!
+//
+But it turns out that _your_ smartphone might differ significantly from other
+"identical" models.
+//
+It might run 20% slower and consume 20% more energy.
+//
+Exactly which "identical" smartphone the clerk pulled off the shelf can make
+that much of a difference.
+//
+And if you're ever had an argument with a friend over whether a particular
+model of smartphone is great or terrible, you might both be right.
+//
+Yours might be great and theirs might be terrible.
+//
+[.readmore]#Read on to discover the dark world of deceptive smartphone CPU
+labeling practices...#
+//
+--
+
+Before getting into the technical details, let me offer a precis intended for
+smartphone consumers.
+//
+_Process variation_ refers to the inherent difference in the output of even
+identical processes.
+//
+Even if I repeat the exact same arm movements twice when making pancakes, they
+are still going to come out slightly different.
+//
+Process can produce significant performance and energy consumption differences
+between processors: the heart of energy computing device.
+//
+These differences mean that devices that are seemingly identical can perform
+differently.
+//
+Some are better--they run faster and consume less energy.
+//
+Others are worse--they run slower and consume more energy.
+//
+Our lab experiments have uncovered energy and performance differences of up to
+20%, although more work needs to be done to establish how much difference
+occurs in practice.
+//
+For the same price you might be sold the better or worse device.
+//
+The salesperson can't tell the difference.
+//
+And as far as we can tell, there is no way for you to tell the difference
+either--even though it is known to the underlying system.
+
+**We consider these smartphone sales practices deceptive.**
+//
+Process variation when making incredibly complex computer processors is not
+new or something that can be fixed.
+//
+It affects all processors, including those that power laptops, desktops, and
+servers.
+//
+If you have ever chosen between a 2.2GHz and a 2.4GHz processor, you have
+probably experienced price differentiation resulting from manufacturing
+variation.
+//
+However, _those two processors don't cost the same amount_.
+//
+Process variation _is not_ itself a problem footnote:[Unless you are a
+processor manufacturer...].
+//
+[.pullquote]#Knowingly selling low-quality processors to consumers at the same
+price as high-quality processors _is_ a problem.#
+
+As a consumer, what can you do about this?
+//
+Today, not much.
+//
+Although the low-level smartphone operating system (Android, iOS) is aware of
+this variation between processors, we have not yet found a way to detect it at
+purchase time.
+//
+// Put something in about a petition here
+//
+As a scientist or a smartphone reviewer, however, there are steps to take.
+//
+Read on to find out more.
+
+We never would have uncovered this problem had it not been for the sharp eye
+of and careful experiments performed by my excellent student
+link:/people/gurupras[Guru Prasad].
+//
+For the technically-inclined, link:/papers/hotmobile2017-cpubins/[his recent
+paper] is an excellent read.
+//
+I'll continue with a summary intended for a technically-curious audience.
+
+=== Separated By Birth
+
+// vim: ts=2:sw=2:et
