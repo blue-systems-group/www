@@ -67,7 +67,7 @@ large portion of students' grades.
 //
 So students tended to show up.
 
-=== Killing Time
+=== Not Killing Time
 
 The attraction of the flipped classroom model is that you don't waste class
 time on one-to-many content delivery.
@@ -122,29 +122,25 @@ hard-earned tuition dollars.]
 to fill the now-empty class time.
 //
 So it's a double whammy of extra work.
-
+//
 The truth is, I've actually wanted to try flipping my OS class for years.
 //
 And I actually have years of lecture videos already recorded.
 //
 But the activity preparation part has always scared me off.
-//
-[.pullquote]#If I need to fill an hour of class time, I am much more
-comfortable standing at the front of a large room talking# than deploying a
-new activity.
 
-Based on what goes on at most universities, I'm not alone.
+Based on what goes on at most universities, I suspect I'm not alone.
 //
-Part of this is due to how research-focused Ph.D. students are trained.
+Part of the problem is how research-focused Ph.D. students are trained.
 //
 Lecturing is a lot like giving research presentations at conferences, which
 graduates students are both trained to do and to care about.
 //
-Designing in-class activities or homework assignments is not something we are
-trained to do well--not even accidentally.
+Designing activities or assignments is not something graduates students are
+trained to do or care about.
 
 As an aside, recently I interviewed for a new job at another academic
-institution&nbsp;footnote:[That turned out to be far too similar to my current
+institution footnote:[...that turned out to be far too similar to my current
 institution].
 //
 I gave a https://goo.gl/8Q9l9o[good talk] about my group's
@@ -157,7 +153,70 @@ That's the all-too-common assumption: if you can give a good research talk,
 you can lecture, and if you can lecture, you can teach.
 //
 But it ignores most of the work that goes into deploying excellent courses:
-designing assignments and exams; recruiting, training, and leading a course
-staff; finding ways to motivate students; effectively using technology; etc.
+designing and grading assignments and exams; recruiting, training, and leading
+a course staff; finding ways to motivate students; effectively using
+technology; etc.
+
+=== Too Hot or Too Cold
+
+[.pullquote]#Overall what we discovered is that designing new activities for a
+flipped class is really, really hard.#
+//
+And it's hard in ways that are quite different from the challenges that you
+might encounter designing a traditional lecture and assignment based course.
+
+The first challenge is designing activities that reliably span a certain
+length of time.
+//
+If the activity is too short, students that finish early don't feel like they
+got their money's worth.
+//
+If the activity is too long, students that don't finish get discouraged and
+feel like they didn't learn what they were supposed to.
+//
+We tried--and received complaints about--activities that fell into both
+categories.
+
+What this really reflects is a problem I've always been aware of when I
+lecture.
+//
+At any given point, some students are lost, others are bored, and others are
+engaged--because I'm either going too fast, too slow, or at the perfect pace.
+//
+What percentage of the class falls into each category changes minute to
+minute, lecture to lecture, and year to year.
+//
+But what's constant is that I _never have any idea how many students are in
+each group_.
+//
+In the past I've considered try to address this problem through technology.
+//
+But even if I know how many students are in each group, that doesn't mean that
+there is an effective response when half are lost and half are bored.
+//
+And armed with a semester's worth of lectures, it's easy to reliably fill
+every classroom hour.
+//
+If I'm moving a bit quicker than expected, we can continue with some of
+tomorrow's material today.
+//
+And if I'm moving a bit slower, we can continue with today's material
+tomorrow.
+
+Hopefully this analogy also points out part of what makes designing activities
+with the right length so hard.
+//
+The problem isn't just with the activities--it's also with the students.
+//
+Some of the 440 students in our class weren't sure what operating system their
+computer was running.
+//
+Others already knew multiple programming languages and were contributing to
+open-source C++ projects.
+//
+We tried to mitigate differences between groups by shuffling them each week.
+//
+And yet, more often than not, we'd have groups packing up to leave 10 minutes
+early, while others only completed half of the activity.
 
 // vim: ts=2:sw=2:et
