@@ -41,21 +41,20 @@ Part three will describe the video delivery system we built.
 
 If you didn't read
 //
-link:/posts/2016-12-22-flipping-a-large-class-part-1/
-//
-[part one of this series],
+link:/posts/2016-12-22-flipping-a-large-class-part-1/[part one of this series],
 //
 it may be worth it before continuing.
 //
 Or at least skim the
 //
-link:/posts/2016-12-22-flipping-a-large-class-part-1/#what_is_a_our_flipped_classroom
+link:/posts/2016-12-22-flipping-a-large-class-part-1/#what_is_a_our_flipped_classroom[overview of our flipped classroom approach].
 //
-[overview of our flipped classroom approach].
+As a brief review, students in our
 //
-As a brief review, students in our link:/courses/ub-199-fall-2016[new course
-on the internet] were required to watch around 20 5-minute video lessons
-outside of class each week.
+link:/courses/ub-199-fall-2016[new course on the internet]
+//
+were required to watch around 20 5-minute video lessons outside of class each
+week.
 //
 During two hours of scheduled meeting time, students worked on activities in
 groups of two or four, supervised by the course staff.
@@ -101,7 +100,7 @@ instructor to gauge the progress of the class.].
 
 So lecture content delivery seems better done online.
 //
-[.pullquote]#But then: what do you do _in class_?#
+[.pullquote]#But then: what _do you do_ in class?#
 //
 For me, this has been a major stumbling block when considering flipping
 classes in the past.
@@ -109,14 +108,13 @@ classes in the past.
 Consider the process of transitioning a traditional lecture-based course to a
 flipped approach.
 //
-Typically, not only do you need to record new video content, but you also
-have to plan activities
+Typically, not only do you need to record new video content, but you also have
+to plan activities
 //
 footnote:[Of course, you don't have to plan activities.
 //
-There might be cases where it would be better to simply move lectures online
-and not meet in large groups at all--preserving other components of the
-class, of course.
+Sometimes it would be better to simply move lectures online and not meet in
+large groups at all--possibly while preserving other components of the class.
 //
 But try convincing students and their parents that this is worth their
 hard-earned tuition dollars.]
@@ -132,17 +130,34 @@ And I actually have years of lecture videos already recorded.
 But the activity preparation part has always scared me off.
 //
 [.pullquote]#If I need to fill an hour of class time, I am much more
-comfortable standing at the front of a large room running my mouth# than
-prepping and supervising a new in-class activity.
-//
+comfortable standing at the front of a large room talking# than deploying a
+new activity.
+
 Based on what goes on at most universities, I'm not alone.
 //
 Part of this is due to how research-focused Ph.D. students are trained.
 //
-Lecturing is a lot like giving oral research presentations, which Ph.D.
-students are both trained to do and trained to care about.
+Lecturing is a lot like giving research presentations at conferences, which
+graduates students are both trained to do and to care about.
 //
 Designing in-class activities or homework assignments is not something we are
 trained to do well--not even accidentally.
+
+As an aside, recently I interviewed for a new job at another academic
+institution&nbsp;footnote:[That turned out to be far too similar to my current
+institution].
+//
+I gave a https://goo.gl/8Q9l9o[good talk] about my group's
+link:/projects/[research projects].
+//
+Afterward, my host said: "Your talk was excellent. Obviously teaching would
+not be a problem."
+//
+That's the all-too-common assumption: if you can give a good research talk,
+you can lecture, and if you can lecture, you can teach.
+//
+But it ignores most of the work that goes into deploying excellent courses:
+designing assignments and exams; recruiting, training, and leading a course
+staff; finding ways to motivate students; effectively using technology; etc.
 
 // vim: ts=2:sw=2:et

@@ -38,6 +38,6 @@ statics:
 	@wget https://www.google-analytics.com/analytics.js -O src/assets/js/analytics.js 2>/dev/null
 
 findspace:
-	find src -type f -exec egrep -Il " +$$" {} \;
+	find lib src -type f -exec egrep -Il " +$$" {} \;
 
 .PHONY: run clean silent build fixphotos fixthumbnails findspace install
