@@ -105,4 +105,8 @@ I'll continue with a summary intended for a technically-curious audience.
 
 === Separated By Birth
 
+The title of link:/papers/hotmobile2017-cpubins/[Guru's paper] is "Separated
+By Birth"&mdash;an intentional partial malpropism that the reviewers failed to
+appreciate footnote:["Did you mean 'Separated _At_ Birth'? No."].
+
 // vim: ts=2:sw=2:et

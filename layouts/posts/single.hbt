@@ -1,4 +1,4 @@
-{{> posts_header}}
+{{> header}}
 
 <div id="content" class="single">
   <div class="container">
