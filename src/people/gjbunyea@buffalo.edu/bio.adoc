@@ -3,7 +3,6 @@ name: Greg Bunyea
 role: Undergraduate, Teaching Assistant
 joined: Summer 2016
 email: gjbunyea@buffalo.edu
-linkedin: https://www.linkedin.com/in/gregory-bunyea
 github: https://github.com/gjbunyea
 spelling_exceptions:
 - UB
@@ -18,8 +17,8 @@ spelling_exceptions:
 [.lead]
 I'm a Junior at http://www.buffalo.edu/[UB] studying Computer Science and Art. I aim to become a high school computer science teacher.
 
-In Summer 2016 I was given the opportunity to develop link:/projects/internetclass/[CSE 199: How the Internet Works] with Geoff Challen and 25 other UTAs. The class was a great success and will stay with me as one of my most significant experiences at UB. The course provided me with a greater affirmation that education is the place for me.
+In Summer 2016 I was given the opportunity to develop link:/projects/internetclass/[CSE 199: How the Internet Works] with Geoffrey Challen and 25 other UTAs. The class was a great success and will stay with me as one of my most significant experiences at UB. The course provided me with a greater affirmation that education is the place for me.
 
-Currently I'm working on processing CSE 199 data for the future of http://internet-class.org[internet-class.org] with https://www.linkedin.com/in/heeba/[Heeba Kariapper]. We hope to publish a paper and submit to http://sigcse.org/sigcse/[SIGCSE] about our experience with CSE 199 and the lessons learned. I take any opportunity to contribute to computer science education at UB and in the broader community.
+Currently I'm working on processing CSE 199 data for the future of http://internet-class.org[internet-class.org] with https://hjkaria.github.io/[Heeba Kariapper]. We hope to publish a paper and submit to http://sigcse.org/sigcse/[SIGCSE] about our experience with CSE 199 and the lessons learned. I take any opportunity to contribute to computer science education at UB and in the broader community.
 
 Outside of academia, I'm learning to cook and am training for a half-marathon I'll run with my 3 siblings next August! 
