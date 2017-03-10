@@ -47,3 +47,17 @@ others.
 This paper explains the causes of this variation, measures its impacts, and
 discusses implications for smartphone researchers, software developers, and
 consumers.
+
+== Talk
+
+The video of our talk at HotMobile'17 will be published as soon as it is made available.
+Meanwhile, here are the slides from our talk.
+
+++++
+<div class="embed-responsive embed-responsive-16by9"
+		 style="margin-top:10px; margin-bottom:10px;">
+<iframe width="960" height="569"
+        src="https://docs.google.com/presentation/d/1TOCHUODeEnPStfo1iv-iBqpigy01ewaJdbXYYXLNCNk/embed?start=false&loop=false&delayms=0"
+				allowfullscreen></iframe>
+</div>
+++++
