@@ -1,5 +1,7 @@
 ---
 working: true
+spelling_exceptions:
+  - codecademy
 ---
 
 == Flipping a Large Class: Part 2
@@ -139,9 +141,8 @@ graduates students are both trained to do and to care about.
 Designing activities or assignments is not something graduates students are
 trained to do or care about.
 
-As an aside, recently I interviewed for a new job at another academic
-institution footnote:[...that turned out to be far too similar to my current
-institution].
+As an aside, recently I interviewed for a new job at another institution
+footnote:[...that turned out to be far too similar to my current institution].
 //
 I gave a https://goo.gl/8Q9l9o[good talk] about my group's
 link:/projects/[research projects].
@@ -156,6 +157,54 @@ But it ignores most of the work that goes into deploying excellent courses:
 designing and grading assignments and exams; recruiting, training, and leading
 a course staff; finding ways to motivate students; effectively using
 technology; etc.
+
+=== Our `internet-class.org` Activities
+
+Before I start discussing our experiences developing the activities,
+//
+https://www.internet-class.org/courses/fys/syllabus/#_outline[here is the list
+of 24 activities that we used].
+//
+We aimed for a variety reflecting the diversity of the course material.
+//
+Some activities were https://goo.gl/XIgNXO[scavenger hunts].
+//
+Others had students https://goo.gl/7gddaN[using command line UNIX networking
+utilities].
+//
+Others had students https://goo.gl/Fq4VSV[playing online (security) games], or
+https://goo.gl/MRV3oZ[using existing online tutorials]
+(https://www.codecademy.com/[codecademy]).
+//
+Others had students https://goo.gl/896Lc9[learning about parallel processing
+using decks of cards] or https://goo.gl/Wf1cvD[routing using toothpicks and
+marshmallows].
+
+We started the semester aiming to have students work primarily in groups of
+four.
+//
+However, we discovered that some of the computer-based activities didn't work
+well in groups that large.
+//
+So we started pairing students for those activities.
+
+We also started out shuffling students into new groups for every activity.
+//
+However, students complained about this and expressed interest in working in
+groups for a bit longer.
+//
+Rotating groups more quickly allowed students to meet more students--which was
+worthwhile, given that this was a freshman-level course--and escape bad groups
+more quickly.
+//
+However, rotating more slowly allowed students to leverage existing
+relationships and familiarity with their team members.
+//
+In the end, we settled on one rotation per week based on a student survey.
+//
+Many weeks we started with a less computer-based activity on Monday in fours
+and then had a more computer-based activity on Wednesday in pairs--but with
+students at the same table of four from Monday.
 
 === Too Hot or Too Cold
 
@@ -218,5 +267,17 @@ We tried to mitigate differences between groups by shuffling them each week.
 //
 And yet, more often than not, we'd have groups packing up to leave 10 minutes
 early, while others only completed half of the activity.
+
+And obviously this problem is only going to get worse as computer science
+moves into some high schools and some students take advantage of online
+resources.
+//
+So there's a fun new technological problem to solve--creating activities that
+can adaptively scale based on student progress to fill a given amount of time.
+//
+Grouping students by ability may be worthwhile to help ensure that one student
+doesn't end up dominating while another is lost.
+
+=== Active Isn't Passive
 
 // vim: ts=2:sw=2:et

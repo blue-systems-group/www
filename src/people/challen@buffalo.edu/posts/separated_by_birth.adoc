@@ -1,5 +1,8 @@
 ---
 working: true
+spelling_exceptions:
+  - 2.2GHz
+  - 2.4GHz
 ---
 
 == One Reason Your Smartphone Might Be Slow and Battery Hungry
@@ -88,6 +91,8 @@ Although the low-level smartphone operating system (Android, iOS) is aware of
 this variation between processors, we have not yet found a way to detect it at
 purchase time.
 //
+But we are working on this.
+//
 // Put something in about a petition here
 //
 As a scientist or a smartphone reviewer, however, there are steps to take.
@@ -106,7 +111,7 @@ I'll continue with a summary intended for a technically-curious audience.
 === Separated By Birth
 
 The title of link:/papers/hotmobile2017-cpubins/[Guru's paper] is "Separated
-By Birth"&mdash;an intentional partial malpropism that the reviewers failed to
+By Birth"&mdash;an intentional partial malapropism that the reviewers failed to
 appreciate footnote:["Did you mean 'Separated _At_ Birth'? No."].
 
 // vim: ts=2:sw=2:et
