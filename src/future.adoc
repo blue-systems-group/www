@@ -20,10 +20,10 @@ goGithub: true
 
 [.lead]
 //
-I link:/posts/2016-10-22-the-best-way-to-not-get-tenure/[did not receive
-tenure at UB] and am looking for new opportunities.
+I am looking for new academic job opportunities--both tenure-track and
+teaching faculty positions.
 //
-*If you looking for faculty with a strong commitment to both teaching and
+*If you are looking for faculty with a strong commitment to both teaching and
 research, please mailto:challen@buffalo.edu[contact me].*
 
 I will arrive with multiple link:/proposals/[grant-supported]
@@ -45,9 +45,10 @@ record of department and community service, role='nopdf'].
 //
 My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
 link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
-link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching], and
-link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service]
-statements are all online and will be regularly updated.
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching],
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service], and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Diversity.pdf[diversity],
+statements are all online and regularly updated.
 
 == Online Job Talk
 
@@ -57,7 +58,7 @@ I have recorded an online job talk.
 //
 The slides are https://goo.gl/8Q9l9o[online], and you can view the videos
 https://goo.gl/yIms6j[on YouTube], or right here footnote:[Don't worry--if you
-invite me to your campus, I will give the talk in appropriate formal attire!]:
+invite me to your campus, I will give the talk in appropriate interview attire!]:
 
 ++++
 <div class="embed-responsive embed-responsive-16by9"

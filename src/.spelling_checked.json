@@ -145,7 +145,7 @@
         "posts/2016-11-11-cs101-part-1-how-and-why-intro/index.html": "15166d66cff67efb728df201dc710d6c",
         "posts/2016-11-11-how-to-flip-a-large-class/index.html": "162c860294375c3428818225b2acb8ef",
         "posts/2016-11-11-universities-war-against-the-in/index.html": "5bf08d7cb9ad6fda623641770859f108",
-        "future/index.html": "3a952b4e41d95574dc29e171a8a63dab",
+        "future/index.html": "3431cf074a2b0d87a85655f70a100183",
         "proposals/2016-career-maybe/index.html": "8cf0e8f93c11690b7058ea54814a2f55",
         "posts/2016-11-18-cs101-part-1-how-and-why-intro/index.html": "2ced825d278fd4047fa48c7434580b59",
         "posts/2016-11-18-how-to-flip-a-large-class/index.html": "cdbd95cff0f845a1be0ec59aaf991a3f",
@@ -193,7 +193,9 @@
         "posts/2017-03-10-flipping-a-large-class-part-2/index.html": "912ae35af31941ce4216ad77cf699ab5",
         "posts/2017-03-10-one-reason-your-smartphone-might/index.html": "3a4b647b23ffb0bd592ee286eacdb689",
         "posts/2017-03-11-flipping-a-large-class-part-2/index.html": "f86bf839de3d5c9662b3392e21d0bcf2",
-        "posts/2017-03-11-one-reason-your-smartphone-might/index.html": "5dede3cc2a3a9ec7fddb2fe6f6014f79"
+        "posts/2017-03-11-one-reason-your-smartphone-might/index.html": "5dede3cc2a3a9ec7fddb2fe6f6014f79",
+        "posts/2017-03-14-flipping-a-large-class-part-2/index.html": "af3ac2321be7bb7e2bb15c00cd151ca7",
+        "posts/2017-03-14-one-reason-your-smartphone-might/index.html": "c59a90f8c525475dbc7f69b6558f4f0d"
     },
     "exceptions": {
         "index.html": "c3beb5226a6e6486acd49ea9ddae34d1935d361e",
@@ -387,6 +389,8 @@
         "posts/2017-03-10-flipping-a-large-class-part-2/index.html": "c3b7cc46e99ad36dcf2b2279e2bc1e09b74c442c",
         "posts/2017-03-10-one-reason-your-smartphone-might/index.html": "dd7bd9d6365d86c7918e0ac49e547c24bc0a12c7",
         "posts/2017-03-11-flipping-a-large-class-part-2/index.html": "c3b7cc46e99ad36dcf2b2279e2bc1e09b74c442c",
-        "posts/2017-03-11-one-reason-your-smartphone-might/index.html": "dd7bd9d6365d86c7918e0ac49e547c24bc0a12c7"
+        "posts/2017-03-11-one-reason-your-smartphone-might/index.html": "dd7bd9d6365d86c7918e0ac49e547c24bc0a12c7",
+        "posts/2017-03-14-flipping-a-large-class-part-2/index.html": "c3b7cc46e99ad36dcf2b2279e2bc1e09b74c442c",
+        "posts/2017-03-14-one-reason-your-smartphone-might/index.html": "dd7bd9d6365d86c7918e0ac49e547c24bc0a12c7"
     }
 }
