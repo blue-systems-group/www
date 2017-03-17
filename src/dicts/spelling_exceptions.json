@@ -67,6 +67,8 @@
   "IRB": true,
   "Jouler": true,
 	"JSON": true,
+	"laggy": true,
+	"latencies": true,
   "LinkedIn": true,
   "Linux": true,
   "Lin Zhong": true,

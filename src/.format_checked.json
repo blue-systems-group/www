@@ -62,7 +62,7 @@
     "courses/ub-421-spring-2017/index.html": "2e41893a99b82a86db00c4252069090f",
     "papers/netmob2013-phonelab/index.html": "6714350b823d584efa6ee9cf7bf67936",
     "papers/gosmart2013-hvac/index.html": "88bfcd0a4735fee61cef62430696f0c4",
-    "papers/index.html": "a4966a396f969b193a34d0ae042e8dc4",
+    "papers/index.html": "309574179d3787230738ba6aac2d783c",
     "papers/sensemine2013-phonelab/index.html": "be7d68f2ef94b83ca13eb6d4815c7f01",
     "papers/hotnets2014-pocketsniffer/index.html": "ce96b434592fc5d1672f4ae9453a5e42",
     "papers/hotplanet2014-pocketmocker/index.html": "83817a478dd558cc8a421699c7c6f254",
@@ -95,7 +95,7 @@
     "people/lethiraj/index.html": "53dde702058bcd4607b74e46ee587d1a",
     "people/kylescho/index.html": "9c2e91ac05a837cba8866aa89cbbb142",
     "people/gurupras/index.html": "9be833443d6d945341c79b0a51b29155",
-    "people/shaseley/index.html": "f1436185b5a03ea89a24d8141504bc93",
+    "people/shaseley/index.html": "25578dcb96e4dc4a3e2cbcb507fded0e",
     "people/brijeshr/index.html": "70b9c99f6425b177ecf4f04ea49cc33e",
     "people/gwa/index.html": "8ec84c9e813457a63b0b8cd215d8ebb4",
     "people/wesleycs/index.html": "6ceb423a2340cb2001c5ce3e5601b3a1",
@@ -122,5 +122,8 @@
     "posts/2017-03-11-one-reason-your-smartphone-might/index.html": "5dede3cc2a3a9ec7fddb2fe6f6014f79",
     "posts/2017-03-11-flipping-a-large-class-part-2/index.html": "f86bf839de3d5c9662b3392e21d0bcf2",
     "posts/2017-03-14-flipping-a-large-class-part-2/index.html": "af3ac2321be7bb7e2bb15c00cd151ca7",
-    "posts/2017-03-14-one-reason-your-smartphone-might/index.html": "c59a90f8c525475dbc7f69b6558f4f0d"
+    "posts/2017-03-14-one-reason-your-smartphone-might/index.html": "c59a90f8c525475dbc7f69b6558f4f0d",
+    "papers/hotmobile2017-qoe/index.html": "f22248b83de808767d275bd447ee905b",
+    "posts/2017-03-17-flipping-a-large-class-part-2/index.html": "261d9b59712cf9cc80ce9d979b7f4120",
+    "posts/2017-03-17-one-reason-your-smartphone-might/index.html": "a31fa425ccbbf11339335ea1c3e5fa32"
 }

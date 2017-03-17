@@ -1,0 +1,41 @@
+---
+name: Qoe-Centric Mobile Operating System Design
+published: hotmobile
+people:
+- shaseley
+- challen
+git: https://blue.cse.buffalo.edu/gitlab/shaseley/posters.hotmobile2017-qoe.git
+projects:
+- qoe
+funding:
+- 2014-csr-poweragility
+poster: true
+spelling_exceptions:
+  - QoE-centric
+---
+== Abstract
+
+Smartphone users judge their apps and devices based on the performance they
+experience.
+//
+Yet, because of the subjective and multi-dimensional nature of quality of
+experience (QoE), objectively measuring it is a serious challenge.
+//
+Without metrics capable of capturing aspects of interactive performance,
+mobile operating systems cannot understand how their decisions affect QoE.
+//
+Instead, we are left to design static OS policies that provide best-effort
+QoE, and measure overhead in terms of percentage, without understanding the
+effects it has on QoE.
+
+To quantify aspects of user interaction that have an effect QoE, we propose
+computing QoE metrics at the point where instances of poor QoE often manifest
+themselves, namely the screen.
+//
+Frozen apps, laggy scrolling or typing, and long user transaction latencies
+are
+examples of poor QoE that users experience through interacting with the
+screen.
+//
+These are also examples of where the OS should understand how its resource
+allocation and policy decisions affect QoE.
