@@ -1,0 +1,100 @@
+{{> header}}
+
+<div id="content" class="single">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-8">
+        <div class="row">
+          <div class="col-xs-12">
+            <img src="/assets/img/group/4.jpg"
+                 class="img-responsive img-rounded" alt="blue Systems Group Photo" />
+          </div>
+        </div>
+        <div class="h1 tighttop">We're Moving!</div>
+        {{{ contents }}}
+      </div>
+
+      <div class="hidden-xs hidden-sm col-md-4 blue-sidebar">
+        <div class="fixed-md-4">
+          <div class="text-center">
+            <a href="/people/gwa/">
+              <img class="img-responsive block-center"
+                   src="/people/challen@buffalo.edu/photo.jpg"
+                   alt="Photo of Geoffrey Challen"
+                   style="border-bottom: 4px solid #191995; height: 233px; width: 233px;">
+            </a>
+            <section class="side-headings">
+              <h1><a href="/people/gwa/">Geoffrey Challen</a></h1>
+              <h2><a href="mailto:challen@buffalo.edu">challen@buffalo.edu</a></h2>
+              <div class="h3">
+                <ul class="list-inline dash-list">
+                  <li>
+                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf">CV</a>
+                  </li>
+                  <li>
+                    <a class="noexternal" href="https://www.bluegroup.systems/scholar">Scholar</a>
+                  </li>
+                  <li>
+                    <a class="noexternal" href="https://www.linkedin.com/pub/geoffrey-challen/1a/b77/572">LinkedIn</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="h3">
+                <ul class="list-inline dash-list">
+                  <li>
+                    <a class="noexternal" href="https://github.com/blue-systems-group">GitHub</a>
+                  </li>
+                  <li>
+                    <a class="noexternal" href="https://www.youtube.com/channel/UCzntthQN6ZF01rRRWikcmmQ">YouTube</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="h3">
+                <div class="h2">Statements</div>
+                <ul class="list-inline dash-list">
+                  <li>
+                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf">Research</a>
+                  </li>
+                  <li>
+                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf">Teaching</a>
+                  </li>
+                  <li>
+                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf">Service</a>
+                  </li>
+                  <li>
+                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Diversity.pdf">Diversity</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="h3">
+                <div class="h2">Job Talk</div>
+                <ul class="list-inline dash-list">
+                  <li>
+                    <a class="noexternal" href="https://goo.gl/yIms6j">Video</a>
+                  </li>
+                  <li>
+                    <a class="noexternal" href="https://goo.gl/8Q9l9o">Slides</a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+	<div class="row">
+    <div class="col-xs-12 col-md-8">
+      {{> footer}}
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+<!--
+  vim: ts=2:sw=2:et:ft=html
+-->

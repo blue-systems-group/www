@@ -1,0 +1,24 @@
+---
+title: Teaching Portfolio
+spelling_exceptions:
+layout: courses/portfolio.hbt
+goGithub: true
+---
+:linkattrs:
+
+== Biography
+
+I lead the link:/[blue Systems Research Group] and also direct the
+http://www.phone-lab.org[PhoneLab].
+//
+My research interests are in systems and networking, mobile systems, and
+smartphones.
+//
+I teach an https://www.ops-class.org[introduction to computer operating
+systems], a http://www.internet-class.org[new freshman course on the
+internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
+variety of contemporary topics in mobile systems.
+
+Please link:/people/gwa/[click here] for a longer biography.
+
+// vim: ts=2:sw=2:et
