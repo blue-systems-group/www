@@ -1,5 +1,5 @@
 ---
-name: Qoe-Centric Mobile Operating System Design
+name: Measuring and Improving Smartphone QoE Using the Screen as a Sensor
 published: hotmobile
 people:
 - shaseley

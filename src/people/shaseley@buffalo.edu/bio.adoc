@@ -10,10 +10,11 @@ Buffalo], where I research mobile systems and operating systems. Currently, I
 work on quantifying and improving smartphone link:/projects/qoe[quality of
 experience (QoE)].
 
-Before formally joining the link:/[blue Systems Research Group] last year, I
-worked with the group while earning my Masters degree in the spring of 2014.
-During that time, I worked on link:/projects/poweragility[Power Agile Operating
-Systems] and link:/projects/sustainability[SmartPhone Sustainability].  Prior
+Before formally joining the link:/[blue Systems Research Group] in the fall
+of 2015, I worked with the group while earning my Masters degree in the spring
+of 2014.  During that time, I worked on link:/projects/poweragility[Power Agile
+Operating Systems] and link:/projects/sustainability[SmartPhone
+Sustainability].  Prior
 to that, I earned my B.S. degree in mathematics from UB in 2004.
 
 When I'm not hacking in the lab, I enjoy traveling, cooking, brewing delicious
