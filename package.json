@@ -25,7 +25,7 @@
   "engineStrict": true,
   "license": "MIT",
   "dependencies": {
-    "asciidoctor.js": "=1.5.5-4",
+    "asciidoctor.js": "=1.5.3",
     "async": "^2.2.0",
     "cheerio": "^0.22.0",
     "debug": "^2.6.3",
