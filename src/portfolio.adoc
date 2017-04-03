@@ -1,0 +1,212 @@
+---
+title: Teaching Portfolio
+spelling_exceptions:
+layout: portfolio.hbt
+goGithub: true
+omitTop: true
+---
+:linkattrs:
+
+[.lead]
+//
+This page summarizes my teaching accomplishments at the University at Buffalo
+(UB).
+
+I have pursued a variety of teaching activities at UB.
+//
+I adapted an existing course on https://www.ops-class.org/[computer operating
+systems] to be more efficient and improved it repeatedly over 6 years.
+//
+I designed and deployed a https://www.internet-class.org/[new flipped course
+on the internet] and taught it to 440 freshman.
+//
+I supervised a https://goo.gl/w8J5u3[complete revision of our undergraduate
+curriculum] and contributed designs for https://goo.gl/brdQOO[two new
+introductory programming courses].
+//
+I led the development of several new tools to support these efforts, including
+https://test161.ops-class.org/[autograding] and
+https://github.com/internet-class/www[video delivery software].
+
+Much of what follows narrates material that is already available online.
+//
+My link:/courses/[courses page] has a great deal of information about every
+class I have taught, including links, syllabi, and student evaluations.
+//
+Both of my main undergraduate courses have their own
+websites&mdash;https://www.ops-class.org[`ops-class.org`] and
+https://www.internet-class.org[`internet-class.org`].
+//
+My link:/projects/[projects page] describes several of my group's experimental
+education projects, including software support for
+link:/projects/internetclass/[`internet-class.org`] and
+link:/projects/opsclass/[`ops-class.org`].
+//
+And my
+//
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching],
+//
+link:/people/challen@buffalo.edu/GeoffreyChallen-Improvement.pdf[course
+improvement],
+//
+link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
+//
+link:/people/challen@buffalo.edu/GeoffreyChallen-Diversity.pdf[diversity],
+//
+and
+//
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service]
+//
+statements are all available online.
+
+== Overview of Courses Taught
+
+I have taught courses to freshman, seniors, and beginning and advanced
+graduate students.
+
+=== CSE 199: How the Internet Works
+
+CSE 199 is a freshman-level course on the internet.
+//
+I designed and deployed all content and materials for this flipped-format
+course.
+//
+It was taught for the first time in Fall 2016 to 440 freshman.
+
+* https://www.internet-class.org[*Website*]
+* https://www.internet-class.org/courses/fys/syllabus/[*Example Syllabus*]
+* https://goo.gl/oQRerI[*All Course Videos*]
+* *Iterations*:link:/courses/ub-199-fall-2016/[Fall 2016]
+
+=== CSE 421/521: Introduction to Operating Systems
+
+CSE 421/521 is a joint undergraduate and graduate level course.
+//
+It enrolls primarily junior and senior undergraduates and Masters-level
+graduate students.
+//
+I adapted the OS/161 assignments from Harvard and created the
+https://test161.ops-class.org[`test161`] autograding system to grade them.
+//
+I have taught this class every spring since 2012 to between 100 and 200
+students.
+
+* https://www.ops-class.org[*Website*]
+* https://www.ops-class.org/courses/buffalo/CSE421_Spring2017/[*Example Syllabus*]
+* https://goo.gl/nepnjM[*Course YouTube Channel*]
+* *Iterations*:
+link:/courses/ub-421-spring-2017/[Spring 2017],
+link:/courses/ub-421-spring-2016/[Spring 2016],
+link:/courses/ub-421-spring-2015/[Spring 2015],
+link:/courses/ub-421-spring-2014/[Spring 2014],
+link:/courses/ub-421-spring-2013/[Spring 2013],
+link:/courses/ub-421-spring-2012/[Spring 2012]
+
+=== CSE 622: Advanced Computer Systems
+
+For two years I co-taught a 20-student course on advanced computer systems,
+primarily to Masters students.
+//
+The course focused on introducing students to mobile systems research
+literature and having them rapidly prototype and build a novel computer
+system.
+
+* *Iterations*:
+//
+link:/courses/ub-622-fall-2012/[Fall 2012],
+//
+link:/courses/ub-622-fall-2011/[Fall 2011].
+
+=== CSE 72x: Special Topics in Mobile Systems
+
+Since 2013 I have taught a small seminar on rotating advanced topics in mobile
+systems.
+//
+The course usually enrolls a handful of Ph.D. students.
+//
+We read research papers together and provide students the opportunity to
+contribute to one of my group's active research projects.
+
+* *Iterations and Topics*:
+//
+link:/courses/ub-720-fall-2013/[Fall 2013 (Smartphone Sustainability)],
+//
+link:/courses/ub-720-fall-2014/[Fall 2014 (Personal Cloud Computing)],
+//
+link:/courses/ub-720-fall-2015/[Fall 2015 (Using Uncertainty to Program Mobile
+Systems)],
+//
+link:/courses/ub-720-fall-2016/[Fall 2016 (Improving Smartphone Quality of
+Experience)].
+
+== Evidence of Instructional Excellence
+
+Below I provide evidence that I have succeeded in deploying excellent and
+effective undergraduate courses.
+//
+I discuss my work inside and outside the classroom on specific courses,
+contributions to curriculum development and improvements, and a variety of
+other educational accomplishments.
+
+=== Classroom Instruction
+
+At UB I am known as an engaging and popular classroom instructor.
+//
+I have been recording my https://www.ops-class.org[operating systems] lectures
+since 2012, resulting in hundreds of hours of lecture content available on my
+https://www.youtube.com/channel/UCzntthQN6ZF01rRRWikcmmQ[YouTube channel].
+//
+My channel has almost 3,000 subscribers and my videos have been viewed over
+227,000 times.
+//
+Course and instructor rankings for my https://www.ops-class.org[operating
+systems] course are regularly among the highest in the department, despite the
+course's reputation as being extremely challenging.
+
+=== Course Improvements
+
+I have led several efforts aimed at improving existing courses and pioneering
+new instructional techniques.
+//
+To support more effective autograding for my
+https://www.ops-class.org[operating systems course], I initiated the
+development of the https://test161.ops-class.org[`test161`] OS/161 autograder.
+//
+The design of https://test161.ops-class.org[`test161`] benefits from the many
+years of experience I had with OS/161-based operating systems courses&mdash;as
+a student, teaching assistant, and instructor.
+//
+It also addressed many of the problems that we encountered in early efforts to
+develop autograding systems for OS/161 kernels.
+
+The https://test161.ops-class.org[project web page] has more details about its
+design and implementation.
+//
+But it has proved extremely effective in helping students with the challenging
+https://www.ops-class.org/asst/overview/[OS/161 operating systems
+assignments].
+//
+Spring 2017 is the time that I have taught
+https://www.ops-class.org/courses/buffalo/CSE421_Spring2017/["CSE 421/521: Introduction to Operating Systems"] with
+https://test161.ops-class.org[`test161`] stable from the beginning of the
+course footnote:[It was under development in Spring 2016.].
+//
+Student performance on the assignments has improved dramatically from prior
+years.
+
+== Biography
+
+I lead the link:/[blue Systems Research Group] and also direct the
+http://www.phone-lab.org[PhoneLab].
+//
+My research interests are in systems and networking, mobile systems, and
+smartphones.
+//
+I teach an https://www.ops-class.org[introduction to computer operating
+systems], a http://www.internet-class.org[new freshman course on the
+internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
+variety of contemporary topics in mobile systems.
+
+Please link:/people/gwa/[click here] for a longer biography.
+
+// vim: ts=2:sw=2:et

@@ -78,7 +78,7 @@ a {
 code {
 	padding: inherit;
 }
-	
+
 .lead {
 	font-size: 1.25em;
 }
@@ -205,7 +205,7 @@ div.footer-padding {
 		& > li > a:hover {
 			border-left-color: #222;
 			color: #222;
-		}	
+		}
 		&.posts {
 			& > li {
 				margin-bottom: 5px;
@@ -214,6 +214,13 @@ div.footer-padding {
 			& > li > a {
 				padding-right: 0px;
 			}
+		}
+		& > li li {
+			display: none;
+		}
+		& > li.active li {
+			display: block;
+			margin-left: 10px;
 		}
 	}
 	& > #sidebar {
