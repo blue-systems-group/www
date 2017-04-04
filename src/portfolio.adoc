@@ -52,6 +52,8 @@ link:/projects/opsclass/[`ops-class.org`].
 //
 And my
 //
+link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
+//
 link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching],
 //
 link:/people/challen@buffalo.edu/GeoffreyChallen-Improvement.pdf[course
