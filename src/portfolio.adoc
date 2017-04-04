@@ -1,9 +1,17 @@
 ---
 title: Teaching Portfolio
-spelling_exceptions:
 layout: portfolio.hbt
 goGithub: true
 omitTop: true
+spelling_exceptions:
+- autograder
+- 72x
+- syllabi
+- HotCRP
+- P1
+- P2
+- codecademy
+- SUNY
 ---
 :linkattrs:
 
@@ -76,7 +84,9 @@ It was taught for the first time in Fall 2016 to 440 freshman.
 * https://www.internet-class.org[*Website*]
 * https://www.internet-class.org/courses/fys/syllabus/[*Example Syllabus*]
 * https://goo.gl/oQRerI[*All Course Videos*]
-* *Iterations*:link:/courses/ub-199-fall-2016/[Fall 2016]
+* *Iterations*:
+//
+link:/courses/ub-199-fall-2016/[Fall 2016]
 
 === CSE 421/521: Introduction to Operating Systems
 
@@ -91,15 +101,27 @@ https://test161.ops-class.org[`test161`] autograding system to grade them.
 I have taught this class every spring since 2012 to between 100 and 200
 students.
 
+(Please note that link:/people/carlnues/[Carl Nuessle] has been lecturing
+frequently in Spring 2017 while I have been traveling for job interviews.)
+
 * https://www.ops-class.org[*Website*]
 * https://www.ops-class.org/courses/buffalo/CSE421_Spring2017/[*Example Syllabus*]
 * https://goo.gl/nepnjM[*Course YouTube Channel*]
+* https://www.ops-class.org/slides/[*Slides*]
+* https://www.ops-class.org/asst/overview/[*Assignments*]
+* https://www.ops-class.org/exams/[*Exams*]
 * *Iterations*:
+//
 link:/courses/ub-421-spring-2017/[Spring 2017],
+//
 link:/courses/ub-421-spring-2016/[Spring 2016],
+//
 link:/courses/ub-421-spring-2015/[Spring 2015],
+//
 link:/courses/ub-421-spring-2014/[Spring 2014],
+//
 link:/courses/ub-421-spring-2013/[Spring 2013],
+//
 link:/courses/ub-421-spring-2012/[Spring 2012]
 
 === CSE 622: Advanced Computer Systems
@@ -167,7 +189,9 @@ course's reputation as being extremely challenging.
 
 I have led several efforts aimed at improving existing courses and pioneering
 new instructional techniques.
-//
+
+*CSE 421/521*
+
 To support more effective autograding for my
 https://www.ops-class.org[operating systems course], I initiated the
 development of the https://test161.ops-class.org[`test161`] OS/161 autograder.
@@ -193,6 +217,159 @@ course footnote:[It was under development in Spring 2016.].
 //
 Student performance on the assignments has improved dramatically from prior
 years.
+
+*CSE 199*
+
+In Fall 2016 I designed and deployed a new course on the internet in a large
+flipped format.
+//
+Several aspects of the course were novel.
+//
+Course material was divided into https://goo.gl/oQRerI[5-minute videos],
+making it easy for other faculty, industry collaborators, and students to
+contribute content.
+//
+We built a https://github.com/internet-class/www[new video delivery system] to
+support this format, as well as a number of tools to simplify the process of
+recording and organizing such a large video library.
+
+Class time was devoted to hands-on activities introducing students to a
+variety of internet concepts, as well as tools and environments that they
+would need to learn to use to succeed in future courses.
+//
+https://www.internet-class.org/courses/fys/syllabus/#_outline[Here is the list
+of 24 activities that we used].
+//
+We aimed for a variety reflecting the diversity of the course material.
+//
+Some activities were https://goo.gl/XIgNXO[scavenger hunts].
+//
+Others had students https://goo.gl/7gddaN[using command line UNIX networking
+utilities].
+//
+Others had students https://goo.gl/Fq4VSV[playing online (security) games], or
+https://goo.gl/MRV3oZ[using existing online tutorials]
+(https://www.codecademy.com/[codecademy]).
+//
+Others had students https://goo.gl/896Lc9[learning about parallel processing
+using decks of cards] or https://goo.gl/Wf1cvD[routing using toothpicks and
+marshmallows].
+
+As one assignment, students were required to submit their own videos
+explaining course content.
+//
+To grade these assignments, we modified the https://hotcrp.com/[HotCRP] paper
+reviewing system to simplify staff grading.
+//
+A similar approach could be used in the future to support peer video grading.
+
+=== Contributions to the Discipline
+
+Starting in Fall 2015 I led a
+//
+https://goo.gl/w8J5u3[holistic overhaul of UB's Computer Science curriculum].
+//
+Leading a team of faculty and students, we managed to modernize and streamline
+the curriculum while meeting
+//
+http://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-computing-programs-2017-2018/[ABET]
+//
+and
+//
+http://www.suny.edu/attend/get-started/transfer-students/suny-transfer-paths/pdf/transferSUNY_Computer_Science.pdf[SUNY Seamless Transfer]
+//
+constraints.
+//
+https://goo.gl/w8J5u3[The new curriculum] includes completely revamped
+introductory programming and theory sequences.
+//
+It eliminates unnecessary requirements that had crept into the program over
+the years, and thereby increases the number of electives from 4 to 7.
+//
+As a core part of the process, we performed a
+//
+https://goo.gl/Qd2rWu[careful analysis of curricula at multiple other institutions],
+//
+coding them for the purposes of comparison.
+
+A significant part of the new curriculum is a new set of introductory
+programming courses.
+//
+I designed these courses with help from other faculty members.
+//
+Our goal was to produce a modern, rigorous, and accessible introduction to
+both programming as a skill and computer science as an intellectual
+discipline.
+//
+We produced a https://goo.gl/brdQOO[detailed design document] for the two new
+courses, as well as shorter descriptions of https://goo.gl/GbWbsB[P1] and
+https://goo.gl/eXwSmv[P2].
+
+The new curriculum will begin to go into effect in Fall 2017 and be fully
+realized by Fall 2018.
+//
+The new introductory courses will also be taught for the first time during
+this period.
+
+=== Other Accomplishments
+
+In addition to the contributions described above, I have also been involved in
+a variety of other teaching-related activities:
+
+. I have served on the Undergraduate Advisory Committee for the CSE department
+since 2011.
+//
+My link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service
+statement] describes this and other departmental and professional service
+activities.
+//
+. I have developed and disseminated high-quality educational materials, both
+through course web sites (https://www.ops-class.org[`ops-class.org`]), online
+videos (https://goo.gl/nepnjM[OS], https://goo.gl/oQRerI[Internet]), and
+open-source tools (https://test161.ops-class.org[`test161`]).
+//
+. I have secured link:/proposals/[a large amount of external funding].
+//
+Components of link:/proposals/2016-career-maybe/[my CAREER award] support
+educational innovation.
+//
+I have also received internal funding from
+//
+http://www.buffalo.edu/ubcei.html[UB's Center for Educational Innovation]
+//
+to support developing our new introductory courses.
+//
+. I have designed and led educational outreach programs.
+//
+I started and have served as the faculty mentor for
+//
+https://www.facebook.com/ubscientista/[UB's chapter of the Scientista Foundation].
+//
+http://www.scientistafoundation.com/[Scientista] is a national organization
+dedicated to advancing women in STEM.
+//
+I have also served as the faculty mentor for
+//
+https://ubacm.org/[UB's chapter of the ACM].
+//
+. I have supervised a link:/people/[number of students] at both the graduate
+and undergraduate level.
+//
+In addition to research done by my Ph.D. students, I have also supervised
+multiple undergraduate research projects.
+//
+https://www.bluegroup.systems/people/nvdirien/[Nick DiRienzo] published
+several papers as a member of my group.
+//
+https://www.bluegroup.systems/people/gjbunyea/[Greg Bunyea] has had a
+significant role in the development of our Internet seminar as the head
+undergraduate teaching assistant.
+//
+. I have contributed to scholarship in my discipline.
+//
+Please see our group's link:/projects/[projects] and
+link:/papers/[publications] page for details of our work in mobile systems and
+networking.
 
 == Biography
 

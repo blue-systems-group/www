@@ -16,67 +16,62 @@
       </div>
 
       <div id="scrollspy" class="hidden-xs hidden-sm col-md-4 blue-sidebar">
-        <div id="sidebar" class="high fixed-md-4">
+        <div id="sidebar" class="high fixed-md-4" style="top:60px;">
           <div class="text-center">
-            <section class="side-headings">
-              <div class="h3">
-                <div class="h2">Info</div>
-                <ul class="list-inline dash-list">
-                  <li>
-                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf">CV</a>
-                  </li>
-                  <li>
-                    <a class="noexternal" href="https://www.bluegroup.systems/scholar">Scholar</a>
-                  </li>
-                  <li>
-                    <a class="noexternal" href="https://www.linkedin.com/pub/geoffrey-challen/1a/b77/572">LinkedIn</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="h3">
-                <ul class="list-inline dash-list">
-                  <li>
-                    <a class="noexternal" href="https://github.com/blue-systems-group">GitHub</a>
-                  </li>
-                  <li>
-                    <a class="noexternal" href="https://www.youtube.com/channel/UCzntthQN6ZF01rRRWikcmmQ">YouTube</a>
-                  </li>
-                </ul>
-              </div>
-              <div class="h3">
-                <div class="h2">Statements</div>
-                <ul class="list-inline dash-list">
-                  <li>
-                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf">
-                      Teaching
-                    </a>
-                  </li>
-                  <li>
-                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Improvement.pdf">
-                      Course Improvement
-                    </a>
-                  </li>
-                </ul>
-                <ul class="list-inline dash-list">
-                  <li>
-                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf">
-                      Research
-                    </a>
-                  </li>
-                  <li>
-                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf">
-                      Service
-                    </a>
-                  </li>
-                  <li>
-                    <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Diversity.pdf">
-                      Diversity
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </section>
+            <div class="side-headings">
+              <div class="h2">Info</div>
+              <ul class="list-inline dash-list">
+                <li>
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf">CV</a>
+                </li>
+                <li>
+                  <a class="noexternal" href="https://www.bluegroup.systems/scholar">Scholar</a>
+                </li>
+                <li>
+                  <a class="noexternal" href="https://www.linkedin.com/pub/geoffrey-challen/1a/b77/572">LinkedIn</a>
+                </li>
+              </ul>
+              <ul class="list-inline dash-list">
+                <li>
+                  <a class="noexternal" href="https://github.com/blue-systems-group">GitHub</a>
+                </li>
+                <li>
+                  <a class="noexternal" href="https://www.youtube.com/channel/UCzntthQN6ZF01rRRWikcmmQ">YouTube</a>
+                </li>
+              </ul>
+              <div class="h2">Statements</div>
+              <ul class="list-inline dash-list">
+                <li>
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf">
+                    Teaching
+                  </a>
+                </li>
+                <li>
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Improvement.pdf">
+                    Course Improvement
+                  </a>
+                </li>
+              </ul>
+              <ul class="list-inline dash-list">
+                <li>
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf">
+                    Research
+                  </a>
+                </li>
+                <li>
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf">
+                    Service
+                  </a>
+                </li>
+                <li>
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Diversity.pdf">
+                    Diversity
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
+          <hr style="margin-top:10px; margin-bottom:10px;" />
           <ul class="nav nav-stacked small">
             <li><a href="#top">Introduction</a>
               {{#each sections}}

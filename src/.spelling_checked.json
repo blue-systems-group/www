@@ -5,7 +5,7 @@
         "index.html": "ea762f4ef5ee79c6be66b5fdca532f73",
         "403/index.html": "e0194223efd7edbf43601ba66636f4e9",
         "404/index.html": "675d0dab866b52b33498f64445d96099",
-        "posts/index.html": "01e1003686d00f29991419288e2ac260",
+        "posts/index.html": "73e9ab6e28a39b02da1350fd98f8d89b",
         "projects/index.html": "d9c46aa99c851236c2ab69bc0068ac07",
         "projects/disastermode/index.html": "1d8fe15dec6bf08829d02703b977073b",
         "projects/jouler/index.html": "827d6099b527d6e0f92881dc857cd67a",
@@ -83,13 +83,13 @@
         "people/ychen78/index.html": "6fc6714bf5def0090ff68ddf1ecd1866",
         "people/gwa/index.html": "ffe66211f57785b65243704dae07a89f",
         "posts/2016-07-06-cs101-part-1-how-and-why-intro/index.html": "1a265a13b4486dfafe35e502527bbfd3",
-        "posts/2015-05-20-why-im-editing-a-getmobile-colu/index.html": "d4ad927b22c64a64d913187542dc9de1",
-        "posts/2015-08-01-to-become-more-diverse-cs-progr/index.html": "5102a5f69de242dde112ae5098aca298",
-        "posts/2015-05-13-the-professorial-pivot/index.html": "3f812b42a36cd30f0bd4f9bbd6e4495f",
-        "posts/2016-02-11-two-days-at-google/index.html": "7841412ae3331b6b3a1ef517dcec58f4",
-        "posts/2016-02-11-lies-damned-lies-and-universit/index.html": "ca87318b395d02a4d1fc8d2d7b2c73cd",
-        "posts/2015-07-14-my-case-for-reverse-blind-review/index.html": "123932b5059e1685f734cf042a05c4d1",
-        "posts/2015-06-23-lets-rename-the-sigmobile-rocks/index.html": "8b34fa2a13fb71fedc00feac798e3d61",
+        "posts/2015-05-20-why-im-editing-a-getmobile-colu/index.html": "8a371112960c67a799c099153ddd12ad",
+        "posts/2015-08-01-to-become-more-diverse-cs-progr/index.html": "685fb1307721a2d03f06f835dcef1e9e",
+        "posts/2015-05-13-the-professorial-pivot/index.html": "310a261c0b934b7153fa552c978fd3e0",
+        "posts/2016-02-11-two-days-at-google/index.html": "4f8c7b1c4eaa37013dae49dbecec37c0",
+        "posts/2016-02-11-lies-damned-lies-and-universit/index.html": "52ac00fe09e83cfd5824f490504874bb",
+        "posts/2015-07-14-my-case-for-reverse-blind-review/index.html": "484a4d68a1ab1178fffcaa94b781d4e2",
+        "posts/2015-06-23-lets-rename-the-sigmobile-rocks/index.html": "c0ea158fe6a4f3b14a462eecb719e575",
         "posts/2016-07-06-universities-war-against-the-in/index.html": "0a70ef72cd61b3107f40a99ea9fd766d",
         "posts/2016-07-08-cs101-part-1-how-and-why-intro/index.html": "b3704728222aee758b0840a69e7bc89b",
         "posts/2016-07-08-universities-war-against-the-in/index.html": "93cb8d27887b45c073c37e4785a751ff",
@@ -130,7 +130,7 @@
         "posts/2016-10-19-cs101-part-1-how-and-why-intro/index.html": "a1be408a240f815a5d4300490d4c7593",
         "posts/2016-10-19-universities-war-against-the-in/index.html": "baff32b48150a1b53ef8a360ee6b76cc",
         "posts/2016-10-22-cs101-part-1-how-and-why-intro/index.html": "e0f83cfb1352ee7a1d5c3b74b0ae693f",
-        "posts/2016-10-22-the-best-way-to-not-get-tenure/index.html": "f5517991457628c5a86de819b87c3241",
+        "posts/2016-10-22-the-best-way-to-not-get-tenure/index.html": "17f48f32da08bd86d9b49163c3908701",
         "posts/2016-10-22-universities-war-against-the-in/index.html": "71fa8c482554ca740594e6c22c54dd6d",
         "posts/2016-10-23-cs101-part-1-how-and-why-intro/index.html": "71d7cb25d5e7b5daeebe46646cf9d14b",
         "posts/2016-10-23-universities-war-against-the-in/index.html": "ca18014d5e562767bebed14073edb6c9",
@@ -177,7 +177,7 @@
         "papers/hotmobile2017-cpubins/index.html": "b86224161eefc5bab2794dcc292cccec",
         "posts/2016-12-17-how-to-flip-a-large-class/index.html": "73ff6b8fb1a87eb413c5e3603ebbd896",
         "posts/2016-12-17-flipping-a-large-class-part-1/index.html": "b4ba66570591281aadd02a48951892ab",
-        "posts/2016-12-22-flipping-a-large-class-part-1/index.html": "a022586613fd196c9d79511f2d2f1ae5",
+        "posts/2016-12-22-flipping-a-large-class-part-1/index.html": "8a189a97fe12c73324262444d65a6d14",
         "posts/2016-11-03-flipping-a-large-class-part-1/index.html": "11d75d768e7c02fc98795519070320d6",
         "posts/2016-12-28-flipping-a-large-class-part-2/index.html": "4299604f952392e87ae4d6fbcdd55f93",
         "posts/2017-01-29-flipping-a-large-class-part-2/index.html": "ca0ffea849cb34bc1549fe1f8d531ef2",
@@ -204,7 +204,9 @@
         "courses/portfolio/index.html": "936ad8d565788b6dc2e23bd1500f1e9a",
         "posts/2017-04-03-flipping-a-large-class-part-2/index.html": "6cbde264582b5f6bd644b91b133c7c85",
         "posts/2017-04-03-one-reason-your-smartphone-might/index.html": "508a0ccaf3d2597193a60210e489fe1f",
-        "portfolio/index.html": "936ad8d565788b6dc2e23bd1500f1e9a"
+        "portfolio/index.html": "d0744619769f296d250c733695f93ebf",
+        "posts/2017-04-04-flipping-a-large-class-part-2/index.html": "a2d4997b6a6c5aad64280a25db57f373",
+        "posts/2017-04-04-one-reason-your-smartphone-might/index.html": "d141a74335f875bdf8cbc8ad61b59865"
     },
     "exceptions": {
         "index.html": "478dc42218b29da4d8aafcb6b73e74d0b97e478f",
@@ -409,6 +411,8 @@
         "courses/portfolio/index.html": "478dc42218b29da4d8aafcb6b73e74d0b97e478f",
         "posts/2017-04-03-flipping-a-large-class-part-2/index.html": "bbe905d7958389f89a0c1155462f0064cff85974",
         "posts/2017-04-03-one-reason-your-smartphone-might/index.html": "71a683d5438edf96a1eff1fa439418f5fa5bc2fe",
-        "portfolio/index.html": "478dc42218b29da4d8aafcb6b73e74d0b97e478f"
+        "portfolio/index.html": "7b48098e3e794f32ff9806fec54fa13df469c46e",
+        "posts/2017-04-04-flipping-a-large-class-part-2/index.html": "bbe905d7958389f89a0c1155462f0064cff85974",
+        "posts/2017-04-04-one-reason-your-smartphone-might/index.html": "71a683d5438edf96a1eff1fa439418f5fa5bc2fe"
     }
 }
