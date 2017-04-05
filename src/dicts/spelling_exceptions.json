@@ -87,6 +87,7 @@
   "/ORMs?/": true,
 	"orchestrator": true,
 	"overrepresented": true,
+	"/outliers?/i": true,
   "/PDFs?/": true,
   "performant": true,
   "Ph.D.": true,

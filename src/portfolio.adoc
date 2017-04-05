@@ -82,6 +82,12 @@ I designed and deployed all content and materials for this flipped-format
 course.
 //
 It was taught for the first time in Fall 2016 to 440 freshman.
+//
+Computer science majors were not required to take it.
+//
+However, all were placed into it and so many did.
+//
+But the course was also open to enrollment by students from other majors.
 
 * https://www.internet-class.org[*Website*]
 * https://www.internet-class.org/courses/fys/syllabus/[*Example Syllabus*]
@@ -96,6 +102,8 @@ CSE 421/521 is a joint undergraduate and graduate level course.
 //
 It enrolls primarily junior and senior undergraduates and Masters-level
 graduate students.
+//
+It is currently required for undergraduate CS majors.
 //
 I adapted the OS/161 assignments from Harvard and created the
 https://test161.ops-class.org[`test161`] autograding system to grade them.
@@ -187,6 +195,20 @@ Course and instructor rankings for my https://www.ops-class.org[operating
 systems] course are regularly among the highest in the department, despite the
 course's reputation as being extremely challenging.
 
+All the course evaluations for my large undergraduate courses are available
+online on my link:/courses/[courses page].
+//
+Students at UB are not required to complete the course evaluation, and typical
+course response rates hover around 30%.
+//
+To collect representative feedback, I have used incentives to encourage
+students to complete the course evaluation.
+//
+As a result, course evaluation response rates for my courses have usually been
+over 90%.
+//
+I suspect that this results in more outliers--both positive and negative.
+
 === Course Improvements
 
 I have led several efforts aimed at improving existing courses and pioneering
@@ -264,6 +286,24 @@ To grade these assignments, we modified the https://hotcrp.com/[HotCRP] paper
 reviewing system to simplify staff grading.
 //
 A similar approach could be used in the future to support peer video grading.
+
+I was not satisfied with the
+//
+//
+link:/courses/2016/199/UB_199_Fall_2016-Evaluations.pdf[course evaluations]
+for the
+//
+link:/courses/ub-199-fall-2016/[first iteration of CSE 199].
+//
+Everything about the course was new, and not everything worked as planned.
+//
+I am currently working with link:/people/gjbunyea[Greg Bunyea] and
+https://www.linkedin.com/in/heeba/[Heeba Kariapper] to understand the student
+feedback and plan improvements for the next time the course is taught.
+//
+As part of this process I am
+link:/posts/2016-12-22-flipping-a-large-class-part-1/[blogging (slowly)] about
+our experiences.
 
 === Contributions to the Discipline
 
