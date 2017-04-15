@@ -192,8 +192,13 @@ My channel has almost 3,000 subscribers and my videos have been viewed over
 227,000 times.
 //
 Course and instructor rankings for my https://www.ops-class.org[operating
-systems] course are regularly among the highest in the department, despite the
-course's reputation as being extremely challenging.
+systems] course are regularly among the highest in the department
+//
+(link:/courses/2016/421/UB_421_Spring_2016-Evaluations.pdf[2016],
+link:/courses/2015/421/UB_421_Spring_2015-Evaluations.pdf[2015],
+link:/courses/2014/421/UB_421_Spring_2014-Evaluations.pdf[2014]),
+//
+despite the course's reputation as being extremely challenging.
 
 All the course evaluations for my large undergraduate courses are available
 online on my link:/courses/[courses page].
