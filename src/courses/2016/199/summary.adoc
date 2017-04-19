@@ -53,6 +53,23 @@ flipping a large course like this one:
 . Part 2: Activities (Planned)
 . Part 3: Online Videos (Planned)
 
+link:/people/gjbunyea[Greg Bunyea]
+//
+and
+//
+https://engineering.nd.edu/profiles/lmeng[Heeba Kariapper]
+//
+have also been mining the evaluations to learn the lessons of our initial
+experience and improve the course in future iterations.
+//
+They prepared this poster summarizing some of our findings:
+//
+++++
+<a href="https://goo.gl/TxfJvj">
+	<img src="/courses/2016/199/poster.jpg" class="img-responsive" alt="A Course on the Internet That's Like the Internet">
+</a>
+++++
+
 == Evaluations
 
 [cols="60,^40"]
