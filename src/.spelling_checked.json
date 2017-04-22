@@ -19,7 +19,7 @@
         "projects/pocketparker/index.html": "d5cb77e5dae4defeb8359dbb748703d9",
         "projects/pocketsniffer/index.html": "5c97d8e24aa186a7a82fb70b21a419f2",
         "projects/poweragility/index.html": "85a1a57d528ad2e2d8d5f96566c2d97e",
-        "projects/qoe/index.html": "c8fcbec74dc3d83eab18c961856177af",
+        "projects/qoe/index.html": "a2ce06f2f7838d8402ff03fbe8f4366c",
         "projects/sustainability/index.html": "88a93d0f1e408a1126f7022e20ac5af3",
         "projects/thermaplan/index.html": "5f1a863d2e5884717ff5f4055ab37a9d",
         "proposals/index.html": "344a6002f624c40abae69dc94bd774a7",
@@ -212,7 +212,9 @@
         "posts/2017-04-15-flipping-a-large-class-part-2/index.html": "3c1648f6dd88e7f2ed6e119f2d0bf32b",
         "posts/2017-04-15-one-reason-your-smartphone-might/index.html": "09f479fea2306cca82d1f804bea95688",
         "posts/2017-04-19-flipping-a-large-class-part-2/index.html": "a5e4c1d6b1a67aee02909373980be04a",
-        "posts/2017-04-19-one-reason-your-smartphone-might/index.html": "f0726cac3b9917e9c4edbb097c6b5a40"
+        "posts/2017-04-19-one-reason-your-smartphone-might/index.html": "f0726cac3b9917e9c4edbb097c6b5a40",
+        "posts/2017-04-22-flipping-a-large-class-part-2/index.html": "379472972afcd4c53e7ada65dff230aa",
+        "posts/2017-04-22-one-reason-your-smartphone-might/index.html": "a3bb834e00927683979a1545a35a2c5a"
     },
     "exceptions": {
         "index.html": "6e3fa6648b68377543c06fdf1f5fba3739b4b3a6",
@@ -425,6 +427,8 @@
         "posts/2017-04-15-flipping-a-large-class-part-2/index.html": "71bf979445d4bd7aecf6cb1d877c84a1781b8375",
         "posts/2017-04-15-one-reason-your-smartphone-might/index.html": "10fa776ec9ba5857b3343c9944aa43e22847f593",
         "posts/2017-04-19-flipping-a-large-class-part-2/index.html": "71bf979445d4bd7aecf6cb1d877c84a1781b8375",
-        "posts/2017-04-19-one-reason-your-smartphone-might/index.html": "10fa776ec9ba5857b3343c9944aa43e22847f593"
+        "posts/2017-04-19-one-reason-your-smartphone-might/index.html": "10fa776ec9ba5857b3343c9944aa43e22847f593",
+        "posts/2017-04-22-flipping-a-large-class-part-2/index.html": "71bf979445d4bd7aecf6cb1d877c84a1781b8375",
+        "posts/2017-04-22-one-reason-your-smartphone-might/index.html": "10fa776ec9ba5857b3343c9944aa43e22847f593"
     }
 }

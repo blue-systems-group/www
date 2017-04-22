@@ -14,6 +14,7 @@ spelling_exceptions:
 - SIGCHI
 papers:
 - mobisys2016-qoe
+- hotmobile2017-qoe
 ---
 [.lead]
 Of all the resources that smartphones manage, human attention is the most
