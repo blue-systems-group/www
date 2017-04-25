@@ -47,17 +47,24 @@
                   </a>
                 </li>
                 <li>
-                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Improvement.pdf">
-                    Course Improvement
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf">
+                    Research
                   </a>
                 </li>
               </ul>
               <ul class="list-inline dash-list">
                 <li>
-                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf">
-                    Research
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Improvement.pdf">
+                    Improvement
                   </a>
                 </li>
+                <li>
+                  <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Effectiveness.pdf">
+                    Effectiveness
+                  </a>
+                </li>
+              </ul>
+              <ul class="list-inline dash-list">
                 <li>
                   <a class="nopdf" href="/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf">
                     Service

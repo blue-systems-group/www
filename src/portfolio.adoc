@@ -59,6 +59,9 @@ link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching],
 link:/people/challen@buffalo.edu/GeoffreyChallen-Improvement.pdf[course
 improvement],
 //
+link:/people/challen@buffalo.edu/GeoffreyChallen-Effectiveness.pdf[course
+effectiveness],
+//
 link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
 //
 link:/people/challen@buffalo.edu/GeoffreyChallen-Diversity.pdf[diversity],
