@@ -25,10 +25,10 @@
         "proposals/index.html": "344a6002f624c40abae69dc94bd774a7",
         "proposals/2011-cri-phonelab/index.html": "a1f3b1c75911a94ec3fe08ff6d9c948d",
         "proposals/2011-gra-phonelab/index.html": "dff42ce67e6864b94a7d8ee4e2fc4380",
-        "proposals/2013-reu-phonelab/index.html": "c0db1c4279dab95901754baa9723e824",
+        "proposals/2013-reu-phonelab/index.html": "bcf70974b6bc872369bac9e2da2cc895",
         "proposals/2014-csr-jouler/index.html": "35058f3c24549489d15722d4ba808742",
         "proposals/2014-csr-poweragility/index.html": "349b1c4537a084b38a96b26db073fcbf",
-        "proposals/2015-gra-maybe/index.html": "3ad8a12703b9d7873c73c26e3085db66",
+        "proposals/2015-gra-maybe/index.html": "4cda6a5307c97a0500bd75c808435e3c",
         "courses/index.html": "9eac458d19269a846a9cce2ed90632d4",
         "courses/ub-622-fall-2011/index.html": "f05aee74956be321a851cfa914b54e56",
         "courses/ub-421-spring-2012/index.html": "5c728459292c4fb5d571f4d8818b6377",
@@ -76,7 +76,7 @@
         "people/kylescho/index.html": "9c2e91ac05a837cba8866aa89cbbb142",
         "people/maulikda/index.html": "ffde1f81e0e22cd593f674abd1fccebf",
         "people/mrferris/index.html": "ade7df84e45c34396c4704a3c54d054c",
-        "people/nvdirien/index.html": "6afaf543d3807d1fa883b0cb2b9186ad",
+        "people/nvdirien/index.html": "4847c04031300153fc99b0389ea3313c",
         "people/shaseley/index.html": "2c0d35a52b879fb7d02c0ddfdd2e2a0e",
         "people/sriramsh/index.html": "4134e2936f79ec19af43140960751152",
         "people/wesleycs/index.html": "6ceb423a2340cb2001c5ce3e5601b3a1",
@@ -220,7 +220,9 @@
         "posts/2017-04-26-flipping-a-large-class-part-2/index.html": "5e593e19dd281bdfcf5cff8ed3bd5a82",
         "posts/2017-04-26-one-reason-your-smartphone-might/index.html": "772e08c758f804244689bb2fd91d4c01",
         "posts/2017-04-27-flipping-a-large-class-part-2/index.html": "7ba87934ad69899cc9c4f2da9af071b7",
-        "posts/2017-04-27-one-reason-your-smartphone-might/index.html": "840f736b83f9635b5d81f8d9bf2476b8"
+        "posts/2017-04-27-one-reason-your-smartphone-might/index.html": "840f736b83f9635b5d81f8d9bf2476b8",
+        "posts/2017-05-05-flipping-a-large-class-part-2/index.html": "494d49f82714b5f6820e8e5166dd502d",
+        "posts/2017-05-05-one-reason-your-smartphone-might/index.html": "67057879b05b4b4dc96e43a2a9b95128"
     },
     "exceptions": {
         "index.html": "6e3fa6648b68377543c06fdf1f5fba3739b4b3a6",
@@ -441,6 +443,8 @@
         "posts/2017-04-26-flipping-a-large-class-part-2/index.html": "71bf979445d4bd7aecf6cb1d877c84a1781b8375",
         "posts/2017-04-26-one-reason-your-smartphone-might/index.html": "10fa776ec9ba5857b3343c9944aa43e22847f593",
         "posts/2017-04-27-flipping-a-large-class-part-2/index.html": "71bf979445d4bd7aecf6cb1d877c84a1781b8375",
-        "posts/2017-04-27-one-reason-your-smartphone-might/index.html": "10fa776ec9ba5857b3343c9944aa43e22847f593"
+        "posts/2017-04-27-one-reason-your-smartphone-might/index.html": "10fa776ec9ba5857b3343c9944aa43e22847f593",
+        "posts/2017-05-05-flipping-a-large-class-part-2/index.html": "71bf979445d4bd7aecf6cb1d877c84a1781b8375",
+        "posts/2017-05-05-one-reason-your-smartphone-might/index.html": "10fa776ec9ba5857b3343c9944aa43e22847f593"
     }
 }
