@@ -22,6 +22,12 @@ spelling_exceptions:
 - TOSN
 - TPDS
 - Bloomberg
+- Chapmans
+- G.W.A.
+- GWA
+- gwa
+- Suzanna
+- unhyphenated
 ---
 :linkattrs:
 
@@ -192,3 +198,37 @@ Chuchu had a steady job as our resident
 therapy dog and lunch stealer.
 //
 I enjoy cooking and traveling and am a 3+ season bike commuter.
+
+== GWA
+
+Long before I began signing my emails "-gwa-", I was given the nickname GWA by
+my high-school cross country teammates.
+//
+But why?
+//
+Simple: at that time, my initials were G.W.A.: Geoffrey Werner-Allen.
+//
+Being raised by a strong woman had many benefits, including a hyphenated last
+name combining my Mom's (Werner) and Dad's (Allen) single names.
+
+But when a hyphen (Geoffrey Werner-Allen) meets the unhyphenated love of their
+life (Suzanna Chapman), things get complicated.
+//
+We wanted the same name, but didn't really consider being
+Werner-Allen-Chapmans.
+//
+We did consider being Chapmans, but she already has a brother Jeff.
+//
+Eventually we settled on a variant of my parent's approach, and Chapman and
+Werner-Allen joined to become Challen.
+//
+In fairness to my Mom, I still carry her contribution (Werner) as my legal
+middle name.
+//
+And, contrary to what the lady at the Massachusetts Family Court might have
+thought, we didn't make up the name Challen: There are
+https://www.ancestry.com/name-origin?surname=challen[others out there].
+
+So there it is--to explain GWA, you have to explain Challen.
+//
+But maybe it actually stands for "GWA with Attitude".
