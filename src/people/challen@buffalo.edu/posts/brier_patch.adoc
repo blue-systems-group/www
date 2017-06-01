@@ -1,0 +1,206 @@
+---
+working: true
+spelling_exceptions:
+  - codecademy
+---
+
+== Into the Briar Patch
+
+[.snippet]
+//
+--
+//
+[.lead]
+//
+As a child I was told the story of Br'er Rabbit.
+//
+We must have had it as a picture book, since I clearly remember drawings of
+the Tar Baby that Br'er Fox used to trap Br`er Rabbit.
+//
+But I also remember a panel depicting the final plot twist.
+//
+After Br'er Rabbit begs and pleads with Br'er Fox to not throw him into the
+briar patch, Br'er Fox does exactly that.
+//
+And then watches as Br'er Rabbit lounges and laughs triumphantly in the
+brambles.
+//
+"Br'er Fox: rabbits are _born_ in a briar patch", he exults.
+
+Seven months after being unceremoniously tossed out of my department, I've
+landed somethere that feels much more comfortable.
+//
+This fall I'll join the University of Illinois at Urbana-Champaign as an
+Associate Teaching Professor.
+//
+I'm looking forward to a better fit in a much better department, and to the
+chance to focus my creative energies on improving education at scale.
+//
+--
+
+=== A Thornier Future
+
+One of the first things that my wife Suzanna told me when I relayed the tenure
+vote last October was that our lives were going to change forever.
+//
+She was right&mdash;but it was a slow process.
+//
+My original blog post provoked a surprising outpouring of supportive emails
+which I remain extremely grateful for.
+//
+But there were still two more months in an already-long fall semester.
+//
+I had to finish the exhausting first iteration of my large flipped class on
+the internet.
+//
+There were projects to keep working on, students to supervise, and papers to
+submit.
+//
+So by the time mid-December rolled around, I was ready to drop.
+//
+And it was past time to apply for my next job.
+
+When I started looking for new faculty jobs, I didn't immediately consider
+instructional positions.
+//
+My own experience with teaching faculty jobs was that they were overworked and
+both underpaid and underappreciated.
+//
+I had seen first-hand how handling multiple large courses left teaching
+faculty with little time to maintain existing courses&mdash;much less plan
+improvements or experiment with new ideas or tools.
+//
+So I ended up applying to a mixture of teaching and research faculty
+positions.
+
+But as I started to find out more about teaching faculty jobs at other
+institutions, I quickly grew more excited.
+//
+I think I might have actually giggled out loud after one teaching faculty at
+an excellent-but-to-remain-unnamed school described their teaching load.
+//
+"I'm handling that as a pre-tenure research faculty this year", I remember
+thinking.
+
+Once I started writing cover letters for teaching faculty jobs, my difference
+in enthusiasm became clear.
+//
+I've always struggled a bit to justify my work on mobile systems.
+//
+I have so such difficulties explaining my excitement about improving
+education.
+//
+The briar patch was looking mighty comfy.
+
+My timing was pretty good.
+//
+Computer science departments across the country are experiencing exponential
+surges in enrollment&mdash;and greeting those increases with a mixture of
+excitement and trepidation that varies from institution to institution.
+//
+More on that in another pos.
+//
+But in the mean time, many departments are looking for teaching faculty to
+help keep with recent rapid growth.
+//
+I ended with eight on-campus interviews, of which I did seven, and receiving
+four good job offers.
+
+=== A Fresh Patch
+
+That left Suzanna and me with a very tough decision.
+//
+Every offer had different pros and cons, and none was a clear winner in every
+category.
+//
+So we talked about it.
+//
+And talked about it.
+//
+And talked about it some more.
+//
+We made lists.
+//
+We did pair-wise face offs.
+//
+We got it down to three, and then to two&mdash;just to see it creep back up to
+three, and almost to four.
+//
+We made a decision.
+//
+And then unmade it a few days later.
+//
+And the made the same decision again.
+//
+And then saw it survive on last strong challenge, aided at least partly by a
+very well-timed formal offer letter.
+
+But every time we made a decision, it came out the same way: the University of
+Illinois.
+//
+There are many things I love about CS@Illinois.
+//
+It's a top-tier department at a public school that's dominant on campus and
+housed in a huge, beautiful, and brand-new building footnote:[Put more
+succinctly: at Illinois, CS _rules_&mdash;in both senses of the word.].
+//
+The students and faculty are excellent, including a great cadre of teaching
+faculty that are excited about the challenges of education at scale.
+//
+My interactions with department leadership have shown them to be thoughtful
+and reasonable.
+
+But there were two things about Illinois that really stood out to me.
+//
+First, they are taking steps to take teaching faculty seriously.
+//
+All four of my offers were for associate-level teaching faculty positions.
+//
+But only Illinois took the time to complete a formal promotion process, which
+included soliciting external letters.
+//
+Their promotional criteria are also excellent, and include consideration of
+external impact as well as classroom excellence.
+//
+If I am fortunate enough to be promoted to (Full) Teaching Professor at
+Illinois, it will be more than just social promotion footnote:[Someone at UB
+once told me that teaching faculty in my former department only got promoted
+by threatening to quit.].
+//
+Contract length and pay equity are still areas of concern, but the department
+seems headed in the right direction, if somewhat constrained by broader
+university policies.
+
+Second, they are doing really well at attracting women to computer science.
+//
+A full _45%_ of their incoming computer scientists last year were female, an
+astonishing number given that the national average is closer to 20%.
+//
+To be clear, this number comes with a few caveats: it's only within the CS
+major and drops to 36% when you consider all students studying computer
+science, and of course gender is just one of many ways in which students
+studying computer science are unrepresentative of the broader population.
+//
+But still, this is impressive progress, and creates the opportunity to start
+to tackle some of those other tough representation issues&mdash;including race
+and socioeconomic status.
+
+To me, the diversity of the student body speaks strongly to the health of a
+computer science department footnote:[I wish that ABET would figure this out,
+and stop being fooled by the wildly unrepresentative Potempkin student panels
+that departments assemble for visits.].
+//
+If we've learned anything from all of the efforts by all of the departments
+that have tried to address this issue, it's that there is no silver bullet.
+//
+Improving diversity requires a comprehensive effort, including effective high
+school outreach, strong introductory courses, emphasis on impact throughout
+the curriculum, a welcoming departmental culture, and extra support to help
+bootstrap groups that may not immediately feel like they fit in.
+//
+Getting this right demonstrates both teamwork and a commitment to the
+department's educational mission.
+
+=== Tossed
+
+// vim: ts=2:sw=2:et
