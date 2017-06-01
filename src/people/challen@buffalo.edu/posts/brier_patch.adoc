@@ -185,10 +185,10 @@ But still, this is impressive progress, and creates the opportunity to start
 to tackle some of those other tough representation issues&mdash;including race
 and socioeconomic status.
 
-To me, the diversity of the student body speaks strongly to the health of a
-computer science department footnote:[I wish that ABET would figure this out,
-and stop being fooled by the wildly unrepresentative Potempkin student panels
-that departments assemble for visits.].
+The diversity of the student body speaks strongly to the health of a computer
+science department footnote:[I wish that ABET would figure this out, and stop
+being fooled by the wildly unrepresentative Potempkin student panels that
+departments assemble for visits.].
 //
 If we've learned anything from all of the efforts by all of the departments
 that have tried to address this issue, it's that there is no silver bullet.
@@ -202,5 +202,43 @@ Getting this right demonstrates both teamwork and a commitment to the
 department's educational mission.
 
 === Tossed
+
+So I'm happy where I landed.
+//
+And as one of my new colleagues was brave enough to put it when I interviewed,
+this may end up being the best worst thing that has ever happened to me.
+
+But it was still awful.
+//
+Suzanna and I are leaving behind friends, a house, and a neighborhood that we
+love.
+//
+I'm walking away from a new curriculum that I helped formulate and courses
+that I perfected, created, or designed.
+//
+My lab is splitting up, with a few of my students finishing in place, a few
+moving to other advisers, and at least one that will move with me to Illinois.
+
+One of the hardest parts for me was that I received no feedback after the
+department's vote.
+//
+Feedback is at the heart of how scientists evaluate each other, with written
+reviews accompanying every rejected paper and declined grant.
+//
+And yet, none of the eight faculty that voted against me have identified
+themselves or offered any explanation.
+//
+Neither has anybody else.
+//
+Tenure is supposed to represent a final and ultimate professional
+evaluation&mdash;a permanent decision laboriously and carefully made.
+//
+But in UB's CS department, that decision comes with less justification than I
+provide when reviewing papers for second-tier conferences.
+
+Without an explanation, it's easy to engage in speculation.
+//
+I did a fair amount of that, most of it private, some of it wild, none of it
+convincing.
 
 // vim: ts=2:sw=2:et
