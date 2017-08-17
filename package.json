@@ -36,7 +36,7 @@
     "jstransformer-handlebars": "^1.0.0",
     "lodash": "^4.17.4",
     "metalsmith": "^2.3.0",
-    "metalsmith-asciidoc": "git@github.com:gchallen/metalsmith-asciidoc.git",
+    "metalsmith-asciidoc": "https://github.com/gchallen/metalsmith-asciidoc.git",
     "metalsmith-build-date": "^0.2.0",
     "metalsmith-clean-css": "^5.0.1",
     "metalsmith-collections": "^0.9.0",
