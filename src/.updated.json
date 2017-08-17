@@ -373,9 +373,9 @@
     },
     "people/brijeshr@buffalo.edu/bio.html": {
         "filename": "people/brijeshr@buffalo.edu/bio.html",
-        "hash": "9266c96557dff5dcd6d8d172d2a1c7bb",
+        "hash": "51a2274ea4beb24c20e1629eb42d50a8",
         "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-04-15T14:38:28.893Z"
+        "updated": "2017-08-17T14:15:25.822Z"
     },
     "people/carlnues@buffalo.edu/bio.html": {
         "filename": "people/carlnues@buffalo.edu/bio.html",
@@ -409,9 +409,9 @@
     },
     "people/kylescho@buffalo.edu/bio.html": {
         "filename": "people/kylescho@buffalo.edu/bio.html",
-        "hash": "5385d69ee2fbd554b48adece4baf2920",
+        "hash": "dc92d7fe8361588c7c794d269e309a6b",
         "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
+        "updated": "2017-08-17T14:12:22.348Z"
     },
     "people/maulikda@buffalo.edu/bio.html": {
         "filename": "people/maulikda@buffalo.edu/bio.html",
@@ -457,9 +457,9 @@
     },
     "people/challen@buffalo.edu/bio.html": {
         "filename": "people/challen@buffalo.edu/bio.html",
-        "hash": "09517e5c6766d3028ab76397bb1e13b6",
+        "hash": "db45d4de69d4e24cacdbf1889be7115a",
         "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-05-16T02:54:52.842Z"
+        "updated": "2017-08-17T14:12:22.348Z"
     },
     "people/challen@buffalo.edu/posts/getmobile.html": {
         "filename": "people/challen@buffalo.edu/posts/getmobile.html",
@@ -481,9 +481,9 @@
     },
     "people/challen@buffalo.edu/posts/my_pivot.html": {
         "filename": "people/challen@buffalo.edu/posts/my_pivot.html",
-        "hash": "c4d8d4e87c8889b06eeba5cb9f0fc488",
+        "hash": "b40fa6d8b0a2c547f93e75717a954910",
         "created": "2015-05-13T21:33:20.845Z",
-        "updated": "2015-05-13T21:33:20.845Z"
+        "updated": "2017-08-17T14:12:22.348Z"
     },
     "people/challen@buffalo.edu/posts/overheads.html": {
         "filename": "people/challen@buffalo.edu/posts/overheads.html",
@@ -637,9 +637,9 @@
     },
     "future.html": {
         "filename": "future.html",
-        "hash": "ff96fe276ce3be21e5d03fd06abc4802",
+        "hash": "bdc78748e6c7c1d269d785bc7e0850a5",
         "created": "2016-11-17T20:23:12.783Z",
-        "updated": "2017-03-14T13:29:38.375Z"
+        "updated": "2017-08-17T14:12:22.348Z"
     },
     "proposals/2016-career-maybe/summary.html": {
         "filename": "proposals/2016-career-maybe/summary.html",
@@ -679,8 +679,8 @@
     },
     "portfolio.html": {
         "filename": "portfolio.html",
-        "hash": "9b27fd9c5b82113eae5416039f35e1fc",
+        "hash": "23abedb492cf828faa03bdcc1aa4aac1",
         "created": "2017-04-03T19:01:57.551Z",
-        "updated": "2017-04-25T19:59:11.454Z"
+        "updated": "2017-08-17T14:12:22.348Z"
     }
 }

@@ -34,7 +34,7 @@ spelling_exceptions:
 [.lead]
 //
 I lead the link:/[blue Systems Research Group] and also
-direct the http://www.phone-lab.org[PhoneLab].
+direct the https://www.phone-lab.org[PhoneLab].
 //
 My research interests are in systems and networking, mobile systems, and
 smartphones.

@@ -51,7 +51,7 @@ Transforming from Professor Hacker to Professor Manager took longer than I
 would probably have expected footnote:[Had I thought about it, which I
 didn't], because for the first few years after arriving at UB I found plenty
 of things to hack on. I wrote code to run our
-http://www.phone-lab.org[PhoneLab] smartphone testbed and a suite of tools to
+https://www.phone-lab.org[PhoneLab] smartphone testbed and a suite of tools to
 analyze the data we collected. I wrote code to automate submission and
 grading for Harvard's OS/161 assignments, allowing me to assign them in a
 class with an order of magnitude less instructional support. I pitched in
@@ -62,7 +62,7 @@ Looking back, my initial years of hacking can seem like a reasonable response
 to events. We quickly got a lot of money to build a smartphone testbed, and
 so that needed to happen--even if I hadn't yet assembled students that I
 trusted and had the required development abilities.
-http://www.phone-lab.org[PhoneLab] is also really something akin to a
+https://www.phone-lab.org[PhoneLab] is also really something akin to a
 production system, not a research prototype, and it had to work at the risk
 of irritating and alienating our testbed participants. With my course, I
 threw my hat over the wall and there was no way to make it work without
@@ -229,7 +229,7 @@ So what to work on? At this point I've decided fairly categorically _not_ to
 take development roles on our research projects, since this is something that
 on every level is better left to my students. Happily, there are still a lot
 of non-research development tasks left for Professor Hacker to work on. Like
-building this website, and updating our http://www.phone-lab.org[PhoneLab]
+building this website, and updating our https://www.phone-lab.org[PhoneLab]
 infrastructure and tools. I have some new ideas I want to try out in the
 classroom that will require some new online infrastructure, and I've been
 promising myself that after over a decade I would finally repeat the OS

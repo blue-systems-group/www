@@ -37,7 +37,7 @@ various robotic competitions, which helped me develop my leadership skills.
 
 I joined The University at Buffalo (UB) in 2013, and started working with
 //
-https://phone-lab.org[PhoneLab] on systems research in my sophomore year.
+https://www.phone-lab.org[PhoneLab] on systems research in my sophomore year.
 //
 In Summer 2016, I interned with http://www.viacom.com[Viacom] where I worked
 on adding live-streaming support to http://www.mtv.com[MTV's] existing

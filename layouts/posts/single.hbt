@@ -13,7 +13,7 @@
             {{#if modified }}
               <li>
                 {{#if github_links.commits }}<a href="{{ github_links.commits}}">{{/if}}
-                Edited {{ format_date updated "name" false }}</li>
+                Edited {{ format_date updated "name" false }}
                 {{#if github_links.commits }}</a>{{/if}}
               </li>
             {{/if}}

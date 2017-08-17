@@ -6,6 +6,8 @@ spelling_exceptions:
   - Siebel
 ---
 
+:siebel-center-wikipedia: https://en.wikipedia.org/wiki/Thomas_M._Siebel_Center_for_Computer_Science
+
 == Into the Briar Patch
 
 [.snippet]
@@ -171,7 +173,7 @@ http://csrankings.org/[top-tier department]
 //
 at a public school that's dominant on campus and housed in a
 //
-https://en.wikipedia.org/wiki/Thomas_M._Siebel_Center_for_Computer_Science[huge, beautiful, and brand-new building]
+{siebel-center-wikipedia}[huge, beautiful, and brand-new building]
 //
 footnote:[Put more succinctly: at Illinois, CS _rules_&mdash;in both senses of
 the word.].

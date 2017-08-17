@@ -19,7 +19,7 @@ at Buffalo has to offer during my short time here as an undergraduate.  So,
 when I first heard about the ACM chapter at UB, I joined straight away.  I
 joined with the desire to meet other people that were as motivated to learn
 as me, and I did just that.  Through my involvement in ACM I got involved in
-maintaining and making changes to the ACM http://www.ubacm.org/[website].
+maintaining and making changes to the ACM http://ubacm.org/[website].
 During one of our ACM meetings in the Spring, long-time member and Senior
 link:/people/nvdirien/[Nick DiRienzo] made a pitch about Blue and
 said that they were accepting undergraduate researchers.  I immediately

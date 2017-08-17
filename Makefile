@@ -1,6 +1,7 @@
 all: build | silent
 
 build: node_modules
+	@rm -f src/*_failed.json
 	@node ./lib/index.js . $(CHECK) $(DEPLOY)
 	@while [ -n "$$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
 	@rsync -rlpgoDc --delete .build/ build
@@ -26,7 +27,7 @@ run:
 	./node_modules/http-server/bin/http-server build -p 8080 -a 127.0.0.1
 
 clean:
-	@rm -rf .build build
+	@rm -rf .build build src/*_failed.json
 
 fixphotos:
 	@find . -name "photo.jpg" | xargs -n 1 -P 4 -I PHOTO convert PHOTO -resize 293x293^ -gravity center -extent 293x293^ -strip +set date:create +set date:modify PHOTO

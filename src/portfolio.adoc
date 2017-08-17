@@ -400,7 +400,7 @@ dedicated to advancing women in STEM.
 //
 I have also served as the faculty mentor for
 //
-https://ubacm.org/[UB's chapter of the ACM].
+http://ubacm.org/[UB's chapter of the ACM].
 //
 . I have supervised a link:/people/[number of students] at both the graduate
 and undergraduate level.
@@ -424,7 +424,7 @@ networking.
 == Biography
 
 I lead the link:/[blue Systems Research Group] and also direct the
-http://www.phone-lab.org[PhoneLab].
+https://www.phone-lab.org[PhoneLab].
 //
 My research interests are in systems and networking, mobile systems, and
 smartphones.
