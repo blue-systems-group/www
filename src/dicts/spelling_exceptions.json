@@ -29,6 +29,7 @@
   "Bisons": true,
   "Bluetooth": true,
   "CANSAS": true,
+	"Champaign": true,
   "chipset": true,
   "CISE": [
     "proposals/**"
@@ -37,6 +38,7 @@
   "/CPUs?/": true,
   "crowdsourcing": true,
   "CS101": true,
+	"CS@Illinois": true,
   "CSE": true,
   "CSR": [
     "proposals/**"
@@ -124,6 +126,7 @@
   "SQLite": true,
 	"stealer": true,
 	"suboptimal": true,
+	"Suzanna": true,
   "/TAs?/": true,
 	"/testbeds?/i": true,
 	"ThermaPlan": true,
@@ -136,6 +139,7 @@
   "UB": true,
 	"unannotated": true,
 	"unmanaged": true,
+	"Urbana": true,
 	"/UTAs?/": true,
   "UW": true,
   "Varun Chandola":true,

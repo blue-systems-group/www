@@ -1,7 +1,9 @@
 ---
 working: true
 spelling_exceptions:
-  - codecademy
+  - Br'er
+  - briar
+  - Siebel
 ---
 
 == Into the Briar Patch
@@ -12,26 +14,41 @@ spelling_exceptions:
 //
 [.lead]
 //
-As a child I was told the story of Br'er Rabbit.
+As a child I was told the story of
+//
+https://en.wikipedia.org/wiki/Br%27er_Rabbit[Br'er Rabbit].
 //
 We must have had it as a picture book, since I clearly remember drawings of
-the Tar Baby that Br'er Fox used to trap Br`er Rabbit.
+the
 //
-But I also remember a panel depicting the final plot twist.
+https://en.wikipedia.org/wiki/Tar-Baby[Tar Baby]
 //
-After Br'er Rabbit begs and pleads with Br'er Fox to not throw him into the
-briar patch, Br'er Fox does exactly that.
+that Br'er Fox used to trap Br'er Rabbit.
+//
+But I also remember the panel depicting the final plot twist.
+//
+After Br'er Rabbit begs Br'er Fox _not_ to throw him into the briar patch,
+Br'er Fox does exactly that.
 //
 And then watches as Br'er Rabbit lounges and laughs triumphantly in the
 brambles.
 //
 "Br'er Fox: rabbits are _born_ in a briar patch", he exults.
 
-Seven months after being unceremoniously tossed out of my department, I've
-landed somethere that feels much more comfortable.
+Seven months after being
 //
-This fall I'll join the University of Illinois at Urbana-Champaign as an
-Associate Teaching Professor.
+link:/posts/2016-10-22-the-best-way-to-not-get-tenure/[unceremoniously tossed
+out]
+//
+of my department, I've landed somewhere that feels much more comfortable.
+//
+This fall I'll join the
+//
+https://cs.illinois.edu/[Computer Science Department] at the
+//
+http://illinois.edu/[University of Illinois at Urbana-Champaign]
+//
+as an Associate Teaching Professor.
 //
 I'm looking forward to a better fit in a much better department, and to the
 chance to focus my creative energies on improving education at scale.
@@ -45,13 +62,18 @@ vote last October was that our lives were going to change forever.
 //
 She was right&mdash;but it was a slow process.
 //
-My original blog post provoked a surprising outpouring of supportive emails
-which I remain extremely grateful for.
+My
+//
+link:/posts/2016-10-22-the-best-way-to-not-get-tenure/[original blog post]
+//
+provoked a surprising outpouring of supportive emails which I remain extremely
+grateful for.
 //
 But there were still two more months in an already-long fall semester.
 //
-I had to finish the exhausting first iteration of my large flipped class on
-the internet.
+I had to finish the exhausting first iteration of
+//
+link:/courses/ub-199-fall-2016/[my large flipped class on the internet].
 //
 There were projects to keep working on, students to supervise, and papers to
 submit.
@@ -73,8 +95,8 @@ improvements or experiment with new ideas or tools.
 So I ended up applying to a mixture of teaching and research faculty
 positions.
 
-But as I started to find out more about teaching faculty jobs at other
-institutions, I quickly grew more excited.
+But as I found out more about teaching faculty jobs at other institutions, I
+grew more excited.
 //
 I think I might have actually giggled out loud after one teaching faculty at
 an excellent-but-to-remain-unnamed school described their teaching load.
@@ -87,8 +109,11 @@ in enthusiasm became clear.
 //
 I've always struggled a bit to justify my work on mobile systems.
 //
-I have so such difficulties explaining my excitement about improving
-education.
+I have no such difficulties
+//
+https://goo.gl/Qa9lWM[explaining my excitement]
+//
+about improving education.
 //
 The briar patch was looking mighty comfy.
 
@@ -98,13 +123,13 @@ Computer science departments across the country are experiencing exponential
 surges in enrollment&mdash;and greeting those increases with a mixture of
 excitement and trepidation that varies from institution to institution.
 //
-More on that in another pos.
+(More on that in a later post.)
 //
-But in the mean time, many departments are looking for teaching faculty to
-help keep with recent rapid growth.
+So many departments are looking for teaching faculty to help keep with recent
+rapid growth.
 //
 I ended with eight on-campus interviews, of which I did seven, and receiving
-four good job offers.
+four strong job offers.
 
 === A Fresh Patch
 
@@ -138,11 +163,18 @@ very well-timed formal offer letter.
 But every time we made a decision, it came out the same way: the University of
 Illinois.
 //
-There are many things I love about CS@Illinois.
+There are many things I love about https://cs.illinois.edu/[CS@Illinois].
 //
-It's a top-tier department at a public school that's dominant on campus and
-housed in a huge, beautiful, and brand-new building footnote:[Put more
-succinctly: at Illinois, CS _rules_&mdash;in both senses of the word.].
+It's a
+//
+http://csrankings.org/[top-tier department]
+//
+at a public school that's dominant on campus and housed in a
+//
+https://en.wikipedia.org/wiki/Thomas_M._Siebel_Center_for_Computer_Science[huge, beautiful, and brand-new building]
+//
+footnote:[Put more succinctly: at Illinois, CS _rules_&mdash;in both senses of
+the word.].
 //
 The students and faculty are excellent, including a great cadre of teaching
 faculty that are excited about the challenges of education at scale.
@@ -173,8 +205,11 @@ university policies.
 
 Second, they are doing really well at attracting women to computer science.
 //
-A full _45%_ of their incoming computer scientists last year were female, an
-astonishing number given that the national average is closer to 20%.
+https://cs.illinois.edu/news/46-incoming-computer-science-majors-uiucs-college-engineering-are-women[A full _46%_ of their incoming computer scientists last year (2016) are female],
+//
+an astonishing number given that the national average is
+//
+https://ngcproject.org/statistics[around 18%].
 //
 To be clear, this number comes with a few caveats: it's only within the CS
 major and drops to 36% when you consider all students studying computer
