@@ -1,7 +1,6 @@
 all: build | silent
 
 build: node_modules
-	@rm -f src/*_failed.json
 	@node ./lib/index.js . $(CHECK) $(DEPLOY)
 	@while [ -n "$$(find .build -depth -type d -empty -print -exec rmdir {} +)" ]; do :; done
 	@rsync -rlpgoDc --delete .build/ build
