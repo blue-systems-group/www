@@ -91,7 +91,7 @@ http://ipsn.acm.org/[IPSN] (2017,2015), and http://www.ewsn.org/[EWSN]
 //
 I also regularly review submissions to journals including ACM Transactions on
 http://tosn.acm.org/[Transactions on Sensor Networks (TOSN)],
-http://www.ifp.illinois.edu/ton/submissions.html[IEEE/ACM Transactions on Networking (ToN)],
+https://ton.lids.mit.edu/[IEEE/ACM Transactions on Networking (ToN)],
 http://www.computer.org/portal/web/tmc[IEEE Transactions on Mobile Computing
 (TMC)], and http://www.computer.org/portal/web/tpds[IEEE Transactions on
 Parallel and Distributed Systems (TPDS)].

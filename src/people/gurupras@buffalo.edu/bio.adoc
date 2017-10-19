@@ -44,7 +44,7 @@ Occasionally, I participate in hackathons where I use the time to build things
 that I would like to use.  In the past, me and link:/people/ans25[Anand] have
 won an award for _hack with most economic impact_ at the UB Hackathon (2014)
 for our hack on cloud storage.  link:/people/shaseley[Scott Haseley],
-http://www.acsu.buffalo.edu/~kbhandar[Kushal Bhandari] and I won second place
+https://www.linkedin.com/in/kushalbhandari[Kushal Bhandari] and I won second place
 in the Google Developers Group(GDG) Hackathon conducted in 2015 for
 https://github.com/gurupras/gdg-hackathon[AudioShare], a way to broadcast and
 share audio across Android devices.

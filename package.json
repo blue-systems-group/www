@@ -55,7 +55,7 @@
     "metalsmith-rename": "^1.0.0",
     "metalsmith-sass": "^1.4.0",
     "metalsmith-spellcheck": "^0.2.5",
-    "metalsmith-uglify": "^1.5.2",
+    "metalsmith-uglify": "^2.0.1",
     "metalsmith-updated": "^0.1.6",
     "minimist": "^1.2.0",
     "moment-timezone": "^0.5.13",

@@ -15,7 +15,7 @@ PhoneLab REU. My interests are primarily in mobile systems and distributed
 systems, and I generally love software engineering. I am also a Teaching
 Assistant for Distributed Systems and Intro to Computer Science.
 
-I joined link:http://mort11.org/[MORT], my high school's
+I joined https://github.com/mort11[MORT], my high school's
 https://www.firstinspires.org/robotics/frc[FIRST Robotics Competition]
 team, which exposed me to Java and robotics. During my senior year, I led the
 programming team for MORT where I taught students Java and developed our

@@ -5,6 +5,7 @@
 	"/\\d+AM/": true,
 	"/\\d+PM/": true,
 	"/\\d+\\.\\d+/": true,
+  "/\\d+/": true,
   "301B": true,
   "3D": true,
   "3G": true,
