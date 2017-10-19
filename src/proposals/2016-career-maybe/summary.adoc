@@ -12,12 +12,6 @@ faculty:
 projects:
 - maybe
 ---
-== Funding Note
-
-My CAREER award will be awarded to UB.
-//
-But I will be able to move the entire award with me to my link:/future/[new
-academic position.]
 
 == Summary
 

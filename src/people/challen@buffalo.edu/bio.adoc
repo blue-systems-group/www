@@ -29,6 +29,7 @@ spelling_exceptions:
 - gwa
 - Suzanna
 - unhyphenated
+- 3M
 ---
 :linkattrs:
 
