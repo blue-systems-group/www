@@ -1,6 +1,7 @@
 ---
 name: Geoffrey Challen
-role: Assistant Professor
+role: Teaching Associate Professor
+display_email: challen@illinois.edu
 slug: gwa
 joined: 2011-08-29
 scholar: http://scholar.google.com/citations?user=VS9wzBsAAAAJ&hl=en
@@ -33,49 +34,120 @@ spelling_exceptions:
 
 [.lead]
 //
-I lead the link:/[blue Systems Research Group] and also
-direct the https://www.phone-lab.org[PhoneLab].
+I teach computer science at
 //
-My research interests are in systems and networking, mobile systems, and
-smartphones.
+https://cs.illinois.edu/[the University of Illinois].
 //
-I teach an https://www.ops-class.org[introduction to computer operating
-systems], a http://www.internet-class.org[new freshman course on the
-internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
-variety of contemporary topics in mobile systems.
+Previously I led the link:/[blue Systems Research Group] and directed the https://www.phone-lab.org[PhoneLab].
 
-== We're Moving!
+My research interests are in systems and networking, mobile systems,
+smartphones, and computer science education.
+//
+At the University at Buffalo I taught an
+//
+https://www.ops-class.org[introduction to computer operating systems],
+//
+designed and deployed a
+//
+http://www.internet-class.org[new freshman course on the internet],
+//
+designed
+//
+https://goo.gl/brdQOO[two new introductory courses],
+//
+and led a comprehensive overhaul of the computer science curriculum.
+//
+At
+//
+https://cs.illinois.edu/[the University of Illinois].
+//
+I teach an
+//
+https://cs125.cs.illinois.edu[introduction to computer science].
 
-I link:/posts/2016-10-22-the-best-way-to-not-get-tenure/[did not receive
-tenure at UB] and am looking for new opportunities.
-//
-*If you are looking for faculty with a strong
-commitment to both teaching and research, please
-mailto:challen@buffalo.edu[contact me].*
-//
-I will arrive with multiple link:/proposals/[grant-supported]
-link:/projects/[research projects];
-//
-several link:/people/[excellent PhD students];
-//
-link:/courses/["two popular, scalable, and effective undergraduate courses"];
-//
-https://goo.gl/brdQOO[blueprints for an exciting new introductory programming
-series];
-//
-a commitment to undergraduate engagement;
-//
-and an link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[excellent
-track record of department and community service, role='nopdf'].
-//
-link:/future/[Click here to find out more.]
+== Research
 
-== Research and Teaching
-
-link:/[This site] describes my group's link:/projects/[research projects] and
-link:/courses/[teaching] activities.
+link:/[This site] describes my group's link:/projects/[research projects].
+//
+My current link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[CV] and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[research],
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[teaching],
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[service], and
+link:/people/challen@buffalo.edu/GeoffreyChallen-Diversity.pdf[diversity],
+statements are all online and regularly updated.
 //
 Please peruse to find out more.
+
+I am lucky to supervise multiple excellent link:/people/[Ph.D. students].
+//
+I have multiple exciting ongoing research projects with collaborators at the
+University at Buffalo, Microsoft Research, and the University of Michigan.
+//
+Please peruse our link:/projects/[projects] and link:/papers/[papers] pages to
+find out more.
+
+I am particularly excited about our work on link:/projects/maybe[programming
+uncertainty], link:/projects/wirelessvalidation[wireless protocol validation],
+link:/projects/thermaplan[smartphone thermal management], and
+link:/projects/qoe[smartphone quality-of-experience].
+//
+I would choose our link:/papers/ubicomp2014-pocketparker/[2014 UbiComp paper]
+on link:/projects/pocketparker/[PocketParker], our
+link:/papers/infocom2016-scans/[2016 INFOCOM paper] on
+link:/projects/pocketsniffer/[crowdsourcing network monitoring], and our
+link:/papers/rv2016-sniffer/[2016 RV paper] on
+link:/projects/wirelessvalidation[wireless protocol validation] as three
+representative publications.
+
+link:/people/challen@buffalo.edu/GeoffreyChallen-Research.pdf[Here is a link
+to my research statement] and
+link:/people/challen@buffalo.edu/GeoffreyChallen-CV.pdf[current CV].
+
+== Funding
+
+I have received almost link:/proposals/[3M in external funding] from the NSF
+and Google, most as PI.
+//
+My CAREER award has been recommended for funding, but the NSF will delay
+awarding this grant until I find a new academic position.
+//
+Please peruse our link:/proposals/[funding page] to find out more.
+
+== Teaching
+
+I have taught multiple large and popular courses and have made a great deal of
+material available online.
+//
+Please peruse our link:/courses/[courses] page to find out more.
+
+At UB I taught a course on https://www.ops-class.org[computer
+operating systems] to undergraduate and graduate students.
+//
+The https://www.ops-class.org/asst/overview/[assignments] and infrastructure
+for this course originated at Harvard, but I have published
+https://www.ops-class.org/slides/[slides],
+https://www.ops-class.org/exams/[exams], and
+https://www.ops-class.org/slides/[videos] for the course online, and led the
+creation of https://test161.ops-class.org[new automated testing tools].
+
+Last fall I taught new course on the internet to 440 incoming freshman
+in a flipped format.
+//
+I have recorded
+https://www.youtube.com/playlist?list=PLk97mPCd8nvbxGGfkYkBXrSEvpTc1xTF8[hundreds
+of short videos explaining key concepts], designed
+https://www.internet-class.org/courses/fys/syllabus/#_description[26 new
+in-class activities], and supervised 30 course staff.
+//
+Material for the course will eventually be available online at the
+https://www.internet-class.org/[`internet-class.org`] website.
+//
+Please review the
+https://www.internet-class.org/courses/fys/syllabus/[syllabus] to get a sense
+of how the course works in practice.
+
+link:/people/challen@buffalo.edu/GeoffreyChallen-Teaching.pdf[Here is a link
+to my teaching statement].
 
 == Service
 
@@ -129,6 +201,9 @@ I also organized donations to create a diversity in computer science mural,
 link:/people/challen@buffalo.edu/mural.jpg[this iconic photo] of
 https://en.wikipedia.org/wiki/Grace_Hopper[Grace Hopper] now adorns the wall
 outside our lab.
+
+link:/people/challen@buffalo.edu/GeoffreyChallen-Service.pdf[Here is a link
+to my service statement].
 
 == Background
 
