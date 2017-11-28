@@ -10,6 +10,7 @@ people:
 - Shuvendu.Lahiri@microsoft.com
 papers:
 - rv2016-sniffer
+- fmsd17-verification
 ---
 
 [.lead]
