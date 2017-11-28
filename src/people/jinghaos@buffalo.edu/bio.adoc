@@ -3,9 +3,11 @@ name: Jinghao Shi
 role: PhD Student
 joined: 2013-08-29
 scholar: http://scholar.google.com/citations?user=98Yup7wAAAAJ&hl=en
+linkedin: https://www.linkedin.com/in/jinghao-shi-93b9a369/
+github: https://github.com/jhshi
 ---
 [.lead]
-I am  a third year PhD student. My research interests lie broadly in
+I am a fifth year PhD student. My research interests lie broadly in
 wireless networks and mobile systems. I'm particularly interested in exploring
 the potential and opportunities brought by the smartphones in (almost) everyone's
 pocket!
@@ -14,3 +16,5 @@ I got my BS degree in Computer Science from University of Science and
 Technology of China in 2011. After that, I spent one and a half year at Hone
 Kong University, before I finally decided to quit and join the blue group here
 at Buffalo in 2013.
+
+I will join Facebook as a software engineer after graduating.
