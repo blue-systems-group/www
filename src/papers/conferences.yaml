@@ -221,3 +221,15 @@ ubicomp:
     date: 2014-09-13
     acceptance: 14
     location: Seattle, WA
+fmsd:
+  preface: An International Journal
+  name: Formal Methods in System Design 
+  2017:
+    number: Volume 51
+    shortname: FMSD
+    link: https://link.springer.com/journal/10703
+    date: 2017-11-27
+  core:
+    name: ERA 2010
+    rank: A
+    link: http://portal.core.edu.au/jnl-ranks/284/
