@@ -23,7 +23,7 @@ their effectiveness.
 Specifically, online courses ignore many of the lessons of the Internet's
 spectacular success.
 //
-In Fall 2016, link:/[blue] will teach a link:/courses/ub-199-fall-2016/[new
+In Fall 2016, link:/[blue] will teach a link:/courses/ub_199_fall_2016/[new
 course on the internet] designed to reflect some of the core features of
 today's internet.
 //

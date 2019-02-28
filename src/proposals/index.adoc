@@ -1,6 +1,6 @@
 ---
 title: blue Funding
-layout: proposals/index.hbt
+layout: proposals/index.hbs
 description: >
   This page provides an overview of the sources of external support for the
   blue Systems Research Group. We strive to be responsible with the resources

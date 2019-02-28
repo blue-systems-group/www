@@ -1,6 +1,6 @@
 ---
 title: "403: Access Denied"
-layout: single.hbt
+layout: single.hbs
 description:
   You are not allowed to access this page. Sorry.
 changefreq: yearly

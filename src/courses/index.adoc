@@ -1,6 +1,6 @@
 ---
 title: blue Teaching
-layout: courses/index.hbt
+layout: courses/index.hbs
 description: >
   Teaching as a critical part of the blue Systems Research Group's mission.
   Learn more about the courses we teach and our approach to education.
@@ -25,7 +25,7 @@ to automate testing and simplify assignment submission.
 The course also benefits from the contributions of volunteers (or "ninjas")
 who give back to the class by assisting the next generation of students.
 //
-This fall we are teaching a link:/courses/ub-199-fall-2016[new course to
+This fall we are teaching a link:/courses/ub_199_fall_2016[new course to
 freshman undergraduates on the internet] in a flipped format.
 //
 This is providing us with our first opportunity to experiment with

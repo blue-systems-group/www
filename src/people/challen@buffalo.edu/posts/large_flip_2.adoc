@@ -23,7 +23,7 @@ lecturing, now have to be spent doing something else--but what?
 Below I attempt to share what we learned developing and deploying 24 new
 activities as part of our new
 //
-link:/courses/ub-199-fall-2016[course on the internet].
+link:/courses/ub_199_fall_2016[course on the internet].
 
 This is the second part of a planned three-part series
 //
@@ -53,7 +53,7 @@ link:/posts/2016-12-22-flipping-a-large-class-part-1/#what_is_a_our_flipped_clas
 //
 As a brief review, students in our
 //
-link:/courses/ub-199-fall-2016[new course on the internet]
+link:/courses/ub_199_fall_2016[new course on the internet]
 //
 were required to watch around 20 5-minute video lessons outside of class each
 week.

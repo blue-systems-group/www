@@ -180,7 +180,7 @@ course to freshman.
 This semester I'm teaching an exciting
 https://www.internet-class.org/courses/fys/syllabus/[new course on the
 internet] to 440 freshman in a
-link:/courses/ub-199-fall-2016/[flipped-classroom format].
+link:/courses/ub_199_fall_2016/[flipped-classroom format].
 //
 The class is going really, really well--but I'm not sure what will become of
 it now, or of the

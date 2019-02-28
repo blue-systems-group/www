@@ -1,6 +1,6 @@
 ---
 title: blue Projects
-layout: projects/index.hbt
+layout: projects/index.hbs
 description: >
   Learn about research and educational projects that the blue Systems
   Research group is currently working on.

@@ -1,6 +1,6 @@
 ---
 title: blue Papers
-layout: papers/index.hbt
+layout: papers/index.hbs
 description: >
   Read the latest papers and other publications by the blue Systems Research
   Group.

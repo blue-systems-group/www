@@ -1,5 +1,5 @@
 ---
-layout: posts/index.hbt
+layout: posts/index.hbs
 description: >
   Here the blue Systems Research Group shares its thoughts on issues related
   to systems research and education.

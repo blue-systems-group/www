@@ -1,6 +1,6 @@
 ---
 title: Teaching Portfolio
-layout: portfolio.hbt
+layout: portfolio.hbs
 goGithub: true
 omitTop: true
 spelling_exceptions:
@@ -97,7 +97,7 @@ But the course was also open to enrollment by students from other majors.
 * https://goo.gl/oQRerI[*All Course Videos*]
 * *Iterations*:
 //
-link:/courses/ub-199-fall-2016/[Fall 2016]
+link:/courses/ub_199_fall_2016/[Fall 2016]
 
 === CSE 421/521: Introduction to Operating Systems
 
@@ -125,17 +125,17 @@ frequently in Spring 2017 while I have been traveling for job interviews.)
 * https://www.ops-class.org/exams/[*Exams*]
 * *Iterations*:
 //
-link:/courses/ub-421-spring-2017/[Spring 2017],
+link:/courses/ub_421_spring_2017/[Spring 2017],
 //
-link:/courses/ub-421-spring-2016/[Spring 2016],
+link:/courses/ub_421_spring_2016/[Spring 2016],
 //
-link:/courses/ub-421-spring-2015/[Spring 2015],
+link:/courses/ub_421_spring_2015/[Spring 2015],
 //
-link:/courses/ub-421-spring-2014/[Spring 2014],
+link:/courses/ub_421_spring_2014/[Spring 2014],
 //
-link:/courses/ub-421-spring-2013/[Spring 2013],
+link:/courses/ub_421_spring_2013/[Spring 2013],
 //
-link:/courses/ub-421-spring-2012/[Spring 2012]
+link:/courses/ub_421_spring_2012/[Spring 2012]
 
 === CSE 622: Advanced Computer Systems
 
@@ -148,9 +148,9 @@ system.
 
 * *Iterations*:
 //
-link:/courses/ub-622-fall-2012/[Fall 2012],
+link:/courses/ub_622_fall_2012/[Fall 2012],
 //
-link:/courses/ub-622-fall-2011/[Fall 2011].
+link:/courses/ub_622_fall_2011/[Fall 2011].
 
 === CSE 72x: Special Topics in Mobile Systems
 
@@ -164,14 +164,14 @@ contribute to one of my group's active research projects.
 
 * *Iterations and Topics*:
 //
-link:/courses/ub-720-fall-2013/[Fall 2013 (Smartphone Sustainability)],
+link:/courses/ub_720_fall_2013/[Fall 2013 (Smartphone Sustainability)],
 //
-link:/courses/ub-720-fall-2014/[Fall 2014 (Personal Cloud Computing)],
+link:/courses/ub_720_fall_2014/[Fall 2014 (Personal Cloud Computing)],
 //
-link:/courses/ub-720-fall-2015/[Fall 2015 (Using Uncertainty to Program Mobile
+link:/courses/ub_720_fall_2015/[Fall 2015 (Using Uncertainty to Program Mobile
 Systems)],
 //
-link:/courses/ub-720-fall-2016/[Fall 2016 (Improving Smartphone Quality of
+link:/courses/ub_720_fall_2016/[Fall 2016 (Improving Smartphone Quality of
 Experience)].
 
 == Evidence of Instructional Excellence
@@ -301,7 +301,7 @@ I was not satisfied with the
 link:/courses/2016/199/UB_199_Fall_2016-Evaluations.pdf[course evaluations]
 for the
 //
-link:/courses/ub-199-fall-2016/[first iteration of CSE 199].
+link:/courses/ub_199_fall_2016/[first iteration of CSE 199].
 //
 Everything about the course was new, and not everything worked as planned.
 //
@@ -431,7 +431,7 @@ smartphones.
 //
 I teach an https://www.ops-class.org[introduction to computer operating
 systems], a http://www.internet-class.org[new freshman course on the
-internet], and a link:/courses/ub-720-fall-2016/[graduate seminar] covering a
+internet], and a link:/courses/ub_720_fall_2016/[graduate seminar] covering a
 variety of contemporary topics in mobile systems.
 
 Please link:/people/gwa/[click here] for a longer biography.

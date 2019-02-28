@@ -1,4 +1,4 @@
 ---
-layout: posts/feed.hbt
+layout: posts/feed.hbs
 permalink: false
 ---

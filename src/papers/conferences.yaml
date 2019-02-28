@@ -1,3 +1,5 @@
+arxiv:
+  link: https://arxiv.org/
 gosmart:
   preface: Proceedings of the
   name: IEEE International Workshop on Global Trends in Smart Cities
@@ -223,7 +225,7 @@ ubicomp:
     location: Seattle, WA
 fmsd:
   preface: An International Journal
-  name: Formal Methods in System Design 
+  name: Formal Methods in System Design
   2017:
     number: Volume 51
     shortname: FMSD

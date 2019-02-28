@@ -75,7 +75,7 @@ But there were still two more months in an already-long fall semester.
 //
 I had to finish the exhausting first iteration of
 //
-link:/courses/ub-199-fall-2016/[my large flipped class on the internet].
+link:/courses/ub_199_fall_2016/[my large flipped class on the internet].
 //
 There were projects to keep working on, students to supervise, and papers to
 submit.

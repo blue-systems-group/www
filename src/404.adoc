@@ -1,6 +1,6 @@
 ---
 title: "404: Page Not Found"
-layout: single.hbt
+layout: single.hbs
 description:
   We could not find the page you are looking for.
 changefreq: yearly

@@ -1,692 +1,692 @@
 {
-    "index.html": {
-        "filename": "index.html",
-        "hash": "276519441acf87d172ae08c7715c0b95",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-05-16T18:44:41.539Z"
-    },
-    "posts/index.html": {
-        "filename": "posts/index.html",
-        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "projects/index.html": {
-        "filename": "projects/index.html",
-        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-12-14T22:52:56.862Z"
-    },
-    "projects/disastermode/summary.html": {
-        "filename": "projects/disastermode/summary.html",
-        "hash": "8dd969c850912f3292cd168b8e6c98b6",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-12T02:25:28.397Z"
-    },
-    "projects/jouler/summary.html": {
-        "filename": "projects/jouler/summary.html",
-        "hash": "3ad00cb1213619495cb874743dc86276",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-08-17T13:33:24.867Z"
-    },
-    "projects/maybe/summary.html": {
-        "filename": "projects/maybe/summary.html",
-        "hash": "9be8795f4d4d84f994af399a0e994573",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "projects/navjack/summary.html": {
-        "filename": "projects/navjack/summary.html",
-        "hash": "ccfa1e0c3c40232bac75133531831d1a",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "projects/opsclass/summary.html": {
-        "filename": "projects/opsclass/summary.html",
-        "hash": "b168be71fe492abde96a744bf571aa49",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-07-08T18:49:40.652Z"
-    },
-    "projects/phonelab/summary.html": {
-        "filename": "projects/phonelab/summary.html",
-        "hash": "421a12b6e2e4b60622dac39a9beb3daa",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-08-17T13:33:24.867Z"
-    },
-    "projects/pocketdata/summary.html": {
-        "filename": "projects/pocketdata/summary.html",
-        "hash": "b8f54fb45cccdcd4324fd5f265642aab",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-07-08T18:14:30.461Z"
-    },
-    "projects/pocketlocker/summary.html": {
-        "filename": "projects/pocketlocker/summary.html",
-        "hash": "9bc754e73ca3b2b5f1cbf7edfa3c1060",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-08-17T13:33:24.867Z"
-    },
-    "projects/pocketmocker/summary.html": {
-        "filename": "projects/pocketmocker/summary.html",
-        "hash": "7ca506355c26425907cba7fdf2e4f3a9",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "projects/pocketparker/summary.html": {
-        "filename": "projects/pocketparker/summary.html",
-        "hash": "40b3e11eb8eca55f3d125f078244aed8",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-08-17T13:33:24.867Z"
-    },
-    "projects/pocketsniffer/summary.html": {
-        "filename": "projects/pocketsniffer/summary.html",
-        "hash": "1b7cc0d4c91dea0ce6a12d5823adc150",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-08-17T13:33:24.867Z"
-    },
-    "projects/poweragility/summary.html": {
-        "filename": "projects/poweragility/summary.html",
-        "hash": "3c2198abd539ea00402fa6eb85679793",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-08-17T13:33:24.867Z"
-    },
-    "projects/qoe/summary.html": {
-        "filename": "projects/qoe/summary.html",
-        "hash": "1b7f7d3ba5e41ab401117c538cda24c1",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "projects/sustainability/summary.html": {
-        "filename": "projects/sustainability/summary.html",
-        "hash": "38bf9e8daa207dc8a3dacb041f8ac4d6",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "proposals/index.html": {
-        "filename": "proposals/index.html",
-        "hash": "ad9329cb073af42840f01609bd911aa4",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-12-14T22:52:56.862Z"
-    },
-    "proposals/2011-cri-phonelab/summary.html": {
-        "filename": "proposals/2011-cri-phonelab/summary.html",
-        "hash": "505e898f84799b830e8b177eefdda615",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "proposals/2011-gra-phonelab/summary.html": {
-        "filename": "proposals/2011-gra-phonelab/summary.html",
-        "hash": "bba69253b28709a559ecc2cbbf467e79",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "proposals/2013-reu-phonelab/summary.html": {
-        "filename": "proposals/2013-reu-phonelab/summary.html",
-        "hash": "9478edc77bd07e5269ab1e8781ab372d",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "proposals/2014-csr-jouler/summary.html": {
-        "filename": "proposals/2014-csr-jouler/summary.html",
-        "hash": "75c9c444094f2692eecd0e5bffa6e6b7",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "proposals/2014-csr-poweragility/summary.html": {
-        "filename": "proposals/2014-csr-poweragility/summary.html",
-        "hash": "33d69e4b336d7ab3f194af9fb10ab41c",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "proposals/2015-gra-maybe/summary.html": {
-        "filename": "proposals/2015-gra-maybe/summary.html",
-        "hash": "23293d2aab1b806593b21aab12f5ef00",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "courses/index.html": {
-        "filename": "courses/index.html",
-        "hash": "d03ad1f126da464f496d140e080d8ec3",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-04-04T15:11:23.859Z"
-    },
-    "courses/2011/622/summary.html": {
-        "filename": "courses/2011/622/summary.html",
-        "hash": "4bf4f014f405f4b75c18522defe1bc86",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "courses/2012/622/summary.html": {
-        "filename": "courses/2012/622/summary.html",
-        "hash": "4bf4f014f405f4b75c18522defe1bc86",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "courses/2012/421/summary.html": {
-        "filename": "courses/2012/421/summary.html",
-        "hash": "dd4949e03e1cc4d3dfcb8b15adf6e33e",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-07-10T16:07:21.583Z"
-    },
-    "courses/2013/421/summary.html": {
-        "filename": "courses/2013/421/summary.html",
-        "hash": "607cdd87ae757021fb2d8d37690effa1",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-07-10T16:07:21.583Z"
-    },
-    "courses/2013/720/summary.html": {
-        "filename": "courses/2013/720/summary.html",
-        "hash": "30027b13f689ad829d12f2faf077b4e6",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "courses/2014/421/summary.html": {
-        "filename": "courses/2014/421/summary.html",
-        "hash": "e3c681df528f5bf427d4e66059507572",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-07-10T16:07:21.583Z"
-    },
-    "courses/2014/720/summary.html": {
-        "filename": "courses/2014/720/summary.html",
-        "hash": "604b2f58c554858070e50e13e8f6de9b",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "courses/2015/421/summary.html": {
-        "filename": "courses/2015/421/summary.html",
-        "hash": "3d5113fadc4129beb791223d6472d8d9",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-01-30T18:00:41.547Z"
-    },
-    "courses/2015/720/summary.html": {
-        "filename": "courses/2015/720/summary.html",
-        "hash": "6599cedbb23d1e6680b6035f4e1ce329",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/index.html": {
-        "filename": "papers/index.html",
-        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2011/hotos2011-poweragility/summary.html": {
-        "filename": "papers/2011/hotos2011-poweragility/summary.html",
-        "hash": "dd2830e4c40174342a3a28cd2b6718e8",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2013/gosmart2013-hvac/summary.html": {
-        "filename": "papers/2013/gosmart2013-hvac/summary.html",
-        "hash": "1db0152ab6281adada0e5d9e4d2a4f50",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2013/netmob2013-phonelab/summary.html": {
-        "filename": "papers/2013/netmob2013-phonelab/summary.html",
-        "hash": "f24ecde4e196f1c3caa9008a0c5e96c1",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2013/sensemine2013-phonelab/summary.html": {
-        "filename": "papers/2013/sensemine2013-phonelab/summary.html",
-        "hash": "3eee20560bbade5543de4c573f212458",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/hotmobile2014-pocketmocker/summary.html": {
-        "filename": "papers/2014/hotmobile2014-pocketmocker/summary.html",
-        "hash": "d91ae580e8eeab19f17e042114b7f63d",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/hotmobile2014-poweragility/summary.html": {
-        "filename": "papers/2014/hotmobile2014-poweragility/summary.html",
-        "hash": "3480614405d98708b95afd3505bf0913",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/hotmobile2014-sustainability/summary.html": {
-        "filename": "papers/2014/hotmobile2014-sustainability/summary.html",
-        "hash": "44d2d86180dabd62c3cc8442e5528a29",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/hotnets2014-pocketsniffer/summary.html": {
-        "filename": "papers/2014/hotnets2014-pocketsniffer/summary.html",
-        "hash": "6176771aa880e468c984b563949c6012",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/hotplanet2014-pocketmocker/summary.html": {
-        "filename": "papers/2014/hotplanet2014-pocketmocker/summary.html",
-        "hash": "db33e1fcfd1f0011bf6353883c1975e5",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/lwmoocs2014-mmoocs/summary.html": {
-        "filename": "papers/2014/lwmoocs2014-mmoocs/summary.html",
-        "hash": "a96302cf28faf1c171b27a179b2de344",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/mobicase2014-pocketlocker/summary.html": {
-        "filename": "papers/2014/mobicase2014-pocketlocker/summary.html",
-        "hash": "d1f26fc5965970a359d73f0d965aa872",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/mobicase2014-pocketmocker/summary.html": {
-        "filename": "papers/2014/mobicase2014-pocketmocker/summary.html",
-        "hash": "d6f0e3903e87428c738d748a84a5fda4",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2014/ubicomp2014-pocketparker/summary.html": {
-        "filename": "papers/2014/ubicomp2014-pocketparker/summary.html",
-        "hash": "18e4f0c04027f286bb2d1a7b3eef6fae",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/ans25-thesis/summary.html": {
-        "filename": "papers/2015/ans25-thesis/summary.html",
-        "hash": "c7fa750d87d0bf26db3d04005040801c",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/globecom2015-localization/summary.html": {
-        "filename": "papers/2015/globecom2015-localization/summary.html",
-        "hash": "47c1c022054bbaf2e9cca207781be41c",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/hotmobile2015-maybe/summary.html": {
-        "filename": "papers/2015/hotmobile2015-maybe/summary.html",
-        "hash": "3f91aa05e287eab1f6217b46dc7f4d4a",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/hotmobile2015-numerator/summary.html": {
-        "filename": "papers/2015/hotmobile2015-numerator/summary.html",
-        "hash": "95abde19a84f42804d1a0b2779892ef0",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/hotmobile2015-pocketsniffer/summary.html": {
-        "filename": "papers/2015/hotmobile2015-pocketsniffer/summary.html",
-        "hash": "d3a6f4f25265fbe7a30dd17c0b5309a1",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/hotwireless2015-sharing/summary.html": {
-        "filename": "papers/2015/hotwireless2015-sharing/summary.html",
-        "hash": "647db4542487da234f3e8671337d77d1",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/iiswc2015-frontiers/summary.html": {
-        "filename": "papers/2015/iiswc2015-frontiers/summary.html",
-        "hash": "d4329370a721b9b07377e8865d082d78",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/mobicase2015-jouler/summary.html": {
-        "filename": "papers/2015/mobicase2015-jouler/summary.html",
-        "hash": "0031f2ca0e81d020422927dd716fcd43",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2015/tpctc2015-pocketdata/summary.html": {
-        "filename": "papers/2015/tpctc2015-pocketdata/summary.html",
-        "hash": "df8880a72380107765f87f3c5a07b1fb",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "papers/2016/infocom2016-scans/summary.html": {
-        "filename": "papers/2016/infocom2016-scans/summary.html",
-        "hash": "90e2ecaf9225fa8352be739313658f50",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-03-09T20:53:39.027Z"
-    },
-    "people/index.html": {
-        "filename": "people/index.html",
-        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/alijmabe@buffalo.edu/bio.html": {
-        "filename": "people/alijmabe@buffalo.edu/bio.html",
-        "hash": "ea25c8ec4008af5f52336bfe1fa5caf9",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-07-12T19:02:09.993Z"
-    },
-    "people/ans25@buffalo.edu/bio.html": {
-        "filename": "people/ans25@buffalo.edu/bio.html",
-        "hash": "4a44f9091e379ef05383c11503068ac8",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/anudipam@buffalo.edu/bio.html": {
-        "filename": "people/anudipam@buffalo.edu/bio.html",
-        "hash": "40f59c19709445552392b3b19fb019f7",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/brijeshr@buffalo.edu/bio.html": {
-        "filename": "people/brijeshr@buffalo.edu/bio.html",
-        "hash": "51a2274ea4beb24c20e1629eb42d50a8",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-08-17T14:15:25.822Z"
-    },
-    "people/carlnues@buffalo.edu/bio.html": {
-        "filename": "people/carlnues@buffalo.edu/bio.html",
-        "hash": "33bdc226cc96c78c305fe3c7743303e9",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/edwinsan@buffalo.edu/bio.html": {
-        "filename": "people/edwinsan@buffalo.edu/bio.html",
-        "hash": "99582c81615f9bf72467bb4b5b04ef72",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/gurupras@buffalo.edu/bio.html": {
-        "filename": "people/gurupras@buffalo.edu/bio.html",
-        "hash": "ae701bda03e59644dcffc1f7fb9eeb10",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-10-19T13:35:14.980Z"
-    },
-    "people/jerryant@buffalo.edu/bio.html": {
-        "filename": "people/jerryant@buffalo.edu/bio.html",
-        "hash": "c69496e9e4bc64f7485d2986d8186580",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/jinghaos@buffalo.edu/bio.html": {
-        "filename": "people/jinghaos@buffalo.edu/bio.html",
-        "hash": "8f824e49e0c5f2ff1de61af4d4cbb38d",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-11-28T22:03:58.271Z"
-    },
-    "people/kylescho@buffalo.edu/bio.html": {
-        "filename": "people/kylescho@buffalo.edu/bio.html",
-        "hash": "dc92d7fe8361588c7c794d269e309a6b",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-08-17T14:12:22.348Z"
-    },
-    "people/maulikda@buffalo.edu/bio.html": {
-        "filename": "people/maulikda@buffalo.edu/bio.html",
-        "hash": "15131af0d37cb07df8ffa220cc38420d",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/mrferris@buffalo.edu/bio.html": {
-        "filename": "people/mrferris@buffalo.edu/bio.html",
-        "hash": "93df7474cae7f0385a7cc566692d9944",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/nvdirien@buffalo.edu/bio.html": {
-        "filename": "people/nvdirien@buffalo.edu/bio.html",
-        "hash": "4e3a0a504bc15bd6928e6cc90d3c8615",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-10-19T13:35:14.980Z"
-    },
-    "people/shaseley@buffalo.edu/bio.html": {
-        "filename": "people/shaseley@buffalo.edu/bio.html",
-        "hash": "314ed6f18f89788604e147ed4bed0748",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-03-20T18:48:56.024Z"
-    },
-    "people/sriramsh@buffalo.edu/bio.html": {
-        "filename": "people/sriramsh@buffalo.edu/bio.html",
-        "hash": "fd82481dfd448d777be524bee015e955",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-05-04T18:57:38.149Z"
-    },
-    "people/wesleycs@buffalo.edu/bio.html": {
-        "filename": "people/wesleycs@buffalo.edu/bio.html",
-        "hash": "7b2345803314d6da296ffb5840d33db3",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/ychen78@buffalo.edu/bio.html": {
-        "filename": "people/ychen78@buffalo.edu/bio.html",
-        "hash": "bbb8c8b6a78036cbba16446761bd05c5",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/challen@buffalo.edu/bio.html": {
-        "filename": "people/challen@buffalo.edu/bio.html",
-        "hash": "41898701b35e05a999b58d0f4933097e",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-10-19T13:56:01.297Z"
-    },
-    "people/challen@buffalo.edu/posts/getmobile.html": {
-        "filename": "people/challen@buffalo.edu/posts/getmobile.html",
-        "hash": "fcd4256928fb1dace4730bedee2ccea0",
-        "created": "2015-05-20T22:30:54.719Z",
-        "updated": "2015-05-20T22:30:54.719Z"
-    },
-    "people/challen@buffalo.edu/posts/growth_and_diversity.html": {
-        "filename": "people/challen@buffalo.edu/posts/growth_and_diversity.html",
-        "hash": "ddecef8eb45a8ad2f869e5b4d6574590",
-        "created": "2015-08-01T16:06:23.697Z",
-        "updated": "2015-08-01T16:06:23.697Z"
-    },
-    "people/challen@buffalo.edu/posts/mobile_summit_2015.html": {
-        "filename": "people/challen@buffalo.edu/posts/mobile_summit_2015.html",
-        "hash": "1da9bafdb111683f273497f44d86564c",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2017-01-30T01:26:01.697Z"
-    },
-    "people/challen@buffalo.edu/posts/my_pivot.html": {
-        "filename": "people/challen@buffalo.edu/posts/my_pivot.html",
-        "hash": "b40fa6d8b0a2c547f93e75717a954910",
-        "created": "2015-05-13T21:33:20.845Z",
-        "updated": "2017-08-17T14:12:22.348Z"
-    },
-    "people/challen@buffalo.edu/posts/overheads.html": {
-        "filename": "people/challen@buffalo.edu/posts/overheads.html",
-        "hash": "234be26a5cf113f31cd5d778b48fdfee",
-        "created": "2016-02-11T16:16:19.301Z",
-        "updated": "2016-02-11T16:16:19.301Z"
-    },
-    "people/challen@buffalo.edu/posts/reverse_blind.html": {
-        "filename": "people/challen@buffalo.edu/posts/reverse_blind.html",
-        "hash": "c555aeed0d2bbdea25866757b08eb412",
-        "created": "2015-07-14T12:51:48.993Z",
-        "updated": "2015-07-14T12:51:48.993Z"
-    },
-    "people/challen@buffalo.edu/posts/rockstar_rename.html": {
-        "filename": "people/challen@buffalo.edu/posts/rockstar_rename.html",
-        "hash": "604a9e7bfa52339a936e535fa96489ce",
-        "created": "2015-06-23T20:12:53.310Z",
-        "updated": "2017-01-29T18:48:52.354Z"
-    },
-    "courses/2016/421/summary.html": {
-        "filename": "courses/2016/421/summary.html",
-        "hash": "1fd3176f7b5bf06ec1dff060a5521f9a",
-        "created": "2016-02-11T17:00:04.320Z",
-        "updated": "2016-12-27T14:39:14.862Z"
-    },
-    "403.html": {
-        "filename": "403.html",
-        "hash": "8544126b1c2cb574346d8025d97b3071",
-        "created": "2016-04-03T12:48:03.992Z",
-        "updated": "2016-12-14T22:52:56.862Z"
-    },
-    "404.html": {
-        "filename": "404.html",
-        "hash": "67f0f1bd54ed51c5290cd0ad39dc3f6d",
-        "created": "2016-04-03T12:48:03.992Z",
-        "updated": "2016-12-14T22:52:56.862Z"
-    },
-    "projects/cpuprof/summary.html": {
-        "filename": "projects/cpuprof/summary.html",
-        "hash": "b9bc1015f8eb12bab9c4f5bc1baf4077",
-        "created": "2016-06-20T22:14:42.721Z",
-        "updated": "2016-07-06T13:04:59.641Z"
-    },
-    "projects/thermaplan/summary.html": {
-        "filename": "projects/thermaplan/summary.html",
-        "hash": "ed3eda51cdb1cc805e4cf03086552408",
-        "created": "2016-07-06T13:49:29.074Z",
-        "updated": "2016-07-08T18:14:30.461Z"
-    },
-    "projects/optiwifi/summary.html": {
-        "filename": "projects/optiwifi/summary.html",
-        "hash": "742df4ad0233c1ce3e119614b9efb528",
-        "created": "2016-07-08T17:39:39.012Z",
-        "updated": "2016-07-08T18:14:30.461Z"
-    },
-    "projects/internetclass/summary.html": {
-        "filename": "projects/internetclass/summary.html",
-        "hash": "073d8d84fe45ac0521d4f2032dfd55a4",
-        "created": "2016-07-08T18:49:40.652Z",
-        "updated": "2016-07-10T19:16:23.135Z"
-    },
-    "projects/multidevice/summary.html": {
-        "filename": "projects/multidevice/summary.html",
-        "hash": "db904c218a065d2c6ac3c9abe35f86a1",
-        "created": "2016-07-10T15:41:37.851Z",
-        "updated": "2016-07-10T15:41:37.851Z"
-    },
-    "projects/wirelessvalidation/summary.html": {
-        "filename": "projects/wirelessvalidation/summary.html",
-        "hash": "1f53ffecba5236313539d41a77851b58",
-        "created": "2016-07-10T15:41:37.851Z",
-        "updated": "2016-08-01T16:09:11.643Z"
-    },
-    "courses/2016/199/summary.html": {
-        "filename": "courses/2016/199/summary.html",
-        "hash": "359d14c91ec8dfbf0591989e8d196bb9",
-        "created": "2016-07-10T19:09:31.828Z",
-        "updated": "2017-04-19T15:47:18.000Z"
-    },
-    "courses/2016/720/summary.html": {
-        "filename": "courses/2016/720/summary.html",
-        "hash": "8bcbe3f3f1201d547d16d7be2185d1f8",
-        "created": "2016-07-10T19:09:31.828Z",
-        "updated": "2016-07-10T19:09:31.828Z"
-    },
-    "people/gjbunyea@buffalo.edu/bio.html": {
-        "filename": "people/gjbunyea@buffalo.edu/bio.html",
-        "hash": "6eb330f17aa34c3a975b4b04798c3fc5",
-        "created": "2016-07-11T17:11:58.546Z",
-        "updated": "2017-03-03T21:34:38.564Z"
-    },
-    "people/grantwra@buffalo.edu/bio.html": {
-        "filename": "people/grantwra@buffalo.edu/bio.html",
-        "hash": "985ca509305b84b00ab7d085962c7183",
-        "created": "2016-07-11T18:52:03.072Z",
-        "updated": "2016-07-11T18:52:03.072Z"
-    },
-    "papers/2016/getmobile2016-phonelab/summary.html": {
-        "filename": "papers/2016/getmobile2016-phonelab/summary.html",
-        "hash": "7455eb5a0f5d94c0fd60d0c2b1a18f70",
-        "created": "2016-07-11T18:57:00.761Z",
-        "updated": "2016-07-11T18:57:00.761Z"
-    },
-    "papers/2016/mobisys2016-qoe/summary.html": {
-        "filename": "papers/2016/mobisys2016-qoe/summary.html",
-        "hash": "058e09d9e8cc86ab0ef7edcdfae57d5f",
-        "created": "2016-07-11T20:43:55.486Z",
-        "updated": "2016-07-11T20:43:55.486Z"
-    },
-    "people/viyer5@buffalo.edu/bio.html": {
-        "filename": "people/viyer5@buffalo.edu/bio.html",
-        "hash": "0c13cffa7a2adb4aa31b8c80f87efe9f",
-        "created": "2016-07-11T21:55:33.380Z",
-        "updated": "2016-07-11T21:55:33.380Z"
-    },
-    "people/lethiraj@buffalo.edu/bio.html": {
-        "filename": "people/lethiraj@buffalo.edu/bio.html",
-        "hash": "9be740222395e790371271e88b666c96",
-        "created": "2016-07-12T18:02:12.288Z",
-        "updated": "2016-07-12T18:02:12.288Z"
-    },
-    "proposals/2016-cri-phonelab/summary.html": {
-        "filename": "proposals/2016-cri-phonelab/summary.html",
-        "hash": "92779d4eb676b102ad6788d322ac4b05",
-        "created": "2016-07-12T19:33:16.694Z",
-        "updated": "2016-07-12T19:33:16.694Z"
-    },
-    "papers/2016/rv2016-sniffer/summary.html": {
-        "filename": "papers/2016/rv2016-sniffer/summary.html",
-        "hash": "5c3d93a58a66b651851e88fac798e3da",
-        "created": "2016-07-19T18:33:24.492Z",
-        "updated": "2016-07-19T18:33:24.492Z"
-    },
-    "proposals/2016-cri-pocketdata/summary.html": {
-        "filename": "proposals/2016-cri-pocketdata/summary.html",
-        "hash": "12f75fde6f81cf8d17af9024b99e97d0",
-        "created": "2016-07-29T18:47:32.056Z",
-        "updated": "2016-08-28T00:01:58.633Z"
-    },
-    "papers/2016/iccd2016-inefficiency/summary.html": {
-        "filename": "papers/2016/iccd2016-inefficiency/summary.html",
-        "hash": "830e0612c95bd8e5afa641624a42c251",
-        "created": "2016-07-31T13:40:16.344Z",
-        "updated": "2016-07-31T13:40:16.344Z"
-    },
-    "people/challen@buffalo.edu/posts/tenure.html": {
-        "filename": "people/challen@buffalo.edu/posts/tenure.html",
-        "hash": "2d01a9092ffd34474348fe609ce27ae4",
-        "created": "2016-10-22T17:54:12.181Z",
-        "updated": "2016-12-14T22:52:56.862Z"
-    },
-    "future.html": {
-        "filename": "future.html",
-        "hash": "ec2fdee3f09f7509b9f688969f3aca2c",
-        "created": "2016-11-17T20:23:12.783Z",
-        "updated": "2017-10-19T13:35:14.980Z"
-    },
-    "proposals/2016-career-maybe/summary.html": {
-        "filename": "proposals/2016-career-maybe/summary.html",
-        "hash": "677f7054f4c113d69b43e8c1452a1503",
-        "created": "2016-11-17T20:23:12.783Z",
-        "updated": "2017-10-19T14:03:30.551Z"
-    },
-    "courses/2017/421/summary.html": {
-        "filename": "courses/2017/421/summary.html",
-        "hash": "54d3e55339b9588d07686e8ba3b2b2e0",
-        "created": "2016-11-30T18:28:02.313Z",
-        "updated": "2016-11-30T18:28:02.313Z"
-    },
-    "papers/2017/hotmobile2017-cpubins/summary.html": {
-        "filename": "papers/2017/hotmobile2017-cpubins/summary.html",
-        "hash": "0815090dd68dde1cd09a2431aab8d4d3",
-        "created": "2016-12-17T18:35:29.048Z",
-        "updated": "2017-02-27T13:07:48.299Z"
-    },
-    "people/challen@buffalo.edu/posts/large_flip.html": {
-        "filename": "people/challen@buffalo.edu/posts/large_flip.html",
-        "hash": "065d1c92b749bb62781f2b992654a518",
-        "created": "2016-12-22T13:53:30.711Z",
-        "updated": "2016-12-27T14:39:14.862Z"
-    },
-    "papers/2017/hotmobile2017-qoe/summary.html": {
-        "filename": "papers/2017/hotmobile2017-qoe/summary.html",
-        "hash": "be05c83dd8b76e63d5a30770bbdd2259",
-        "created": "2017-03-17T11:53:29.921Z",
-        "updated": "2017-03-17T11:53:29.921Z"
-    },
-    "courses/portfolio.html": {
-        "filename": "courses/portfolio.html",
-        "hash": "90d2cf189e1b1c05a364e72003ad129a",
-        "created": "2017-03-22T16:40:33.788Z",
-        "updated": "2017-03-22T16:40:33.788Z"
-    },
-    "portfolio.html": {
-        "filename": "portfolio.html",
-        "hash": "23abedb492cf828faa03bdcc1aa4aac1",
-        "created": "2017-04-03T19:01:57.551Z",
-        "updated": "2017-08-17T14:12:22.348Z"
-    },
-    "papers/2017/fmsd17-verification/summary.html": {
-        "filename": "papers/2017/fmsd17-verification/summary.html",
-        "hash": "d3050e4c61aecb429d597a7f7f218a75",
-        "created": "2017-11-28T21:54:50.539Z",
-        "updated": "2017-11-28T21:54:50.539Z"
-    }
+  "index.html": {
+    "filename": "index.html",
+    "hash": "421a379447417f979689ab93bf489496922ca8b3",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "posts/index.html": {
+    "filename": "posts/index.html",
+    "hash": "ff46affaf69aebb2a1b3512182dc856dbe082e45",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/index.html": {
+    "filename": "projects/index.html",
+    "hash": "ff46affaf69aebb2a1b3512182dc856dbe082e45",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/disastermode/summary.html": {
+    "filename": "projects/disastermode/summary.html",
+    "hash": "54fbbe353c3eb044b4b239660b500f934e35c1aa",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/jouler/summary.html": {
+    "filename": "projects/jouler/summary.html",
+    "hash": "ce982f26ae79ac7cc4c327b23918b815d7953127",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/maybe/summary.html": {
+    "filename": "projects/maybe/summary.html",
+    "hash": "d53a1e77931b0b16095fa88e1b1431714c968d88",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/navjack/summary.html": {
+    "filename": "projects/navjack/summary.html",
+    "hash": "3e549b4d8a420ef5b2575db5379b646575fe8c46",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/opsclass/summary.html": {
+    "filename": "projects/opsclass/summary.html",
+    "hash": "efd82fed8e16763c3ebdf856481516e6fb22ee86",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/phonelab/summary.html": {
+    "filename": "projects/phonelab/summary.html",
+    "hash": "ec78736b76ae5b9de00eb21b28ea1cde949e32eb",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/pocketdata/summary.html": {
+    "filename": "projects/pocketdata/summary.html",
+    "hash": "b20e7bab7e5507df1e8acd20659c0e2ebe6dbe0c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/pocketlocker/summary.html": {
+    "filename": "projects/pocketlocker/summary.html",
+    "hash": "34c9048c56c78ce20872b8281a4f51bd3dad0b07",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/pocketmocker/summary.html": {
+    "filename": "projects/pocketmocker/summary.html",
+    "hash": "014b0163d4242cca1f0054691b247a73e45241d8",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/pocketparker/summary.html": {
+    "filename": "projects/pocketparker/summary.html",
+    "hash": "212579d289edb540111b48a1a907ff1a8b6b7298",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/pocketsniffer/summary.html": {
+    "filename": "projects/pocketsniffer/summary.html",
+    "hash": "ae688f184cc786a16ddca5ac0dfb035382190c70",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/poweragility/summary.html": {
+    "filename": "projects/poweragility/summary.html",
+    "hash": "f4bd99fe762013478ed0746e84b6d28955814e50",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/qoe/summary.html": {
+    "filename": "projects/qoe/summary.html",
+    "hash": "9876c6782c7fcdab6e498c97fcbb89b7b9a9adeb",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/sustainability/summary.html": {
+    "filename": "projects/sustainability/summary.html",
+    "hash": "01eb6a4d8fffcdae508c0b81ea51c34af87ff3f2",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T16:08:42.195Z"
+  },
+  "proposals/index.html": {
+    "filename": "proposals/index.html",
+    "hash": "65a674cff23f26677c1730e0f58a11fdac8aabba",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "proposals/2011-cri-phonelab/summary.html": {
+    "filename": "proposals/2011-cri-phonelab/summary.html",
+    "hash": "c70d2fd4981d684c8fcb45443668fe2d89bd4417",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "proposals/2011-gra-phonelab/summary.html": {
+    "filename": "proposals/2011-gra-phonelab/summary.html",
+    "hash": "d75495a43978ec61e13d6966e33450308505406c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "proposals/2013-reu-phonelab/summary.html": {
+    "filename": "proposals/2013-reu-phonelab/summary.html",
+    "hash": "b69b9841a072ddda41c7f52c214c0c443b6efd96",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "proposals/2014-csr-jouler/summary.html": {
+    "filename": "proposals/2014-csr-jouler/summary.html",
+    "hash": "3b7e72800bacecfe7a5f6a0031a4f7e19e759003",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "proposals/2014-csr-poweragility/summary.html": {
+    "filename": "proposals/2014-csr-poweragility/summary.html",
+    "hash": "54609ae6d7f6774716afbccd54fe54170283a14a",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "proposals/2015-gra-maybe/summary.html": {
+    "filename": "proposals/2015-gra-maybe/summary.html",
+    "hash": "6c6b70e919a53b903aaad361df88aca6739358d5",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/index.html": {
+    "filename": "courses/index.html",
+    "hash": "01856fa6d205e894c7b1063929e4dff872645010",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T16:24:35.489Z"
+  },
+  "courses/2011/622/summary.html": {
+    "filename": "courses/2011/622/summary.html",
+    "hash": "979748444058fac3af2f22c1bae586c6372bc0b2",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2012/622/summary.html": {
+    "filename": "courses/2012/622/summary.html",
+    "hash": "979748444058fac3af2f22c1bae586c6372bc0b2",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2012/421/summary.html": {
+    "filename": "courses/2012/421/summary.html",
+    "hash": "d46d1be81433d435540827a9ceac405f6d97c2cb",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2013/421/summary.html": {
+    "filename": "courses/2013/421/summary.html",
+    "hash": "2c64c1c49721848d0e62be98afadc7b5b10030d6",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2013/720/summary.html": {
+    "filename": "courses/2013/720/summary.html",
+    "hash": "99c5c07e594ffa4f3b9fac94174f87e8057bda65",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2014/421/summary.html": {
+    "filename": "courses/2014/421/summary.html",
+    "hash": "02a7fc1e48e5795122b9be84d61d731fb63f1d4b",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2014/720/summary.html": {
+    "filename": "courses/2014/720/summary.html",
+    "hash": "595a3bea36c98142d236fed74ad51550343e9029",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2015/421/summary.html": {
+    "filename": "courses/2015/421/summary.html",
+    "hash": "cb9c7b07701b79ee190e78bdf0fc7cf5cda9e483",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2015/720/summary.html": {
+    "filename": "courses/2015/720/summary.html",
+    "hash": "857193fa78d7fa43ffb559befb885a48c662e84c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/index.html": {
+    "filename": "papers/index.html",
+    "hash": "ff46affaf69aebb2a1b3512182dc856dbe082e45",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2011/hotos2011-poweragility/summary.html": {
+    "filename": "papers/2011/hotos2011-poweragility/summary.html",
+    "hash": "b45b46aaf9f185e89fb6b9de96adbb75780f53ad",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2013/gosmart2013-hvac/summary.html": {
+    "filename": "papers/2013/gosmart2013-hvac/summary.html",
+    "hash": "b017c1be4d4104502754fd8c359e50fd71a9919e",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2013/netmob2013-phonelab/summary.html": {
+    "filename": "papers/2013/netmob2013-phonelab/summary.html",
+    "hash": "73aa1245c666d87764f450139d699b2b5796c99c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2013/sensemine2013-phonelab/summary.html": {
+    "filename": "papers/2013/sensemine2013-phonelab/summary.html",
+    "hash": "831e294627ef1d6b0abace8d49898ffa6d81de88",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/hotmobile2014-pocketmocker/summary.html": {
+    "filename": "papers/2014/hotmobile2014-pocketmocker/summary.html",
+    "hash": "3b5266b888c504c8df69270613e65166707d6f55",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/hotmobile2014-poweragility/summary.html": {
+    "filename": "papers/2014/hotmobile2014-poweragility/summary.html",
+    "hash": "1ea1e04a724a951fee19831aac708d5d58186fff",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/hotmobile2014-sustainability/summary.html": {
+    "filename": "papers/2014/hotmobile2014-sustainability/summary.html",
+    "hash": "5beb94f83ddc3722ed67be19ba019fc2559e994f",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/hotnets2014-pocketsniffer/summary.html": {
+    "filename": "papers/2014/hotnets2014-pocketsniffer/summary.html",
+    "hash": "9ef02cf050f8b1ff5bff63482d80d3aa15193298",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/hotplanet2014-pocketmocker/summary.html": {
+    "filename": "papers/2014/hotplanet2014-pocketmocker/summary.html",
+    "hash": "6ab5e6ec6c7b59153a5eb782723dceff500bd477",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/lwmoocs2014-mmoocs/summary.html": {
+    "filename": "papers/2014/lwmoocs2014-mmoocs/summary.html",
+    "hash": "6c73f662d4a5be572971c9b9fe82763055b30e87",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/mobicase2014-pocketlocker/summary.html": {
+    "filename": "papers/2014/mobicase2014-pocketlocker/summary.html",
+    "hash": "fe9370512b774146b5887ba25ff827c61feefbcf",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/mobicase2014-pocketmocker/summary.html": {
+    "filename": "papers/2014/mobicase2014-pocketmocker/summary.html",
+    "hash": "507ba1e37ab3a140b882415414a1c0eec75d947c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2014/ubicomp2014-pocketparker/summary.html": {
+    "filename": "papers/2014/ubicomp2014-pocketparker/summary.html",
+    "hash": "5524732eb040ce892bb10e994d5960bf353f480b",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/ans25-thesis/summary.html": {
+    "filename": "papers/2015/ans25-thesis/summary.html",
+    "hash": "ee802afa5345b553387352d6a6d6c8a11eb65530",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/globecom2015-localization/summary.html": {
+    "filename": "papers/2015/globecom2015-localization/summary.html",
+    "hash": "34a8e8a0654f8e815e18037e9b59eb202929c53e",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/hotmobile2015-maybe/summary.html": {
+    "filename": "papers/2015/hotmobile2015-maybe/summary.html",
+    "hash": "741901a16dc4e3abf763fa672d3de667d1b1e1dd",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/hotmobile2015-numerator/summary.html": {
+    "filename": "papers/2015/hotmobile2015-numerator/summary.html",
+    "hash": "bbeb77e0a0f5020cea8e0774709e82fef6984c2b",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/hotmobile2015-pocketsniffer/summary.html": {
+    "filename": "papers/2015/hotmobile2015-pocketsniffer/summary.html",
+    "hash": "d2b3d8aecbb7a42084bbebfcd04721e7276cbe9f",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/hotwireless2015-sharing/summary.html": {
+    "filename": "papers/2015/hotwireless2015-sharing/summary.html",
+    "hash": "588044df3eaf4838bb80413f5ca7d49c6920419c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/iiswc2015-frontiers/summary.html": {
+    "filename": "papers/2015/iiswc2015-frontiers/summary.html",
+    "hash": "a32ed957b5a7cdf9ae8f8ab35ae0504fe246be46",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/mobicase2015-jouler/summary.html": {
+    "filename": "papers/2015/mobicase2015-jouler/summary.html",
+    "hash": "b5508d8f7c3a800511a6bd3b1e5c2c592b049735",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2015/tpctc2015-pocketdata/summary.html": {
+    "filename": "papers/2015/tpctc2015-pocketdata/summary.html",
+    "hash": "f81aea150e7087bc88b2822998fe86c1417d23b4",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2016/infocom2016-scans/summary.html": {
+    "filename": "papers/2016/infocom2016-scans/summary.html",
+    "hash": "260739b68350f5304c60b8d322fb1640f554f82c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/index.html": {
+    "filename": "people/index.html",
+    "hash": "ff46affaf69aebb2a1b3512182dc856dbe082e45",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/alijmabe@buffalo.edu/bio.html": {
+    "filename": "people/alijmabe@buffalo.edu/bio.html",
+    "hash": "267f56e40cadb893b5c5a047606289e5b1f91517",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/ans25@buffalo.edu/bio.html": {
+    "filename": "people/ans25@buffalo.edu/bio.html",
+    "hash": "54ee895814164dbe99a11dd365d101ed8dc42b1e",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/anudipam@buffalo.edu/bio.html": {
+    "filename": "people/anudipam@buffalo.edu/bio.html",
+    "hash": "b16b137bdafb948bf158cb1d8fca4a7b3b4fbcd3",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/brijeshr@buffalo.edu/bio.html": {
+    "filename": "people/brijeshr@buffalo.edu/bio.html",
+    "hash": "4867434ec3b77a46ba2181281def16b06d56326e",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/carlnues@buffalo.edu/bio.html": {
+    "filename": "people/carlnues@buffalo.edu/bio.html",
+    "hash": "fb8bff46a664c6e02a5b299c202c116a4a9963b0",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/edwinsan@buffalo.edu/bio.html": {
+    "filename": "people/edwinsan@buffalo.edu/bio.html",
+    "hash": "bd9abcb4e91baadcdf0d75b75919aba9aafff942",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/gurupras@buffalo.edu/bio.html": {
+    "filename": "people/gurupras@buffalo.edu/bio.html",
+    "hash": "bd416d143d79fac96355af48533d7f061f9042a8",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/jerryant@buffalo.edu/bio.html": {
+    "filename": "people/jerryant@buffalo.edu/bio.html",
+    "hash": "c69496e9e4bc64f7485d2986d8186580",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2016-02-11T16:16:19.301Z"
+  },
+  "people/jinghaos@buffalo.edu/bio.html": {
+    "filename": "people/jinghaos@buffalo.edu/bio.html",
+    "hash": "15a8f92160630fe225562cbb841fe9025a011d88",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/kylescho@buffalo.edu/bio.html": {
+    "filename": "people/kylescho@buffalo.edu/bio.html",
+    "hash": "e356d1db47b937f9f662f87700176a0e95f8239c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/maulikda@buffalo.edu/bio.html": {
+    "filename": "people/maulikda@buffalo.edu/bio.html",
+    "hash": "edc66c6058573cfababb6254385140ca8b799f13",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/mrferris@buffalo.edu/bio.html": {
+    "filename": "people/mrferris@buffalo.edu/bio.html",
+    "hash": "0454c37e81d15cbfec3923e9128e599cec339a28",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/nvdirien@buffalo.edu/bio.html": {
+    "filename": "people/nvdirien@buffalo.edu/bio.html",
+    "hash": "0ad429ab48a194c9d7675b41a724efd275ace22d",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/shaseley@buffalo.edu/bio.html": {
+    "filename": "people/shaseley@buffalo.edu/bio.html",
+    "hash": "fb321033d4377b520f2fc304473ca2e95213f19d",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/sriramsh@buffalo.edu/bio.html": {
+    "filename": "people/sriramsh@buffalo.edu/bio.html",
+    "hash": "1dcf96f083c5ecb2549b975977c0a7c2521c35ac",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/wesleycs@buffalo.edu/bio.html": {
+    "filename": "people/wesleycs@buffalo.edu/bio.html",
+    "hash": "b92e0de61d937196ef75af5fcd089969badb6b47",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/ychen78@buffalo.edu/bio.html": {
+    "filename": "people/ychen78@buffalo.edu/bio.html",
+    "hash": "75f106051ba5a95052b665ef81ae93f5262ffb6f",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/bio.html": {
+    "filename": "people/challen@buffalo.edu/bio.html",
+    "hash": "b06184bda581f4d0149b6def5546150a7f8b0023",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/posts/getmobile.html": {
+    "filename": "people/challen@buffalo.edu/posts/getmobile.html",
+    "hash": "d26b2f2075789a91be8b4fba12b6e9d4bb375d81",
+    "created": "2015-05-20T22:30:54.719Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/posts/growth_and_diversity.html": {
+    "filename": "people/challen@buffalo.edu/posts/growth_and_diversity.html",
+    "hash": "7bfdbe0554f1df44800d27b81835274934aa939d",
+    "created": "2015-08-01T16:06:23.697Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/posts/mobile_summit_2015.html": {
+    "filename": "people/challen@buffalo.edu/posts/mobile_summit_2015.html",
+    "hash": "d645e2e8bc5bcffae1aa0402b754ec387df3cb75",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/posts/my_pivot.html": {
+    "filename": "people/challen@buffalo.edu/posts/my_pivot.html",
+    "hash": "a13413ea4cae96fb00b56e8e34eb34cde391d6f2",
+    "created": "2015-05-13T21:33:20.845Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/posts/overheads.html": {
+    "filename": "people/challen@buffalo.edu/posts/overheads.html",
+    "hash": "bcc4d0b0c9f6690381de9cff8d53fb2486eee46c",
+    "created": "2016-02-11T16:16:19.301Z",
+    "updated": "2019-02-28T16:01:31.192Z"
+  },
+  "people/challen@buffalo.edu/posts/reverse_blind.html": {
+    "filename": "people/challen@buffalo.edu/posts/reverse_blind.html",
+    "hash": "3bc0c7a7fc357ad0c08250482ce877766eaff1a6",
+    "created": "2015-07-14T12:51:48.993Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/posts/rockstar_rename.html": {
+    "filename": "people/challen@buffalo.edu/posts/rockstar_rename.html",
+    "hash": "d4fcebb886070aa9f9b81c3199997205cc0cb4d6",
+    "created": "2015-06-23T20:12:53.310Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2016/421/summary.html": {
+    "filename": "courses/2016/421/summary.html",
+    "hash": "08a54ed78c9f93e06846ab991fb753a70e7196fe",
+    "created": "2016-02-11T17:00:04.320Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "403.html": {
+    "filename": "403.html",
+    "hash": "44cc0389ea2dd20f20fcc041b2f842fb2fe756fd",
+    "created": "2016-04-03T12:48:03.992Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "404.html": {
+    "filename": "404.html",
+    "hash": "afcdf3b431e5e6a964ded35e36c0572d8ceb6e03",
+    "created": "2016-04-03T12:48:03.992Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/cpuprof/summary.html": {
+    "filename": "projects/cpuprof/summary.html",
+    "hash": "b9bc1015f8eb12bab9c4f5bc1baf4077",
+    "created": "2016-06-20T22:14:42.721Z",
+    "updated": "2016-07-06T13:04:59.641Z"
+  },
+  "projects/thermaplan/summary.html": {
+    "filename": "projects/thermaplan/summary.html",
+    "hash": "b6566636e6cb49c6514dc2c754e4aff767024786",
+    "created": "2016-07-06T13:49:29.074Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/optiwifi/summary.html": {
+    "filename": "projects/optiwifi/summary.html",
+    "hash": "a1ccff87cb0811620ffa4ccc519ed8e0e4e90a2f",
+    "created": "2016-07-08T17:39:39.012Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "projects/internetclass/summary.html": {
+    "filename": "projects/internetclass/summary.html",
+    "hash": "9c1613da23854c898dcf522b3342b40bf587c04b",
+    "created": "2016-07-08T18:49:40.652Z",
+    "updated": "2019-02-28T16:48:40.472Z"
+  },
+  "projects/multidevice/summary.html": {
+    "filename": "projects/multidevice/summary.html",
+    "hash": "b6353c778debef440b62da8e3e3a8b8543ae0052",
+    "created": "2016-07-10T15:41:37.851Z",
+    "updated": "2019-02-28T16:49:30.003Z"
+  },
+  "projects/wirelessvalidation/summary.html": {
+    "filename": "projects/wirelessvalidation/summary.html",
+    "hash": "c09090c8e56c288094491269f4f0febc1b4ea7d2",
+    "created": "2016-07-10T15:41:37.851Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2016/199/summary.html": {
+    "filename": "courses/2016/199/summary.html",
+    "hash": "235180ce710ef558cff71e33f2a527e6d0083ac7",
+    "created": "2016-07-10T19:09:31.828Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2016/720/summary.html": {
+    "filename": "courses/2016/720/summary.html",
+    "hash": "abae777d6be42abcf1612b4ea2b70e1375ed9871",
+    "created": "2016-07-10T19:09:31.828Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/gjbunyea@buffalo.edu/bio.html": {
+    "filename": "people/gjbunyea@buffalo.edu/bio.html",
+    "hash": "7a5736c4436270a1a2cd4b53f702d55fa7f5ded7",
+    "created": "2016-07-11T17:11:58.546Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/grantwra@buffalo.edu/bio.html": {
+    "filename": "people/grantwra@buffalo.edu/bio.html",
+    "hash": "29ff34f2dabb6e6df6dc3b70b4c30524a5bc2745",
+    "created": "2016-07-11T18:52:03.072Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2016/getmobile2016-phonelab/summary.html": {
+    "filename": "papers/2016/getmobile2016-phonelab/summary.html",
+    "hash": "8aaa606e5d90cc7220383b331633fafc12c8d72b",
+    "created": "2016-07-11T18:57:00.761Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2016/mobisys2016-qoe/summary.html": {
+    "filename": "papers/2016/mobisys2016-qoe/summary.html",
+    "hash": "0ac5f157cad1e1827937d5c490e9abd02128ef56",
+    "created": "2016-07-11T20:43:55.486Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/viyer5@buffalo.edu/bio.html": {
+    "filename": "people/viyer5@buffalo.edu/bio.html",
+    "hash": "4adb4438f0fb9e61220f0b780fdf72fff2a6d26b",
+    "created": "2016-07-11T21:55:33.380Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/lethiraj@buffalo.edu/bio.html": {
+    "filename": "people/lethiraj@buffalo.edu/bio.html",
+    "hash": "2a4b18c02cfb9cad2ce9f973a2bf8cfdad84af67",
+    "created": "2016-07-12T18:02:12.288Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "proposals/2016-cri-phonelab/summary.html": {
+    "filename": "proposals/2016-cri-phonelab/summary.html",
+    "hash": "cb39088d36c7d3092ae89c8ad5ab39e21e29e998",
+    "created": "2016-07-12T19:33:16.694Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2016/rv2016-sniffer/summary.html": {
+    "filename": "papers/2016/rv2016-sniffer/summary.html",
+    "hash": "d479bafc93d92cd602db19747d2d479323100acf",
+    "created": "2016-07-19T18:33:24.492Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "proposals/2016-cri-pocketdata/summary.html": {
+    "filename": "proposals/2016-cri-pocketdata/summary.html",
+    "hash": "9efa792721d1cadd35e3a5514353d51d7c8746b8",
+    "created": "2016-07-29T18:47:32.056Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2016/iccd2016-inefficiency/summary.html": {
+    "filename": "papers/2016/iccd2016-inefficiency/summary.html",
+    "hash": "ef32734716e854b781ee5dbc598f1e6e79037382",
+    "created": "2016-07-31T13:40:16.344Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/posts/tenure.html": {
+    "filename": "people/challen@buffalo.edu/posts/tenure.html",
+    "hash": "f85d3f12c250a2eb7b8afc52e17567b3cf617c94",
+    "created": "2016-10-22T17:54:12.181Z",
+    "updated": "2019-02-28T16:46:35.807Z"
+  },
+  "future.html": {
+    "filename": "future.html",
+    "hash": "ec2fdee3f09f7509b9f688969f3aca2c",
+    "created": "2016-11-17T20:23:12.783Z",
+    "updated": "2017-10-19T13:35:14.980Z"
+  },
+  "proposals/2016-career-maybe/summary.html": {
+    "filename": "proposals/2016-career-maybe/summary.html",
+    "hash": "596f944765076b0ffa5a87ce792a3fd20b8e03b3",
+    "created": "2016-11-17T20:23:12.783Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/2017/421/summary.html": {
+    "filename": "courses/2017/421/summary.html",
+    "hash": "d2ff18c064f1b3a027824a07e36e594af8d54270",
+    "created": "2016-11-30T18:28:02.313Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2017/hotmobile2017-cpubins/summary.html": {
+    "filename": "papers/2017/hotmobile2017-cpubins/summary.html",
+    "hash": "a99cb08f5370d89283d82906c21622edf1115188",
+    "created": "2016-12-17T18:35:29.048Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "people/challen@buffalo.edu/posts/large_flip.html": {
+    "filename": "people/challen@buffalo.edu/posts/large_flip.html",
+    "hash": "967473d0d95d023ec1f6784063750a95269691ff",
+    "created": "2016-12-22T13:53:30.711Z",
+    "updated": "2019-02-28T16:46:35.807Z"
+  },
+  "papers/2017/hotmobile2017-qoe/summary.html": {
+    "filename": "papers/2017/hotmobile2017-qoe/summary.html",
+    "hash": "baf4ba063eb2766a13d712d4fdf7fd3240c5eeeb",
+    "created": "2017-03-17T11:53:29.921Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "courses/portfolio.html": {
+    "filename": "courses/portfolio.html",
+    "hash": "90d2cf189e1b1c05a364e72003ad129a",
+    "created": "2017-03-22T16:40:33.788Z",
+    "updated": "2017-03-22T16:40:33.788Z"
+  },
+  "portfolio.html": {
+    "filename": "portfolio.html",
+    "hash": "fcadf6236177d741e1cc2a544e700e5c21935689",
+    "created": "2017-04-03T19:01:57.551Z",
+    "updated": "2019-02-28T16:40:46.662Z"
+  },
+  "papers/2017/fmsd17-verification/summary.html": {
+    "filename": "papers/2017/fmsd17-verification/summary.html",
+    "hash": "f3af0bb6ff1218b92beabc50005a13fcd8b9bc81",
+    "created": "2017-11-28T21:54:50.539Z",
+    "updated": "2019-02-28T15:42:43.554Z"
+  }
 }

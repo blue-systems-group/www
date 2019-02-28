@@ -58,7 +58,7 @@ dataset to help identify these kinds of behaviors.
 
 Finally, we anticipate ever closer integration between multiple personal
 devices in the future, eventually forming what we refer to as a
-link:/courses/ub-720-fall-2014/[personal cloud computer].
+link:/courses/ub_720_fall_2014/[personal cloud computer].
 //
 The goal of these systems will be to enable _seamless transfer of attention_
 where users can transition tasks from one device to another without any of
