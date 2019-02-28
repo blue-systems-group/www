@@ -3,6 +3,7 @@ name: Vighnesh Iyer
 role: Undergraduate
 joined:	06-27-2016
 github: https://github.com/viyer5
+institution: University of Illinois
 ---
 [.lead]
 I am a Junior majoring in Computer Science at UB. My tryst with programming

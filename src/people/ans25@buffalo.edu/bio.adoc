@@ -4,6 +4,7 @@ role: PhD Student
 joined: Fall 2010
 alumni: true
 scholar: http://scholar.google.com/citations?user=EIZKxj0AAAAJ&hl
+institution: University of Memphis
 ---
 [.lead]
 I am  a 5th year Ph.D. student. My research interests lie broadly in

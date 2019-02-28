@@ -30,6 +30,7 @@ spelling_exceptions:
 - Suzanna
 - unhyphenated
 - 3M
+institution: University of Illinois
 ---
 :linkattrs:
 

@@ -688,5 +688,23 @@
     "hash": "f3af0bb6ff1218b92beabc50005a13fcd8b9bc81",
     "created": "2017-11-28T21:54:50.539Z",
     "updated": "2019-02-28T15:42:43.554Z"
+  },
+  "papers/2018/arxiv18-verification/summary.html": {
+    "filename": "papers/2018/arxiv18-verification/summary.html",
+    "hash": "a5f56443e0c68903071238de4c548df87124549a",
+    "created": "2019-02-28T19:11:46.451Z",
+    "updated": "2019-02-28T19:11:46.451Z"
+  },
+  "papers/2019/arxiv19-phonelab/summary.html": {
+    "filename": "papers/2019/arxiv19-phonelab/summary.html",
+    "hash": "843000e0b1110cf4f461dd16fcd5327226e9fd48",
+    "created": "2019-02-28T19:24:52.812Z",
+    "updated": "2019-02-28T19:24:52.812Z"
+  },
+  "papers/2019/ispass19-processvariations/summary.html": {
+    "filename": "papers/2019/ispass19-processvariations/summary.html",
+    "hash": "85bd5e5c5d68ee684724b0f3ad40119921ac8f3f",
+    "created": "2019-02-28T19:34:21.447Z",
+    "updated": "2019-02-28T19:34:21.447Z"
   }
 }

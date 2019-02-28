@@ -3,6 +3,7 @@ name: Scott Haseley
 role: PhD Student
 joined: 2015-8-31
 scholar: https://scholar.google.com/citations?hl=en&user=nwelPQQAAAAJ
+institution: Google
 ---
 [.lead]
 I'm a second year Ph.D. student at the http://www.buffalo.edu[University at

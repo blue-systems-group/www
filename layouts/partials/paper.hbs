@@ -22,6 +22,9 @@
     {{ and_list people }}
     </div>
     <div class="paper-conference">
+      {{#if arxiv }}
+      <a href="https://arxiv.org/abs/{{ arxiv }}">arXiv:{{ arxiv }}</a>
+      {{/if}}
       {{#if conference }}
       {{#if toappear}}To appear in{{/if}}
       <i>

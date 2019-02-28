@@ -5,6 +5,7 @@ joined: 2013-08-29
 scholar: http://scholar.google.com/citations?user=98Yup7wAAAAJ&hl=en
 linkedin: https://www.linkedin.com/in/jinghao-shi-93b9a369/
 github: https://github.com/jhshi
+institution: Facebook
 ---
 [.lead]
 I am a fifth year PhD student. My research interests lie broadly in

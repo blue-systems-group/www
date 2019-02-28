@@ -21,6 +21,7 @@
   "Android": true,
   "/APIs?/": true,
   "/APs?/": true,
+  "arXiv": true,
 	"autograding": true,
   "B.S.": true,
   "backend": true,

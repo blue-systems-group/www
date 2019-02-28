@@ -1,0 +1,34 @@
+---
+name: "Lessons from Four Years of PhoneLab Experimentation"
+arxiv: 1902.01929
+date: 2019-01-20
+people:
+- jinghaos
+- edwinsan
+- challen
+projects:
+- phonelab
+funding:
+- 2016-cri-phonelab
+---
+== Abstract
+
+Over the last four years we have operated a public smartphone platform testbed
+called PhoneLab.
+//
+PhoneLab consists of up to several-hundred participants who run an experimental
+platform image on their primary smartphone.
+//
+The experimental platform consists of both instrumentation and experimental
+changes to platform components, including core Android services and Linux.
+//
+This paper describes the design of the testbed, the process of conducting
+PhoneLab experiments, and some of the research the testbed has supported.
+//
+We also offer many lessons learned along the way, almost all of which have been
+learned the hard way&mdash;through trial and a lot of error.
+//
+We expect our experiences will help those contemplating operating large
+user-facing testbeds, anyone conducting experiments on smartphones, and many
+mobile systems researchers.
+

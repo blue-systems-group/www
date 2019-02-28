@@ -135,6 +135,20 @@ infocom:
     date: 2016-05-10
     location: San Francisco, CA
     acceptance: 18
+ispass:
+  preface: Proceedings of the
+  name: IEEE International Symposium on Performance Analysis of Systems and Software
+  2019:
+    number: 2019
+    shortname: ISPASS'19
+    link: https://www.ispass.org/ispass2019/
+    date: 2019-03-24
+    location: Madison, WI
+    acceptance: 30
+  core:
+    name: CORE 2018
+    rank: B
+    link: http://portal.core.edu.au/conf-ranks/705/
 lwmoocs:
   preface: Proceedings of the
   name: Learning with MOOCs Practitioner’s Workshop

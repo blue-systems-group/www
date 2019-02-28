@@ -8,6 +8,7 @@ person_website: http://nickdirienzo.com
 spelling_exceptions:
 - Corso
 - Optimizely
+institution: Optimizely
 ---
 [.lead]
 I am a fourth-year computer science undergraduate working in blue through the

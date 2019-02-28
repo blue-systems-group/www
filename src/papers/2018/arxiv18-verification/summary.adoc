@@ -1,0 +1,45 @@
+---
+name: "VeriFi: Model-Driven Runtime Verification Framework for Wireless Protocol Implementations"
+arxiv: 1808.03406
+date: 2018-08-10
+people:
+- jinghaos
+- Shuvendu.Lahiri@microsoft.com
+- ranveer@microsoft.com
+- challen
+projects:
+- wirelessvalidation
+funding:
+- 2011-cri-phonelab
+spelling_exceptions:
+- irreproducible
+- PacketSniper
+- reachability
+---
+== Abstract
+
+Validating wireless protocol implementations is challenging.
+//
+Today's approaches require labor-intensive experimental setup and manual trace
+investigation, but produce poor coverage and inaccurate and irreproducible
+results.
+//
+We present VeriFi, the first systematic sniffer-based, model-guided runtime
+verification framework for wireless protocol implementations.
+//
+VeriFi takes a formal model of the protocol being verified as input.
+//
+To achieve good coverage, it first applies state reachability analysis by
+applying model checking techniques.
+//
+It then uses a new PacketSniper component to selectively trigger packet losses
+required to quickly investigate all reachable protocol states.
+//
+Our results show that the selective packet jamming allows VeriFi to
+significantly improve the coverage of protocol states.
+//
+Finally, VeriFi accommodates uncertainty caused by the sniffer when validating
+traces, allowing it to provide accurate and reproducible results.
+//
+By modeling uncertainty, VeriFi highlights likely protocol violations for
+developers to examine.
