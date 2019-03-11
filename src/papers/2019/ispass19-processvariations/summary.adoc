@@ -13,31 +13,22 @@ funding:
 ---
 == Abstract
 
-Consumers, app developers, and many mobile systems researchers expect two
-identical smartphones to perform similarly.
-//
-But transistor process variation can cause one device to heat up much more
-rapidly than another.
-//
-As a consequence, this device may exhibit up to 20% performance and energy
-consumption difference despite the fact that consumers and experiments would
-have considered the two devices identical.
+Process variation can cause the performance and energy consumption of
+smartphones of the same model to vary significantly. While process variation
+has been studied in detail, the effects on smartphone performance have not been
+quantified and evaluated. In this work we study the performance and energy
+differences of 5 recent SoC generations caused by underlying process variation.
 
-We make two important contributions to the understanding of temperature effects
-on today's mobile devices.
-//
-First, we present results from carefully-controlled studies exploring the
-relationships between transistor quality, temperature, energy, and performance.
-//
-Second, we have developed a novel way to expose normally-hidden information
-about transistor quality to consumers.
-//
-Our approach is able to rank device transistor quality with a mean absolute
-error of less than 9 percentile-points for the Nexus 5 and 15 percentile-points
-for the Nexus 6.
-//
-Furthermore, we are able to define equivalence classes based on transistor
-quality and classify devices within 96% accuracy at room temperature.
-//
-It can be easily used by consumers to test the quality of their device, and by
-researchers to ensure that devices used in experiments are in fact equivalent.
+We make two important contributions. First, we present a methodology to
+construct a temperature-stabilized environment to perform repeatable power and
+performance measurements. Studying power-performance characteristics of
+smartphones is difficult. Running a benchmark back-to-back often produces
+significantly different results due to heat. Temperature, both device and
+ambient, play a significant role in determining performance and energy. Our
+methodology allows us to control for various factors and isolate the effects of
+the underlying process variation. We then apply our methodology to investigate
+performance and energy characteristics of several recent generations of
+smartphone CPUs that result from process variation. Our results show that
+devices of the same model may exhibit differences of 10% and 12% difference in
+performance and energy over a fixed-duration workload.
+
