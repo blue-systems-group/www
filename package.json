@@ -58,7 +58,7 @@
     "metalsmith-spellcheck": "^0.2.8",
     "metalsmith-uglify": "^2.3.2",
     "metalsmith-updated": "^0.1.7",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.3",
     "moment-timezone": "^0.5.23",
     "path": "^0.12.7",
     "underscore": "^1.9.1"
