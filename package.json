@@ -29,6 +29,7 @@
     "cheerio": "^1.0.0-rc.2",
     "clean-css": "^4.2.1",
     "debug": "^4.1.1",
+    "gh-pages": "^3.2.3",
     "git-json-merge": "^0.4.4",
     "git-rev-sync": "^1.12.0",
     "handlebars": "^4.1.0",
